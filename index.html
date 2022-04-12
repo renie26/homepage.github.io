@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>YH Homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3; width:270px; margin-left:30px; margin-top:15px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="resource/img/profile.jpg" style="width:48%; margin: 5px;" class="w3-circle"><br><br>
+    <div style="margin-left: 2px;" >
+      <h4><b>Yumeng Hou</b></h4>
+      <p class="w3-text-grey" style="margin-bottom:-0.2em;">Researcher, PhD Candidate</p>
+      <p class="w3-text-grey">Digital Humanities, ICH,<br>Datavis, Cultural AI </p>
+    </div><br>
+    <div style="line-height: 1.8em;">
+      <a href="https://goo.gl/maps/Q8WW3ybMkrZi13YBA" target="_blank" class="w3-text-grey" style="text-decoration:none">
+        <i class="fa fa-fw fa-map-pin w3-hover-opacity"></i> Lausanne</a><br>
+      <a href="https://scholar.google.com/citations?user=fuIS_rYAAAAJ&hl=en&oi=ao" target="_blank" class="w3-text-grey" style="text-decoration:none"><i class="fa fa-fw fa-google w3-hover-opacity"></i> Google Scholar</a><br>
+      <a href="https://www.linkedin.com/in/yumeng-hou-85053334" target="_blank" class="w3-text-grey" style="text-decoration:none">
+        <i class="fa fa-fw fa-linkedin w3-hover-opacity"></i> LinkedIn</a><br>
+      <a href="https://github.com/renie26" target="_blank" class="w3-text-grey" style="text-decoration:none">
+        <i class="fa fa-fw fa-github w3-hover-opacity"></i> GitHub</a><br>
+      <!-- <a href="#portfolio" class="w3-text-grey"><i class="fa fa-fw fa-map-marker"></i>Lausanne</a>  -->
+    </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="resource/img/profile.jpg" style="width:60px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <a href="#" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+      <a href="projects.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>RESEARCH</a>
+      <a href="portfolio.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw w3-margin-right"></i>FUN STUFF</a>
+      <a href="news.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-podcast w3-margin-right"></i>POSTS</a>
+    </div>
+    </div>
+  </header>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4 style="margin-bottom: 30px;"><b>ABOUT ME</b></h4>
+
+    <div style="max-width:900px; line-height: 1.75em;">
+      <p>Yumeng Hou is a digital humanities researcher, currently pursuing her PhD at the <a href="https://www.epfl.ch/labs/emplus" target="_blank">Laboratory for Experimental Museology (eM+)</a>, EPFL. Trained as a data scientist, Yumeng holds experience in data visualisation, machine learning, analytics, and cloud solutions. Her research examines the convergence of cultural heritage, computational archives, digital narratives, knowledge encoding, and cultural AI. Yumeng is passionate about leveraging computational strategies to augment cultural studies, especially in the fields of intangible cultural heritage and traditional folklore. Supervised by <a href="https://sarahkenderdine.info/" target="_blank">Professor Sarah Kenderdine</a>, Yumeng is preparing a thesis on encoding and (re)presenting embodied knowledge in the cultural heritage of Southern Chinese martial arts for public interaction, education, and engagement in museum settings.<br>
+         Before joining eM+ as a researcher, Yumeng's professional experience includes Product Manager at Alibaba, Digital Analyst at P&G, Creative Tech Lead at _box interaction, and Digital Strategist for NewStyle Media Group.</p>  
+      <p><b>Research keywords:</b> intangible cultural heritage, computational archives, digital museology, interactive knowledge system, visualisation, embodiment, Hong Kong Martial Arts Living Archive</p>
+      <p><b>Professional keywords:</b> product design and management, project management (scrum), digitisation, PaaS/SaaS, data analytics, business intelligence, user experience, engagement </p>
+
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-medium w3-margin-top w3-margin-bottom">
+        <a href="resource/YHOU_cv_21.pdf" target="_blank" style="text-decoration:none">
+          <i class="fa fa-download w3-margin-right"></i>Resume&nbsp</a></button>
+    </p>
+    <hr>
+</div>
+
+  <!-- Footer -->
+  <div class="w3-black w3-center w3-padding-16">Copyright © Yumeng Hou. All rights reserved.</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
