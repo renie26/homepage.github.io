@@ -5256,7 +5256,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/employs"/>
         <NamedIndividual IRI="/front_block_hands"/>
-        <NamedIndividual IRI="/whipping_palm"/>
+        <NamedIndividual IRI="/subduing_palm"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/used_in"/>
@@ -5856,7 +5856,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/employs"/>
         <NamedIndividual IRI="/side_block_hands"/>
-        <NamedIndividual IRI="/whipping_palm"/>
+        <NamedIndividual IRI="/subduing_palm"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/used_in"/>
@@ -8381,17 +8381,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/contains"/>
         <NamedIndividual IRI="/taming_tiger_76"/>
+        <NamedIndividual IRI="/subduing_palm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/contains"/>
+        <NamedIndividual IRI="/taming_tiger_76"/>
         <NamedIndividual IRI="/twisting_stance"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/contains"/>
         <NamedIndividual IRI="/taming_tiger_76"/>
         <NamedIndividual IRI="/two_finger_strike"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/contains"/>
-        <NamedIndividual IRI="/taming_tiger_76"/>
-        <NamedIndividual IRI="/whipping_palm"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/has_intent"/>
