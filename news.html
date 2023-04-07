@@ -1,130 +1,150 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>YH Homepage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="fontawesome-free-6.4.0-web\css\all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
-  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('resource/img/sidebar-p.jpg');
+  min-height: 100%;
+}
 </style>
 
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+</head>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3; width:270px; margin-left:30px; margin-top:15px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <img src="resource/img/profile.jpg" style="width:48%; margin: 5px;" class="w3-circle"><br><br>
-    <div style="margin-left: 2px;" >
-      <h4><b>Yumeng Hou</b></h4>
-      <p class="w3-text-grey" style="margin-bottom:-0.2em;">Researcher, PhD Candidate, Martial Arts Practitioner</p>
-      <p class="w3-text-grey">Digital Humanities, (I)CH, <br>Traditional martial arts,<br>Datavis, Cultural AI </p>
-    </div><br>
-    <div style="line-height: 1.8em;">
-      <a href="https://scholar.google.com/citations?user=fuIS_rYAAAAJ&hl=en&oi=ao" target="_blank" class="w3-text-grey" style="text-decoration:none"><i class="fa fa-fw fa-google w3-hover-opacity"></i> Google Scholar</a><br>
-      <a href="https://www.linkedin.com/in/yumeng-hou-85053334" target="_blank" class="w3-text-grey" style="text-decoration:none">
-        <i class="fa fa-fw fa-linkedin w3-hover-opacity"></i> LinkedIn</a><br>
-      <a href="https://www.instagram.com/yumeng_hh/" target="_blank" class="w3-text-grey" style="text-decoration:none">
-        <i class="fa fa-fw fa-instagram w3-hover-opacity"></i> Instagram</a><br>
-      <a href="https://github.com/renie26" target="_blank" class="w3-text-grey" style="text-decoration:none">
-        <i class="fa fa-fw fa-github w3-hover-opacity"></i> GitHub</a><br>
-      <!-- <a href="#portfolio" class="w3-text-grey"><i class="fa fa-fw fa-map-marker"></i>Lausanne</a>  -->
-    </div>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small w3-animate-opacity" style="width:40%">
+  <div class="bgimg"></div>
 </nav>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-  
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Research</a>
+    <a href="portfolio.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="news.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">News & Talks</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
   <!-- Header -->
-  <header id="portfolio">
-    <a href="#"><img src="resource/img/profile.jpg" style="width:60px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <div class="w3-container">
-    <div class="w3-section w3-bottombar w3-padding-16">
-      <a href="index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
-      <a href="projects.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>RESEARCH</a>
-      <a href="portfolio.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw w3-margin-right"></i>PORTFOLIO</a>
-      <a href="#" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-podcast w3-margin-right"></i>POSTS</a>
-    </div>
-    </div>
+  <header class="w3-container w3-center" style="padding:96px 16px 48px " id="home">
+    <h1 class="w3-jumbo" style="font-size: 54px!important;"><b>Yumeng Hou</b></h1>
+    <p>Researcher | Data Scientist | Digital Strategist</p>
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
   </header>
 
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4 style="margin-bottom: 30px;"><b>NEWS & TALKS</b></h4>
+  <!-- Portfolio Section -->
 
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom"><!-- half quarter-->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="upcoming" style="height: 520px;">
+    <h2>Upcoming</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-half w3-container w3-padding-16 w3-margin-bottom">
+        <li><i class="fa-solid fa-fire"></i> <b>Long presentation accepted by DH2023</b></li><br>
+        <li><i class="fa-solid fa-fire"></i> <b>Participation in post-CHI XR Summer School</b></li><br>
+    </div>
+    <div class="w3-half w3-container w3-padding-16 w3-margin-bottom">
       <a class="twitter-timeline" data-height="360" href="https://twitter.com/yumeng_h?ref_src=twsrc%5Etfw">Tweets @yumeng_h</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://mp.weixin.qq.com/s/lmQeEBXNnC0Qz0Bj1d8LmQ" target="_blank"><img src="resource/img/magz.jfif" alt="magz" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>Keynote speaker and panellists at 4th International Martial Studies Conference, Guangzhou CN</b></p>
-        <p>Theme: Inheritance and Innovation of Chinese and Foreign Martial Arts</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://amps-research.com/conference/canterbury-2022/" target="_blank"><img src="resource/img/canterbury.png" alt="canterbury23" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>Paper presentation at (In)tangible Heritage(s): Design, Culture & Technology, Canterbury UK</b></p>
-        <p>Title: "Encoding the Whole-of-Environment Knowledge for Intangible Cultural Heritage"</p>
-      </div>
     </div>
   </div>
 
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="http://masresearchnetwork.apps-1and1.net/7th-annual-martial-arts-studies-conference?mc_cid=7509b9ae54&mc_eid=caecd31ef0" target="_blank"><img src="resource/img/MAS2022.png" alt="mas22" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>Paper presentation at 7th International Martial Arts Studies Conference, Lausanne CH</b></p>
-        <p>Title: Augmenting knowledge exploration using agent-based models</p>
-      </div>
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="news">
+    <h2>News & Talks</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-row-padding w3-margin">
+      <ul>
+        <li>
+          <p>[30/11/2022] <a href="https://mp.weixin.qq.com/s/lmQeEBXNnC0Qz0Bj1d8LmQ" target="_blank"><b>Keynote speaker and panellists at 4th International Martial Studies Conference, Guangzhou CN</b></a></p> 
+          <p>Theme: Inheritance and Innovation of Chinese and Foreign Martial Arts</p>
+        </li>
+        <li>
+          <p>[16/06/2022] <a href="https://amps-research.com/conference/canterbury-2022/" target="_blank"><b>Paper presentation at (In)tangible Heritage(s): Design, Culture & Technology, Canterbury UK</b></a></p> 
+          <p>Title: "Encoding the Whole-of-Environment Knowledge for Intangible Cultural Heritage"</p>
+        </li>
+        <li>
+          <p>[30/06/2022] <a href="http://masresearchnetwork.apps-1and1.net/7th-annual-martial-arts-studies-conference?mc_cid=7509b9ae54&mc_eid=caecd31ef0" target="_blank"><b>Paper presentation at 7th International Martial Arts Studies Conference, Lausanne CH</b></p>
+          <p>Title: Augmenting knowledge exploration using agent-based models</p>
+        </li>
+        <li>
+          <p>[08/04/2022] <a href="https://vorlesungsverzeichnis.unibas.ch/de/recherche?id=265845" target="_blank"><b>Guest Lecture at University of Basel: "AI for Cultural Heritage and Computational Archives"</b></a></p> 
+          <p>Guest lecture for Digital Art History: Current Trends and Experimental Applications.</p>
+        </li>
+        <li>
+          <p>[03/2022] <a href="https://edu.epfl.ch/coursebook/en/cultural-data-sculpting-DH-404" target="_blank"><b>Invited Lecture at EPFL: "Computational Motion Archives"</b></a></p> 
+          <p>Lecture for Cultural Data Sculpting (DH-404), DH postgraduate course at EPFL.</p>
+        </li>
+        <li>
+          <p>[16/09/2021] <a href="https://new.dhcenter-unil-epfl.ch/en/2021/09/27/what-it-really-means-to-do-interdisciplinary-research/" target="_blank"><b>"What it really means to do interdisciplinary research?"</b></a></p> 
+          <p>Demonstrations of the EPFL-UNIL Collaborative Research on Science and Society program.</p>
+        </li>
+        <li>
+          <p>[07/06/2021] <a href="https://www.dh-ch.ch/videos.html?v=UGRAUmt-3BM" target="_blank"><b>Presentations at the DHCH 2021, Rome IT.</b></a></p> 
+          <p>Title: Motion as meaning: Representing embodied knowledge in the multimodal cultural archives.</p>
+        </li>
+        <li>
+          <p>[05/2021] <a href="https://edu.epfl.ch/coursebook/en/cultural-data-sculpting-DH-404" target="_blank"><b>Invited Lecture at EPFL: "Visualizing Embodied Knowledge System"</b></a></p> 
+          <p>Lecture for Cultural Data Sculpting (DH-404), DH postgraduate course at EPFL.</p>
+        </li>
+        <li>
+          <p>[19/04/2021] <a href="" target="_blank"><b>Poster presentation at the 16th International Digital Curation Conference (IDCC21).</b></a></p> 
+          <p>Title: Articulate Similarity: A Visual Search Framework For Embodied Knowledge In A Confucian Rites Video Archive.</p>
+        </li>
+      </ul>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://www.dh-ch.ch/videos.html?v=UGRAUmt-3BM" target="_blank"><img src="resource/img/dhch.png" alt="dhch" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>Artificial Intelligence | DHCH2021</b></p>
-        <p>Presentations by Yumeng Hou (EPFL Lausanne) and Robin Champenois (PSL - Université Paris) at the DHCH 2021, Rome IT.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://new.dhcenter-unil-epfl.ch/en/2021/09/27/what-it-really-means-to-do-interdisciplinary-research/" target="_blank"><img src="resource/img/cross.jpg" alt="cross" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>What it really means to do interdisciplinary research</b></p>
-        <p>Demonstrations of the EPFL-UNIL Collaborative Research on Science and Society program.</p>
-      </div>
-    </div>
+
+
   </div>
   
 
-  <!-- 3rd Photo Grid-->
-  <div class="w3-row-padding">
-  </div>
-  <div class="w3-black w3-center w3-padding-16">Copyright © Yumeng Hou. All rights reserved.</div>
-
-<!-- End page content -->
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-opacity w3-xlarge">
+      <a href="https://scholar.google.com/citations?user=fuIS_rYAAAAJ&hl=en&oi=ao" target="_blank"><i class="fa fa-google w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/yumeng-hou-85053334" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/yumeng_hh/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://github.com/renie26" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+      <a href="https://space.bilibili.com/3461571562965532" target="_blank"><i class="fa-brands fa-bilibili w3-hover-opacity"></i></a>
+      <p class="w3-medium">© Yumeng Hou. All rights reserved.</p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
 </div>
 
 <script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
 }
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
 }
 </script>
 

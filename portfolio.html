@@ -1,101 +1,79 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>YH Homepage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="fontawesome-free-6.4.0-web\css\all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('resource/img/sidebar-p.jpg');
+  min-height: 100%;
+}
 </style>
 
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+</head>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3; width:270px; margin-left:30px; margin-top:15px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <img src="resource/img/profile.jpg" style="width:48%; margin: 5px;" class="w3-circle"><br><br>
-    <div style="margin-left: 2px;" >
-      <h4><b>Yumeng Hou</b></h4>
-      <p class="w3-text-grey" style="margin-bottom:-0.2em;">Researcher, PhD Candidate, Martial Arts Practitioner</p>
-      <p class="w3-text-grey">Digital Humanities, (I)CH, <br>Traditional martial arts,<br>Datavis, Cultural AI </p>
-    </div><br>
-    <div style="line-height: 1.8em;">
-      <a href="https://scholar.google.com/citations?user=fuIS_rYAAAAJ&hl=en&oi=ao" target="_blank" class="w3-text-grey" style="text-decoration:none"><i class="fa fa-fw fa-google w3-hover-opacity"></i> Google Scholar</a><br>
-      <a href="https://www.linkedin.com/in/yumeng-hou-85053334" target="_blank" class="w3-text-grey" style="text-decoration:none">
-        <i class="fa fa-fw fa-linkedin w3-hover-opacity"></i> LinkedIn</a><br>
-      <a href="https://www.instagram.com/yumeng_hh/" target="_blank" class="w3-text-grey" style="text-decoration:none">
-        <i class="fa fa-fw fa-instagram w3-hover-opacity"></i> Instagram</a><br>
-      <a href="https://github.com/renie26" target="_blank" class="w3-text-grey" style="text-decoration:none">
-        <i class="fa fa-fw fa-github w3-hover-opacity"></i> GitHub</a><br>
-      <!-- <a href="#portfolio" class="w3-text-grey"><i class="fa fa-fw fa-map-marker"></i>Lausanne</a>  -->
-    </div>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small w3-animate-opacity" style="width:40%">
+  <div class="bgimg"></div>
 </nav>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-  
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Research</a>
+    <a href="portfolio.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="news.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">News & Talks</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
   <!-- Header -->
-  <header id="portfolio">
-    <a href="#"><img src="resource/img/profile.jpg" style="width:60px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"><i class="fa fa-bars"></i></span>
-    <div class="w3-container">
-    <div class="w3-section w3-bottombar w3-padding-16">
-      <a href="index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
-      <a href="projects.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>RESEARCH</a>
-      <a href="#" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-diamond fa-fw w3-margin-right"></i>PORTFOLIO</a>
-      <a href="news.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-podcast w3-margin-right"></i>POSTS</a>
-    </div>
-    </div>
+  <header class="w3-container w3-center" style="padding:96px 16px 48px " id="home">
+    <h1 class="w3-jumbo" style="font-size: 54px!important;"><b>Yumeng Hou</b></h1>
+    <p>Researcher | Data Scientist | Digital Strategist</p>
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
   </header>
 
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-   
-  <h4 style="margin-bottom: 30px;"><b>INSTALLATIONS</b></h4>
-
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding" id="INSTALLATIONS">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="#INSTALLATIONS"><img src="resource/img/OI_img1.jpg" alt="oihz" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>Natural Origins of The Internet.</b></p>
-        <p>Installation Art. Museum of Inspiration 云栖博悟馆, Hangzhou, China.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="#INSTALLATIONS"><img src="resource/img/daning.png" alt="daning" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>Immerscience</b></p>
-        <p>An immersive learning environment. Daning International Elementary School, Shanghai, China.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <a href="#INSTALLATIONS"><img src="resource/img/aqua.png" alt="aqua" style="width:100%;padding:5px" class="w3-hover-opacity"></a> 
-      <div class="w3-container w3-white">
-        <p><b>AquA</b></p>
-        <p>A Virtual Aquarium Motivating Knowledge Sharing, designed for Médecins Sans Frontières (MSF).</p>
-      </div>
-    </div>
-  </div>
-
-  <h4 style="margin-bottom: 30px;"><b>MISCELLANEOUS</b></h4>
-  <!-- Second Photo Grid-->
+  <!-- Portfolio Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="portfolio">
+    <h2>Portfolio</h2>
+    <hr class="w3-opacity">
+    <!-- First Photo Grid-->
   <div id ="portfolio" class="w3-row-padding" style="width: 95%; margin-left: 5%;">
   <div class="w3-half" style="padding: 25px;">
 
+      <img src="resource/img/OI_portrait.jpg" alt="Natural Origins of The Internet.Installation Art. Museum of Inspiration 云栖博悟馆, Hangzhou, China." style="width:95%; padding:1px;">
+
       <img src="resource/img/spark.png" style="width:95%; padding:1px;">
+
+      <img src="resource/img/aqua.png" alt="AquA. A Virtual Aquarium Motivating Knowledge Sharing, designed for Médecins Sans Frontières." style="width:95%; padding:1px;">
 
       <!-- <img src="resource/img/aquafish.png" style="width:100%"> -->
 
-     
       <img src="resource/img/NBA.png" style="width:95%; margin-top:5px; margin-bottom:15px">
       <img src="resource/img/sounder.jpg" style="width:95%; margin-bottom:10px">
       <img src="resource/img/scene.jpeg" style="width:95%; margin-bottom:10px">
@@ -109,10 +87,14 @@
     </div>
 
     <div class="w3-half" style="padding: 25px;">
+      
+      <img src="resource/img/daning.png" alt="Immerscience. An immersive learning environment. Daning International Elementary School, Shanghai, China." style="width:95%; padding:1px;">
       <img src="resource/img/hibachi3.jpg" style="width:95%">
       <img src="resource/img/hibachi2.png" style="width:95%; padding:5%">
       <img src="resource/img/aqua2.png" style="width:95%; padding:5%">
 
+      <img src="resource/img/idcc.png" style="width:95%">
+     
       <img src="resource/img/lamy1.jpg" style="width:95%">
       <img src="resource/img/samsung1.jpg" style="width:95%; margin-bottom:5px">
 
@@ -124,30 +106,31 @@
     </div>
   </div>
   
+  </div>
 
   <!-- Footer -->
-  <!--<footer class="w3-container w3-padding-16 w3-dark-grey">
-    <div class="w3-row-padding" style="text-align: center;">
-      Grown up in China. ALWAYSvelling.
-    </div>
-
-  </footer>-->
+  <footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-opacity w3-xlarge">
+      <a href="https://scholar.google.com/citations?user=fuIS_rYAAAAJ&hl=en&oi=ao" target="_blank"><i class="fa fa-google w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/yumeng-hou-85053334" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/yumeng_hh/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://github.com/renie26" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+      <a href="https://space.bilibili.com/3461571562965532" target="_blank"><i class="fa-brands fa-bilibili w3-hover-opacity"></i></a>
+      <p class="w3-medium">© Yumeng Hou. All rights reserved.</p>
+  <!-- End footer -->
+  </footer>
   
-  <div class="w3-black w3-center w3-padding-16">Copyright © Yumeng Hou. All rights reserved.</div>
-
-<!-- End page content -->
+<!-- END PAGE CONTENT -->
 </div>
 
 <script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
 }
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
 }
 </script>
 
