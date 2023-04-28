@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Ontology Metrics</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="publisher" content="Universität Rostock, Lehrstuhl Wirtschaftsinformatik">
+	<link rel="stylesheet" href="https://ontometrics.informatik.uni-rostock.de/ontologymetrics/style/main.css">
+	<link rel="stylesheet" href="https://ontometrics.informatik.uni-rostock.de/ontologymetrics/style/result.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		var oldSelectedClassMetric = null;
+		
+		function hideDiv(divId) {
+			$("#"+divId).hide();
+			$("#hide_"+divId).hide();
+			$("#show_"+divId).show();
+			$("#hideLink_"+divId).hide();
+			$("#showLink_"+divId).show();
+		}
+		function showDiv(divId) {
+			$("#"+divId).show();
+			$("#show_"+divId).hide();
+			$("#hide_"+divId).show();
+			$("#showLink_"+divId).hide();
+			$("#hideLink_"+divId).show();
+		}
+		
+		
+		function hideBase(divId) {
+			$("#baseMetricComplete").hide();
+			$("#hide_"+divId).hide();
+			$("#show_"+divId).show();
+			$("#hideLink_"+divId).hide();
+			$("#showLink_"+divId).show();
+		}
+		function showBase(divId) {
+			$("#baseMetricComplete").show();
+			$("#show_"+divId).hide();
+			$("#hide_"+divId).show();
+			$("#showLink_"+divId).hide();
+			$("#hideLink_"+divId).show();
+		}
+		
+		function switchClassMetrics() {
+			var chbox = document.getElementById("classMetricCB");
+			if (chbox.checked) {
+				$("#classLabelOnly").show();
+				$("#classLabelIri").hide();
+			}
+			else {
+				$("#classLabelOnly").hide();
+				$("#classLabelIri").show();
+			}
+		}
+
+		function selectClass() {
+			var selectBox = document.getElementById("selectBox");
+	    	var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+	    	$("#class_"+selectedValue).show();
+	    	if (oldSelectedClassMetric != null) {
+	    		$(oldSelectedClassMetric).hide();
+	    	}
+	    	oldSelectedClassMetric = "#class_"+selectedValue;
+		}
+		
+		function selectClass1() {
+			var selectBox = document.getElementById("selectBox1");
+	    	var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+	    	$("#class_"+selectedValue).show();
+	    	if (oldSelectedClassMetric != null) {
+	    		$(oldSelectedClassMetric).hide();
+	    	}
+	    	oldSelectedClassMetric = "#class_"+selectedValue;
+		}
+		
+		
+	</script>
+</head>
+
+<body>
+	<!-- begin header -->
+<div class="main">
+	<div class="header">
+	<div id="head">
+		<div class="heading"><a href="./index.jsp" class="heading">OntoMetrics</a></div>
+		
+		<!-- <div class="heading2">
+			<a class="heading_link1" href="#">Home</a>
+			|<a class="heading_link2" href="#">Result</a> 
+			|<a class="heading_link2" href="#">FAQ</a>
+		</div> -->
+	</div>
+	</div>
+	
+	<!-- end header -->
+
+
+	<!-- begin main section -->
+	<div class="body_top"></div>
+	
+	<div class="body_index">
+	
+	<h1>Results</h1><h3>OntologyID: Optional.of(http://EncodingActs.github.io/annotated/MAOcorpus)</h3><div class='metric_header_line'><div class='metric_header'>Base metrics &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Base_Metrics' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Basemetrics' style='display:none'><a class='showLink' id='show_Basemetrics' href='javascript:showBase("Basemetrics")'> Show </a></div><div class='hideShowDiv' id='hideLink_Basemetrics' style='display:block'><a class='hideLink' id='hide_Basemetrics' href='javascript:hideBase("Basemetrics")'> Hide </a></div></div><div class='space'></div></div><div class='base_metrics' id='baseMetricComplete' style='display:block'><div class='metric_body' id='Basemetrics'><table class='metric_result' id='Basemetrics'><tr><td>Axioms:</td><td>4062</td></tr><tr><td>Logical axioms count:</td><td>1796</td></tr><tr><td>Class count:</td><td>45</td></tr><tr><td>Total classes count:</td><td>45</td></tr><tr><td>Object property count:</td><td>43</td></tr><tr><td>Total object properties count:</td><td>43</td></tr><tr><td>Data property count:</td><td>9</td></tr><tr><td>Total data properties count:</td><td>9</td></tr><tr><td>Properties count:</td><td>52</td></tr><tr><td>Individual count:</td><td>346</td></tr><tr><td>Total individuals count:</td><td>346</td></tr><tr><td>DL expressivity:</td><td>ALEHOF(D)</td></tr></table></div><div class='metric_header_line'><div class='sub_metric_header'>Class axioms &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Class_Axioms' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Classaxioms' style='display:none'><a class='showLink' id='show_Classaxioms' href='javascript:showDiv("Classaxioms")'> Show </a></div><div class='hideShowDiv' id='hideLink_Classaxioms' style='display:block'><a class='hideLink' id='hide_Classaxioms' href='javascript:hideDiv("Classaxioms")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Classaxioms' style='display:block'><table class='metric_result' id='Classaxioms'><tr><td>SubClassOf axioms count:</td><td>162</td></tr><tr><td>Equivalent classes axioms count:</td><td>0</td></tr><tr><td>Disjoint classes axioms count:</td><td>0</td></tr><tr><td>GCICount:</td><td>0</td></tr><tr><td>HiddenGCICount:</td><td>0</td></tr></table></div><div class='metric_header_line'><div class='sub_metric_header'>Object property axioms &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Object_Property_Axioms' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Objectpropertyaxioms' style='display:none'><a class='showLink' id='show_Objectpropertyaxioms' href='javascript:showDiv("Objectpropertyaxioms")'> Show </a></div><div class='hideShowDiv' id='hideLink_Objectpropertyaxioms' style='display:block'><a class='hideLink' id='hide_Objectpropertyaxioms' href='javascript:hideDiv("Objectpropertyaxioms")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Objectpropertyaxioms' style='display:block'><table class='metric_result' id='Objectpropertyaxioms'><tr><td>SubObjectPropertyOf axioms count:</td><td>3</td></tr><tr><td>Equivalent object properties axioms count:</td><td>0</td></tr><tr><td>Inverse object properties axioms count:</td><td>0</td></tr><tr><td>Disjoint object properties axioms count:</td><td>0</td></tr><tr><td>Functional object properties axioms count:</td><td>0</td></tr><tr><td>Inverse functional object properties axioms count:</td><td>0</td></tr><tr><td>Transitive object property axioms count:</td><td>0</td></tr><tr><td>Symmetric object property axioms count:</td><td>0</td></tr><tr><td>Asymmetric object property axioms count:</td><td>0</td></tr><tr><td>Reflexive object property axioms count:</td><td>0</td></tr><tr><td>Irreflexive object property axioms count:</td><td>0</td></tr><tr><td>Object property domain axioms count:</td><td>51</td></tr><tr><td>Object property range axioms count:</td><td>50</td></tr><tr><td>SubPropertyChainOf axioms count:</td><td>0</td></tr></table></div><div class='metric_header_line'><div class='sub_metric_header'>Data property axioms &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Data_Property_Axioms' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Datapropertyaxioms' style='display:none'><a class='showLink' id='show_Datapropertyaxioms' href='javascript:showDiv("Datapropertyaxioms")'> Show </a></div><div class='hideShowDiv' id='hideLink_Datapropertyaxioms' style='display:block'><a class='hideLink' id='hide_Datapropertyaxioms' href='javascript:hideDiv("Datapropertyaxioms")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Datapropertyaxioms' style='display:block'><table class='metric_result' id='Datapropertyaxioms'><tr><td>SubDataPropertyOf axioms count:</td><td>8</td></tr><tr><td>Equivalent data properties axioms count:</td><td>0</td></tr><tr><td>Disjoint data properties axioms count:</td><td>0</td></tr><tr><td>Functional data property axioms count:</td><td>1</td></tr><tr><td>Data property domain axioms count:</td><td>9</td></tr><tr><td>Data Property range axioms count:</td><td>23</td></tr></table></div><div class='metric_header_line'><div class='sub_metric_header'>Individual axioms &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Individual_Axioms' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Individualaxioms' style='display:none'><a class='showLink' id='show_Individualaxioms' href='javascript:showDiv("Individualaxioms")'> Show </a></div><div class='hideShowDiv' id='hideLink_Individualaxioms' style='display:block'><a class='hideLink' id='hide_Individualaxioms' href='javascript:hideDiv("Individualaxioms")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Individualaxioms' style='display:block'><table class='metric_result' id='Individualaxioms'><tr><td>Class assertion axioms count:</td><td>404</td></tr><tr><td>Object property assertion axioms count:</td><td>1084</td></tr><tr><td>Data property assertion axioms count:</td><td>0</td></tr><tr><td>Negative object property assertion axioms count:</td><td>0</td></tr><tr><td>Negative data property assertion axioms count:</td><td>0</td></tr><tr><td>Same individuals axioms count:</td><td>1</td></tr><tr><td>Different individuals axioms count:</td><td>0</td></tr></table></div><div class='metric_header_line'><div class='sub_metric_header'>Annotation axioms &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Annotation_Axioms' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Annotationaxioms' style='display:none'><a class='showLink' id='show_Annotationaxioms' href='javascript:showDiv("Annotationaxioms")'> Show </a></div><div class='hideShowDiv' id='hideLink_Annotationaxioms' style='display:block'><a class='hideLink' id='hide_Annotationaxioms' href='javascript:hideDiv("Annotationaxioms")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Annotationaxioms' style='display:block'><table class='metric_result' id='Annotationaxioms'><tr><td>Annotation axioms count:</td><td>0</td></tr><tr><td>Annotation assertion axioms count:</td><td>1786</td></tr><tr><td>Annotation property domain axioms count:</td><td>0</td></tr><tr><td>Annotation property range axioms count:</td><td>0</td></tr></table></div></div><div class='metric_header_line'><div class='metric_header'>Schema metrics &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Schema_Metrics' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Schemametrics' style='display:block'><a class='showLink' id='show_Schemametrics' href='javascript:showDiv("Schemametrics")'> Show </a></div><div class='hideShowDiv' id='hideLink_Schemametrics' style='display:none'><a class='hideLink' id='hide_Schemametrics' href='javascript:hideDiv("Schemametrics")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Schemametrics' style='display:none'><table class='metric_result' id='Schemametrics'><tr><td>Attribute richness:</td><td>0.2</td></tr><tr><td>Inheritance richness:</td><td>3.6</td></tr><tr><td>Relationship richness:</td><td>0.209756</td></tr><tr><td>Attribute class ratio:</td><td>0.0</td></tr><tr><td>Equivalence ratio:</td><td>0.0</td></tr><tr><td>Axiom/class ratio:</td><td>90.266667</td></tr><tr><td>Inverse relations ratio:</td><td>0.0</td></tr><tr><td>Class/relation ratio:</td><td>0.219512</td></tr></table></div><div class='metric_header_line'><div class='metric_header'>Knowledgebase metrics &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Knowledgebase_Metrics' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Knowledgebasemetrics' style='display:block'><a class='showLink' id='show_Knowledgebasemetrics' href='javascript:showDiv("Knowledgebasemetrics")'> Show </a></div><div class='hideShowDiv' id='hideLink_Knowledgebasemetrics' style='display:none'><a class='hideLink' id='hide_Knowledgebasemetrics' href='javascript:hideDiv("Knowledgebasemetrics")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Knowledgebasemetrics' style='display:none'><table class='metric_result' id='Knowledgebasemetrics'><tr><td>Average population:</td><td>7.688889</td></tr><tr><td>Class richness:</td><td>0.644444</td></tr></table></div><div class='metric_header_line'><div class='metric_header'>Class metrics &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Class_Metrics' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Classmetrics' style='display:block'><a class='showLink' id='show_Classmetrics' href='javascript:showDiv("Classmetrics")'> Show </a></div><div class='hideShowDiv' id='hideLink_Classmetrics' style='display:none'><a class='hideLink' id='hide_Classmetrics' href='javascript:hideDiv("Classmetrics")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Classmetrics' style='display:none'>You did not check the class metrics checkbox, that is why they are not calculated.<br><br>If you want to get the results of the class metrics, please go back and check the class metric checkbox.<br></div><div class='metric_header_line'><div class='metric_header'>Graph metrics &nbsp;&nbsp;&nbsp;<a class='wiki_link' href='https://ontometrics.informatik.uni-rostock.de/wiki/index.php/Graph_Metrics' target='_blank'>more details</a></div><div class='toggleBtn'><div class='hideShowDiv' id='showLink_Graphmetrics' style='display:block'><a class='showLink' id='show_Graphmetrics' href='javascript:showDiv("Graphmetrics")'> Show </a></div><div class='hideShowDiv' id='hideLink_Graphmetrics' style='display:none'><a class='hideLink' id='hide_Graphmetrics' href='javascript:hideDiv("Graphmetrics")'> Hide </a></div></div><div class='space'></div></div><div class='metric_body' id='Graphmetrics' style='display:none'><table class='metric_result' id='Graphmetrics'><tr><td>Absolute root cardinality:</td><td>8</td></tr><tr><td>Absolute leaf cardinality:</td><td>33</td></tr><tr><td>Absolute sibling cardinality:</td><td>43</td></tr><tr><td>Absolute depth:</td><td>112</td></tr><tr><td>Average depth:</td><td>2.545455</td></tr><tr><td>Maximal depth:</td><td>4</td></tr><tr><td>Absolute breadth:</td><td>44</td></tr><tr><td>Average breadth:</td><td>4.0</td></tr><tr><td>Maximal breadth:</td><td>8</td></tr><tr><td>Ratio of leaf fan-outness:</td><td>0.733333</td></tr><tr><td>Ratio of sibling fan-outness:</td><td>0.955556</td></tr><tr><td>Tangledness:</td><td>0.733333</td></tr><tr><td>Total number of paths:</td><td>44</td></tr><tr><td>Average number of paths:</td><td>11.0</td></tr></tr></table></div></div><div class='xml_result'>
+	</div>
+	<!-- end main section -->
+
+	<!-- footer -->
+	<div class="footer">		
+		<div class="final_links">
+			Powered by the <a class="final_link" href="http://owlapi.sourceforge.net/">OWL API</a><br>
+		</div>
+	</div>
+</div>
+</body>
+</html>
