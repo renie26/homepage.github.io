@@ -6,7 +6,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://EncodingActs.github.io/annotated/MAOcorpus#> .
+@base <http://EncodingActs.github.io/annotated/MAOcorpus> .
 
 <http://EncodingActs.github.io/annotated/MAOcorpus> rdf:type owl:Ontology .
 
@@ -254,7 +254,7 @@ mao:contains rdf:type owl:ObjectProperty ;
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/creates
 mao:creates rdf:type owl:ObjectProperty ;
-            rdfs:domain mao:class:MA_Master ;
+            rdfs:domain mao:class:MA_Master;
             rdfs:range mao:class:MA_style ,
                        mao:class:MA_syllabus ,
                        mao:class:armament ,
@@ -709,129 +709,6 @@ mao:class:E77-persistent_item rdf:type owl:Class ;
                               rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e77-persistent-item/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_Master
-mao:class:MA_Master rdf:type owl:Class ;
-                    rdfs:subClassOf mao:class:E21-Person ,
-                                    owl:Thing ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:armament
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:trainig_tool
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:training_method
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adopts ;
-                                      owl:someValuesFrom mao:class:training_method
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:contains ;
-                                      owl:someValuesFrom mao:class:MA_technique
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:MA_syllabus
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:armament
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:trainig_tool
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:training_method
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_child_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_clan_member_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_master_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_parent_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_student_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:lives_in_ts ;
-                                      owl:someValuesFrom mao:class:E52-timespan
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:practices ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:practices ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:resides_in ;
-                                      owl:someValuesFrom mao:class:E53-place
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:taught_at ;
-                                      owl:someValuesFrom mao:class:MA_institute
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches ;
-                                      owl:someValuesFrom mao:Form_set
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches_at ;
-                                      owl:someValuesFrom mao:class:MA_institute
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:type_of ;
-                                      owl:someValuesFrom mao:class:E21-Person
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:grading_system
-                                    ] ;
-                    rdfs:label "MA_Master"@en .
-
-
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_book
 mao:class:MA_book rdf:type owl:Class ;
                   rdfs:subClassOf mao:class:E31-document ,
@@ -841,15 +718,15 @@ mao:class:MA_book rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty mao:documents ;
-                                    owl:someValuesFrom mao:class:MA_Master
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:documents ;
                                     owl:someValuesFrom mao:class:MA_institute
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty mao:documents ;
                                     owl:someValuesFrom mao:class:MA_style
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty mao:documents ;
+                                    owl:someValuesFrom mao:class:MA_Master
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty mao:documents ;
@@ -977,9 +854,127 @@ mao:class:MA_style rdf:type owl:Class ;
                    rdfs:label "MA_Style"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus
-mao:class:MA_syllabus rdf:type owl:Class ;
-                      rdfs:label "MA_syllabus" .
+###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_Master
+mao:class:MA_Master rdf:type owl:Class ;
+                      rdfs:subClassOf mao:class:E21-Person ,
+                                      owl:Thing ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:armament
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:trainig_tool
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adapts ;
+                                        owl:someValuesFrom mao:class:training_method
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:adopts ;
+                                        owl:someValuesFrom mao:class:training_method
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:contains ;
+                                        owl:someValuesFrom mao:class:MA_technique
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:MA_syllabus
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:armament
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:trainig_tool
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:creates ;
+                                        owl:someValuesFrom mao:class:training_method
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_child_of ;
+                                        owl:someValuesFrom mao:class:MA_Master
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_clan_member_of ;
+                                        owl:someValuesFrom mao:class:MA_Master
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_master_of ;
+                                        owl:someValuesFrom mao:class:MA_Master
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_parent_of ;
+                                        owl:someValuesFrom mao:class:MA_Master
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:is_student_of ;
+                                        owl:someValuesFrom mao:class:MA_Master
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:lives_in_ts ;
+                                        owl:someValuesFrom mao:class:E52-timespan
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:practices ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:practices ;
+                                        owl:someValuesFrom mao:class:MA_system
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:resides_in ;
+                                        owl:someValuesFrom mao:class:E53-place
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:taught_at ;
+                                        owl:someValuesFrom mao:class:MA_institute
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches ;
+                                        owl:someValuesFrom mao:Form_set
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches ;
+                                        owl:someValuesFrom mao:class:MA_system
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:teaches_at ;
+                                        owl:someValuesFrom mao:class:MA_institute
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:type_of ;
+                                        owl:someValuesFrom mao:class:E21-Person
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:valid_for ;
+                                        owl:someValuesFrom mao:class:MA_style
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:valid_for ;
+                                        owl:someValuesFrom mao:class:MA_system
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty mao:valid_for ;
+                                        owl:someValuesFrom mao:class:grading_system
+                                      ] ;
+                      rdfs:label "MA_Master"@en.
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system
@@ -1031,6 +1026,10 @@ mao:class:MA_system rdf:type owl:Class ;
                                     ] ;
                     rdfs:label "MA_System" .
 
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus
+mao:class:MA_syllabus rdf:type owl:Class ;
+                    rdfs:label "MA_syllabus" .
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_tactic
 mao:class:MA_tactic rdf:type owl:Class ;
@@ -1405,18 +1404,10 @@ mao:class:weapon_tech rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus#Southern_Chinese_Martial_Arts
-:Southern_Chinese_Martial_Arts rdf:type owl:NamedIndividual ,
-                                        mao:class:MA_system ;
-                               rdfs:wikiURL "https://en.wikipedia.org/wiki/Styles_of_Chinese_martial_arts" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut
 mao:Choy_Li_Fut rdf:type owl:NamedIndividual ,
                          mao:class:MA_system ;
-                mao:belongs_to :Southern_Chinese_Martial_Arts ;
-                rdfs:label "Choy_Li_Fut" ;
-                rdfs:wikiURL "https://en.wikipedia.org/wiki/Choy_Li_Fut" .
+                rdfs:label "Choy_Li_Fut" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/Dan_Tien_focus
@@ -1433,9 +1424,8 @@ mao:Dan_Tien_focus rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/Fujian_White_Crane
 mao:Fujian_White_Crane rdf:type owl:NamedIndividual ,
                                 mao:class:MA_style ;
-                       mao:belongs_to mao:white_Crane_kungfu ;
                        mao:ontoMA_otherName_en "Yongchun_White_Crane"@en ;
-                       rdfs:label "Yongchun_White_Crane" .
+                       rdfs:label "Fujian_White_Crane" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/GungGee_video_OscarLam
@@ -1462,7 +1452,6 @@ mao:Gung_Gee_Fook_Fu_Kuen rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen
 mao:Hung_Kuen rdf:type owl:NamedIndividual ,
                        mao:class:MA_system ;
-              mao:belongs_to :Southern_Chinese_Martial_Arts ;
               mao:has_principle mao:Dan_Tien_focus ,
                                 <http://EncodingActs.github.io/annotated/MAOcorpus/12_bridges> ;
               mao:has_symbol mao:Snake ,
@@ -1473,8 +1462,7 @@ mao:Hung_Kuen rdf:type owl:NamedIndividual ,
               mao:ontoMA_name_zh "洪拳"@zh ;
               mao:ontoMA_otherName_en "Hung Gar,Hung Ga"@en ;
               mao:ontoMA_otherName_zh "洪家,洪家拳"@zh ;
-              rdfs:label "Hung_Kuen" ;
-              rdfs:wikiURL "https://de.wikipedia.org/wiki/Hung_Kuen" .
+              rdfs:label "Hung_Kuen" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/Lam_Family_Hung_Kuen
@@ -1484,7 +1472,6 @@ mao:Lam_Family_Hung_Kuen rdf:type owl:NamedIndividual ,
                                     owl:onProperty mao:is ;
                                     owl:someValuesFrom mao:class:MA_style
                                   ] ;
-                         mao:belongs_to mao:Hung_Kuen ;
                          mao:ontoMA_otherName_en "Lam_Gar_Hung_Kuen"@en ;
                          rdfs:label "Lam_Family_Hung_Kuen" .
 
@@ -1513,6 +1500,12 @@ mao:T_backfist_n_punch rdf:type owl:NamedIndividual ,
                        :name_romanMAN "Pin Zi Gua Da"@en ;
                        mao:ontoMA_name_zh "品字掛打"@zh ;
                        rdfs:label "T_backfist_n_punch" .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/Tai_Chi
+mao:Tai_Chi rdf:type owl:NamedIndividual ,
+                     mao:class:MA_system ;
+            rdfs:label "Tai_Chi" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/Uprightness
@@ -1849,8 +1842,6 @@ mao:bullhorn_punch rdf:type owl:NamedIndividual ,
                    rdfs:label "h_bullhorn_punch"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hook_punch
-
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/bullhorn_uppercut
 mao:bullhorn_uppercut rdf:type owl:NamedIndividual ,
                                mao:class:combo_tech ;
@@ -2117,7 +2108,8 @@ mao:crane_head_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/crane_kick
 mao:crane_kick rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
-               mao:used_in mao:white_Crane_kungfu ;
+               mao:used_in mao:karate ,
+                           mao:white_Crane_kungfu ;
                :name_en "Flying-crane kick"@en ;
                :name_romanCAN "Baak Hok Zin Ci"@en ;
                :name_romanMAN "Bai He Zhan Chi (Jiao)"@en ;
@@ -3066,6 +3058,13 @@ mao:jumping rdf:type owl:NamedIndividual ,
             mao:ontoMA_name_zh "跳"@zh ;
             mao:ontoMA_otherName_zh "跳馬"@zh ;
             rdfs:label "jumping" .
+
+
+###  http://EncodingActs.github.io/annotated/MAOcorpus/karate
+mao:karate rdf:type owl:NamedIndividual ,
+                    mao:class:MA_system ;
+           :name_en "Karate"@en ;
+           rdfs:label "karate" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/knocking_fist
@@ -5687,7 +5686,8 @@ mao:torsion rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/trample
 mao:trample rdf:type owl:NamedIndividual ,
                      mao:class:leg_tech ;
-            mao:used_in mao:white_Crane_kungfu ;
+            mao:used_in mao:karate ,
+                        mao:white_Crane_kungfu ;
             :name_en "Trampling"@en ;
             :name_romanCAN "Caai"@en ;
             :name_romanMAN "Cai"@en ;
@@ -5948,12 +5948,10 @@ mao:white_Crane_kungfu rdf:type owl:NamedIndividual ,
                                   owl:onProperty mao:teaches ;
                                   owl:someValuesFrom mao:class:breathing_method
                                 ] ;
-                       mao:belongs_to :Southern_Chinese_Martial_Arts ;
                        mao:has_origin_place <http://EncodingActs.github.io/annotated/MAOcorpus/YongChun(place)> ;
                        mao:has_principle mao:Dan_Tien_focus ;
                        mao:has_symbol mao:white_crane ;
-                       rdfs:label "Fujian_White_Crane"@en ;
-                       rdfs:wikiURL "https://en.wikipedia.org/wiki/Fujian_White_Crane" .
+                       rdfs:label "White_Crane_kungfu"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAOcorpus/white_crane
@@ -6036,14 +6034,14 @@ mao:book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing rdf:type owl:NamedIndividual ,
 #    Annotations
 #################################################################
 
-mao:attack_control :name_en "Controlling the opponent"@en ;
+mao:attack_control rdfs:label "attack_control" ;
                    mao:ontoMA_name_zh "擒拿控制"@zh ;
-                   rdfs:label "attack_control" .
+                   :name_en "Controlling the opponent"@en .
 
 
-mao:distance_management :name_en "widening the distance"@en ;
-                        mao:ontoMA_name_zh "拉遠距離"@zh ;
-                        rdfs:label "distance_widening"@en .
+mao:distance_management mao:ontoMA_name_zh "拉遠距離"@zh ;
+                        rdfs:label "distance_widening"@en ;
+                        :name_en "widening the distance"@en .
 
 
-###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
