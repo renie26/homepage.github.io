@@ -1,45 +1,45 @@
-@prefix : <http://EncodingActs.github.io/annotated/MAOcorpus#> .
+@prefix : <http://EncodingActs.github.io/annotated/MAon#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix mao: <http://EncodingActs.github.io/annotated/MAOcorpus/> .
+@prefix mao: <http://EncodingActs.github.io/annotated/MAon/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://EncodingActs.github.io/annotated/MAOcorpus#> .
+@base <http://EncodingActs.github.io/annotated/MAon#> .
 
-<http://EncodingActs.github.io/annotated/MAOcorpus> rdf:type owl:Ontology .
+<http://EncodingActs.github.io/annotated/MAon> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus#name_en
+###  http://EncodingActs.github.io/annotated/MAon#name_en
 :name_en rdf:type owl:AnnotationProperty ;
          rdfs:label "name_en"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus#name_romanCAN
+###  http://EncodingActs.github.io/annotated/MAon#name_romanCAN
 :name_romanCAN rdf:type owl:AnnotationProperty ;
                rdfs:label "romanCAN"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus#name_romanMAN
+###  http://EncodingActs.github.io/annotated/MAon#name_romanMAN
 :name_romanMAN rdf:type owl:AnnotationProperty ;
                rdfs:label "pinyin"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_name_zh
+###  http://EncodingActs.github.io/annotated/MAon/ontoMA_name_zh
 mao:ontoMA_name_zh rdf:type owl:AnnotationProperty ;
                    rdfs:label "name_zh"@zh .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_en
+###  http://EncodingActs.github.io/annotated/MAon/ontoMA_otherName_en
 mao:ontoMA_otherName_en rdf:type owl:AnnotationProperty ;
                         rdfs:label "otherName_en"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/ontoMA_otherName_zh
+###  http://EncodingActs.github.io/annotated/MAon/ontoMA_otherName_zh
 mao:ontoMA_otherName_zh rdf:type owl:AnnotationProperty ;
                         rdfs:label "otherName_zh"@zh .
 
@@ -70,138 +70,138 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
 #    Datatypes
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/ArtName
+###  http://EncodingActs.github.io/annotated/MAon/ArtName
 mao:ArtName rdf:type rdfs:Datatype ;
             rdfs:label "ArtName" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/CN_S_Name
+###  http://EncodingActs.github.io/annotated/MAon/CN_S_Name
 mao:CN_S_Name rdf:type rdfs:Datatype ;
               rdfs:label "CN_S_Name" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/CN_T_name
+###  http://EncodingActs.github.io/annotated/MAon/CN_T_name
 mao:CN_T_name rdf:type rdfs:Datatype ;
               rdfs:label "CN_T_name" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/EN_Name
+###  http://EncodingActs.github.io/annotated/MAon/EN_Name
 mao:EN_Name rdf:type rdfs:Datatype ;
             rdfs:label "EN_Name" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Image
+###  http://EncodingActs.github.io/annotated/MAon/Image
 mao:Image rdf:type rdfs:Datatype ;
           rdfs:label "Image" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/ManualBook
+###  http://EncodingActs.github.io/annotated/MAon/ManualBook
 mao:ManualBook rdf:type rdfs:Datatype ;
                rdfs:label "ManualBook" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/MoCap
+###  http://EncodingActs.github.io/annotated/MAon/MoCap
 mao:MoCap rdf:type rdfs:Datatype ;
           rdfs:label "MoCap" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Texts
+###  http://EncodingActs.github.io/annotated/MAon/Texts
 mao:Texts rdf:type rdfs:Datatype ;
           rdfs:label "Texts" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Video
+###  http://EncodingActs.github.io/annotated/MAon/Video
 mao:Video rdf:type rdfs:Datatype ;
           rdfs:label "Video" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_control
+###  http://EncodingActs.github.io/annotated/MAon/attack_control
 mao:attack_control rdf:type rdfs:Datatype .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_n_defend
+###  http://EncodingActs.github.io/annotated/MAon/attack_n_defend
 mao:attack_n_defend rdf:type rdfs:Datatype ;
                     rdfs:label "attack_n_defend" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bladed_weapon
+###  http://EncodingActs.github.io/annotated/MAon/bladed_weapon
 mao:bladed_weapon rdf:type rdfs:Datatype .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/body_manipulation
+###  http://EncodingActs.github.io/annotated/MAon/body_manipulation
 mao:body_manipulation rdf:type rdfs:Datatype ;
                       rdfs:label "body_manipulation" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/body_movement
+###  http://EncodingActs.github.io/annotated/MAon/body_movement
 mao:body_movement rdf:type rdfs:Datatype ;
                   rdfs:label "body_movement" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/body_positioning
+###  http://EncodingActs.github.io/annotated/MAon/body_positioning
 mao:body_positioning rdf:type rdfs:Datatype ;
                      rdfs:label "body_positioning" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/body_posture
+###  http://EncodingActs.github.io/annotated/MAon/body_posture
 mao:body_posture rdf:type rdfs:Datatype ;
                  rdfs:label "body_posture" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/distance_management
+###  http://EncodingActs.github.io/annotated/MAon/distance_management
 mao:distance_management rdf:type rdfs:Datatype .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/distance_timing
+###  http://EncodingActs.github.io/annotated/MAon/distance_timing
 mao:distance_timing rdf:type rdfs:Datatype ;
                     rdfs:label "distance_timing" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/empty_hand_set
+###  http://EncodingActs.github.io/annotated/MAon/empty_hand_set
 mao:empty_hand_set rdf:type rdfs:Datatype ;
                    rdfs:label "empty_hand_set" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/grading_system
+###  http://EncodingActs.github.io/annotated/MAon/grading_system
 mao:grading_system rdf:type rdfs:Datatype ;
                    rdfs:label "grading_system" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/name_originalLang
+###  http://EncodingActs.github.io/annotated/MAon/name_originalLang
 mao:name_originalLang rdf:type rdfs:Datatype ;
                       rdfs:label "name_originalLang" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/positioning
+###  http://EncodingActs.github.io/annotated/MAon/positioning
 mao:positioning rdf:type rdfs:Datatype ;
                 rdfs:label "positioning" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/ranking_system
+###  http://EncodingActs.github.io/annotated/MAon/ranking_system
 mao:ranking_system rdf:type rdfs:Datatype ;
                    rdfs:label "ranking_system" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/reputation
+###  http://EncodingActs.github.io/annotated/MAon/reputation
 mao:reputation rdf:type rdfs:Datatype ;
                rdfs:label "reputation" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/spaer_weapon
+###  http://EncodingActs.github.io/annotated/MAon/spaer_weapon
 mao:spaer_weapon rdf:type rdfs:Datatype ;
                  rdfs:label "spaer_weapon" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sparring_set
+###  http://EncodingActs.github.io/annotated/MAon/sparring_set
 mao:sparring_set rdf:type rdfs:Datatype .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/staff_weapon
+###  http://EncodingActs.github.io/annotated/MAon/staff_weapon
 mao:staff_weapon rdf:type rdfs:Datatype ;
                  rdfs:label "staff_weapon" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/weapon_set
+###  http://EncodingActs.github.io/annotated/MAon/weapon_set
 mao:weapon_set rdf:type rdfs:Datatype .
 
 
@@ -209,7 +209,7 @@ mao:weapon_set rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/adapts
+###  http://EncodingActs.github.io/annotated/MAon/adapts
 mao:adapts rdf:type owl:ObjectProperty ;
            rdfs:domain mao:class:MA_Master ;
            rdfs:range mao:class:MA_style ,
@@ -220,7 +220,7 @@ mao:adapts rdf:type owl:ObjectProperty ;
            rdfs:label "adapts" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/adopts
+###  http://EncodingActs.github.io/annotated/MAon/adopts
 mao:adopts rdf:type owl:ObjectProperty ;
            rdfs:domain mao:class:MA_institute ,
                        mao:class:MA_style ,
@@ -231,12 +231,12 @@ mao:adopts rdf:type owl:ObjectProperty ;
            rdfs:label "adopts" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/assessed_by
+###  http://EncodingActs.github.io/annotated/MAon/assessed_by
 mao:assessed_by rdf:type owl:ObjectProperty ;
                 rdfs:label "assessed_by" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/belongs_to
+###  http://EncodingActs.github.io/annotated/MAon/belongs_to
 mao:belongs_to rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_style ,
                            mao:class:MA_system ;
@@ -244,7 +244,7 @@ mao:belongs_to rdf:type owl:ObjectProperty ;
                rdfs:label "belongs_to" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/contains
+###  http://EncodingActs.github.io/annotated/MAon/contains
 mao:contains rdf:type owl:ObjectProperty ;
              rdfs:domain mao:class:MA_form ,
                          mao:class:MA_syllabus ;
@@ -252,7 +252,7 @@ mao:contains rdf:type owl:ObjectProperty ;
              rdfs:label "contains" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/creates
+###  http://EncodingActs.github.io/annotated/MAon/creates
 mao:creates rdf:type owl:ObjectProperty ;
             rdfs:domain mao:class:MA_Master ;
             rdfs:range mao:class:MA_style ,
@@ -263,26 +263,26 @@ mao:creates rdf:type owl:ObjectProperty ;
             rdfs:label "creates" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/developed_from
+###  http://EncodingActs.github.io/annotated/MAon/developed_from
 mao:developed_from rdf:type owl:ObjectProperty ;
                    rdfs:domain mao:class:MA_style ;
                    rdfs:range mao:class:MA_style ;
                    rdfs:label "developed_from"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/documents
+###  http://EncodingActs.github.io/annotated/MAon/documents
 mao:documents rdf:type owl:ObjectProperty ;
               rdfs:label "documents" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/employs
+###  http://EncodingActs.github.io/annotated/MAon/employs
 mao:employs rdf:type owl:ObjectProperty ;
             rdfs:domain mao:class:MA_technique ;
             rdfs:range mao:class:MA_technique ;
             rdfs:label "employs" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/has
+###  http://EncodingActs.github.io/annotated/MAon/has
 mao:has rdf:type owl:ObjectProperty ;
         rdfs:domain mao:class:MA_style ,
                     mao:class:MA_system ;
@@ -291,7 +291,7 @@ mao:has rdf:type owl:ObjectProperty ;
         rdfs:label "has" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/has_intent
+###  http://EncodingActs.github.io/annotated/MAon/has_intent
 mao:has_intent rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_form ,
                            mao:class:MA_technique ;
@@ -299,7 +299,7 @@ mao:has_intent rdf:type owl:ObjectProperty ;
                rdfs:label "has_intent" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/has_origin_place
+###  http://EncodingActs.github.io/annotated/MAon/has_origin_place
 mao:has_origin_place rdf:type owl:ObjectProperty ;
                      rdfs:domain mao:class:MA_style ,
                                  mao:class:MA_system ;
@@ -307,7 +307,7 @@ mao:has_origin_place rdf:type owl:ObjectProperty ;
                      rdfs:label "has_origin_place" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/has_principle
+###  http://EncodingActs.github.io/annotated/MAon/has_principle
 mao:has_principle rdf:type owl:ObjectProperty ;
                   rdfs:domain mao:class:MA_style ,
                               mao:class:MA_system ;
@@ -315,7 +315,7 @@ mao:has_principle rdf:type owl:ObjectProperty ;
                   rdfs:label "has_principle" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/has_symbol
+###  http://EncodingActs.github.io/annotated/MAon/has_symbol
 mao:has_symbol rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_style ,
                            mao:class:MA_system ;
@@ -323,14 +323,14 @@ mao:has_symbol rdf:type owl:ObjectProperty ;
                rdfs:label "has_symbol" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/identified_by
+###  http://EncodingActs.github.io/annotated/MAon/identified_by
 mao:identified_by rdf:type owl:ObjectProperty ;
                   rdfs:domain mao:class:E21-Person ;
                   rdfs:range mao:class:E41-appellation ;
                   rdfs:label "identified_by" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/influences
+###  http://EncodingActs.github.io/annotated/MAon/influences
 mao:influences rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain mao:class:MA_style ,
@@ -340,73 +340,73 @@ mao:influences rdf:type owl:ObjectProperty ;
                rdfs:label "influences" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is
+###  http://EncodingActs.github.io/annotated/MAon/is
 mao:is rdf:type owl:ObjectProperty ;
        rdfs:label "is" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_child_of
+###  http://EncodingActs.github.io/annotated/MAon/is_child_of
 mao:is_child_of rdf:type owl:ObjectProperty ;
                 rdfs:label "is_child_of" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_clan_member_of
+###  http://EncodingActs.github.io/annotated/MAon/is_clan_member_of
 mao:is_clan_member_of rdf:type owl:ObjectProperty ;
                       rdfs:domain mao:class:MA_Master ;
                       rdfs:range mao:class:MA_Master ;
                       rdfs:label "is_clan_member_of" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_form_in
+###  http://EncodingActs.github.io/annotated/MAon/is_form_in
 mao:is_form_in rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_form ;
                rdfs:range mao:Form_set ;
                rdfs:label "is_form_in" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_master_of
+###  http://EncodingActs.github.io/annotated/MAon/is_master_of
 mao:is_master_of rdf:type owl:ObjectProperty ;
                  rdfs:domain mao:class:MA_Master ;
                  rdfs:range mao:class:MA_Master ;
                  rdfs:label "is_master_of" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_parent_of
+###  http://EncodingActs.github.io/annotated/MAon/is_parent_of
 mao:is_parent_of rdf:type owl:ObjectProperty ;
                  rdfs:domain mao:class:MA_Master ;
                  rdfs:range mao:class:MA_Master ;
                  rdfs:label "is_parent_of" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/is_student_of
+###  http://EncodingActs.github.io/annotated/MAon/is_student_of
 mao:is_student_of rdf:type owl:ObjectProperty ;
                   rdfs:domain mao:class:MA_Master ;
                   rdfs:range mao:class:MA_Master ;
                   rdfs:label "is_student_of" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/lives_in_ts
+###  http://EncodingActs.github.io/annotated/MAon/lives_in_ts
 mao:lives_in_ts rdf:type owl:ObjectProperty ;
                 rdfs:domain mao:class:MA_Master ;
                 rdfs:range mao:class:E52-timespan ;
                 rdfs:label "lives_in_ts" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/located_at
+###  http://EncodingActs.github.io/annotated/MAon/located_at
 mao:located_at rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_institute ;
                rdfs:range mao:class:E53-place ;
                rdfs:label "located_at"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/practiced_in
+###  http://EncodingActs.github.io/annotated/MAon/practiced_in
 mao:practiced_in rdf:type owl:ObjectProperty ;
                  rdfs:domain mao:Form_set ;
                  rdfs:range mao:class:MA_style ;
                  rdfs:label "practiced_in" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/practices
+###  http://EncodingActs.github.io/annotated/MAon/practices
 mao:practices rdf:type owl:ObjectProperty ;
               rdfs:domain mao:class:MA_Master ;
               rdfs:range mao:class:MA_style ,
@@ -414,7 +414,7 @@ mao:practices rdf:type owl:ObjectProperty ;
               rdfs:label "practices" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/represents
+###  http://EncodingActs.github.io/annotated/MAon/represents
 mao:represents rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_form ,
                            mao:class:MA_technique ;
@@ -422,14 +422,14 @@ mao:represents rdf:type owl:ObjectProperty ;
                rdfs:label "represents" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/resides_in
+###  http://EncodingActs.github.io/annotated/MAon/resides_in
 mao:resides_in rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_Master ;
                rdfs:range mao:class:E53-place ;
                rdfs:label "resides_in" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/similar_form_to
+###  http://EncodingActs.github.io/annotated/MAon/similar_form_to
 mao:similar_form_to rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf mao:similar_to ;
                     rdfs:domain mao:class:MA_form ;
@@ -437,7 +437,7 @@ mao:similar_form_to rdf:type owl:ObjectProperty ;
                     rdfs:label "similar_form_to" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/similar_set_of
+###  http://EncodingActs.github.io/annotated/MAon/similar_set_of
 mao:similar_set_of rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf mao:similar_to ;
                    rdfs:domain mao:Form_set ;
@@ -445,21 +445,21 @@ mao:similar_set_of rdf:type owl:ObjectProperty ;
                    rdfs:label "similar_set_to"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/similar_to
+###  http://EncodingActs.github.io/annotated/MAon/similar_to
 mao:similar_to rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_technique ;
                rdfs:range mao:class:MA_technique ;
                rdfs:label "similar_to" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/simulates
+###  http://EncodingActs.github.io/annotated/MAon/simulates
 mao:simulates rdf:type owl:ObjectProperty ;
               rdfs:domain mao:class:trainig_tool ;
               rdfs:range mao:class:armament ;
               rdfs:label "simulates"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taught_at
+###  http://EncodingActs.github.io/annotated/MAon/taught_at
 mao:taught_at rdf:type owl:ObjectProperty ;
               rdfs:domain mao:class:MA_style ,
                           mao:class:MA_syllabus ,
@@ -468,7 +468,7 @@ mao:taught_at rdf:type owl:ObjectProperty ;
               rdfs:label "taught_at"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/teaches
+###  http://EncodingActs.github.io/annotated/MAon/teaches
 mao:teaches rdf:type owl:ObjectProperty ;
             rdfs:domain mao:class:MA_Master ;
             rdfs:range mao:Form_set ,
@@ -477,26 +477,26 @@ mao:teaches rdf:type owl:ObjectProperty ;
             rdfs:label "teaches" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/teaches_at
+###  http://EncodingActs.github.io/annotated/MAon/teaches_at
 mao:teaches_at rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_Master ;
                rdfs:range mao:class:MA_institute ;
                rdfs:label "teaches_at" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/trains
+###  http://EncodingActs.github.io/annotated/MAon/trains
 mao:trains rdf:type owl:ObjectProperty ;
            rdfs:domain mao:class:training_method ;
            rdfs:range mao:class:MA_technique ;
            rdfs:label "trains" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/type_of
+###  http://EncodingActs.github.io/annotated/MAon/type_of
 mao:type_of rdf:type owl:ObjectProperty ;
             rdfs:label "type_of" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/used_in
+###  http://EncodingActs.github.io/annotated/MAon/used_in
 mao:used_in rdf:type owl:ObjectProperty ;
             rdfs:domain mao:class:MA_technique ,
                         mao:class:armament ,
@@ -506,19 +506,19 @@ mao:used_in rdf:type owl:ObjectProperty ;
             rdfs:label "used_in" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/uses
+###  http://EncodingActs.github.io/annotated/MAon/uses
 mao:uses rdf:type owl:ObjectProperty ;
          rdfs:label "uses" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/valid_for
+###  http://EncodingActs.github.io/annotated/MAon/valid_for
 mao:valid_for rdf:type owl:ObjectProperty ;
               rdfs:domain mao:class:grading_system ;
               rdfs:range mao:class:MA_system ;
               rdfs:label "valid_for" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/with
+###  http://EncodingActs.github.io/annotated/MAon/with
 mao:with rdf:type owl:ObjectProperty ;
          rdfs:label "with" .
 
@@ -527,7 +527,7 @@ mao:with rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/appellation_type
+###  http://EncodingActs.github.io/annotated/MAon/appellation_type
 mao:appellation_type rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf mao:dataProperties ;
                      rdfs:domain mao:class:E41-appellation ;
@@ -537,7 +537,7 @@ mao:appellation_type rdf:type owl:DatatypeProperty ;
                      rdfs:label "appellation_type" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/assess_type
+###  http://EncodingActs.github.io/annotated/MAon/assess_type
 mao:assess_type rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf mao:dataProperties ;
                 rdfs:domain mao:class:grading_system ;
@@ -547,7 +547,7 @@ mao:assess_type rdf:type owl:DatatypeProperty ;
                 rdfs:label "assess_type" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_defend_tactic
+###  http://EncodingActs.github.io/annotated/MAon/attack_defend_tactic
 mao:attack_defend_tactic rdf:type owl:DatatypeProperty ;
                          rdfs:subPropertyOf mao:dataProperties ;
                          rdfs:domain mao:class:MA_tactic ;
@@ -556,7 +556,7 @@ mao:attack_defend_tactic rdf:type owl:DatatypeProperty ;
                          rdfs:label "tactic_type"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bodywork_type
+###  http://EncodingActs.github.io/annotated/MAon/bodywork_type
 mao:bodywork_type rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf mao:dataProperties ;
                   rdfs:domain mao:class:bodywork ;
@@ -567,11 +567,11 @@ mao:bodywork_type rdf:type owl:DatatypeProperty ;
                   rdfs:label "bodywork_type" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dataProperties
+###  http://EncodingActs.github.io/annotated/MAon/dataProperties
 mao:dataProperties rdf:type owl:DatatypeProperty .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/data_format
+###  http://EncodingActs.github.io/annotated/MAon/data_format
 mao:data_format rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf mao:dataProperties ;
                 rdf:type owl:FunctionalProperty ;
@@ -584,7 +584,7 @@ mao:data_format rdf:type owl:DatatypeProperty ;
                 rdfs:label "doc_format"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/form_type
+###  http://EncodingActs.github.io/annotated/MAon/form_type
 mao:form_type rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf mao:dataProperties ;
               rdfs:domain mao:Form_set ;
@@ -594,14 +594,14 @@ mao:form_type rdf:type owl:DatatypeProperty ;
               rdfs:label "form_type" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/timespan
+###  http://EncodingActs.github.io/annotated/MAon/timespan
 mao:timespan rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf mao:dataProperties ;
              rdfs:domain mao:class:E52-timespan ;
              rdfs:label "timespan" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/weapon_type
+###  http://EncodingActs.github.io/annotated/MAon/weapon_type
 mao:weapon_type rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf mao:dataProperties ;
                 rdfs:domain mao:class:armament ,
@@ -616,7 +616,7 @@ mao:weapon_type rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Form_set
+###  http://EncodingActs.github.io/annotated/MAon/Form_set
 mao:Form_set rdf:type owl:Class ;
              rdfs:subClassOf mao:class:training_method ,
                              [ rdf:type owl:Restriction ;
@@ -649,7 +649,7 @@ mao:Form_set rdf:type owl:Class ;
              rdfs:label "form_set"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E21-Person
+###  http://EncodingActs.github.io/annotated/MAon/class:E21-Person
 mao:class:E21-Person rdf:type owl:Class ;
                      rdfs:subClassOf owl:Thing ,
                                      [ rdf:type owl:Restriction ;
@@ -672,44 +672,44 @@ mao:class:E21-Person rdf:type owl:Class ;
                      rdfs:seeAlso <https://www.cidoc-crm.org/entity/e21-person/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E22-man_made_obj
+###  http://EncodingActs.github.io/annotated/MAon/class:E22-man_made_obj
 mao:class:E22-man_made_obj rdf:type owl:Class ;
                            rdfs:label "E22.Man-made Object"@en ;
                            rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e22-man-made-object/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E31-document
+###  http://EncodingActs.github.io/annotated/MAon/class:E31-document
 mao:class:E31-document rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ;
                        rdfs:label "E31.Document"@en ;
                        rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e31-document/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E41-appellation
+###  http://EncodingActs.github.io/annotated/MAon/class:E41-appellation
 mao:class:E41-appellation rdf:type owl:Class ;
                           rdfs:label "E41.Appellation"@en ;
                           rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e41-appellation/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E52-timespan
+###  http://EncodingActs.github.io/annotated/MAon/class:E52-timespan
 mao:class:E52-timespan rdf:type owl:Class ;
                        rdfs:label "E52.Time-Span"@en ;
                        rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e52-time-span/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E53-place
+###  http://EncodingActs.github.io/annotated/MAon/class:E53-place
 mao:class:E53-place rdf:type owl:Class ;
                     rdfs:label "E53.Place"@en ;
                     rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e53-place/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:E77-persistent_item
+###  http://EncodingActs.github.io/annotated/MAon/class:E77-persistent_item
 mao:class:E77-persistent_item rdf:type owl:Class ;
                               rdfs:label "E77.Persistent Item"@en ;
                               rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e77-persistent-item/version-7.1> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_Master
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_Master
 mao:class:MA_Master rdf:type owl:Class ;
                     rdfs:subClassOf mao:class:E21-Person ,
                                     owl:Thing ,
@@ -832,7 +832,7 @@ mao:class:MA_Master rdf:type owl:Class ;
                     rdfs:label "MA_Master"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_book
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_book
 mao:class:MA_book rdf:type owl:Class ;
                   rdfs:subClassOf mao:class:E31-document ,
                                   [ rdf:type owl:Restriction ;
@@ -866,7 +866,7 @@ mao:class:MA_book rdf:type owl:Class ;
                   rdfs:label "MA_Document"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_form
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_form
 mao:class:MA_form rdf:type owl:Class ;
                   rdfs:subClassOf mao:class:training_method ,
                                   [ rdf:type owl:Restriction ;
@@ -896,7 +896,7 @@ mao:class:MA_form rdf:type owl:Class ;
                   rdfs:label "Form"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_institute
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_institute
 mao:class:MA_institute rdf:type owl:Class ;
                        rdfs:subClassOf [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:adopts ;
@@ -925,13 +925,13 @@ mao:class:MA_institute rdf:type owl:Class ;
                        rdfs:label "MA_institute" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_principle
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_principle
 mao:class:MA_principle rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ;
                        rdfs:label "MA_principle" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_style
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_style
 mao:class:MA_style rdf:type owl:Class ;
                    rdfs:subClassOf owl:Thing ,
                                    [ rdf:type owl:Restriction ;
@@ -977,12 +977,12 @@ mao:class:MA_style rdf:type owl:Class ;
                    rdfs:label "MA_Style"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_syllabus
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_syllabus
 mao:class:MA_syllabus rdf:type owl:Class ;
                       rdfs:label "MA_syllabus" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_system
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_system
 mao:class:MA_system rdf:type owl:Class ;
                     rdfs:subClassOf owl:Thing ,
                                     [ rdf:type owl:Restriction ;
@@ -1032,12 +1032,12 @@ mao:class:MA_system rdf:type owl:Class ;
                     rdfs:label "MA_System" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_tactic
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_tactic
 mao:class:MA_tactic rdf:type owl:Class ;
                     rdfs:label "MA_tactic" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:MA_technique
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_technique
 mao:class:MA_technique rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ,
                                        [ rdf:type owl:Restriction ;
@@ -1091,7 +1091,7 @@ mao:class:MA_technique rdf:type owl:Class ;
                        rdfs:label "MA_Technique" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:armament
+###  http://EncodingActs.github.io/annotated/MAon/class:armament
 mao:class:armament rdf:type owl:Class ;
                    rdfs:subClassOf mao:class:E22-man_made_obj ,
                                    [ rdf:type owl:Restriction ;
@@ -1101,7 +1101,7 @@ mao:class:armament rdf:type owl:Class ;
                    rdfs:label "Armament"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:body_bridge
+###  http://EncodingActs.github.io/annotated/MAon/class:body_bridge
 mao:class:body_bridge rdf:type owl:Class ;
                       rdfs:subClassOf mao:class:MA_technique ,
                                       [ rdf:type owl:Restriction ;
@@ -1111,7 +1111,7 @@ mao:class:body_bridge rdf:type owl:Class ;
                       rdfs:label "Bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:body_cntr_mnpl
+###  http://EncodingActs.github.io/annotated/MAon/class:body_cntr_mnpl
 mao:class:body_cntr_mnpl rdf:type owl:Class ;
                          rdfs:subClassOf mao:class:MA_principle ,
                                          [ rdf:type owl:Restriction ;
@@ -1121,7 +1121,7 @@ mao:class:body_cntr_mnpl rdf:type owl:Class ;
                          rdfs:label "Body_control"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:bodywork
+###  http://EncodingActs.github.io/annotated/MAon/class:bodywork
 mao:class:bodywork rdf:type owl:Class ;
                    rdfs:subClassOf mao:class:MA_technique ,
                                    [ rdf:type owl:Restriction ;
@@ -1131,7 +1131,7 @@ mao:class:bodywork rdf:type owl:Class ;
                    rdfs:label "Bodywork" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:breath_cntr_mnpl
+###  http://EncodingActs.github.io/annotated/MAon/class:breath_cntr_mnpl
 mao:class:breath_cntr_mnpl rdf:type owl:Class ;
                            rdfs:subClassOf mao:class:MA_principle ,
                                            [ rdf:type owl:Restriction ;
@@ -1141,7 +1141,7 @@ mao:class:breath_cntr_mnpl rdf:type owl:Class ;
                            rdfs:label "Breath_control"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:breathing_method
+###  http://EncodingActs.github.io/annotated/MAon/class:breathing_method
 mao:class:breathing_method rdf:type owl:Class ;
                            rdfs:subClassOf mao:class:MA_technique ,
                                            [ rdf:type owl:Restriction ;
@@ -1151,7 +1151,7 @@ mao:class:breathing_method rdf:type owl:Class ;
                            rdfs:label "Breathing_method" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:claw_tech
+###  http://EncodingActs.github.io/annotated/MAon/class:claw_tech
 mao:class:claw_tech rdf:type owl:Class ;
                     rdfs:subClassOf mao:class:handwork ,
                                     [ rdf:type owl:Restriction ;
@@ -1165,7 +1165,7 @@ mao:class:claw_tech rdf:type owl:Class ;
                     rdfs:label "Claw_tech" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:combo_tech
+###  http://EncodingActs.github.io/annotated/MAon/class:combo_tech
 mao:class:combo_tech rdf:type owl:Class ;
                      rdfs:subClassOf mao:class:MA_technique ,
                                      [ rdf:type owl:Restriction ;
@@ -1179,7 +1179,7 @@ mao:class:combo_tech rdf:type owl:Class ;
                      rdfs:label "Combo_tech" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:elbow_tech
+###  http://EncodingActs.github.io/annotated/MAon/class:elbow_tech
 mao:class:elbow_tech rdf:type owl:Class ;
                      rdfs:subClassOf mao:class:handwork ,
                                      [ rdf:type owl:Restriction ;
@@ -1194,7 +1194,7 @@ mao:class:elbow_tech rdf:type owl:Class ;
                      rdfs:label "Elbow_tech" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:fighting_strategy
+###  http://EncodingActs.github.io/annotated/MAon/class:fighting_strategy
 mao:class:fighting_strategy rdf:type owl:Class ;
                             rdfs:subClassOf mao:class:MA_principle ,
                                             [ rdf:type owl:Restriction ;
@@ -1204,7 +1204,7 @@ mao:class:fighting_strategy rdf:type owl:Class ;
                             rdfs:label "Connection_bridges"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:fist_tech
+###  http://EncodingActs.github.io/annotated/MAon/class:fist_tech
 mao:class:fist_tech rdf:type owl:Class ;
                     rdfs:subClassOf mao:class:handwork ,
                                     [ rdf:type owl:Restriction ;
@@ -1218,7 +1218,7 @@ mao:class:fist_tech rdf:type owl:Class ;
                     rdfs:label "Fist_tech"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:footwork
+###  http://EncodingActs.github.io/annotated/MAon/class:footwork
 mao:class:footwork rdf:type owl:Class ;
                    rdfs:subClassOf mao:class:MA_technique ,
                                    [ rdf:type owl:Restriction ;
@@ -1228,7 +1228,7 @@ mao:class:footwork rdf:type owl:Class ;
                    rdfs:label "Footwork" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:grading_system
+###  http://EncodingActs.github.io/annotated/MAon/class:grading_system
 mao:class:grading_system rdf:type owl:Class ;
                          rdfs:subClassOf [ rdf:type owl:Restriction ;
                                            owl:onProperty mao:valid_for ;
@@ -1241,7 +1241,7 @@ mao:class:grading_system rdf:type owl:Class ;
                          rdfs:label "Assessment_method"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:hand_shape
+###  http://EncodingActs.github.io/annotated/MAon/class:hand_shape
 mao:class:hand_shape rdf:type owl:Class ;
                      rdfs:subClassOf mao:class:handwork ,
                                      [ rdf:type owl:Restriction ;
@@ -1256,7 +1256,7 @@ mao:class:hand_shape rdf:type owl:Class ;
                      rdfs:label "Gesture"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:handwork
+###  http://EncodingActs.github.io/annotated/MAon/class:handwork
 mao:class:handwork rdf:type owl:Class ;
                    rdfs:subClassOf mao:class:MA_technique ,
                                    [ rdf:type owl:Restriction ;
@@ -1266,7 +1266,7 @@ mao:class:handwork rdf:type owl:Class ;
                    rdfs:label "Handwork" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:honor_code
+###  http://EncodingActs.github.io/annotated/MAon/class:honor_code
 mao:class:honor_code rdf:type owl:Class ;
                      rdfs:subClassOf mao:class:MA_principle ,
                                      [ rdf:type owl:Restriction ;
@@ -1276,7 +1276,7 @@ mao:class:honor_code rdf:type owl:Class ;
                      rdfs:label "Honor_code"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:intent_clarity
+###  http://EncodingActs.github.io/annotated/MAon/class:intent_clarity
 mao:class:intent_clarity rdf:type owl:Class ;
                          rdfs:subClassOf mao:class:MA_principle ,
                                          [ rdf:type owl:Restriction ;
@@ -1286,7 +1286,7 @@ mao:class:intent_clarity rdf:type owl:Class ;
                          rdfs:label "Fighting_strategy"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:leg_tech
+###  http://EncodingActs.github.io/annotated/MAon/class:leg_tech
 mao:class:leg_tech rdf:type owl:Class ;
                    rdfs:subClassOf mao:class:footwork ,
                                    [ rdf:type owl:Restriction ;
@@ -1296,7 +1296,7 @@ mao:class:leg_tech rdf:type owl:Class ;
                    rdfs:label "Leg_tech"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:palm_tech
+###  http://EncodingActs.github.io/annotated/MAon/class:palm_tech
 mao:class:palm_tech rdf:type owl:Class ;
                     rdfs:subClassOf mao:class:handwork ,
                                     [ rdf:type owl:Restriction ;
@@ -1310,7 +1310,7 @@ mao:class:palm_tech rdf:type owl:Class ;
                     rdfs:label "Palm_tech" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:physical_training
+###  http://EncodingActs.github.io/annotated/MAon/class:physical_training
 mao:class:physical_training rdf:type owl:Class ;
                             rdfs:subClassOf mao:class:training_method ,
                                             [ rdf:type owl:Restriction ;
@@ -1320,7 +1320,7 @@ mao:class:physical_training rdf:type owl:Class ;
                             rdfs:label "Physical_training"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:spar_training
+###  http://EncodingActs.github.io/annotated/MAon/class:spar_training
 mao:class:spar_training rdf:type owl:Class ;
                         rdfs:subClassOf mao:class:training_method ,
                                         [ rdf:type owl:Restriction ;
@@ -1330,7 +1330,7 @@ mao:class:spar_training rdf:type owl:Class ;
                         rdfs:label "Sparring"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:stance
+###  http://EncodingActs.github.io/annotated/MAon/class:stance
 mao:class:stance rdf:type owl:Class ;
                  rdfs:subClassOf mao:class:footwork ,
                                  [ rdf:type owl:Restriction ;
@@ -1345,7 +1345,7 @@ mao:class:stance rdf:type owl:Class ;
                  rdfs:label "Stance"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:symbolic_animal
+###  http://EncodingActs.github.io/annotated/MAon/class:symbolic_animal
 mao:class:symbolic_animal rdf:type owl:Class ;
                           rdfs:subClassOf mao:class:E77-persistent_item ,
                                           [ rdf:type owl:Restriction ;
@@ -1355,7 +1355,7 @@ mao:class:symbolic_animal rdf:type owl:Class ;
                           rdfs:label "Symbolic_animal"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:trainig_tool
+###  http://EncodingActs.github.io/annotated/MAon/class:trainig_tool
 mao:class:trainig_tool rdf:type owl:Class ;
                        rdfs:subClassOf mao:class:E22-man_made_obj ,
                                        [ rdf:type owl:Restriction ;
@@ -1369,7 +1369,7 @@ mao:class:trainig_tool rdf:type owl:Class ;
                        rdfs:label "Trainig_tool"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:training_method
+###  http://EncodingActs.github.io/annotated/MAon/class:training_method
 mao:class:training_method rdf:type owl:Class ;
                           rdfs:subClassOf owl:Thing ,
                                           [ rdf:type owl:Restriction ;
@@ -1387,7 +1387,7 @@ mao:class:training_method rdf:type owl:Class ;
                           rdfs:label "Training_method"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/class:weapon_tech
+###  http://EncodingActs.github.io/annotated/MAon/class:weapon_tech
 mao:class:weapon_tech rdf:type owl:Class ;
                       rdfs:subClassOf mao:class:MA_technique ,
                                       [ rdf:type owl:Restriction ;
@@ -1405,7 +1405,7 @@ mao:class:weapon_tech rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus#Southern_Chinese_Martial_Arts
+###  http://EncodingActs.github.io/annotated/MAon#Southern_Chinese_Martial_Arts
 :Southern_Chinese_Martial_Arts rdf:type owl:NamedIndividual ,
                                         mao:class:MA_system ;
                                :name_en "Southern Chinese Martial Arts" ,
@@ -1416,7 +1416,7 @@ mao:class:weapon_tech rdf:type owl:Class ;
                                rdfs:wikiURL "https://en.wikipedia.org/wiki/Styles_of_Chinese_martial_arts" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut
+###  http://EncodingActs.github.io/annotated/MAon/Choy_Li_Fut
 mao:Choy_Li_Fut rdf:type owl:NamedIndividual ,
                          mao:class:MA_system ;
                 mao:belongs_to :Southern_Chinese_Martial_Arts ;
@@ -1426,7 +1426,7 @@ mao:Choy_Li_Fut rdf:type owl:NamedIndividual ,
                 rdfs:wikiURL "https://en.wikipedia.org/wiki/Choy_Li_Fut" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Dan_Tien_focus
+###  http://EncodingActs.github.io/annotated/MAon/Dan_Tien_focus
 mao:Dan_Tien_focus rdf:type owl:NamedIndividual ,
                             mao:class:breath_cntr_mnpl ;
                    mao:used_in mao:Choy_Li_Fut ,
@@ -1437,7 +1437,7 @@ mao:Dan_Tien_focus rdf:type owl:NamedIndividual ,
                    rdfs:label "Dan_Tien_focus" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Yongchun_White_Crane
+###  http://EncodingActs.github.io/annotated/MAon/Yongchun_White_Crane
 mao:Yongchun_White_Crane rdf:type owl:NamedIndividual ,
                                 mao:class:MA_style ;
                        mao:belongs_to mao:White_Crane_Kungfu ;
@@ -1447,7 +1447,7 @@ mao:Yongchun_White_Crane rdf:type owl:NamedIndividual ,
                        rdfs:label "Yongchun_White_Crane" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/GungGee_video_OscarLam
+###  http://EncodingActs.github.io/annotated/MAon/GungGee_video_OscarLam
 mao:GungGee_video_OscarLam rdf:type owl:NamedIndividual ,
                                     mao:class:MA_book ,
                                     [ rdf:type owl:Restriction ;
@@ -1457,7 +1457,7 @@ mao:GungGee_video_OscarLam rdf:type owl:NamedIndividual ,
                            rdfs:label "GungGee_video_OscarLam" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Gung_Gee_Fook_Fu_Kuen
+###  http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen
 mao:Gung_Gee_Fook_Fu_Kuen rdf:type owl:NamedIndividual ,
                                    mao:Form_set ;
                           mao:belongs_to mao:Hung_Kuen ;
@@ -1468,12 +1468,12 @@ mao:Gung_Gee_Fook_Fu_Kuen rdf:type owl:NamedIndividual ,
                           rdfs:label "Gung_Gee_Fook_Fu_Kuen"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Hung_Kuen
+###  http://EncodingActs.github.io/annotated/MAon/Hung_Kuen
 mao:Hung_Kuen rdf:type owl:NamedIndividual ,
                        mao:class:MA_system ;
               mao:belongs_to :Southern_Chinese_Martial_Arts ;
               mao:has_principle mao:Dan_Tien_focus ,
-                                <http://EncodingActs.github.io/annotated/MAOcorpus/12_bridges> ;
+                                <http://EncodingActs.github.io/annotated/MAon/12_bridges> ;
               mao:has_symbol mao:Snake ,
                              mao:dragon ,
                              mao:leopard ,
@@ -1487,7 +1487,7 @@ mao:Hung_Kuen rdf:type owl:NamedIndividual ,
               rdfs:wikiURL "https://de.wikipedia.org/wiki/Hung_Kuen" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Lam_Family_Hung_Kuen
+###  http://EncodingActs.github.io/annotated/MAon/Lam_Family_Hung_Kuen
 mao:Lam_Family_Hung_Kuen rdf:type owl:NamedIndividual ,
                                   mao:class:MA_style ,
                                   [ rdf:type owl:Restriction ;
@@ -1500,19 +1500,19 @@ mao:Lam_Family_Hung_Kuen rdf:type owl:NamedIndividual ,
                          rdfs:label "Lam_Family_Hung_Kuen" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Lam_Sai_Wing
+###  http://EncodingActs.github.io/annotated/MAon/Lam_Sai_Wing
 mao:Lam_Sai_Wing rdf:type owl:NamedIndividual ,
                           mao:class:MA_Master ;
                  rdfs:label "Lam_Sai_Wing" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Snake
+###  http://EncodingActs.github.io/annotated/MAon/Snake
 mao:Snake rdf:type owl:NamedIndividual ,
                    mao:class:symbolic_animal ;
           rdfs:label "Snake" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/T_backfist_n_punch
+###  http://EncodingActs.github.io/annotated/MAon/T_backfist_n_punch
 mao:T_backfist_n_punch rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ;
                        mao:employs mao:backfist_n_punch_combo ,
@@ -1526,7 +1526,7 @@ mao:T_backfist_n_punch rdf:type owl:NamedIndividual ,
                        rdfs:label "T_backfist_n_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Uprightness
+###  http://EncodingActs.github.io/annotated/MAon/Uprightness
 mao:Uprightness rdf:type owl:NamedIndividual ,
                          mao:class:honor_code ;
                 mao:is mao:honest_integrity ;
@@ -1536,7 +1536,7 @@ mao:Uprightness rdf:type owl:NamedIndividual ,
                 rdfs:label "Uprightness"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/Yin_Yang
+###  http://EncodingActs.github.io/annotated/MAon/Yin_Yang
 mao:Yin_Yang rdf:type owl:NamedIndividual ,
                       mao:class:body_cntr_mnpl ;
              :name_en "Yin and Yang"@en ;
@@ -1544,7 +1544,7 @@ mao:Yin_Yang rdf:type owl:NamedIndividual ,
              rdfs:label "Yin_Yang" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/arm_lock
+###  http://EncodingActs.github.io/annotated/MAon/arm_lock
 mao:arm_lock rdf:type owl:NamedIndividual ,
                       mao:class:handwork ;
              mao:type_of mao:joint_lock ;
@@ -1553,7 +1553,7 @@ mao:arm_lock rdf:type owl:NamedIndividual ,
              rdfs:label "arm_lock" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/arm_lock_sweep
+###  http://EncodingActs.github.io/annotated/MAon/arm_lock_sweep
 mao:arm_lock_sweep rdf:type owl:NamedIndividual ,
                             mao:class:combo_tech ;
                    mao:employs mao:arm_lock ,
@@ -1568,7 +1568,7 @@ mao:arm_lock_sweep rdf:type owl:NamedIndividual ,
                    rdfs:label "arm_lock_sweep" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_control
+###  http://EncodingActs.github.io/annotated/MAon/attack_control
 mao:attack_control rdf:type owl:NamedIndividual ,
                             mao:class:MA_tactic ,
                             [ rdf:type owl:Restriction ;
@@ -1577,7 +1577,7 @@ mao:attack_control rdf:type owl:NamedIndividual ,
                             ] .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_int
+###  http://EncodingActs.github.io/annotated/MAon/attack_int
 mao:attack_int rdf:type owl:NamedIndividual ,
                         mao:class:MA_tactic ,
                         [ rdf:type owl:Restriction ;
@@ -1589,7 +1589,7 @@ mao:attack_int rdf:type owl:NamedIndividual ,
                rdfs:label "attack_int"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_subduing
+###  http://EncodingActs.github.io/annotated/MAon/attack_subduing
 mao:attack_subduing rdf:type owl:NamedIndividual ,
                              mao:class:MA_tactic ,
                              [ rdf:type owl:Restriction ;
@@ -1601,7 +1601,7 @@ mao:attack_subduing rdf:type owl:NamedIndividual ,
                     rdfs:label "attack_subdue"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/attack_while_defend
+###  http://EncodingActs.github.io/annotated/MAon/attack_while_defend
 mao:attack_while_defend rdf:type owl:NamedIndividual ,
                                  mao:class:MA_tactic ,
                                  [ rdf:type owl:Restriction ;
@@ -1613,7 +1613,7 @@ mao:attack_while_defend rdf:type owl:NamedIndividual ,
                         rdfs:label "attack_while_block"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/back_thrust_punch
+###  http://EncodingActs.github.io/annotated/MAon/back_thrust_punch
 mao:back_thrust_punch rdf:type owl:NamedIndividual ,
                                mao:class:fist_tech ;
                       mao:employs mao:spiral_arm ,
@@ -1627,7 +1627,7 @@ mao:back_thrust_punch rdf:type owl:NamedIndividual ,
                       rdfs:label "spiral_thrust_punch"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/backfist
+###  http://EncodingActs.github.io/annotated/MAon/backfist
 mao:backfist rdf:type owl:NamedIndividual ,
                       mao:class:hand_shape ;
              mao:used_in mao:Choy_Li_Fut ,
@@ -1640,7 +1640,7 @@ mao:backfist rdf:type owl:NamedIndividual ,
              rdfs:label "backfist" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/backfist_n_punch_combo
+###  http://EncodingActs.github.io/annotated/MAon/backfist_n_punch_combo
 mao:backfist_n_punch_combo rdf:type owl:NamedIndividual ,
                                     mao:class:combo_tech ;
                            mao:employs mao:body_twisting ,
@@ -1656,7 +1656,7 @@ mao:backfist_n_punch_combo rdf:type owl:NamedIndividual ,
                            rdfs:label "backfist_n_punch_combo" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/black_tiger_claw
+###  http://EncodingActs.github.io/annotated/MAon/black_tiger_claw
 mao:black_tiger_claw rdf:type owl:NamedIndividual ,
                               mao:class:claw_tech ;
                      mao:employs mao:tiger_claw ;
@@ -1668,7 +1668,7 @@ mao:black_tiger_claw rdf:type owl:NamedIndividual ,
                      rdfs:label "black_tiger_claw" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/blacktiger_punch
+###  http://EncodingActs.github.io/annotated/MAon/blacktiger_punch
 mao:blacktiger_punch rdf:type owl:NamedIndividual ,
                               mao:class:combo_tech ,
                               mao:class:fist_tech ;
@@ -1682,7 +1682,7 @@ mao:blacktiger_punch rdf:type owl:NamedIndividual ,
                      rdfs:label "blacktiger_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/blade_palm
+###  http://EncodingActs.github.io/annotated/MAon/blade_palm
 mao:blade_palm rdf:type owl:NamedIndividual ,
                         mao:class:hand_shape ;
                mao:used_in mao:Hung_Kuen ,
@@ -1695,7 +1695,7 @@ mao:blade_palm rdf:type owl:NamedIndividual ,
                rdfs:label "blade_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/block_kick
+###  http://EncodingActs.github.io/annotated/MAon/block_kick
 mao:block_kick rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
                mao:employs mao:lifting_gravity_centere ;
@@ -1708,7 +1708,7 @@ mao:block_kick rdf:type owl:NamedIndividual ,
                rdfs:label "block_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/block_n_front_kick
+###  http://EncodingActs.github.io/annotated/MAon/block_n_front_kick
 mao:block_n_front_kick rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ,
                                 mao:class:leg_tech ;
@@ -1722,7 +1722,7 @@ mao:block_n_front_kick rdf:type owl:NamedIndividual ,
                        rdfs:label "block_n_front_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/blocking_palm
+###  http://EncodingActs.github.io/annotated/MAon/blocking_palm
 mao:blocking_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
                   mao:employs mao:tiger_claw ;
@@ -1734,7 +1734,7 @@ mao:blocking_palm rdf:type owl:NamedIndividual ,
                   rdfs:label "blocking_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/blocking_palms
+###  http://EncodingActs.github.io/annotated/MAon/blocking_palms
 mao:blocking_palms rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:similar_to mao:butterfly_palm ;
@@ -1746,7 +1746,7 @@ mao:blocking_palms rdf:type owl:NamedIndividual ,
                    rdfs:label "cr_blocking_palms"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/body_twisting
+###  http://EncodingActs.github.io/annotated/MAon/body_twisting
 mao:body_twisting rdf:type owl:NamedIndividual ,
                            mao:class:bodywork ,
                            [ rdf:type owl:Restriction ;
@@ -1764,7 +1764,7 @@ mao:body_twisting rdf:type owl:NamedIndividual ,
                   rdfs:label "waist_twist"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bouncing_kick
+###  http://EncodingActs.github.io/annotated/MAon/bouncing_kick
 mao:bouncing_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -1775,7 +1775,7 @@ mao:bouncing_kick rdf:type owl:NamedIndividual ,
                   rdfs:label "bouncing_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bow_stance
+###  http://EncodingActs.github.io/annotated/MAon/bow_stance
 mao:bow_stance rdf:type owl:NamedIndividual ,
                         mao:class:stance ;
                mao:used_in mao:Choy_Li_Fut ,
@@ -1790,7 +1790,7 @@ mao:bow_stance rdf:type owl:NamedIndividual ,
                rdfs:label "bow_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/breath_regulation
+###  http://EncodingActs.github.io/annotated/MAon/breath_regulation
 mao:breath_regulation rdf:type owl:NamedIndividual ,
                                mao:class:MA_tactic ,
                                [ rdf:type owl:Restriction ;
@@ -1802,7 +1802,7 @@ mao:breath_regulation rdf:type owl:NamedIndividual ,
                       rdfs:label "breath_control"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/breathing_in
+###  http://EncodingActs.github.io/annotated/MAon/breathing_in
 mao:breathing_in rdf:type owl:NamedIndividual ,
                           mao:class:breathing_method ;
                  :name_en "Breathing in"@en ;
@@ -1811,7 +1811,7 @@ mao:breathing_in rdf:type owl:NamedIndividual ,
                  rdfs:label "breathing_in" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/breathing_out
+###  http://EncodingActs.github.io/annotated/MAon/breathing_out
 mao:breathing_out rdf:type owl:NamedIndividual ,
                            mao:class:breathing_method ;
                   :name_en "Breathing out"@en ;
@@ -1820,7 +1820,7 @@ mao:breathing_out rdf:type owl:NamedIndividual ,
                   rdfs:label "breathing_out" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/brushing_palm
+###  http://EncodingActs.github.io/annotated/MAon/brushing_palm
 mao:brushing_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -1831,7 +1831,7 @@ mao:brushing_palm rdf:type owl:NamedIndividual ,
                   rdfs:label "brushing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bullhorn_fist
+###  http://EncodingActs.github.io/annotated/MAon/bullhorn_fist
 mao:bullhorn_fist rdf:type owl:NamedIndividual ,
                            mao:class:hand_shape ;
                   mao:used_in mao:Choy_Li_Fut ,
@@ -1845,7 +1845,7 @@ mao:bullhorn_fist rdf:type owl:NamedIndividual ,
                   rdfs:label "bull_horn_fist"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bullhorn_punch
+###  http://EncodingActs.github.io/annotated/MAon/bullhorn_punch
 mao:bullhorn_punch rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
                    owl:sameAs mao:hook_punch ;
@@ -1860,9 +1860,9 @@ mao:bullhorn_punch rdf:type owl:NamedIndividual ,
                    rdfs:label "h_bullhorn_punch"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hook_punch
+###  http://EncodingActs.github.io/annotated/MAon/hook_punch
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bullhorn_uppercut
+###  http://EncodingActs.github.io/annotated/MAon/bullhorn_uppercut
 mao:bullhorn_uppercut rdf:type owl:NamedIndividual ,
                                mao:class:combo_tech ;
                       mao:employs mao:bullhorn_punch ,
@@ -1876,7 +1876,7 @@ mao:bullhorn_uppercut rdf:type owl:NamedIndividual ,
                       rdfs:label "bullhorn_uppercut" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bumping_kick
+###  http://EncodingActs.github.io/annotated/MAon/bumping_kick
 mao:bumping_kick rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
                  mao:used_in mao:White_Crane_Kungfu ;
@@ -1887,7 +1887,7 @@ mao:bumping_kick rdf:type owl:NamedIndividual ,
                  rdfs:label "bumping_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/butterfly_palm
+###  http://EncodingActs.github.io/annotated/MAon/butterfly_palm
 mao:butterfly_palm rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:grappling_palm ,
@@ -1902,7 +1902,7 @@ mao:butterfly_palm rdf:type owl:NamedIndividual ,
                    rdfs:label "butterfly_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/bw_unicorn_stance
+###  http://EncodingActs.github.io/annotated/MAon/bw_unicorn_stance
 mao:bw_unicorn_stance rdf:type owl:NamedIndividual ,
                                mao:class:stance ;
                       mao:similar_to mao:unicorn_steps ;
@@ -1914,7 +1914,7 @@ mao:bw_unicorn_stance rdf:type owl:NamedIndividual ,
                       rdfs:label "steal_step"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cat_stance
+###  http://EncodingActs.github.io/annotated/MAon/cat_stance
 mao:cat_stance rdf:type owl:NamedIndividual ,
                         mao:class:stance ;
                mao:used_in mao:Choy_Li_Fut ,
@@ -1930,7 +1930,7 @@ mao:cat_stance rdf:type owl:NamedIndividual ,
                rdfs:label "cat_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cat_to_bow_stance
+###  http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance
 mao:cat_to_bow_stance rdf:type owl:NamedIndividual ,
                                mao:class:bodywork ,
                                [ rdf:type owl:Restriction ;
@@ -1946,7 +1946,7 @@ mao:cat_to_bow_stance rdf:type owl:NamedIndividual ,
                       rdfs:label "cat_to_bow_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/catch_n_whip
+###  http://EncodingActs.github.io/annotated/MAon/catch_n_whip
 mao:catch_n_whip rdf:type owl:NamedIndividual ,
                           mao:class:combo_tech ,
                           mao:class:fist_tech ;
@@ -1960,7 +1960,7 @@ mao:catch_n_whip rdf:type owl:NamedIndividual ,
                  rdfs:label "catch_n_whip" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/chlf_hook_punch
+###  http://EncodingActs.github.io/annotated/MAon/chlf_hook_punch
 mao:chlf_hook_punch rdf:type owl:NamedIndividual ,
                              mao:class:fist_tech ;
                     mao:employs mao:knocking_fist ;
@@ -1974,7 +1974,7 @@ mao:chlf_hook_punch rdf:type owl:NamedIndividual ,
                     rdfs:label "chlf_hook_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/choy_throwing_punch
+###  http://EncodingActs.github.io/annotated/MAon/choy_throwing_punch
 mao:choy_throwing_punch rdf:type owl:NamedIndividual ,
                                  mao:class:fist_tech ;
                         mao:employs mao:body_twisting ,
@@ -1988,7 +1988,7 @@ mao:choy_throwing_punch rdf:type owl:NamedIndividual ,
                         rdfs:label "chlf_throwing_punch"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cirling_palm
+###  http://EncodingActs.github.io/annotated/MAon/cirling_palm
 mao:cirling_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:used_in mao:White_Crane_Kungfu ;
@@ -1999,7 +1999,7 @@ mao:cirling_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "cirling_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/claw_palm
+###  http://EncodingActs.github.io/annotated/MAon/claw_palm
 mao:claw_palm rdf:type owl:NamedIndividual ,
                        mao:class:hand_shape ;
               mao:used_in mao:Choy_Li_Fut ,
@@ -2012,7 +2012,7 @@ mao:claw_palm rdf:type owl:NamedIndividual ,
               rdfs:label "claw_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/clipping_fists
+###  http://EncodingActs.github.io/annotated/MAon/clipping_fists
 mao:clipping_fists rdf:type owl:NamedIndividual ,
                             mao:class:combo_tech ,
                             mao:class:fist_tech ;
@@ -2029,7 +2029,7 @@ mao:clipping_fists rdf:type owl:NamedIndividual ,
                    rdfs:label "clipping_fists" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/closed_body
+###  http://EncodingActs.github.io/annotated/MAon/closed_body
 mao:closed_body rdf:type owl:NamedIndividual ,
                          mao:class:bodywork ,
                          [ rdf:type owl:Restriction ;
@@ -2043,7 +2043,7 @@ mao:closed_body rdf:type owl:NamedIndividual ,
                 rdfs:label "closed_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/closing_distance
+###  http://EncodingActs.github.io/annotated/MAon/closing_distance
 mao:closing_distance rdf:type owl:NamedIndividual ,
                               mao:class:MA_tactic ,
                               [ rdf:type owl:Restriction ;
@@ -2055,7 +2055,7 @@ mao:closing_distance rdf:type owl:NamedIndividual ,
                      rdfs:label "distance_closing"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/covering_palm
+###  http://EncodingActs.github.io/annotated/MAon/covering_palm
 mao:covering_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -2066,7 +2066,7 @@ mao:covering_palm rdf:type owl:NamedIndividual ,
                   rdfs:label "covering_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cr_cutting_palm
+###  http://EncodingActs.github.io/annotated/MAon/cr_cutting_palm
 mao:cr_cutting_palm rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
                     mao:employs mao:willow_leaf_palm ;
@@ -2079,7 +2079,7 @@ mao:cr_cutting_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "cr_cutting_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cr_whip_punch
+###  http://EncodingActs.github.io/annotated/MAon/cr_whip_punch
 mao:cr_whip_punch rdf:type owl:NamedIndividual ,
                            mao:class:fist_tech ;
                   mao:similar_to mao:sky_hammer ;
@@ -2091,7 +2091,7 @@ mao:cr_whip_punch rdf:type owl:NamedIndividual ,
                   rdfs:label "cr_whip_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crane_beak
+###  http://EncodingActs.github.io/annotated/MAon/crane_beak
 mao:crane_beak rdf:type owl:NamedIndividual ,
                         mao:class:hand_shape ;
                mao:used_in mao:White_Crane_Kungfu ;
@@ -2103,7 +2103,7 @@ mao:crane_beak rdf:type owl:NamedIndividual ,
                rdfs:label "crane_beak" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crane_claw_palm
+###  http://EncodingActs.github.io/annotated/MAon/crane_claw_palm
 mao:crane_claw_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
                     mao:used_in mao:White_Crane_Kungfu ;
@@ -2114,7 +2114,7 @@ mao:crane_claw_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "crane_claw_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crane_head_palm
+###  http://EncodingActs.github.io/annotated/MAon/crane_head_palm
 mao:crane_head_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
                     mao:used_in mao:White_Crane_Kungfu ;
@@ -2125,7 +2125,7 @@ mao:crane_head_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "crane_head_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crane_kick
+###  http://EncodingActs.github.io/annotated/MAon/crane_kick
 mao:crane_kick rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
                mao:used_in mao:White_Crane_Kungfu ;
@@ -2137,7 +2137,7 @@ mao:crane_kick rdf:type owl:NamedIndividual ,
                rdfs:label "crane_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crane_wing_palm
+###  http://EncodingActs.github.io/annotated/MAon/crane_wing_palm
 mao:crane_wing_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
                     mao:used_in mao:White_Crane_Kungfu ;
@@ -2150,7 +2150,7 @@ mao:crane_wing_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "crane_wing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crest_throwing_hammers
+###  http://EncodingActs.github.io/annotated/MAon/crest_throwing_hammers
 mao:crest_throwing_hammers rdf:type owl:NamedIndividual ,
                                     mao:class:combo_tech ,
                                     mao:class:fist_tech ;
@@ -2166,7 +2166,7 @@ mao:crest_throwing_hammers rdf:type owl:NamedIndividual ,
                            rdfs:label "crest_throwing_hammers" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cross_punch
+###  http://EncodingActs.github.io/annotated/MAon/cross_punch
 mao:cross_punch rdf:type owl:NamedIndividual ,
                          mao:class:fist_tech ;
                 mao:employs mao:crossing_bridge ,
@@ -2181,7 +2181,7 @@ mao:cross_punch rdf:type owl:NamedIndividual ,
                 rdfs:label "cross_knife_strike"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crossing_bridge
+###  http://EncodingActs.github.io/annotated/MAon/crossing_bridge
 mao:crossing_bridge rdf:type owl:NamedIndividual ,
                              mao:class:body_bridge ;
                     mao:used_in mao:Choy_Li_Fut ,
@@ -2196,7 +2196,7 @@ mao:crossing_bridge rdf:type owl:NamedIndividual ,
                     rdfs:label "crossing_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/crossing_kick
+###  http://EncodingActs.github.io/annotated/MAon/crossing_kick
 mao:crossing_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -2207,7 +2207,7 @@ mao:crossing_kick rdf:type owl:NamedIndividual ,
                   rdfs:label "crossing_leg"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/curving_leg
+###  http://EncodingActs.github.io/annotated/MAon/curving_leg
 mao:curving_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
                 mao:used_in mao:White_Crane_Kungfu ;
@@ -2218,7 +2218,7 @@ mao:curving_leg rdf:type owl:NamedIndividual ,
                 rdfs:label "curving_leg" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/curving_palm
+###  http://EncodingActs.github.io/annotated/MAon/curving_palm
 mao:curving_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:employs mao:crossing_bridge ,
@@ -2231,7 +2231,7 @@ mao:curving_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "curving_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cut_n_block_palm
+###  http://EncodingActs.github.io/annotated/MAon/cut_n_block_palm
 mao:cut_n_block_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
                      mao:employs mao:blocking_palm ,
@@ -2245,7 +2245,7 @@ mao:cut_n_block_palm rdf:type owl:NamedIndividual ,
                      rdfs:label "cut_n_block_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/cutting_elbow
+###  http://EncodingActs.github.io/annotated/MAon/cutting_elbow
 mao:cutting_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -2256,13 +2256,13 @@ mao:cutting_elbow rdf:type owl:NamedIndividual ,
                   rdfs:label "cutting_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dan_ranking
+###  http://EncodingActs.github.io/annotated/MAon/dan_ranking
 mao:dan_ranking rdf:type owl:NamedIndividual ,
                          mao:class:grading_system ;
                 rdfs:label "Dan_ranking" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_blocking_palm
+###  http://EncodingActs.github.io/annotated/MAon/db_blocking_palm
 mao:db_blocking_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
                      mao:employs mao:blocking_palm ;
@@ -2274,7 +2274,7 @@ mao:db_blocking_palm rdf:type owl:NamedIndividual ,
                      rdfs:label "db_blocking_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_bow_palm
+###  http://EncodingActs.github.io/annotated/MAon/db_bow_palm
 mao:db_bow_palm rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
                 mao:employs mao:flat_palm ,
@@ -2289,7 +2289,7 @@ mao:db_bow_palm rdf:type owl:NamedIndividual ,
                 rdfs:label "db_bow_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_claw_bw
+###  http://EncodingActs.github.io/annotated/MAon/db_claw_bw
 mao:db_claw_bw rdf:type owl:NamedIndividual ,
                         mao:class:claw_tech ,
                         mao:class:combo_tech ;
@@ -2305,7 +2305,7 @@ mao:db_claw_bw rdf:type owl:NamedIndividual ,
                rdfs:label "db_claw_bw" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_cr_cutting_palm
+###  http://EncodingActs.github.io/annotated/MAon/db_cr_cutting_palm
 mao:db_cr_cutting_palm rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:cr_cutting_palm ;
@@ -2317,7 +2317,7 @@ mao:db_cr_cutting_palm rdf:type owl:NamedIndividual ,
                        rdfs:label "db_cr_cutting_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_curving_palm
+###  http://EncodingActs.github.io/annotated/MAon/db_curving_palm
 mao:db_curving_palm rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
                     mao:employs mao:curving_palm ;
@@ -2329,7 +2329,7 @@ mao:db_curving_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "db_curving_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_hanging_hammer
+###  http://EncodingActs.github.io/annotated/MAon/db_hanging_hammer
 mao:db_hanging_hammer rdf:type owl:NamedIndividual ,
                                mao:class:fist_tech ;
                       mao:employs mao:hanging_hammer ;
@@ -2340,7 +2340,7 @@ mao:db_hanging_hammer rdf:type owl:NamedIndividual ,
                       rdfs:label "db_hanging_hammer" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_inch_bridges
+###  http://EncodingActs.github.io/annotated/MAon/db_inch_bridges
 mao:db_inch_bridges rdf:type owl:NamedIndividual ,
                              mao:class:body_bridge ;
                     mao:employs mao:finger_hand ,
@@ -2355,7 +2355,7 @@ mao:db_inch_bridges rdf:type owl:NamedIndividual ,
                     rdfs:label "db_inch_bridges" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_splitting_palms
+###  http://EncodingActs.github.io/annotated/MAon/db_splitting_palms
 mao:db_splitting_palms rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:splitting_palm ;
@@ -2368,7 +2368,7 @@ mao:db_splitting_palms rdf:type owl:NamedIndividual ,
                        rdfs:label "db_splitting_palms" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_spreading_wings
+###  http://EncodingActs.github.io/annotated/MAon/db_spreading_wings
 mao:db_spreading_wings rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:covering_palm ,
@@ -2381,7 +2381,7 @@ mao:db_spreading_wings rdf:type owl:NamedIndividual ,
                        rdfs:label "db_spreading_wings" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_subduing_palms
+###  http://EncodingActs.github.io/annotated/MAon/db_subduing_palms
 mao:db_subduing_palms rdf:type owl:NamedIndividual ,
                                mao:class:palm_tech ;
                       mao:employs mao:subduing_palm ;
@@ -2393,7 +2393,7 @@ mao:db_subduing_palms rdf:type owl:NamedIndividual ,
                       rdfs:label "db_subduing_palms" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_swing_palms
+###  http://EncodingActs.github.io/annotated/MAon/db_swing_palms
 mao:db_swing_palms rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:swing_palm ;
@@ -2405,7 +2405,7 @@ mao:db_swing_palms rdf:type owl:NamedIndividual ,
                    rdfs:label "db_swing_palms" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_thrust_palm
+###  http://EncodingActs.github.io/annotated/MAon/db_thrust_palm
 mao:db_thrust_palm rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:reverse_palm ;
@@ -2418,7 +2418,7 @@ mao:db_thrust_palm rdf:type owl:NamedIndividual ,
                    rdfs:label "db_thrust_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_uw_forcing_palms
+###  http://EncodingActs.github.io/annotated/MAon/db_uw_forcing_palms
 mao:db_uw_forcing_palms rdf:type owl:NamedIndividual ,
                                  mao:class:palm_tech ;
                         mao:employs mao:uw_forcing_palm ;
@@ -2431,7 +2431,7 @@ mao:db_uw_forcing_palms rdf:type owl:NamedIndividual ,
                         rdfs:label "db_uw_forcing_palms" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/db_vertical_thrust
+###  http://EncodingActs.github.io/annotated/MAon/db_vertical_thrust
 mao:db_vertical_thrust rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:willow_leaf_palm ;
@@ -2443,7 +2443,7 @@ mao:db_vertical_thrust rdf:type owl:NamedIndividual ,
                        rdfs:label "db_vertical_thrust" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dbsquare_hammer
+###  http://EncodingActs.github.io/annotated/MAon/dbsquare_hammer
 mao:dbsquare_hammer rdf:type owl:NamedIndividual ,
                              mao:class:fist_tech ;
                     mao:employs mao:forefist ;
@@ -2456,7 +2456,7 @@ mao:dbsquare_hammer rdf:type owl:NamedIndividual ,
                     rdfs:label "verticalfist_hammer"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/defense_block
+###  http://EncodingActs.github.io/annotated/MAon/defense_block
 mao:defense_block rdf:type owl:NamedIndividual ,
                            mao:class:MA_tactic ,
                            [ rdf:type owl:Restriction ;
@@ -2468,7 +2468,7 @@ mao:defense_block rdf:type owl:NamedIndividual ,
                   rdfs:label "defend_block"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/defense_dodge
+###  http://EncodingActs.github.io/annotated/MAon/defense_dodge
 mao:defense_dodge rdf:type owl:NamedIndividual ,
                            mao:class:MA_tactic ,
                            [ rdf:type owl:Restriction ;
@@ -2480,7 +2480,7 @@ mao:defense_dodge rdf:type owl:NamedIndividual ,
                   rdfs:label "defend_dodge"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/descend_elbow
+###  http://EncodingActs.github.io/annotated/MAon/descend_elbow
 mao:descend_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
                   mao:used_in mao:Hung_Kuen ;
@@ -2491,7 +2491,7 @@ mao:descend_elbow rdf:type owl:NamedIndividual ,
                   rdfs:label "descend_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/distance_management
+###  http://EncodingActs.github.io/annotated/MAon/distance_management
 mao:distance_management rdf:type owl:NamedIndividual ,
                                  mao:class:MA_tactic ,
                                  [ rdf:type owl:Restriction ;
@@ -2500,7 +2500,7 @@ mao:distance_management rdf:type owl:NamedIndividual ,
                                  ] .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/divide_punch
+###  http://EncodingActs.github.io/annotated/MAon/divide_punch
 mao:divide_punch rdf:type owl:NamedIndividual ,
                           mao:class:fist_tech ;
                  mao:employs mao:side_punch ;
@@ -2515,7 +2515,7 @@ mao:divide_punch rdf:type owl:NamedIndividual ,
                  rdfs:label "divide_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dividing_bridge
+###  http://EncodingActs.github.io/annotated/MAon/dividing_bridge
 mao:dividing_bridge rdf:type owl:NamedIndividual ,
                              mao:class:body_bridge ;
                     mao:used_in mao:Hung_Kuen ;
@@ -2527,7 +2527,7 @@ mao:dividing_bridge rdf:type owl:NamedIndividual ,
                     rdfs:label "dividing_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dodging_body
+###  http://EncodingActs.github.io/annotated/MAon/dodging_body
 mao:dodging_body rdf:type owl:NamedIndividual ,
                           mao:class:bodywork ,
                           [ rdf:type owl:Restriction ;
@@ -2542,7 +2542,7 @@ mao:dodging_body rdf:type owl:NamedIndividual ,
                  rdfs:label "dodging_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/double_claws
+###  http://EncodingActs.github.io/annotated/MAon/double_claws
 mao:double_claws rdf:type owl:NamedIndividual ,
                           mao:class:claw_tech ;
                  mao:employs mao:tiger_claw ;
@@ -2554,7 +2554,7 @@ mao:double_claws rdf:type owl:NamedIndividual ,
                  rdfs:label "double_claws" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dragging_palm
+###  http://EncodingActs.github.io/annotated/MAon/dragging_palm
 mao:dragging_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -2565,13 +2565,13 @@ mao:dragging_palm rdf:type owl:NamedIndividual ,
                   rdfs:label "dragging_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dragon
+###  http://EncodingActs.github.io/annotated/MAon/dragon
 mao:dragon rdf:type owl:NamedIndividual ,
                     mao:class:symbolic_animal ;
            rdfs:label "Dragon" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dragon_wagging
+###  http://EncodingActs.github.io/annotated/MAon/dragon_wagging
 mao:dragon_wagging rdf:type owl:NamedIndividual ,
                             mao:class:combo_tech ;
                    mao:employs mao:hanging_hammer ,
@@ -2584,7 +2584,7 @@ mao:dragon_wagging rdf:type owl:NamedIndividual ,
                    rdfs:label "dragon_wagging" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/dw_block_n_target_hand
+###  http://EncodingActs.github.io/annotated/MAon/dw_block_n_target_hand
 mao:dw_block_n_target_hand rdf:type owl:NamedIndividual ,
                                     mao:class:combo_tech ,
                                     mao:class:handwork ;
@@ -2600,7 +2600,7 @@ mao:dw_block_n_target_hand rdf:type owl:NamedIndividual ,
                            rdfs:label "dw_block_n_target_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/elbow_slap_fist
+###  http://EncodingActs.github.io/annotated/MAon/elbow_slap_fist
 mao:elbow_slap_fist rdf:type owl:NamedIndividual ,
                              mao:class:combo_tech ;
                     mao:employs mao:hanging_hammer ,
@@ -2614,7 +2614,7 @@ mao:elbow_slap_fist rdf:type owl:NamedIndividual ,
                     rdfs:label "elbow_slap_fist" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/extending_hand
+###  http://EncodingActs.github.io/annotated/MAon/extending_hand
 mao:extending_hand rdf:type owl:NamedIndividual ,
                             mao:class:body_bridge ;
                    mao:used_in mao:Hung_Kuen ;
@@ -2625,7 +2625,7 @@ mao:extending_hand rdf:type owl:NamedIndividual ,
                    rdfs:label "extending_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/f_elbow_n_sna_hand
+###  http://EncodingActs.github.io/annotated/MAon/f_elbow_n_sna_hand
 mao:f_elbow_n_sna_hand rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ;
                        mao:employs mao:forcing_elbow ,
@@ -2638,7 +2638,7 @@ mao:f_elbow_n_sna_hand rdf:type owl:NamedIndividual ,
                        rdfs:label "f_elbow_n_sna_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/facing_sun_palm
+###  http://EncodingActs.github.io/annotated/MAon/facing_sun_palm
 mao:facing_sun_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
                     mao:represents mao:Uprightness ;
@@ -2654,7 +2654,7 @@ mao:facing_sun_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "facing_sun_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/finger_hand
+###  http://EncodingActs.github.io/annotated/MAon/finger_hand
 mao:finger_hand rdf:type owl:NamedIndividual ,
                          mao:class:hand_shape ;
                 mao:used_in mao:Hung_Kuen ;
@@ -2667,7 +2667,7 @@ mao:finger_hand rdf:type owl:NamedIndividual ,
                 rdfs:label "finger_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/fishing_hand
+###  http://EncodingActs.github.io/annotated/MAon/fishing_hand
 mao:fishing_hand rdf:type owl:NamedIndividual ,
                           mao:class:hand_shape ;
                  mao:used_in mao:Choy_Li_Fut ,
@@ -2681,7 +2681,7 @@ mao:fishing_hand rdf:type owl:NamedIndividual ,
                  rdfs:label "fishing_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/flat_palm
+###  http://EncodingActs.github.io/annotated/MAon/flat_palm
 mao:flat_palm rdf:type owl:NamedIndividual ,
                        mao:class:hand_shape ;
               mao:used_in mao:Hung_Kuen ,
@@ -2693,7 +2693,7 @@ mao:flat_palm rdf:type owl:NamedIndividual ,
               rdfs:label "palm"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/forcing_bridge
+###  http://EncodingActs.github.io/annotated/MAon/forcing_bridge
 mao:forcing_bridge rdf:type owl:NamedIndividual ,
                             mao:class:body_bridge ;
                    mao:used_in mao:Hung_Kuen ;
@@ -2705,7 +2705,7 @@ mao:forcing_bridge rdf:type owl:NamedIndividual ,
                    rdfs:label "forcing_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/forcing_elbow
+###  http://EncodingActs.github.io/annotated/MAon/forcing_elbow
 mao:forcing_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
                   mao:used_in mao:Hung_Kuen ;
@@ -2717,7 +2717,7 @@ mao:forcing_elbow rdf:type owl:NamedIndividual ,
                   rdfs:label "forcing_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/fore_knuckle_fist
+###  http://EncodingActs.github.io/annotated/MAon/fore_knuckle_fist
 mao:fore_knuckle_fist rdf:type owl:NamedIndividual ,
                                mao:class:hand_shape ;
                       mao:used_in mao:Choy_Li_Fut ,
@@ -2732,7 +2732,7 @@ mao:fore_knuckle_fist rdf:type owl:NamedIndividual ,
                       rdfs:label "fore_knuckle_fist" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/forefist
+###  http://EncodingActs.github.io/annotated/MAon/forefist
 mao:forefist rdf:type owl:NamedIndividual ,
                       mao:class:hand_shape ;
              mao:used_in mao:Choy_Li_Fut ,
@@ -2745,7 +2745,7 @@ mao:forefist rdf:type owl:NamedIndividual ,
              rdfs:label "forefist"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/front_block_hands
+###  http://EncodingActs.github.io/annotated/MAon/front_block_hands
 mao:front_block_hands rdf:type owl:NamedIndividual ,
                                mao:class:combo_tech ;
                       mao:employs mao:blocking_palm ,
@@ -2759,7 +2759,7 @@ mao:front_block_hands rdf:type owl:NamedIndividual ,
                       rdfs:label "front_block_hands" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/front_kick
+###  http://EncodingActs.github.io/annotated/MAon/front_kick
 mao:front_kick rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
                mao:used_in mao:Hung_Kuen ,
@@ -2775,7 +2775,7 @@ mao:front_kick rdf:type owl:NamedIndividual ,
                rdfs:label "lifting_kick"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/fw_face_body
+###  http://EncodingActs.github.io/annotated/MAon/fw_face_body
 mao:fw_face_body rdf:type owl:NamedIndividual ,
                           mao:class:bodywork ,
                           [ rdf:type owl:Restriction ;
@@ -2792,7 +2792,7 @@ mao:fw_face_body rdf:type owl:NamedIndividual ,
                  rdfs:label "fw_face_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/grappling_claw
+###  http://EncodingActs.github.io/annotated/MAon/grappling_claw
 mao:grappling_claw rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:tiger_claw ;
@@ -2804,7 +2804,7 @@ mao:grappling_claw rdf:type owl:NamedIndividual ,
                    rdfs:label "arm_drag_claw"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/grappling_palm
+###  http://EncodingActs.github.io/annotated/MAon/grappling_palm
 mao:grappling_palm rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:crossing_bridge ,
@@ -2817,7 +2817,7 @@ mao:grappling_palm rdf:type owl:NamedIndividual ,
                    rdfs:label "palm_pullback"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/gripping_leg
+###  http://EncodingActs.github.io/annotated/MAon/gripping_leg
 mao:gripping_leg rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
                  mao:used_in mao:White_Crane_Kungfu ;
@@ -2828,7 +2828,7 @@ mao:gripping_leg rdf:type owl:NamedIndividual ,
                  rdfs:label "gripping_leg" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hang_block_knuckle
+###  http://EncodingActs.github.io/annotated/MAon/hang_block_knuckle
 mao:hang_block_knuckle rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ;
                        mao:employs mao:hanging_hammer ,
@@ -2842,7 +2842,7 @@ mao:hang_block_knuckle rdf:type owl:NamedIndividual ,
                        rdfs:label "hang_block_knuckle" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hanging_hammer
+###  http://EncodingActs.github.io/annotated/MAon/hanging_hammer
 mao:hanging_hammer rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
                    mao:employs mao:backfist ,
@@ -2857,7 +2857,7 @@ mao:hanging_hammer rdf:type owl:NamedIndividual ,
                    rdfs:label "hanging_hammer" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hanging_n_chop
+###  http://EncodingActs.github.io/annotated/MAon/hanging_n_chop
 mao:hanging_n_chop rdf:type owl:NamedIndividual ,
                             mao:class:combo_tech ;
                    mao:employs mao:hanging_hammer ,
@@ -2873,7 +2873,7 @@ mao:hanging_n_chop rdf:type owl:NamedIndividual ,
                    rdfs:label "hanging_n_chop" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hard_bridge
+###  http://EncodingActs.github.io/annotated/MAon/hard_bridge
 mao:hard_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Hardness"@en ;
@@ -2881,7 +2881,7 @@ mao:hard_bridge rdf:type owl:NamedIndividual ,
                 rdfs:label "hard_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hold_stamp_palms
+###  http://EncodingActs.github.io/annotated/MAon/hold_stamp_palms
 mao:hold_stamp_palms rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
                      mao:used_in mao:White_Crane_Kungfu ;
@@ -2892,7 +2892,7 @@ mao:hold_stamp_palms rdf:type owl:NamedIndividual ,
                      rdfs:label "cr_holding_palms"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/holding_breath
+###  http://EncodingActs.github.io/annotated/MAon/holding_breath
 mao:holding_breath rdf:type owl:NamedIndividual ,
                             mao:class:breathing_method ;
                    :name_en "Holding the breath"@en ;
@@ -2900,7 +2900,7 @@ mao:holding_breath rdf:type owl:NamedIndividual ,
                    rdfs:label "holding_breath" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/holding_leg
+###  http://EncodingActs.github.io/annotated/MAon/holding_leg
 mao:holding_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
                 mao:used_in mao:White_Crane_Kungfu ;
@@ -2911,7 +2911,7 @@ mao:holding_leg rdf:type owl:NamedIndividual ,
                 rdfs:label "holding_leg" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/holding_palm
+###  http://EncodingActs.github.io/annotated/MAon/holding_palm
 mao:holding_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:used_in mao:Hung_Kuen ,
@@ -2923,7 +2923,7 @@ mao:holding_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "holding_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/honest_integrity
+###  http://EncodingActs.github.io/annotated/MAon/honest_integrity
 mao:honest_integrity rdf:type owl:NamedIndividual ,
                               mao:class:honor_code ;
                      :name_en "Virtue"@en ;
@@ -2931,7 +2931,7 @@ mao:honest_integrity rdf:type owl:NamedIndividual ,
                      rdfs:label "Virtue"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hook_punch
+###  http://EncodingActs.github.io/annotated/MAon/hook_punch
 mao:hook_punch rdf:type owl:NamedIndividual ,
                         mao:class:fist_tech ;
                mao:employs mao:bullhorn_fist ;
@@ -2945,7 +2945,7 @@ mao:hook_punch rdf:type owl:NamedIndividual ,
                rdfs:label "hook_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/hook_sweep
+###  http://EncodingActs.github.io/annotated/MAon/hook_sweep
 mao:hook_sweep rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
                mao:used_in mao:Hung_Kuen ;
@@ -2957,7 +2957,7 @@ mao:hook_sweep rdf:type owl:NamedIndividual ,
                rdfs:label "hook_sweep" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/horizontal_buddha_palm
+###  http://EncodingActs.github.io/annotated/MAon/horizontal_buddha_palm
 mao:horizontal_buddha_palm rdf:type owl:NamedIndividual ,
                                     mao:class:hand_shape ;
                            mao:type_of mao:flat_palm ;
@@ -2967,7 +2967,7 @@ mao:horizontal_buddha_palm rdf:type owl:NamedIndividual ,
                            rdfs:label "horizontal_buddha_palm"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/horizontal_palm_strike
+###  http://EncodingActs.github.io/annotated/MAon/horizontal_palm_strike
 mao:horizontal_palm_strike rdf:type owl:NamedIndividual ,
                                     mao:class:palm_tech ;
                            mao:employs mao:horizontal_buddha_palm ;
@@ -2981,7 +2981,7 @@ mao:horizontal_palm_strike rdf:type owl:NamedIndividual ,
                            rdfs:label "horizontal_palm_strike" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/horse_stance
+###  http://EncodingActs.github.io/annotated/MAon/horse_stance
 mao:horse_stance rdf:type owl:NamedIndividual ,
                           mao:class:stance ;
                  mao:similar_to mao:out_horse_stance ;
@@ -2994,7 +2994,7 @@ mao:horse_stance rdf:type owl:NamedIndividual ,
                  rdfs:label "fw_horse_stance"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/horse_to_bow_stance
+###  http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance
 mao:horse_to_bow_stance rdf:type owl:NamedIndividual ,
                                  mao:class:bodywork ,
                                  [ rdf:type owl:Restriction ;
@@ -3010,7 +3010,7 @@ mao:horse_to_bow_stance rdf:type owl:NamedIndividual ,
                         rdfs:label "horse_to_bow_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/inch_body
+###  http://EncodingActs.github.io/annotated/MAon/inch_body
 mao:inch_body rdf:type owl:NamedIndividual ,
                        mao:class:bodywork ,
                        [ rdf:type owl:Restriction ;
@@ -3025,7 +3025,7 @@ mao:inch_body rdf:type owl:NamedIndividual ,
               rdfs:label "inch_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/inch_bridge
+###  http://EncodingActs.github.io/annotated/MAon/inch_bridge
 mao:inch_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Inch"@en ;
@@ -3034,13 +3034,13 @@ mao:inch_bridge rdf:type owl:NamedIndividual ,
                 rdfs:label "inch_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/intent_clarity
+###  http://EncodingActs.github.io/annotated/MAon/intent_clarity
 mao:intent_clarity rdf:type owl:NamedIndividual ,
                             mao:class:intent_clarity ;
                    rdfs:label "intent_clarity" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/inward_sweep
+###  http://EncodingActs.github.io/annotated/MAon/inward_sweep
 mao:inward_sweep rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
                  mao:similar_to mao:hook_sweep ;
@@ -3052,7 +3052,7 @@ mao:inward_sweep rdf:type owl:NamedIndividual ,
                  rdfs:label "inward_sweep" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/joint_lock
+###  http://EncodingActs.github.io/annotated/MAon/joint_lock
 mao:joint_lock rdf:type owl:NamedIndividual ,
                         mao:class:handwork ;
                :name_en "Joint lock"@en ;
@@ -3062,7 +3062,7 @@ mao:joint_lock rdf:type owl:NamedIndividual ,
                rdfs:label "joint_lock" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/jumping
+###  http://EncodingActs.github.io/annotated/MAon/jumping
 mao:jumping rdf:type owl:NamedIndividual ,
                      mao:class:bodywork ,
                      [ rdf:type owl:Restriction ;
@@ -3079,7 +3079,7 @@ mao:jumping rdf:type owl:NamedIndividual ,
             rdfs:label "jumping" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/knocking_fist
+###  http://EncodingActs.github.io/annotated/MAon/knocking_fist
 mao:knocking_fist rdf:type owl:NamedIndividual ,
                            mao:class:hand_shape ;
                   mao:used_in mao:Choy_Li_Fut ,
@@ -3095,7 +3095,7 @@ mao:knocking_fist rdf:type owl:NamedIndividual ,
                   rdfs:label "nailing_fist"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/latch_fist
+###  http://EncodingActs.github.io/annotated/MAon/latch_fist
 mao:latch_fist rdf:type owl:NamedIndividual ,
                         mao:class:combo_tech ,
                         mao:class:fist_tech ;
@@ -3112,7 +3112,7 @@ mao:latch_fist rdf:type owl:NamedIndividual ,
                rdfs:label "latch_fist"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/leaning_body
+###  http://EncodingActs.github.io/annotated/MAon/leaning_body
 mao:leaning_body rdf:type owl:NamedIndividual ,
                           mao:class:bodywork ,
                           [ rdf:type owl:Restriction ;
@@ -3127,7 +3127,7 @@ mao:leaning_body rdf:type owl:NamedIndividual ,
                  rdfs:label "fw_leaning_body"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/leg_sweep
+###  http://EncodingActs.github.io/annotated/MAon/leg_sweep
 mao:leg_sweep rdf:type owl:NamedIndividual ,
                        mao:class:leg_tech ;
               mao:used_in mao:Choy_Li_Fut ,
@@ -3142,13 +3142,13 @@ mao:leg_sweep rdf:type owl:NamedIndividual ,
               rdfs:seeAlso <https://en.wikipedia.org/wiki/Sweep_(martial_arts)> .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/leopard
+###  http://EncodingActs.github.io/annotated/MAon/leopard
 mao:leopard rdf:type owl:NamedIndividual ,
                      mao:class:symbolic_animal ;
             rdfs:label "Leopard" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/leopard_palm
+###  http://EncodingActs.github.io/annotated/MAon/leopard_palm
 mao:leopard_palm rdf:type owl:NamedIndividual ,
                           mao:class:hand_shape ;
                  mao:used_in mao:Choy_Li_Fut ;
@@ -3161,7 +3161,7 @@ mao:leopard_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "leopard_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/lifting_body
+###  http://EncodingActs.github.io/annotated/MAon/lifting_body
 mao:lifting_body rdf:type owl:NamedIndividual ,
                           mao:class:bodywork ,
                           [ rdf:type owl:Restriction ;
@@ -3176,7 +3176,7 @@ mao:lifting_body rdf:type owl:NamedIndividual ,
                  rdfs:label "lifting_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/lifting_bridge
+###  http://EncodingActs.github.io/annotated/MAon/lifting_bridge
 mao:lifting_bridge rdf:type owl:NamedIndividual ,
                             mao:class:fighting_strategy ;
                    :name_en "Lifting"@en ;
@@ -3184,7 +3184,7 @@ mao:lifting_bridge rdf:type owl:NamedIndividual ,
                    rdfs:label "lift_bridge"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/lifting_gravity_centere
+###  http://EncodingActs.github.io/annotated/MAon/lifting_gravity_centere
 mao:lifting_gravity_centere rdf:type owl:NamedIndividual ,
                                      mao:class:bodywork ,
                                      [ rdf:type owl:Restriction ;
@@ -3199,7 +3199,7 @@ mao:lifting_gravity_centere rdf:type owl:NamedIndividual ,
                             rdfs:label "lifting_gravity_centre"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/lock_n_drag_hand
+###  http://EncodingActs.github.io/annotated/MAon/lock_n_drag_hand
 mao:lock_n_drag_hand rdf:type owl:NamedIndividual ,
                               mao:class:combo_tech ;
                      mao:employs mao:arm_lock ,
@@ -3214,7 +3214,7 @@ mao:lock_n_drag_hand rdf:type owl:NamedIndividual ,
                      rdfs:label "lock_n_drag_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/loose_to_stiff
+###  http://EncodingActs.github.io/annotated/MAon/loose_to_stiff
 mao:loose_to_stiff rdf:type owl:NamedIndividual ,
                             mao:class:bodywork ,
                             [ rdf:type owl:Restriction ;
@@ -3226,7 +3226,7 @@ mao:loose_to_stiff rdf:type owl:NamedIndividual ,
                    rdfs:label "loose_to_stiff" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/looseness
+###  http://EncodingActs.github.io/annotated/MAon/looseness
 mao:looseness rdf:type owl:NamedIndividual ,
                        mao:class:bodywork ,
                        [ rdf:type owl:Restriction ;
@@ -3240,7 +3240,7 @@ mao:looseness rdf:type owl:NamedIndividual ,
               rdfs:label "looseness" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/lower_gravity_centere
+###  http://EncodingActs.github.io/annotated/MAon/lower_gravity_centere
 mao:lower_gravity_centere rdf:type owl:NamedIndividual ,
                                    mao:class:bodywork ,
                                    [ rdf:type owl:Restriction ;
@@ -3255,7 +3255,7 @@ mao:lower_gravity_centere rdf:type owl:NamedIndividual ,
                           rdfs:label "lower_gravity_centre"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/lower_swing_palm
+###  http://EncodingActs.github.io/annotated/MAon/lower_swing_palm
 mao:lower_swing_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
                      mao:used_in mao:White_Crane_Kungfu ;
@@ -3266,7 +3266,7 @@ mao:lower_swing_palm rdf:type owl:NamedIndividual ,
                      rdfs:label "lower_swing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/mantis_flick
+###  http://EncodingActs.github.io/annotated/MAon/mantis_flick
 mao:mantis_flick rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:employs mao:willow_leaf_palm ;
@@ -3279,7 +3279,7 @@ mao:mantis_flick rdf:type owl:NamedIndividual ,
                  rdfs:label "mantis_flick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/mirror_palm
+###  http://EncodingActs.github.io/annotated/MAon/mirror_palm
 mao:mirror_palm rdf:type owl:NamedIndividual ,
                          mao:class:combo_tech ,
                          mao:class:palm_tech ;
@@ -3295,7 +3295,7 @@ mao:mirror_palm rdf:type owl:NamedIndividual ,
                 rdfs:label "mirror_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/move_bridge
+###  http://EncodingActs.github.io/annotated/MAon/move_bridge
 mao:move_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Moving"@en ;
@@ -3304,7 +3304,7 @@ mao:move_bridge rdf:type owl:NamedIndividual ,
                 rdfs:label "move_bridge"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/nailing_hammer
+###  http://EncodingActs.github.io/annotated/MAon/nailing_hammer
 mao:nailing_hammer rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
                    mao:employs mao:bullhorn_fist ,
@@ -3318,7 +3318,7 @@ mao:nailing_hammer rdf:type owl:NamedIndividual ,
                    rdfs:label "nailing_hammer" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/nr_horse_stance
+###  http://EncodingActs.github.io/annotated/MAon/nr_horse_stance
 mao:nr_horse_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
                     mao:similar_to mao:out_horse_stance ;
@@ -3330,7 +3330,7 @@ mao:nr_horse_stance rdf:type owl:NamedIndividual ,
                     rdfs:label "nr_horse_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/open_body
+###  http://EncodingActs.github.io/annotated/MAon/open_body
 mao:open_body rdf:type owl:NamedIndividual ,
                        mao:class:bodywork ,
                        [ rdf:type owl:Restriction ;
@@ -3344,7 +3344,7 @@ mao:open_body rdf:type owl:NamedIndividual ,
               rdfs:label "open_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/out_horse_stance
+###  http://EncodingActs.github.io/annotated/MAon/out_horse_stance
 mao:out_horse_stance rdf:type owl:NamedIndividual ,
                               mao:class:stance ;
                      mao:similar_to mao:horse_stance ;
@@ -3357,7 +3357,7 @@ mao:out_horse_stance rdf:type owl:NamedIndividual ,
                      rdfs:label "out_horse_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/outward_sweep
+###  http://EncodingActs.github.io/annotated/MAon/outward_sweep
 mao:outward_sweep rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
                   mao:similar_to mao:hook_sweep ;
@@ -3369,7 +3369,7 @@ mao:outward_sweep rdf:type owl:NamedIndividual ,
                   rdfs:label "outward_sweep" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/palm_strike
+###  http://EncodingActs.github.io/annotated/MAon/palm_strike
 mao:palm_strike rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
                 mao:employs mao:upright_buddha_palm ;
@@ -3385,7 +3385,7 @@ mao:palm_strike rdf:type owl:NamedIndividual ,
                 rdfs:label "palm_strike" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/pecking_palm
+###  http://EncodingActs.github.io/annotated/MAon/pecking_palm
 mao:pecking_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:employs mao:crane_beak ,
@@ -3398,13 +3398,13 @@ mao:pecking_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "pecking_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/power_generation
+###  http://EncodingActs.github.io/annotated/MAon/power_generation
 mao:power_generation rdf:type owl:NamedIndividual ,
                               mao:class:MA_tactic ;
                      rdfs:label "power_generation" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/pressure_bridge
+###  http://EncodingActs.github.io/annotated/MAon/pressure_bridge
 mao:pressure_bridge rdf:type owl:NamedIndividual ,
                              mao:class:fighting_strategy ;
                     :name_en "Pressure"@en ;
@@ -3414,7 +3414,7 @@ mao:pressure_bridge rdf:type owl:NamedIndividual ,
                     rdfs:label "pressure_bridge"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/probing_elbow
+###  http://EncodingActs.github.io/annotated/MAon/probing_elbow
 mao:probing_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -3425,7 +3425,7 @@ mao:probing_elbow rdf:type owl:NamedIndividual ,
                   rdfs:label "probing_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/probing_palm
+###  http://EncodingActs.github.io/annotated/MAon/probing_palm
 mao:probing_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:similar_to mao:blocking_palm ;
@@ -3437,7 +3437,7 @@ mao:probing_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "probing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/pushing_leg
+###  http://EncodingActs.github.io/annotated/MAon/pushing_leg
 mao:pushing_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
                 mao:used_in mao:White_Crane_Kungfu ;
@@ -3448,7 +3448,7 @@ mao:pushing_leg rdf:type owl:NamedIndividual ,
                 rdfs:label "pushing_leg" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/qian_char_hand
+###  http://EncodingActs.github.io/annotated/MAon/qian_char_hand
 mao:qian_char_hand rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:willow_leaf_palm ;
@@ -3464,7 +3464,7 @@ mao:qian_char_hand rdf:type owl:NamedIndividual ,
                    rdfs:label "qian_char_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/reconciliation_block
+###  http://EncodingActs.github.io/annotated/MAon/reconciliation_block
 mao:reconciliation_block rdf:type owl:NamedIndividual ,
                                   mao:class:MA_tactic ,
                                   [ rdf:type owl:Restriction ;
@@ -3476,7 +3476,7 @@ mao:reconciliation_block rdf:type owl:NamedIndividual ,
                          rdfs:label "defend_by_attack"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/reconciliation_redirection
+###  http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection
 mao:reconciliation_redirection rdf:type owl:NamedIndividual ,
                                         mao:class:MA_tactic ,
                                         [ rdf:type owl:Restriction ;
@@ -3488,7 +3488,7 @@ mao:reconciliation_redirection rdf:type owl:NamedIndividual ,
                                rdfs:label "defend_deflect"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/respect
+###  http://EncodingActs.github.io/annotated/MAon/respect
 mao:respect rdf:type owl:NamedIndividual ,
                      mao:class:honor_code ;
             mao:is mao:honest_integrity ;
@@ -3497,7 +3497,7 @@ mao:respect rdf:type owl:NamedIndividual ,
             rdfs:label "Respect" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/reverse_hanging_fist
+###  http://EncodingActs.github.io/annotated/MAon/reverse_hanging_fist
 mao:reverse_hanging_fist rdf:type owl:NamedIndividual ,
                                   mao:class:fist_tech ;
                          mao:employs mao:hanging_hammer ,
@@ -3511,7 +3511,7 @@ mao:reverse_hanging_fist rdf:type owl:NamedIndividual ,
                          rdfs:label "reverse_hanging_fist" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/reverse_palm
+###  http://EncodingActs.github.io/annotated/MAon/reverse_palm
 mao:reverse_palm rdf:type owl:NamedIndividual ,
                           mao:class:hand_shape ;
                  :name_en "Reverse palm"@en ;
@@ -3522,7 +3522,7 @@ mao:reverse_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "reverse_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/rocket_hammer
+###  http://EncodingActs.github.io/annotated/MAon/rocket_hammer
 mao:rocket_hammer rdf:type owl:NamedIndividual ,
                            mao:class:fist_tech ;
                   mao:employs mao:body_twisting ,
@@ -3536,7 +3536,7 @@ mao:rocket_hammer rdf:type owl:NamedIndividual ,
                   rdfs:label "rocket_hammer" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/rolling_elbow
+###  http://EncodingActs.github.io/annotated/MAon/rolling_elbow
 mao:rolling_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
                   mao:used_in mao:Hung_Kuen ;
@@ -3547,7 +3547,7 @@ mao:rolling_elbow rdf:type owl:NamedIndividual ,
                   rdfs:label "rolling_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/rubbing_hand
+###  http://EncodingActs.github.io/annotated/MAon/rubbing_hand
 mao:rubbing_hand rdf:type owl:NamedIndividual ,
                           mao:class:fist_tech ,
                           mao:class:palm_tech ;
@@ -3562,7 +3562,7 @@ mao:rubbing_hand rdf:type owl:NamedIndividual ,
                  rdfs:label "rubbing_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/san_chin_stance
+###  http://EncodingActs.github.io/annotated/MAon/san_chin_stance
 mao:san_chin_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
                     mao:similar_to mao:bow_stance ;
@@ -3577,13 +3577,13 @@ mao:san_chin_stance rdf:type owl:NamedIndividual ,
                     rdfs:label "san_chin_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/san_zhan
+###  http://EncodingActs.github.io/annotated/MAon/san_zhan
 mao:san_zhan rdf:type owl:NamedIndividual ,
                       mao:Form_set ;
              rdfs:label "san_zhan" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/seizing_palm
+###  http://EncodingActs.github.io/annotated/MAon/seizing_palm
 mao:seizing_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:used_in mao:White_Crane_Kungfu ;
@@ -3595,7 +3595,7 @@ mao:seizing_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "seizing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/separating_bridge
+###  http://EncodingActs.github.io/annotated/MAon/separating_bridge
 mao:separating_bridge rdf:type owl:NamedIndividual ,
                                mao:class:fighting_strategy ;
                       :name_en "Separating"@en ;
@@ -3603,7 +3603,7 @@ mao:separating_bridge rdf:type owl:NamedIndividual ,
                       rdfs:label "separate_bridge"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/serial_upper_claws
+###  http://EncodingActs.github.io/annotated/MAon/serial_upper_claws
 mao:serial_upper_claws rdf:type owl:NamedIndividual ,
                                 mao:class:claw_tech ,
                                 mao:class:combo_tech ;
@@ -3621,7 +3621,7 @@ mao:serial_upper_claws rdf:type owl:NamedIndividual ,
                        rdfs:label "serial_upper_claws" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/side_block_hands
+###  http://EncodingActs.github.io/annotated/MAon/side_block_hands
 mao:side_block_hands rdf:type owl:NamedIndividual ,
                               mao:class:combo_tech ;
                      mao:employs mao:blocking_palm ,
@@ -3635,7 +3635,7 @@ mao:side_block_hands rdf:type owl:NamedIndividual ,
                      rdfs:label "side_block_hands" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/side_elbow
+###  http://EncodingActs.github.io/annotated/MAon/side_elbow
 mao:side_elbow rdf:type owl:NamedIndividual ,
                         mao:class:elbow_tech ;
                mao:used_in mao:Hung_Kuen ,
@@ -3648,7 +3648,7 @@ mao:side_elbow rdf:type owl:NamedIndividual ,
                rdfs:label "side_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/side_hanging_fist
+###  http://EncodingActs.github.io/annotated/MAon/side_hanging_fist
 mao:side_hanging_fist rdf:type owl:NamedIndividual ,
                                mao:class:combo_tech ,
                                mao:class:fist_tech ;
@@ -3663,7 +3663,7 @@ mao:side_hanging_fist rdf:type owl:NamedIndividual ,
                       rdfs:label "side_hanging_fist" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/side_leaning_body
+###  http://EncodingActs.github.io/annotated/MAon/side_leaning_body
 mao:side_leaning_body rdf:type owl:NamedIndividual ,
                                mao:class:bodywork ,
                                [ rdf:type owl:Restriction ;
@@ -3679,7 +3679,7 @@ mao:side_leaning_body rdf:type owl:NamedIndividual ,
                       rdfs:label "side_leaning_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/side_punch
+###  http://EncodingActs.github.io/annotated/MAon/side_punch
 mao:side_punch rdf:type owl:NamedIndividual ,
                         mao:class:fist_tech ;
                mao:employs mao:backfist ,
@@ -3694,7 +3694,7 @@ mao:side_punch rdf:type owl:NamedIndividual ,
                rdfs:label "side_hammer_fist"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sidestep_n_whip_fist
+###  http://EncodingActs.github.io/annotated/MAon/sidestep_n_whip_fist
 mao:sidestep_n_whip_fist rdf:type owl:NamedIndividual ,
                                   mao:class:combo_tech ,
                                   mao:class:fist_tech ;
@@ -3709,7 +3709,7 @@ mao:sidestep_n_whip_fist rdf:type owl:NamedIndividual ,
                          rdfs:label "sidestep_n_whip_fist" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sideways_body
+###  http://EncodingActs.github.io/annotated/MAon/sideways_body
 mao:sideways_body rdf:type owl:NamedIndividual ,
                            mao:class:bodywork ,
                            [ rdf:type owl:Restriction ;
@@ -3725,7 +3725,7 @@ mao:sideways_body rdf:type owl:NamedIndividual ,
                   rdfs:label "sideways_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sky_hammer
+###  http://EncodingActs.github.io/annotated/MAon/sky_hammer
 mao:sky_hammer rdf:type owl:NamedIndividual ,
                         mao:class:fist_tech ;
                mao:employs mao:backfist ,
@@ -3742,7 +3742,7 @@ mao:sky_hammer rdf:type owl:NamedIndividual ,
                rdfs:label "sky_hammer" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/slap_n_cross_punch
+###  http://EncodingActs.github.io/annotated/MAon/slap_n_cross_punch
 mao:slap_n_cross_punch rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ,
                                 mao:class:fist_tech ;
@@ -3757,7 +3757,7 @@ mao:slap_n_cross_punch rdf:type owl:NamedIndividual ,
                        rdfs:label "slap_n_cross_strike"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/slap_n_throw_punch
+###  http://EncodingActs.github.io/annotated/MAon/slap_n_throw_punch
 mao:slap_n_throw_punch rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ,
                                 mao:class:fist_tech ;
@@ -3771,7 +3771,7 @@ mao:slap_n_throw_punch rdf:type owl:NamedIndividual ,
                        rdfs:label "slap_n_throw_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/slap_n_whip_fist
+###  http://EncodingActs.github.io/annotated/MAon/slap_n_whip_fist
 mao:slap_n_whip_fist rdf:type owl:NamedIndividual ,
                               mao:class:combo_tech ,
                               mao:class:fist_tech ;
@@ -3785,7 +3785,7 @@ mao:slap_n_whip_fist rdf:type owl:NamedIndividual ,
                      rdfs:label "slap_n_whip_fist" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/soft_bridge
+###  http://EncodingActs.github.io/annotated/MAon/soft_bridge
 mao:soft_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Softness"@en ;
@@ -3793,7 +3793,7 @@ mao:soft_bridge rdf:type owl:NamedIndividual ,
                 rdfs:label "soft_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/spiral_arm
+###  http://EncodingActs.github.io/annotated/MAon/spiral_arm
 mao:spiral_arm rdf:type owl:NamedIndividual ,
                         mao:class:bodywork ,
                         [ rdf:type owl:Restriction ;
@@ -3810,7 +3810,7 @@ mao:spiral_arm rdf:type owl:NamedIndividual ,
                rdfs:label "spiral_arm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/split_n_attack_hand
+###  http://EncodingActs.github.io/annotated/MAon/split_n_attack_hand
 mao:split_n_attack_hand rdf:type owl:NamedIndividual ,
                                  mao:class:combo_tech ,
                                  mao:class:palm_tech ;
@@ -3825,7 +3825,7 @@ mao:split_n_attack_hand rdf:type owl:NamedIndividual ,
                         rdfs:label "split_n_attack_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/splitting_palm
+###  http://EncodingActs.github.io/annotated/MAon/splitting_palm
 mao:splitting_palm rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:tiger_claw ;
@@ -3839,7 +3839,7 @@ mao:splitting_palm rdf:type owl:NamedIndividual ,
                    rdfs:label "splitting_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stabilizing_bridge
+###  http://EncodingActs.github.io/annotated/MAon/stabilizing_bridge
 mao:stabilizing_bridge rdf:type owl:NamedIndividual ,
                                 mao:class:body_bridge ;
                        mao:used_in mao:Hung_Kuen ;
@@ -3851,7 +3851,7 @@ mao:stabilizing_bridge rdf:type owl:NamedIndividual ,
                        rdfs:label "stabilizing_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stamp_palm_strike
+###  http://EncodingActs.github.io/annotated/MAon/stamp_palm_strike
 mao:stamp_palm_strike rdf:type owl:NamedIndividual ,
                                mao:class:palm_tech ;
                       mao:employs mao:upright_buddha_palm ;
@@ -3864,7 +3864,7 @@ mao:stamp_palm_strike rdf:type owl:NamedIndividual ,
                       rdfs:label "stamp_palm_strike" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stance_turning
+###  http://EncodingActs.github.io/annotated/MAon/stance_turning
 mao:stance_turning rdf:type owl:NamedIndividual ,
                             mao:class:bodywork ,
                             [ rdf:type owl:Restriction ;
@@ -3882,7 +3882,7 @@ mao:stance_turning rdf:type owl:NamedIndividual ,
                    rdfs:label "stance_turning" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stay_bridge
+###  http://EncodingActs.github.io/annotated/MAon/stay_bridge
 mao:stay_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Staying"@en ;
@@ -3890,7 +3890,7 @@ mao:stay_bridge rdf:type owl:NamedIndividual ,
                 rdfs:label "stay_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/steady_bridge
+###  http://EncodingActs.github.io/annotated/MAon/steady_bridge
 mao:steady_bridge rdf:type owl:NamedIndividual ,
                            mao:class:fighting_strategy ;
                   :name_en "Steadiness"@en ;
@@ -3899,7 +3899,7 @@ mao:steady_bridge rdf:type owl:NamedIndividual ,
                   rdfs:label "steady_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stepping
+###  http://EncodingActs.github.io/annotated/MAon/stepping
 mao:stepping rdf:type owl:NamedIndividual ,
                       mao:class:bodywork ,
                       [ rdf:type owl:Restriction ;
@@ -3916,7 +3916,7 @@ mao:stepping rdf:type owl:NamedIndividual ,
              rdfs:label "stepping" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sticky_leg
+###  http://EncodingActs.github.io/annotated/MAon/sticky_leg
 mao:sticky_leg rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
                mao:used_in mao:White_Crane_Kungfu ;
@@ -3927,7 +3927,7 @@ mao:sticky_leg rdf:type owl:NamedIndividual ,
                rdfs:label "sticky_leg" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sticky_palm
+###  http://EncodingActs.github.io/annotated/MAon/sticky_palm
 mao:sticky_palm rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
                 mao:used_in mao:White_Crane_Kungfu ;
@@ -3938,7 +3938,7 @@ mao:sticky_palm rdf:type owl:NamedIndividual ,
                 rdfs:label "sticky_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stiff_elbow
+###  http://EncodingActs.github.io/annotated/MAon/stiff_elbow
 mao:stiff_elbow rdf:type owl:NamedIndividual ,
                          mao:class:elbow_tech ;
                 :name_en "Stiff elbow strike"@en ;
@@ -3948,7 +3948,7 @@ mao:stiff_elbow rdf:type owl:NamedIndividual ,
                 rdfs:label "stiff_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stiff_palm
+###  http://EncodingActs.github.io/annotated/MAon/stiff_palm
 mao:stiff_palm rdf:type owl:NamedIndividual ,
                         mao:class:palm_tech ;
                mao:used_in mao:White_Crane_Kungfu ;
@@ -3959,7 +3959,7 @@ mao:stiff_palm rdf:type owl:NamedIndividual ,
                rdfs:label "stiff_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/stiffness
+###  http://EncodingActs.github.io/annotated/MAon/stiffness
 mao:stiffness rdf:type owl:NamedIndividual ,
                        mao:class:bodywork ,
                        [ rdf:type owl:Restriction ;
@@ -3973,7 +3973,7 @@ mao:stiffness rdf:type owl:NamedIndividual ,
               rdfs:label "stiffness" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/straight_bridge
+###  http://EncodingActs.github.io/annotated/MAon/straight_bridge
 mao:straight_bridge rdf:type owl:NamedIndividual ,
                              mao:class:fighting_strategy ;
                     :name_en "Straightness"@en ;
@@ -3981,7 +3981,7 @@ mao:straight_bridge rdf:type owl:NamedIndividual ,
                     rdfs:label "straight_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/straight_cut_palm
+###  http://EncodingActs.github.io/annotated/MAon/straight_cut_palm
 mao:straight_cut_palm rdf:type owl:NamedIndividual ,
                                mao:class:palm_tech ;
                       mao:employs mao:willow_leaf_palm ;
@@ -3996,7 +3996,7 @@ mao:straight_cut_palm rdf:type owl:NamedIndividual ,
                       rdfs:label "straight_cut_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/straight_kick
+###  http://EncodingActs.github.io/annotated/MAon/straight_kick
 mao:straight_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -4007,7 +4007,7 @@ mao:straight_kick rdf:type owl:NamedIndividual ,
                   rdfs:label "straight_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/straight_punch
+###  http://EncodingActs.github.io/annotated/MAon/straight_punch
 mao:straight_punch rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
                    mao:employs mao:forefist ;
@@ -4023,7 +4023,7 @@ mao:straight_punch rdf:type owl:NamedIndividual ,
                    rdfs:label "straight_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/subdue_bridge
+###  http://EncodingActs.github.io/annotated/MAon/subdue_bridge
 mao:subdue_bridge rdf:type owl:NamedIndividual ,
                            mao:class:fighting_strategy ;
                   :name_en "Subduing"@en ;
@@ -4031,7 +4031,7 @@ mao:subdue_bridge rdf:type owl:NamedIndividual ,
                   rdfs:label "subdue_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/subduing_palm
+###  http://EncodingActs.github.io/annotated/MAon/subduing_palm
 mao:subduing_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
                   mao:employs mao:tiger_claw ;
@@ -4044,7 +4044,7 @@ mao:subduing_palm rdf:type owl:NamedIndividual ,
                   rdfs:label "subduing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sun_palm_strike
+###  http://EncodingActs.github.io/annotated/MAon/sun_palm_strike
 mao:sun_palm_strike rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
                     mao:employs mao:facing_sun_palm ;
@@ -4056,7 +4056,7 @@ mao:sun_palm_strike rdf:type owl:NamedIndividual ,
                     rdfs:label "sun_palm_strike" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/sweep_stance
+###  http://EncodingActs.github.io/annotated/MAon/sweep_stance
 mao:sweep_stance rdf:type owl:NamedIndividual ,
                           mao:class:stance ;
                  mao:used_in mao:Choy_Li_Fut ,
@@ -4069,7 +4069,7 @@ mao:sweep_stance rdf:type owl:NamedIndividual ,
                  rdfs:label "sweep_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/swing_body
+###  http://EncodingActs.github.io/annotated/MAon/swing_body
 mao:swing_body rdf:type owl:NamedIndividual ,
                         mao:class:bodywork ,
                         [ rdf:type owl:Restriction ;
@@ -4084,7 +4084,7 @@ mao:swing_body rdf:type owl:NamedIndividual ,
                rdfs:label "swing_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/swing_palm
+###  http://EncodingActs.github.io/annotated/MAon/swing_palm
 mao:swing_palm rdf:type owl:NamedIndividual ,
                         mao:class:palm_tech ;
                mao:used_in mao:White_Crane_Kungfu ;
@@ -4095,7 +4095,7 @@ mao:swing_palm rdf:type owl:NamedIndividual ,
                rdfs:label "swing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/switch-hitting
+###  http://EncodingActs.github.io/annotated/MAon/switch-hitting
 mao:switch-hitting rdf:type owl:NamedIndividual ,
                             mao:class:bodywork ,
                             [ rdf:type owl:Restriction ;
@@ -4114,7 +4114,7 @@ mao:switch-hitting rdf:type owl:NamedIndividual ,
                    rdfs:label "switch_hitting"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_1
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_1
 mao:taming_tiger_1 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:has_intent mao:breath_regulation ;
@@ -4125,7 +4125,7 @@ mao:taming_tiger_1 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_1" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_10
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_10
 mao:taming_tiger_10 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:horse_stance ;
@@ -4136,7 +4136,7 @@ mao:taming_tiger_10 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_10" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_11
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_11
 mao:taming_tiger_11 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:db_blocking_palm ,
@@ -4150,7 +4150,7 @@ mao:taming_tiger_11 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_11" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_12
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_12
 mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:facing_sun_palm ,
@@ -4165,7 +4165,7 @@ mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_12" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_13
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_13
 mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:finger_hand ,
@@ -4180,7 +4180,7 @@ mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_13" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_14
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_14
 mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:grappling_claw ,
@@ -4197,7 +4197,7 @@ mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_14" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_15
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_15
 mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:dw_block_n_target_hand ,
@@ -4216,7 +4216,7 @@ mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_15" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_16
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_16
 mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:db_curving_palm ,
@@ -4235,7 +4235,7 @@ mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_16" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_17
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_17
 mao:taming_tiger_17 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:block_kick ,
@@ -4249,7 +4249,7 @@ mao:taming_tiger_17 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_17" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_18
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_18
 mao:taming_tiger_18 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:block_n_front_kick ;
@@ -4264,7 +4264,7 @@ mao:taming_tiger_18 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_18" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_19
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_19
 mao:taming_tiger_19 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:blocking_palm ,
@@ -4279,7 +4279,7 @@ mao:taming_tiger_19 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_19" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_2
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_2
 mao:taming_tiger_2 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ;
@@ -4291,7 +4291,7 @@ mao:taming_tiger_2 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_2" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_20
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_20
 mao:taming_tiger_20 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:cat_stance ,
@@ -4311,7 +4311,7 @@ mao:taming_tiger_20 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_20" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_21
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_21
 mao:taming_tiger_21 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4329,7 +4329,7 @@ mao:taming_tiger_21 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_21" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_22
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_22
 mao:taming_tiger_22 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:horizontal_palm_strike ,
@@ -4344,7 +4344,7 @@ mao:taming_tiger_22 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_22" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_23
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_23
 mao:taming_tiger_23 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:horse_stance ,
@@ -4363,7 +4363,7 @@ mao:taming_tiger_23 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_23" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_24
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_24
 mao:taming_tiger_24 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:curving_palm ,
@@ -4380,7 +4380,7 @@ mao:taming_tiger_24 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_24" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_25
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_25
 mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:dividing_bridge ,
@@ -4399,7 +4399,7 @@ mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_25" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_26
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_26
 mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4410,7 +4410,7 @@ mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_26" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_27
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_27
 mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4421,7 +4421,7 @@ mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_27" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_28
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_28
 mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4432,7 +4432,7 @@ mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_28" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_29
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_29
 mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4443,7 +4443,7 @@ mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_29" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_3
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_3
 mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:straight_cut_palm ;
@@ -4455,7 +4455,7 @@ mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_3" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_30
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_30
 mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4466,7 +4466,7 @@ mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_30" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_31
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_31
 mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4477,7 +4477,7 @@ mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_31" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_32
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_32
 mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4488,7 +4488,7 @@ mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_32" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_33
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_33
 mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4499,7 +4499,7 @@ mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_33" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_34
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_34
 mao:taming_tiger_34 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4510,7 +4510,7 @@ mao:taming_tiger_34 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_34" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_35
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_35
 mao:taming_tiger_35 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:cat_stance ,
@@ -4525,7 +4525,7 @@ mao:taming_tiger_35 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_35" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_36
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_36
 mao:taming_tiger_36 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4546,7 +4546,7 @@ mao:taming_tiger_36 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_36" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_37
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_37
 mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4563,7 +4563,7 @@ mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_37" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_38
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_38
 mao:taming_tiger_38 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4574,7 +4574,7 @@ mao:taming_tiger_38 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_38" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_39
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_39
 mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:grappling_claw ,
@@ -4591,7 +4591,7 @@ mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_39" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_4
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_4
 mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ;
@@ -4602,7 +4602,7 @@ mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_4" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_40
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_40
 mao:taming_tiger_40 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ;
@@ -4614,7 +4614,7 @@ mao:taming_tiger_40 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_40" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_41
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_41
 mao:taming_tiger_41 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4631,7 +4631,7 @@ mao:taming_tiger_41 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_41" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_42
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_42
 mao:taming_tiger_42 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4651,7 +4651,7 @@ mao:taming_tiger_42 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_42" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_43
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_43
 mao:taming_tiger_43 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4668,7 +4668,7 @@ mao:taming_tiger_43 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_43" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_44
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_44
 mao:taming_tiger_44 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4685,7 +4685,7 @@ mao:taming_tiger_44 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_44" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_45
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_45
 mao:taming_tiger_45 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bullhorn_uppercut ,
@@ -4701,7 +4701,7 @@ mao:taming_tiger_45 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_45" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_46
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_46
 mao:taming_tiger_46 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4720,7 +4720,7 @@ mao:taming_tiger_46 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_46" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_47
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_47
 mao:taming_tiger_47 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:horse_stance ,
@@ -4733,7 +4733,7 @@ mao:taming_tiger_47 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_47" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_48
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_48
 mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4745,7 +4745,7 @@ mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_48" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_49
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_49
 mao:taming_tiger_49 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4756,7 +4756,7 @@ mao:taming_tiger_49 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_49" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_5
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_5
 mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:dw_block_n_target_hand ,
@@ -4772,7 +4772,7 @@ mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_5" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_50
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_50
 mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4783,7 +4783,7 @@ mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_50" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_51
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_51
 mao:taming_tiger_51 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4794,7 +4794,7 @@ mao:taming_tiger_51 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_51" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_52
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_52
 mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:butterfly_palm ,
@@ -4818,7 +4818,7 @@ mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_52" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_53
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_53
 mao:taming_tiger_53 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4829,7 +4829,7 @@ mao:taming_tiger_53 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_53" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_54
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_54
 mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:body_twisting ,
@@ -4849,7 +4849,7 @@ mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_54" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_55
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_55
 mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:turning_steps ;
@@ -4860,7 +4860,7 @@ mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_55" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_56
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_56
 mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4871,7 +4871,7 @@ mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_56" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_57
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_57
 mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4882,7 +4882,7 @@ mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_57" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_58
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_58
 mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4893,7 +4893,7 @@ mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_58" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_59
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_59
 mao:taming_tiger_59 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4904,7 +4904,7 @@ mao:taming_tiger_59 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_59" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_6
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_6
 mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:descend_elbow ,
@@ -4918,7 +4918,7 @@ mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_6" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_60
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_60
 mao:taming_tiger_60 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4929,7 +4929,7 @@ mao:taming_tiger_60 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_60" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_61
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_61
 mao:taming_tiger_61 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4949,7 +4949,7 @@ mao:taming_tiger_61 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_61" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_62
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_62
 mao:taming_tiger_62 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4968,7 +4968,7 @@ mao:taming_tiger_62 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_62" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_63
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_63
 mao:taming_tiger_63 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -4991,7 +4991,7 @@ mao:taming_tiger_63 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_63" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_64
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_64
 mao:taming_tiger_64 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:blacktiger_punch ,
@@ -5011,7 +5011,7 @@ mao:taming_tiger_64 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_64" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_65
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_65
 mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5030,7 +5030,7 @@ mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_65" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_66
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_66
 mao:taming_tiger_66 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5041,7 +5041,7 @@ mao:taming_tiger_66 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_66" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_67
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_67
 mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5058,7 +5058,7 @@ mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_67" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_68
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_68
 mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5069,7 +5069,7 @@ mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_68" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_69
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_69
 mao:taming_tiger_69 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:backfist_n_punch_combo ,
@@ -5083,7 +5083,7 @@ mao:taming_tiger_69 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_69" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_7
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_7
 mao:taming_tiger_7 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ,
@@ -5095,7 +5095,7 @@ mao:taming_tiger_7 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_7" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_70
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_70
 mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5106,7 +5106,7 @@ mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_70" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_71
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_71
 mao:taming_tiger_71 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5117,7 +5117,7 @@ mao:taming_tiger_71 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_71" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_72
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_72
 mao:taming_tiger_72 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:horse_stance ,
@@ -5133,7 +5133,7 @@ mao:taming_tiger_72 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_72" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_73
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_73
 mao:taming_tiger_73 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5156,7 +5156,7 @@ mao:taming_tiger_73 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_73" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_74
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_74
 mao:taming_tiger_74 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:elbow_slap_fist ,
@@ -5179,7 +5179,7 @@ mao:taming_tiger_74 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_74" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_75
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_75
 mao:taming_tiger_75 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5198,7 +5198,7 @@ mao:taming_tiger_75 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_75" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_76
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_76
 mao:taming_tiger_76 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5218,7 +5218,7 @@ mao:taming_tiger_76 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_76" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_77
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_77
 mao:taming_tiger_77 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5237,7 +5237,7 @@ mao:taming_tiger_77 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_77" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_78
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_78
 mao:taming_tiger_78 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5255,7 +5255,7 @@ mao:taming_tiger_78 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_78" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_79
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_79
 mao:taming_tiger_79 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5275,7 +5275,7 @@ mao:taming_tiger_79 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_79" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_8
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_8
 mao:taming_tiger_8 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:cat_stance ,
@@ -5290,7 +5290,7 @@ mao:taming_tiger_8 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_8" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_80
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_80
 mao:taming_tiger_80 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5301,7 +5301,7 @@ mao:taming_tiger_80 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_80" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_81
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_81
 mao:taming_tiger_81 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:front_block_hands ,
@@ -5317,7 +5317,7 @@ mao:taming_tiger_81 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_81" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_82
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_82
 mao:taming_tiger_82 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5337,7 +5337,7 @@ mao:taming_tiger_82 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_82" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_83
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_83
 mao:taming_tiger_83 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5355,7 +5355,7 @@ mao:taming_tiger_83 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_83" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_84
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_84
 mao:taming_tiger_84 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:crossing_bridge ,
@@ -5377,7 +5377,7 @@ mao:taming_tiger_84 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_84" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_85
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_85
 mao:taming_tiger_85 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:black_tiger_claw ,
@@ -5394,7 +5394,7 @@ mao:taming_tiger_85 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_85" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_86
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_86
 mao:taming_tiger_86 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5415,7 +5415,7 @@ mao:taming_tiger_86 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_86" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_87
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_87
 mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:body_twisting ,
@@ -5438,7 +5438,7 @@ mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_87" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_88
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_88
 mao:taming_tiger_88 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5449,7 +5449,7 @@ mao:taming_tiger_88 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_88" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_89
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_89
 mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5467,7 +5467,7 @@ mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_89" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_9
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_9
 mao:taming_tiger_9 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ;
@@ -5478,7 +5478,7 @@ mao:taming_tiger_9 rdf:type owl:NamedIndividual ,
                    rdfs:label "taming_tiger_9" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_90
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_90
 mao:taming_tiger_90 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:black_tiger_claw ,
@@ -5500,7 +5500,7 @@ mao:taming_tiger_90 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_90" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_91
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_91
 mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ,
@@ -5520,7 +5520,7 @@ mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_91" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_92
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_92
 mao:taming_tiger_92 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5531,7 +5531,7 @@ mao:taming_tiger_92 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_92" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_93
+###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_93
 mao:taming_tiger_93 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -5541,7 +5541,7 @@ mao:taming_tiger_93 rdf:type owl:NamedIndividual ,
                     rdfs:label "taming_tiger_93" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/tangling_palms
+###  http://EncodingActs.github.io/annotated/MAon/tangling_palms
 mao:tangling_palms rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:uw_forcing_palm ;
@@ -5554,7 +5554,7 @@ mao:tangling_palms rdf:type owl:NamedIndividual ,
                    rdfs:label "tangling_palms" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/target_hand
+###  http://EncodingActs.github.io/annotated/MAon/target_hand
 mao:target_hand rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
                 mao:employs mao:blade_palm ;
@@ -5571,7 +5571,7 @@ mao:target_hand rdf:type owl:NamedIndividual ,
                 rdfs:label "target_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/three_extending_hand
+###  http://EncodingActs.github.io/annotated/MAon/three_extending_hand
 mao:three_extending_hand rdf:type owl:NamedIndividual ,
                                   mao:class:body_bridge ;
                          mao:employs mao:extending_hand ;
@@ -5585,7 +5585,7 @@ mao:three_extending_hand rdf:type owl:NamedIndividual ,
                          rdfs:label "three_extending_hand" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/throwing_elbow
+###  http://EncodingActs.github.io/annotated/MAon/throwing_elbow
 mao:throwing_elbow rdf:type owl:NamedIndividual ,
                             mao:class:elbow_tech ;
                    mao:used_in mao:Hung_Kuen ;
@@ -5597,7 +5597,7 @@ mao:throwing_elbow rdf:type owl:NamedIndividual ,
                    rdfs:label "throwing_elbow" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/throwing_hammer
+###  http://EncodingActs.github.io/annotated/MAon/throwing_hammer
 mao:throwing_hammer rdf:type owl:NamedIndividual ,
                              mao:class:fist_tech ;
                     mao:employs mao:backfist ,
@@ -5611,7 +5611,7 @@ mao:throwing_hammer rdf:type owl:NamedIndividual ,
                     rdfs:label "throwing_hammer" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/throwing_palm
+###  http://EncodingActs.github.io/annotated/MAon/throwing_palm
 mao:throwing_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
                   mao:used_in mao:White_Crane_Kungfu ;
@@ -5622,7 +5622,7 @@ mao:throwing_palm rdf:type owl:NamedIndividual ,
                   rdfs:label "throwing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/thrust_punch
+###  http://EncodingActs.github.io/annotated/MAon/thrust_punch
 mao:thrust_punch rdf:type owl:NamedIndividual ,
                           mao:class:fist_tech ;
                  mao:employs mao:fore_knuckle_fist ;
@@ -5634,7 +5634,7 @@ mao:thrust_punch rdf:type owl:NamedIndividual ,
                  rdfs:label "thrust_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/thrusting_palm
+###  http://EncodingActs.github.io/annotated/MAon/thrusting_palm
 mao:thrusting_palm rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:reverse_palm ;
@@ -5649,13 +5649,13 @@ mao:thrusting_palm rdf:type owl:NamedIndividual ,
                    rdfs:label "thrusting_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/tiger
+###  http://EncodingActs.github.io/annotated/MAon/tiger
 mao:tiger rdf:type owl:NamedIndividual ,
                    mao:class:symbolic_animal ;
           rdfs:label "Tiger" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/tiger_claw
+###  http://EncodingActs.github.io/annotated/MAon/tiger_claw
 mao:tiger_claw rdf:type owl:NamedIndividual ,
                         mao:class:claw_tech ;
                mao:employs mao:claw_palm ;
@@ -5669,7 +5669,7 @@ mao:tiger_claw rdf:type owl:NamedIndividual ,
                rdfs:label "tiger_claw" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/tiger_tail_kick
+###  http://EncodingActs.github.io/annotated/MAon/tiger_tail_kick
 mao:tiger_tail_kick rdf:type owl:NamedIndividual ,
                              mao:class:leg_tech ;
                     mao:used_in mao:Hung_Kuen ,
@@ -5682,7 +5682,7 @@ mao:tiger_tail_kick rdf:type owl:NamedIndividual ,
                     rdfs:label "tiger_tail_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/torsion
+###  http://EncodingActs.github.io/annotated/MAon/torsion
 mao:torsion rdf:type owl:NamedIndividual ,
                      mao:class:bodywork ,
                      [ rdf:type owl:Restriction ;
@@ -5695,7 +5695,7 @@ mao:torsion rdf:type owl:NamedIndividual ,
             rdfs:label "torsion" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/trample
+###  http://EncodingActs.github.io/annotated/MAon/trample
 mao:trample rdf:type owl:NamedIndividual ,
                      mao:class:leg_tech ;
             mao:used_in mao:White_Crane_Kungfu ;
@@ -5706,7 +5706,7 @@ mao:trample rdf:type owl:NamedIndividual ,
             rdfs:label "trample_leg"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/turfing_kick
+###  http://EncodingActs.github.io/annotated/MAon/turfing_kick
 mao:turfing_kick rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
                  mao:used_in mao:White_Crane_Kungfu ;
@@ -5717,7 +5717,7 @@ mao:turfing_kick rdf:type owl:NamedIndividual ,
                  rdfs:label "turfing_kick" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/turning
+###  http://EncodingActs.github.io/annotated/MAon/turning
 mao:turning rdf:type owl:NamedIndividual ,
                      mao:class:bodywork ,
                      [ rdf:type owl:Restriction ;
@@ -5733,7 +5733,7 @@ mao:turning rdf:type owl:NamedIndividual ,
             rdfs:label "body_turning"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/turning_palm
+###  http://EncodingActs.github.io/annotated/MAon/turning_palm
 mao:turning_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:employs mao:crossing_bridge ,
@@ -5747,7 +5747,7 @@ mao:turning_palm rdf:type owl:NamedIndividual ,
                  rdfs:label "turning_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/turning_stance
+###  http://EncodingActs.github.io/annotated/MAon/turning_stance
 mao:turning_stance rdf:type owl:NamedIndividual ,
                             mao:class:stance ;
                    mao:similar_to mao:unicorn_steps ;
@@ -5759,7 +5759,7 @@ mao:turning_stance rdf:type owl:NamedIndividual ,
                    rdfs:label "turning_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/turning_steps
+###  http://EncodingActs.github.io/annotated/MAon/turning_steps
 mao:turning_steps rdf:type owl:NamedIndividual ,
                            mao:class:footwork ;
                   mao:employs mao:turning ,
@@ -5773,7 +5773,7 @@ mao:turning_steps rdf:type owl:NamedIndividual ,
                   rdfs:label "turning_steps_back"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/twisting_stance
+###  http://EncodingActs.github.io/annotated/MAon/twisting_stance
 mao:twisting_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
                     mao:used_in mao:Choy_Li_Fut ,
@@ -5788,7 +5788,7 @@ mao:twisting_stance rdf:type owl:NamedIndividual ,
                     rdfs:label "twisting_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/two_dragons_outof_sea
+###  http://EncodingActs.github.io/annotated/MAon/two_dragons_outof_sea
 mao:two_dragons_outof_sea rdf:type owl:NamedIndividual ,
                                    mao:class:palm_tech ;
                           mao:employs mao:upright_buddha_palm ;
@@ -5801,7 +5801,7 @@ mao:two_dragons_outof_sea rdf:type owl:NamedIndividual ,
                           rdfs:label "two_dragons_outof_sea" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/two_finger_strike
+###  http://EncodingActs.github.io/annotated/MAon/two_finger_strike
 mao:two_finger_strike rdf:type owl:NamedIndividual ,
                                mao:class:handwork ;
                       mao:used_in mao:Hung_Kuen ,
@@ -5816,7 +5816,7 @@ mao:two_finger_strike rdf:type owl:NamedIndividual ,
                       rdfs:label "two_finger_strike" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_stance
+###  http://EncodingActs.github.io/annotated/MAon/unicorn_stance
 mao:unicorn_stance rdf:type owl:NamedIndividual ,
                             mao:class:stance ;
                    mao:used_in mao:Choy_Li_Fut ;
@@ -5829,7 +5829,7 @@ mao:unicorn_stance rdf:type owl:NamedIndividual ,
                    rdfs:label "unicorn_stance" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/unicorn_steps
+###  http://EncodingActs.github.io/annotated/MAon/unicorn_steps
 mao:unicorn_steps rdf:type owl:NamedIndividual ,
                            mao:class:stance ;
                   mao:employs mao:stepping ;
@@ -5842,7 +5842,7 @@ mao:unicorn_steps rdf:type owl:NamedIndividual ,
                   rdfs:label "unicorn_steps" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/up_forcing_palm
+###  http://EncodingActs.github.io/annotated/MAon/up_forcing_palm
 mao:up_forcing_palm rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
                     mao:employs mao:tiger_claw ;
@@ -5857,7 +5857,7 @@ mao:up_forcing_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "up_forcing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/upper_swing_palm
+###  http://EncodingActs.github.io/annotated/MAon/upper_swing_palm
 mao:upper_swing_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
                      mao:used_in mao:White_Crane_Kungfu ;
@@ -5868,7 +5868,7 @@ mao:upper_swing_palm rdf:type owl:NamedIndividual ,
                      rdfs:label "upper_swing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/upright_body
+###  http://EncodingActs.github.io/annotated/MAon/upright_body
 mao:upright_body rdf:type owl:NamedIndividual ,
                           mao:class:bodywork ,
                           [ rdf:type owl:Restriction ;
@@ -5885,7 +5885,7 @@ mao:upright_body rdf:type owl:NamedIndividual ,
                  rdfs:label "upright_body" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/upright_buddha_palm
+###  http://EncodingActs.github.io/annotated/MAon/upright_buddha_palm
 mao:upright_buddha_palm rdf:type owl:NamedIndividual ,
                                  mao:class:hand_shape ;
                         mao:type_of mao:flat_palm ;
@@ -5896,7 +5896,7 @@ mao:upright_buddha_palm rdf:type owl:NamedIndividual ,
                         rdfs:label "buddha_palm"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/upward_punches
+###  http://EncodingActs.github.io/annotated/MAon/upward_punches
 mao:upward_punches rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
                    mao:employs mao:bullhorn_fist ;
@@ -5908,7 +5908,7 @@ mao:upward_punches rdf:type owl:NamedIndividual ,
                    rdfs:label "upward_punches" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/uw_forcing_palm
+###  http://EncodingActs.github.io/annotated/MAon/uw_forcing_palm
 mao:uw_forcing_palm rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
                     mao:employs mao:tiger_claw ;
@@ -5922,7 +5922,7 @@ mao:uw_forcing_palm rdf:type owl:NamedIndividual ,
                     rdfs:label "uw_forcing_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/whipping_palm
+###  http://EncodingActs.github.io/annotated/MAon/whipping_palm
 mao:whipping_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
                   mao:employs mao:tiger_claw ;
@@ -5936,7 +5936,7 @@ mao:whipping_palm rdf:type owl:NamedIndividual ,
                   rdfs:label "dw_whipping_palm"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/whipping_punch
+###  http://EncodingActs.github.io/annotated/MAon/whipping_punch
 mao:whipping_punch rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
                    mao:employs mao:knocking_fist ;
@@ -5952,7 +5952,7 @@ mao:whipping_punch rdf:type owl:NamedIndividual ,
                    rdfs:label "whipping_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/White_Crane_Kungfu
+###  http://EncodingActs.github.io/annotated/MAon/White_Crane_Kungfu
 mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
                                 mao:class:MA_system ,
                                 [ rdf:type owl:Restriction ;
@@ -5960,7 +5960,7 @@ mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
                                   owl:someValuesFrom mao:class:breathing_method
                                 ] ;
                        mao:belongs_to :Southern_Chinese_Martial_Arts ;
-                       mao:has_origin_place <http://EncodingActs.github.io/annotated/MAOcorpus/YongChun(place)> ;
+                       mao:has_origin_place <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> ;
                        mao:has_principle mao:Dan_Tien_focus ;
                        mao:has_symbol mao:white_crane ;
                        :name_en "White Crane Kungfu" ;
@@ -5969,13 +5969,13 @@ mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
                        rdfs:wikiURL "https://en.wikipedia.org/wiki/Fujian_White_Crane" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/white_crane
+###  http://EncodingActs.github.io/annotated/MAon/white_crane
 mao:white_crane rdf:type owl:NamedIndividual ,
                          mao:class:symbolic_animal ;
                 rdfs:label "White_crane"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/willow_leaf_palm
+###  http://EncodingActs.github.io/annotated/MAon/willow_leaf_palm
 mao:willow_leaf_palm rdf:type owl:NamedIndividual ,
                               mao:class:hand_shape ;
                      mao:used_in mao:Choy_Li_Fut ,
@@ -5990,7 +5990,7 @@ mao:willow_leaf_palm rdf:type owl:NamedIndividual ,
                      rdfs:label "willow_leaf_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/wiping_palm
+###  http://EncodingActs.github.io/annotated/MAon/wiping_palm
 mao:wiping_palm rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
                 mao:used_in mao:White_Crane_Kungfu ;
@@ -6001,8 +6001,8 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
                 rdfs:label "wiping_palm" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/12_bridges
-<http://EncodingActs.github.io/annotated/MAOcorpus/12_bridges> rdf:type owl:NamedIndividual ,
+###  http://EncodingActs.github.io/annotated/MAon/12_bridges
+<http://EncodingActs.github.io/annotated/MAon/12_bridges> rdf:type owl:NamedIndividual ,
                                                                         mao:class:MA_principle ;
                                                                mao:belongs_to mao:Hung_Kuen ;
                                                                mao:contains mao:Uprightness ,
@@ -6025,14 +6025,14 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
                                                                rdfs:label "hg_12_bridges"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/YongChun(place)
-<http://EncodingActs.github.io/annotated/MAOcorpus/YongChun(place)> rdf:type owl:NamedIndividual ,
+###  http://EncodingActs.github.io/annotated/MAon/YongChun(place)
+<http://EncodingActs.github.io/annotated/MAon/YongChun(place)> rdf:type owl:NamedIndividual ,
                                                                              mao:class:E53-place ;
                                                                     :name_en "Yong Chun"@en ;
                                                                     rdfs:label "YongChun_(place)" .
 
 
-###  http://EncodingActs.github.io/annotated/MAOcorpus/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing
+###  http://EncodingActs.github.io/annotated/MAon/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing
 mao:book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing rdf:type owl:NamedIndividual ,
                                                         mao:class:MA_book ,
                                                         [ rdf:type owl:Restriction ;
