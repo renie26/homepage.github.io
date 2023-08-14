@@ -226,8 +226,7 @@ mao:adopts rdf:type owl:ObjectProperty ;
                        mao:class:MA_style ,
                        mao:class:MA_syllabus ,
                        mao:class:MA_system ;
-           rdfs:range mao:class:grading_system ,
-                      mao:class:training_method ;
+           rdfs:range mao:class:training_method ;
            rdfs:label "adopts" .
 
 
@@ -432,6 +431,9 @@ mao:resides_in rdf:type owl:ObjectProperty ;
 ###  http://EncodingActs.github.io/annotated/MAon/similar_form_to
 mao:similar_form_to rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf mao:similar_to ;
+                    rdf:type owl:FunctionalProperty ,
+                             owl:SymmetricProperty ,
+                             owl:TransitiveProperty ;
                     rdfs:domain mao:class:MA_form ;
                     rdfs:range mao:class:MA_form ;
                     rdfs:label "similar_form_to" .
@@ -440,13 +442,17 @@ mao:similar_form_to rdf:type owl:ObjectProperty ;
 ###  http://EncodingActs.github.io/annotated/MAon/similar_set_of
 mao:similar_set_of rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf mao:similar_to ;
+                   rdf:type owl:SymmetricProperty ,
+                            owl:TransitiveProperty ;
                    rdfs:domain mao:Form_set ;
                    rdfs:range mao:Form_set ;
                    rdfs:label "similar_set_to"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/similar_to
-mao:similar_to rdf:type owl:ObjectProperty ;
+mao:similar_to rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ,
+                        owl:TransitiveProperty ;
                rdfs:domain mao:class:MA_technique ;
                rdfs:range mao:class:MA_technique ;
                rdfs:label "similar_to" .
@@ -511,13 +517,6 @@ mao:uses rdf:type owl:ObjectProperty ;
          rdfs:label "uses" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/valid_for
-mao:valid_for rdf:type owl:ObjectProperty ;
-              rdfs:domain mao:class:grading_system ;
-              rdfs:range mao:class:MA_system ;
-              rdfs:label "valid_for" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAon/with
 mao:with rdf:type owl:ObjectProperty ;
          rdfs:label "with" .
@@ -535,16 +534,6 @@ mao:appellation_type rdf:type owl:DatatypeProperty ;
                                 mao:EN_Name ,
                                 mao:name_originalLang ;
                      rdfs:label "appellation_type" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/assess_type
-mao:assess_type rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf mao:dataProperties ;
-                rdfs:domain mao:class:grading_system ;
-                rdfs:range mao:grading_system ,
-                           mao:ranking_system ,
-                           mao:reputation ;
-                rdfs:label "assess_type" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/attack_defend_tactic
@@ -619,10 +608,6 @@ mao:weapon_type rdf:type owl:DatatypeProperty ;
 ###  http://EncodingActs.github.io/annotated/MAon/Form_set
 mao:Form_set rdf:type owl:Class ;
              rdfs:subClassOf mao:class:training_method ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:assessed_by ;
-                               owl:someValuesFrom mao:class:grading_system
-                             ] ,
                              [ rdf:type owl:Restriction ;
                                owl:onProperty mao:belongs_to ;
                                owl:someValuesFrom mao:class:MA_system
@@ -816,18 +801,6 @@ mao:class:MA_Master rdf:type owl:Class ;
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty mao:type_of ;
                                       owl:someValuesFrom mao:class:E21-Person
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:grading_system
                                     ] ;
                     rdfs:label "MA_Master"@en .
 
@@ -904,10 +877,6 @@ mao:class:MA_institute rdf:type owl:Class ;
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:adopts ;
-                                         owl:someValuesFrom mao:class:grading_system
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:adopts ;
                                          owl:someValuesFrom mao:class:training_method
                                        ] ,
                                        [ rdf:type owl:Restriction ;
@@ -934,10 +903,6 @@ mao:class:MA_principle rdf:type owl:Class ;
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_style
 mao:class:MA_style rdf:type owl:Class ;
                    rdfs:subClassOf owl:Thing ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:adopts ;
-                                     owl:someValuesFrom mao:class:grading_system
-                                   ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:adopts ;
                                      owl:someValuesFrom mao:class:training_method
@@ -985,10 +950,6 @@ mao:class:MA_syllabus rdf:type owl:Class ;
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_system
 mao:class:MA_system rdf:type owl:Class ;
                     rdfs:subClassOf owl:Thing ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adopts ;
-                                      owl:someValuesFrom mao:class:grading_system
-                                    ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty mao:adopts ;
                                       owl:someValuesFrom mao:class:training_method
@@ -1040,10 +1001,6 @@ mao:class:MA_tactic rdf:type owl:Class ;
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_technique
 mao:class:MA_technique rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:assessed_by ;
-                                         owl:someValuesFrom mao:class:grading_system
-                                       ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:employs ;
                                          owl:someValuesFrom mao:class:body_bridge
@@ -1222,19 +1179,6 @@ mao:class:footwork rdf:type owl:Class ;
                                      owl:someValuesFrom mao:class:MA_technique
                                    ] ;
                    rdfs:label "Footwork" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/class:grading_system
-mao:class:grading_system rdf:type owl:Class ;
-                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                           owl:onProperty mao:valid_for ;
-                                           owl:someValuesFrom mao:class:MA_style
-                                         ] ,
-                                         [ rdf:type owl:Restriction ;
-                                           owl:onProperty mao:valid_for ;
-                                           owl:someValuesFrom mao:class:MA_system
-                                         ] ;
-                         rdfs:label "Assessment_method"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:hand_shape
@@ -2265,12 +2209,6 @@ mao:cutting_elbow rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Yi Zhou"@en ;
                   mao:ontoMA_name_zh "刈肘"@zh ;
                   rdfs:label "cutting_elbow" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/dan_ranking
-mao:dan_ranking rdf:type owl:NamedIndividual ,
-                         mao:class:grading_system ;
-                rdfs:label "Dan_ranking" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_blocking_palm

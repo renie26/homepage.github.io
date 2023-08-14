@@ -363,7 +363,6 @@
         <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_style"/>
         <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_syllabus"/>
         <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_system"/>
-        <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
         <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:training_method"/>
         <rdfs:label>adopts</rdfs:label>
     </owl:ObjectProperty>
@@ -653,6 +652,9 @@
 
     <owl:ObjectProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/similar_form_to">
         <rdfs:subPropertyOf rdf:resource="http://EncodingActs.github.io/annotated/MAon/similar_to"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <rdfs:label>similar_form_to</rdfs:label>
@@ -664,6 +666,8 @@
 
     <owl:ObjectProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/similar_set_of">
         <rdfs:subPropertyOf rdf:resource="http://EncodingActs.github.io/annotated/MAon/similar_to"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/Form_set"/>
         <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/Form_set"/>
         <rdfs:label xml:lang="en">similar_set_to</rdfs:label>
@@ -674,6 +678,8 @@
     <!-- http://EncodingActs.github.io/annotated/MAon/similar_to -->
 
     <owl:ObjectProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/similar_to">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_technique"/>
         <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_technique"/>
         <rdfs:label>similar_to</rdfs:label>
@@ -764,16 +770,6 @@
     
 
 
-    <!-- http://EncodingActs.github.io/annotated/MAon/valid_for -->
-
-    <owl:ObjectProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/valid_for">
-        <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-        <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_system"/>
-        <rdfs:label>valid_for</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://EncodingActs.github.io/annotated/MAon/with -->
 
     <owl:ObjectProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/with">
@@ -802,19 +798,6 @@
         <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/EN_Name"/>
         <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/name_originalLang"/>
         <rdfs:label>appellation_type</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://EncodingActs.github.io/annotated/MAon/assess_type -->
-
-    <owl:DatatypeProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/assess_type">
-        <rdfs:subPropertyOf rdf:resource="http://EncodingActs.github.io/annotated/MAon/dataProperties"/>
-        <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-        <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/grading_system"/>
-        <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/ranking_system"/>
-        <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/reputation"/>
-        <rdfs:label>assess_type</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -919,12 +902,6 @@
 
     <owl:Class rdf:about="http://EncodingActs.github.io/annotated/MAon/Form_set">
         <rdfs:subClassOf rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:training_method"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/assessed_by"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/belongs_to"/>
@@ -1213,24 +1190,6 @@
                 <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:E21-Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/valid_for"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_style"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/valid_for"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/valid_for"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MA_Master</rdfs:label>
     </owl:Class>
     
@@ -1344,12 +1303,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/adopts"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/adopts"/>
                 <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:training_method"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1389,12 +1342,6 @@
 
     <owl:Class rdf:about="http://EncodingActs.github.io/annotated/MAon/class:MA_style">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/adopts"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/adopts"/>
@@ -1466,12 +1413,6 @@
 
     <owl:Class rdf:about="http://EncodingActs.github.io/annotated/MAon/class:MA_system">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/adopts"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/adopts"/>
@@ -1549,12 +1490,6 @@
 
     <owl:Class rdf:about="http://EncodingActs.github.io/annotated/MAon/class:MA_technique">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/assessed_by"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/employs"/>
@@ -1819,26 +1754,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Footwork</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://EncodingActs.github.io/annotated/MAon/class:grading_system -->
-
-    <owl:Class rdf:about="http://EncodingActs.github.io/annotated/MAon/class:grading_system">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/valid_for"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_style"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/valid_for"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Assessment_method</rdfs:label>
     </owl:Class>
     
 
@@ -3184,15 +3099,6 @@
         <name_romanMAN xml:lang="en">Yi Zhou</name_romanMAN>
         <mao:ontoMA_name_zh xml:lang="zh">刈肘</mao:ontoMA_name_zh>
         <rdfs:label>cutting_elbow</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://EncodingActs.github.io/annotated/MAon/dan_ranking -->
-
-    <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/dan_ranking">
-        <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:grading_system"/>
-        <rdfs:label>Dan_ranking</rdfs:label>
     </owl:NamedIndividual>
     
 
