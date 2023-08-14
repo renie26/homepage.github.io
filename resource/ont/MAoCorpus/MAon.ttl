@@ -1945,12 +1945,10 @@ mao:cat_stance rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance
 mao:cat_to_bow_stance rdf:type owl:NamedIndividual ,
-                               mao:class:bodywork ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty mao:bodywork_type ;
-                                 owl:someValuesFrom mao:body_movement
-                               ] ;
+                               mao:class:footwork ;
                       mao:employs mao:body_twisting ,
+                                  mao:bow_stance ,
+                                  mao:cat_stance ,
                                   mao:lower_gravity_centere ;
                       mao:used_in mao:Choy_Li_Fut ,
                                   mao:Hung_Kuen ;
@@ -3009,12 +3007,10 @@ mao:horse_stance rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance
 mao:horse_to_bow_stance rdf:type owl:NamedIndividual ,
-                                 mao:class:bodywork ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty mao:bodywork_type ;
-                                   owl:someValuesFrom mao:body_movement
-                                 ] ;
-                        mao:employs mao:body_twisting ;
+                                 mao:class:footwork ;
+                        mao:employs mao:body_twisting ,
+                                    mao:bow_stance ,
+                                    mao:horse_stance ;
                         mao:has_intent mao:power_generation ;
                         mao:used_in mao:Choy_Li_Fut ,
                                     mao:Hung_Kuen ;
@@ -3914,11 +3910,7 @@ mao:steady_bridge rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/stepping
 mao:stepping rdf:type owl:NamedIndividual ,
-                      mao:class:bodywork ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty mao:bodywork_type ;
-                        owl:someValuesFrom mao:body_movement
-                      ] ;
+                      mao:class:footwork ;
              mao:used_in mao:Choy_Li_Fut ,
                          mao:Hung_Kuen ,
                          mao:White_Crane_Kungfu ;

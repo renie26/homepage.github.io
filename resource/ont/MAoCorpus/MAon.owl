@@ -2788,14 +2788,10 @@
     <!-- http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance -->
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance">
-        <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:bodywork"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/bodywork_type"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/body_movement"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:footwork"/>
         <mao:employs rdf:resource="http://EncodingActs.github.io/annotated/MAon/body_twisting"/>
+        <mao:employs rdf:resource="http://EncodingActs.github.io/annotated/MAon/bow_stance"/>
+        <mao:employs rdf:resource="http://EncodingActs.github.io/annotated/MAon/cat_stance"/>
         <mao:employs rdf:resource="http://EncodingActs.github.io/annotated/MAon/lower_gravity_centere"/>
         <mao:used_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Choy_Li_Fut"/>
         <mao:used_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Hung_Kuen"/>
@@ -4120,14 +4116,10 @@
     <!-- http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance -->
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance">
-        <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:bodywork"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/bodywork_type"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/body_movement"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:footwork"/>
         <mao:employs rdf:resource="http://EncodingActs.github.io/annotated/MAon/body_twisting"/>
+        <mao:employs rdf:resource="http://EncodingActs.github.io/annotated/MAon/bow_stance"/>
+        <mao:employs rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <mao:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/power_generation"/>
         <mao:used_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Choy_Li_Fut"/>
         <mao:used_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Hung_Kuen"/>
@@ -5267,13 +5259,7 @@
     <!-- http://EncodingActs.github.io/annotated/MAon/stepping -->
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/stepping">
-        <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:bodywork"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/bodywork_type"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/body_movement"/>
-            </owl:Restriction>
-        </rdf:type>
+        <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:footwork"/>
         <mao:used_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Choy_Li_Fut"/>
         <mao:used_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Hung_Kuen"/>
         <mao:used_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/White_Crane_Kungfu"/>
