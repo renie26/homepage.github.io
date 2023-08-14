@@ -1605,12 +1605,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/simulates"/>
-                <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:symbolic_animal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/used_in"/>
                 <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_style"/>
             </owl:Restriction>

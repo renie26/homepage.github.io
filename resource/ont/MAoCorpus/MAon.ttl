@@ -1077,10 +1077,6 @@ mao:class:MA_technique rdf:type owl:Class ;
                                          owl:someValuesFrom mao:class:MA_technique
                                        ] ,
                                        [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:simulates ;
-                                         owl:someValuesFrom mao:class:symbolic_animal
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:used_in ;
                                          owl:someValuesFrom mao:class:MA_style
                                        ] ,
@@ -1437,16 +1433,6 @@ mao:Dan_Tien_focus rdf:type owl:NamedIndividual ,
                    rdfs:label "Dan_Tien_focus" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/Yongchun_White_Crane
-mao:Yongchun_White_Crane rdf:type owl:NamedIndividual ,
-                                mao:class:MA_style ;
-                       mao:belongs_to mao:White_Crane_Kungfu ;
-                       :name_en "Yongchun_White_Crane" ;
-                       mao:ontoMA_name_zh "永春白鹤拳" ;
-                       mao:ontoMA_otherName_en "Fujian White Crane"@en ;
-                       rdfs:label "Yongchun_White_Crane" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAon/GungGee_video_OscarLam
 mao:GungGee_video_OscarLam rdf:type owl:NamedIndividual ,
                                     mao:class:MA_book ,
@@ -1536,12 +1522,39 @@ mao:Uprightness rdf:type owl:NamedIndividual ,
                 rdfs:label "Uprightness"@en .
 
 
+###  http://EncodingActs.github.io/annotated/MAon/White_Crane_Kungfu
+mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
+                                mao:class:MA_system ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty mao:teaches ;
+                                  owl:someValuesFrom mao:class:breathing_method
+                                ] ;
+                       mao:belongs_to :Southern_Chinese_Martial_Arts ;
+                       mao:has_origin_place <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> ;
+                       mao:has_principle mao:Dan_Tien_focus ;
+                       mao:has_symbol mao:white_crane ;
+                       :name_en "White Crane Kungfu" ;
+                       mao:ontoMA_name_zh "白鶴拳" ;
+                       rdfs:label "White_Crane_Kungfu"@en ;
+                       rdfs:wikiURL "https://en.wikipedia.org/wiki/Fujian_White_Crane" .
+
+
 ###  http://EncodingActs.github.io/annotated/MAon/Yin_Yang
 mao:Yin_Yang rdf:type owl:NamedIndividual ,
                       mao:class:body_cntr_mnpl ;
              :name_en "Yin and Yang"@en ;
              mao:ontoMA_name_zh "陰陽"@zh ;
              rdfs:label "Yin_Yang" .
+
+
+###  http://EncodingActs.github.io/annotated/MAon/Yongchun_White_Crane
+mao:Yongchun_White_Crane rdf:type owl:NamedIndividual ,
+                                  mao:class:MA_style ;
+                         mao:belongs_to mao:White_Crane_Kungfu ;
+                         :name_en "Yongchun_White_Crane" ;
+                         mao:ontoMA_name_zh "永春白鹤拳" ;
+                         mao:ontoMA_otherName_en "Fujian White Crane"@en ;
+                         rdfs:label "Yongchun_White_Crane" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/arm_lock
@@ -5952,23 +5965,6 @@ mao:whipping_punch rdf:type owl:NamedIndividual ,
                    rdfs:label "whipping_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/White_Crane_Kungfu
-mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
-                                mao:class:MA_system ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty mao:teaches ;
-                                  owl:someValuesFrom mao:class:breathing_method
-                                ] ;
-                       mao:belongs_to :Southern_Chinese_Martial_Arts ;
-                       mao:has_origin_place <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> ;
-                       mao:has_principle mao:Dan_Tien_focus ;
-                       mao:has_symbol mao:white_crane ;
-                       :name_en "White Crane Kungfu" ;
-                       mao:ontoMA_name_zh "白鶴拳" ;
-                       rdfs:label "White_Crane_Kungfu"@en ;
-                       rdfs:wikiURL "https://en.wikipedia.org/wiki/Fujian_White_Crane" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAon/white_crane
 mao:white_crane rdf:type owl:NamedIndividual ,
                          mao:class:symbolic_animal ;
@@ -6003,33 +5999,33 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/12_bridges
 <http://EncodingActs.github.io/annotated/MAon/12_bridges> rdf:type owl:NamedIndividual ,
-                                                                        mao:class:MA_principle ;
-                                                               mao:belongs_to mao:Hung_Kuen ;
-                                                               mao:contains mao:Uprightness ,
-                                                                            mao:hard_bridge ,
-                                                                            mao:inch_bridge ,
-                                                                            mao:lifting_bridge ,
-                                                                            mao:move_bridge ,
-                                                                            mao:pressure_bridge ,
-                                                                            mao:separating_bridge ,
-                                                                            mao:soft_bridge ,
-                                                                            mao:stay_bridge ,
-                                                                            mao:steady_bridge ,
-                                                                            mao:straight_bridge ,
-                                                                            mao:subdue_bridge ;
-                                                               :name_en "Twelve Bridges of Hung Gar"@en ;
-                                                               mao:ontoMA_name_zh "洪拳十二橋"@zh ;
-                                                               mao:ontoMA_otherName_en "Twelve Bridge Hands of Hung Gar"@en ;
-                                                               mao:ontoMA_otherName_zh "十二橋手"@zh ,
-                                                                                       "洪拳十二橋手"@zh ;
-                                                               rdfs:label "hg_12_bridges"@en .
+                                                                   mao:class:MA_principle ;
+                                                          mao:belongs_to mao:Hung_Kuen ;
+                                                          mao:contains mao:Uprightness ,
+                                                                       mao:hard_bridge ,
+                                                                       mao:inch_bridge ,
+                                                                       mao:lifting_bridge ,
+                                                                       mao:move_bridge ,
+                                                                       mao:pressure_bridge ,
+                                                                       mao:separating_bridge ,
+                                                                       mao:soft_bridge ,
+                                                                       mao:stay_bridge ,
+                                                                       mao:steady_bridge ,
+                                                                       mao:straight_bridge ,
+                                                                       mao:subdue_bridge ;
+                                                          :name_en "Twelve Bridges of Hung Gar"@en ;
+                                                          mao:ontoMA_name_zh "洪拳十二橋"@zh ;
+                                                          mao:ontoMA_otherName_en "Twelve Bridge Hands of Hung Gar"@en ;
+                                                          mao:ontoMA_otherName_zh "十二橋手"@zh ,
+                                                                                  "洪拳十二橋手"@zh ;
+                                                          rdfs:label "hg_12_bridges"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/YongChun(place)
 <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> rdf:type owl:NamedIndividual ,
-                                                                             mao:class:E53-place ;
-                                                                    :name_en "Yong Chun"@en ;
-                                                                    rdfs:label "YongChun_(place)" .
+                                                                        mao:class:E53-place ;
+                                                               :name_en "Yong Chun"@en ;
+                                                               rdfs:label "YongChun_(place)" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing
