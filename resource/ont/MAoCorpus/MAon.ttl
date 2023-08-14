@@ -229,12 +229,6 @@ mao:adopts rdf:type owl:ObjectProperty ;
            rdfs:range mao:class:training_method ;
            rdfs:label "adopts" .
 
-
-###  http://EncodingActs.github.io/annotated/MAon/assessed_by
-mao:assessed_by rdf:type owl:ObjectProperty ;
-                rdfs:label "assessed_by" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAon/belongs_to
 mao:belongs_to rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_style ,
