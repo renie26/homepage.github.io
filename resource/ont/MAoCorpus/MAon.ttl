@@ -1526,7 +1526,7 @@ mao:Uprightness rdf:type owl:NamedIndividual ,
                          mao:class:honor_code ;
                 mao:is mao:honest_integrity ;
                 :name_en "Uprightness"@en ;
-                mao:ontoMA_name_zh "定乾坤"@zh ;
+                mao:ontoMA_name_zh "訂乾坤"@zh ;
                 mao:ontoMA_otherName_zh "頂天立地"@zh ;
                 rdfs:label "Uprightness"@en .
 
