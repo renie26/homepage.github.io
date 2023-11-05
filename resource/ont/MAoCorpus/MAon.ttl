@@ -1454,15 +1454,15 @@ mao:GungGee_video_OscarLam rdf:type owl:NamedIndividual ,
                            rdfs:label "GungGee_video_OscarLam" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fok_Fu_Kuen
-mao:Gung_Gee_Fok_Fu_Kuen rdf:type owl:NamedIndividual ,
+###  http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen
+mao:Gung_Gee_Fook_Fu_Kuen rdf:type owl:NamedIndividual ,
                                    mao:Form_set ;
                           mao:belongs_to mao:Hung_Kuen ;
                           mao:practiced_in mao:Lam_Family_Hung_Kuen ;
                           :name_en "Gung Gee Fook Fu Kuen"@en ;
                           mao:ontoMA_name_zh "工字伏虎拳"@zh ;
                           mao:ontoMA_otherName_en "Taming the Tiger in I-Pattern"@en ;
-                          rdfs:label "Gung_Gee_Fok_Fu_Kuen"@en .
+                          rdfs:label "Gung_Gee_Fook_Fu_Kuen"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/Hung_Kuen
@@ -4116,7 +4116,7 @@ mao:switch-hitting rdf:type owl:NamedIndividual ,
 mao:taming_tiger_1 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:has_intent mao:breath_regulation ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Standing with the feet about one inch apart"@en ;
                    mao:ontoMA_name_zh "合脚離開一寸闊"@zh ;
                    rdfs:description "預備式，身體立正，雙手自然貼身下垂，雙脚平開一寸，頸正頭平，氣沉丹田。"@zh ;
@@ -4127,7 +4127,7 @@ mao:taming_tiger_1 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_10 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:horse_stance ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Posing a horse stance in four steps"@en ;
                     mao:ontoMA_name_zh "腳肘開發落四平"@zh ;
                     rdfs:description "雙拳在腰，四步開馬至雙脚距月三個腳掌的長度，落身坐四平大馬，脚尖平行向前，大腿與地面平行，膝蓋不超過腳尖。"@zh ;
@@ -4140,7 +4140,7 @@ mao:taming_tiger_11 rdf:type owl:NamedIndividual ,
                     mao:contains mao:db_blocking_palm ,
                                  mao:horse_stance ;
                     mao:has_intent mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ;
                     :name_en "Pulling up fists to throw the lower double forearm block"@en ;
                     mao:ontoMA_name_zh "抽拳在胸雙切膀"@zh ;
@@ -4155,7 +4155,7 @@ mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
                                  mao:finger_hand ,
                                  mao:horse_stance ,
                                  mao:stabilizing_bridge ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:stable_bridge ;
                     :name_en "Palms up facing each other followed by the stabilizing bridge"@en ;
                     mao:ontoMA_name_zh "合掌分開定金橋"@zh ;
@@ -4169,7 +4169,7 @@ mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
                     mao:contains mao:finger_hand ,
                                  mao:horse_stance ,
                                  mao:tiger_claw ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
                                    mao:stable_bridge ;
                     :name_en "Thrice forward extending hands"@en ;
@@ -4186,7 +4186,7 @@ mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
                                  mao:throwing_elbow ,
                                  mao:two_dragons_outof_sea ;
                     mao:has_intent mao:attack_control ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:lifting_bridge ,
                                    mao:move_bridge ,
                                    mao:stable_bridge ;
@@ -4204,7 +4204,7 @@ mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
                                  mao:stabilizing_bridge ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:inch_bridge ,
                                    mao:stable_bridge ,
                                    mao:straight_bridge ;
@@ -4223,7 +4223,7 @@ mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
                                  mao:horse_stance ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:separating_bridge ;
@@ -4239,7 +4239,7 @@ mao:taming_tiger_17 rdf:type owl:NamedIndividual ,
                     mao:contains mao:block_kick ,
                                  mao:cat_stance ;
                     mao:has_intent mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:stay_bridge ;
                     :name_en "Transitioning via a cat stance to launch the right leg block"@en ;
                     mao:ontoMA_name_zh "出左吊右拉歸後"@zh ;
@@ -4252,7 +4252,7 @@ mao:taming_tiger_18 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:block_n_front_kick ;
                     mao:has_intent mao:attack_while_defend ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:straight_bridge ,
                                    mao:subdue_bridge ;
@@ -4268,7 +4268,7 @@ mao:taming_tiger_19 rdf:type owl:NamedIndividual ,
                     mao:contains mao:blocking_palm ,
                                  mao:bow_stance ;
                     mao:has_intent mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:stay_bridge ;
                     :name_en "Lower forearm block with a bow stance"@en ;
@@ -4282,7 +4282,7 @@ mao:taming_tiger_2 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ;
                    mao:has_intent mao:breath_regulation ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Holding the fists by the waist"@en ;
                    mao:ontoMA_name_zh "兩手揸拳藏在腰"@zh ;
                    rdfs:description "雙掌握拳，吸氣抽拳提至腰間盆骨，再吸氣抽拳至胸。防備手法，力蓄拳臂，以靜待動。"@zh ;
@@ -4299,7 +4299,7 @@ mao:taming_tiger_20 rdf:type owl:NamedIndividual ,
                                  mao:up_forcing_palm ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:lifting_bridge ,
                                    mao:separating_bridge ;
@@ -4319,7 +4319,7 @@ mao:taming_tiger_21 rdf:type owl:NamedIndividual ,
                                  mao:twisting_stance ;
                     mao:has_intent mao:defense_dodge ,
                                    mao:distance_management ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:separating_bridge ;
                     :name_en "Withdrawing the hand and turning with the curving palm"@en ;
                     mao:ontoMA_name_zh "抽手轉身割歸後"@zh ;
@@ -4333,7 +4333,7 @@ mao:taming_tiger_22 rdf:type owl:NamedIndividual ,
                     mao:contains mao:horizontal_palm_strike ,
                                  mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_int ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:pressure_bridge ;
                     :name_en "Advancing with the horizontal palm strike"@en ;
@@ -4351,7 +4351,7 @@ mao:taming_tiger_23 rdf:type owl:NamedIndividual ,
                                  mao:target_hand ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:straight_bridge ,
                                    mao:subdue_bridge ;
@@ -4369,7 +4369,7 @@ mao:taming_tiger_24 rdf:type owl:NamedIndividual ,
                                  mao:palm_strike ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ;
                     :name_en "Curving palm with a horse stance follow by the palm strike"@en ;
@@ -4387,7 +4387,7 @@ mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
                                  mao:whipping_palm ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:separating_bridge ,
                                    mao:stay_bridge ;
@@ -4400,7 +4400,7 @@ mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_26
 mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_17 ;
                     :name_en "Transitioning via a cat stance to launch the right leg block"@en ;
                     mao:ontoMA_name_zh "出右吊左拉歸後"@zh ;
@@ -4411,7 +4411,7 @@ mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_27
 mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_18 ;
                     :name_en "Blocking with groin stop kick"@en ;
                     mao:ontoMA_name_zh "鏟腳四平馬八分"@zh ;
@@ -4422,7 +4422,7 @@ mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_28
 mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_19 ;
                     :name_en "Lower forearm block with a bow stance"@en ;
                     mao:ontoMA_name_zh "子午一轉右膀手"@zh ;
@@ -4433,7 +4433,7 @@ mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_29
 mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_20 ;
                     :name_en "Splitting and turning followed by upper knife hand block and downward chop"@en ;
                     mao:ontoMA_name_zh "一挑擰馬右千字"@zh ;
@@ -4445,7 +4445,7 @@ mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:straight_cut_palm ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:straight_bridge ;
                    :name_en "Lifting the fists and pushing forward the palms from the side of chest"@en ;
                    mao:ontoMA_name_zh "抽上胸中一切出"@zh ;
@@ -4456,7 +4456,7 @@ mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_30
 mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_21 ;
                     :name_en "Withdrawing the hand and turning with the curving palm"@en ;
                     mao:ontoMA_name_zh "抽手轉身割歸後"@zh ;
@@ -4467,7 +4467,7 @@ mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_31
 mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_22 ;
                     :name_en "Advancing with the horizontal palm strike"@en ;
                     mao:ontoMA_name_zh "上馬連出一側掌"@zh ;
@@ -4478,7 +4478,7 @@ mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_32
 mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_23 ;
                     :name_en "Side elbow strike with a horse stance followed by the knifehand strike"@en ;
                     mao:ontoMA_name_zh "四平肘頂標串手"@zh ;
@@ -4489,7 +4489,7 @@ mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_33
 mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_24 ;
                     :name_en "Curving palm with a horse stance follow by the palm strike"@en ;
                     mao:ontoMA_name_zh "割手四平掌打正"@zh ;
@@ -4500,7 +4500,7 @@ mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_34
 mao:taming_tiger_34 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_25 ;
                     :name_en "Pulling back the fist to launch a back fist punch"@en ;
                     mao:ontoMA_name_zh "一揸一抽轉一分"@zh ;
@@ -4514,7 +4514,7 @@ mao:taming_tiger_35 rdf:type owl:NamedIndividual ,
                     mao:contains mao:cat_stance ,
                                  mao:up_forcing_palm ;
                     mao:has_intent mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:lifting_bridge ,
                                    mao:stay_bridge ;
                     :name_en "Stepping with the left foot to defend with a cat stance"@en ;
@@ -4534,7 +4534,7 @@ mao:taming_tiger_36 rdf:type owl:NamedIndividual ,
                                  mao:whipping_palm ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:move_bridge ,
                                    mao:pressure_bridge ,
                                    mao:subdue_bridge ;
@@ -4552,7 +4552,7 @@ mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
                                  mao:lock_n_drag_hand ,
                                  mao:turning ;
                     mao:has_intent mao:attack_control ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:move_bridge ,
                                    mao:stay_bridge ;
                     :name_en "Turning while dragging the horse back to the stable"@en ;
@@ -4564,7 +4564,7 @@ mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_38
 mao:taming_tiger_38 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_36 ;
                     :name_en "Striking with the double tiger claws three times again"@en ;
                     mao:ontoMA_name_zh "貓兒洗面又三勻"@zh ;
@@ -4580,7 +4580,7 @@ mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
                                  mao:lower_gravity_centere ,
                                  mao:twisting_stance ;
                     mao:has_intent mao:attack_control ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:move_bridge ,
                                    mao:stay_bridge ;
                     :name_en "Turning while dragging the horse"@en ;
@@ -4593,7 +4593,7 @@ mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Lifting the fists toward the shoulders"@en ;
                    mao:ontoMA_name_zh "反手抽拳對膀肩"@zh ;
                    rdfs:description "雙手外翻握拳，拳心向上，用力朝上抽起，至雙拳與肩膊對平，拳心向身。"@zh ;
@@ -4605,7 +4605,7 @@ mao:taming_tiger_40 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:bow_stance ;
                     mao:has_intent mao:closing_distance ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Advancing one step with the bow stance"@en ;
                     mao:ontoMA_name_zh "右腳一齣子午馬"@zh ;
                     rdfs:description "向前落右子午馬。"@zh ;
@@ -4619,7 +4619,7 @@ mao:taming_tiger_41 rdf:type owl:NamedIndividual ,
                                  mao:db_blocking_palm ,
                                  mao:splitting_palm ;
                     mao:has_intent mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:separating_bridge ,
                                    mao:stay_bridge ;
@@ -4640,7 +4640,7 @@ mao:taming_tiger_42 rdf:type owl:NamedIndividual ,
                                  mao:up_forcing_palm ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:lifting_bridge ;
                     :name_en "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike"@en ;
@@ -4657,7 +4657,7 @@ mao:taming_tiger_43 rdf:type owl:NamedIndividual ,
                                  mao:db_thrust_palm ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:attack_while_defend ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:subdue_bridge ;
                     :name_en "Pullback followed by striking with the double hanging back fists and then knife hand thrust"@en ;
@@ -4674,7 +4674,7 @@ mao:taming_tiger_44 rdf:type owl:NamedIndividual ,
                                  mao:horse_to_bow_stance ,
                                  mao:two_dragons_outof_sea ;
                     mao:has_intent mao:attack_subduing ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
                                    mao:subdue_bridge ;
                     :name_en "Advancing with double palm/claw strike"@en ;
@@ -4689,7 +4689,7 @@ mao:taming_tiger_45 rdf:type owl:NamedIndividual ,
                     mao:contains mao:bullhorn_uppercut ,
                                  mao:cat_to_bow_stance ;
                     mao:has_intent mao:attack_subduing ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:lifting_bridge ,
                                    mao:subdue_bridge ;
@@ -4708,7 +4708,7 @@ mao:taming_tiger_46 rdf:type owl:NamedIndividual ,
                                  mao:throwing_elbow ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_subduing ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:stay_bridge ,
                                    mao:subdue_bridge ;
@@ -4724,7 +4724,7 @@ mao:taming_tiger_47 rdf:type owl:NamedIndividual ,
                     mao:contains mao:horse_stance ,
                                  mao:turning ,
                                  mao:two_dragons_outof_sea ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Turning around to a horse stance with the double palm strike"@en ;
                     mao:ontoMA_name_zh "轉身向後四平馬"@zh ;
                     rdfs:description "右脚向後一劃，轉身落四平馬，雙撐掌向前打出，雙手抓拳藏腰。"@zh ;
@@ -4734,7 +4734,7 @@ mao:taming_tiger_47 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_48
 mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_11 ,
                                         mao:taming_tiger_12 ;
                     :name_en "Lifting and pushing forward the palms forward after the lower double forearm block"@en ;
@@ -4746,7 +4746,7 @@ mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_49
 mao:taming_tiger_49 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_13 ;
                     :name_en "Thrice forward extending hands"@en ;
                     mao:ontoMA_name_zh "一指撐天三株出"@zh ;
@@ -4760,7 +4760,7 @@ mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
                    mao:contains mao:dw_block_n_target_hand ,
                                 mao:three_extending_hand ,
                                 mao:throwing_elbow ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:hard_bridge ,
                                   mao:inch_bridge ,
                                   mao:pressure_bridge ;
@@ -4773,7 +4773,7 @@ mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_50
 mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_15 ;
                     :name_en "Forward target hands followed by the stabilizing bridge"@en ;
                     mao:ontoMA_name_zh "標串手法定金橋"@zh ;
@@ -4784,7 +4784,7 @@ mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_51
 mao:taming_tiger_51 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_16 ;
                     :name_en "Double splitting and curving palms followed by the divide punch"@en ;
                     mao:ontoMA_name_zh "雙抽雙割一揸分"@zh ;
@@ -4804,7 +4804,7 @@ mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
                     mao:has_intent mao:attack_control ,
                                    mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:pressure_bridge ,
@@ -4819,7 +4819,7 @@ mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_53
 mao:taming_tiger_53 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_52 ;
                     :name_en "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block"@en ;
                     mao:ontoMA_name_zh "再撤蝶掌迫分漏"@zh ;
@@ -4836,7 +4836,7 @@ mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
                                  mao:up_forcing_palm ;
                     mao:has_intent mao:attack_control ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:lifting_bridge ,
                                    mao:move_bridge ,
                                    mao:separating_bridge ,
@@ -4851,7 +4851,7 @@ mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:contains mao:turning_steps ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Retreating steps while turning the body"@en ;
                     mao:ontoMA_name_zh "斜風擺柳轉車身"@zh ;
                     rdfs:description "兩個麒麟步轉馬，后落左子午馬"@zh ;
@@ -4861,7 +4861,7 @@ mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_56
 mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_41 ;
                     :name_en "Double lower forearm block followed by splitting hand and upper knife hand block"@en ;
                     mao:ontoMA_name_zh "雙膀切落起左右"@zh ;
@@ -4872,7 +4872,7 @@ mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_57
 mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_42 ;
                     :name_en "Double reverse knife hand strike following the block"@en ;
                     mao:ontoMA_name_zh "一撇一劃千字手"@zh ;
@@ -4883,7 +4883,7 @@ mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_58
 mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_43 ;
                     :name_en "Striking with the double hanging back fists and then knife hand thrust"@en ;
                     mao:ontoMA_name_zh "拉馬抽拳雙掛落"@zh ;
@@ -4894,7 +4894,7 @@ mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_59
 mao:taming_tiger_59 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_44 ;
                     :name_en "Advancing with double palm/claw strike"@en ;
                     mao:ontoMA_name_zh "進馬兜肘雙虎爪"@zh ;
@@ -4907,7 +4907,7 @@ mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:descend_elbow ,
                                 mao:facing_sun_palm ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:hard_bridge ,
                                   mao:stable_bridge ;
                    :name_en "Descending the elbows with the palms facing the sun"@en ;
@@ -4919,7 +4919,7 @@ mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_60
 mao:taming_tiger_60 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_45 ;
                     :name_en "Striking with a hook and uppercut"@en ;
                     mao:ontoMA_name_zh "牛角一槌轉通天"@zh ;
@@ -4937,7 +4937,7 @@ mao:taming_tiger_61 rdf:type owl:NamedIndividual ,
                                  mao:straight_punch ;
                     mao:has_intent mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:straight_bridge ;
@@ -4958,7 +4958,7 @@ mao:taming_tiger_62 rdf:type owl:NamedIndividual ,
                                  mao:turning ;
                     mao:has_intent mao:attack_int ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ;
                     :name_en "Fighting backwards with the side elbow strike followed by the rolling elbow strike"@en ;
                     mao:ontoMA_name_zh "拉馬一頂碌肘撇"@zh ;
@@ -4979,7 +4979,7 @@ mao:taming_tiger_63 rdf:type owl:NamedIndividual ,
                                  mao:turning ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:pressure_bridge ,
                                    mao:subdue_bridge ;
@@ -5000,7 +5000,7 @@ mao:taming_tiger_64 rdf:type owl:NamedIndividual ,
                                  mao:stepping ;
                     mao:has_intent mao:attack_int ,
                                    mao:attack_while_defend ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
                                    mao:straight_bridge ;
                     :name_en "The black-tiger punch combination"@en ;
@@ -5018,7 +5018,7 @@ mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
                                  mao:unicorn_steps ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:pressure_bridge ;
@@ -5031,7 +5031,7 @@ mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_66
 mao:taming_tiger_66 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_65 ;
                     :name_en "Butterfly palm strike toward another direction via unicorn steps"@en ;
                     mao:ontoMA_name_zh "連環蝶掌步麒麟"@zh ;
@@ -5046,7 +5046,7 @@ mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
                                  mao:clipping_fists ,
                                  mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_while_defend ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:stay_bridge ,
                                    mao:straight_bridge ;
@@ -5059,7 +5059,7 @@ mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_68
 mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_67 ;
                     :name_en "Clipping hammer fist to the left"@en ;
                     mao:ontoMA_name_zh "左右連環一樣同"@zh ;
@@ -5074,7 +5074,7 @@ mao:taming_tiger_69 rdf:type owl:NamedIndividual ,
                                  mao:bow_stance ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Turning with the backfist block followed by a straight punch to the right"@en ;
                     mao:ontoMA_name_zh "轉身單掛槌中出"@zh ;
                     rdfs:description "正面上四平馬右分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。"@zh ;
@@ -5086,7 +5086,7 @@ mao:taming_tiger_7 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ,
                                 mao:upright_buddha_palm ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Right hand holding the fist and the left holding the palm"@en ;
                    mao:ontoMA_name_zh "右手揸拳左用掌"@zh ;
                    rdfs:description "左手成虎爪擺至右胸前擋護，右手同時抽拳在腰。"@zh ;
@@ -5096,7 +5096,7 @@ mao:taming_tiger_7 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_70
 mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_69 ;
                     :name_en "Turning with the backfist block followed by a straight punch to the left"@en ;
                     mao:ontoMA_name_zh "拉馬轉身掛打槌"@zh ;
@@ -5107,7 +5107,7 @@ mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_71
 mao:taming_tiger_71 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_69 ;
                     :name_en "Turning with the backfist block followed by a straight punch to the front"@en ;
                     mao:ontoMA_name_zh "向前掛打連環落"@zh ;
@@ -5122,7 +5122,7 @@ mao:taming_tiger_72 rdf:type owl:NamedIndividual ,
                                  mao:straight_cut_palm ,
                                  mao:turning ;
                     mao:has_intent mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:stay_bridge ;
                     :name_en "Turning around to block with the knife hand chop"@en ;
@@ -5143,7 +5143,7 @@ mao:taming_tiger_73 rdf:type owl:NamedIndividual ,
                                  mao:turning ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:closing_distance ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:pressure_bridge ,
                                    mao:straight_bridge ,
@@ -5166,7 +5166,7 @@ mao:taming_tiger_74 rdf:type owl:NamedIndividual ,
                     mao:has_intent mao:attack_subduing ,
                                    mao:defense_block ,
                                    mao:defense_dodge ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:pressure_bridge ,
                                    mao:separating_bridge ,
@@ -5187,7 +5187,7 @@ mao:taming_tiger_75 rdf:type owl:NamedIndividual ,
                                  mao:tiger_tail_kick ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_int ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:straight_bridge ;
                     :name_en "Bow stance palm strike followed by the tiger tail kick"@en ;
@@ -5205,7 +5205,7 @@ mao:taming_tiger_76 rdf:type owl:NamedIndividual ,
                                  mao:two_finger_strike ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:inch_bridge ,
                                    mao:pressure_bridge ,
                                    mao:subdue_bridge ,
@@ -5225,7 +5225,7 @@ mao:taming_tiger_77 rdf:type owl:NamedIndividual ,
                                  mao:twisting_stance ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:inch_bridge ,
                                    mao:lifting_bridge ,
                                    mao:stay_bridge ;
@@ -5244,7 +5244,7 @@ mao:taming_tiger_78 rdf:type owl:NamedIndividual ,
                                  mao:jumping ;
                     mao:has_intent mao:attack_int ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:lifting_bridge ;
                     :name_en "Jump turn followed by the water crest throwing hammer fist"@en ;
@@ -5263,7 +5263,7 @@ mao:taming_tiger_79 rdf:type owl:NamedIndividual ,
                                  mao:up_forcing_palm ;
                     mao:has_intent mao:attack_int ,
                                    mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:lifting_bridge ,
                                    mao:stay_bridge ;
@@ -5280,7 +5280,7 @@ mao:taming_tiger_8 rdf:type owl:NamedIndividual ,
                                 mao:forefist ,
                                 mao:unicorn_steps ,
                                 mao:upright_buddha_palm ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:respect ;
                    :name_en "Palm-and-fist saluting in a cat stance"@en ;
                    mao:ontoMA_name_zh "吊腳收胸見禮謙"@zh ;
@@ -5291,7 +5291,7 @@ mao:taming_tiger_8 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_80
 mao:taming_tiger_80 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_79 ;
                     :name_en "Upper forcing chop to the left followed by horizontal palm strike"@en ;
                     mao:ontoMA_name_zh "左馬攻迫側掌來"@zh ;
@@ -5306,7 +5306,7 @@ mao:taming_tiger_81 rdf:type owl:NamedIndividual ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ;
                     mao:has_intent mao:defense_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:stay_bridge ;
                     :name_en "Switching to right bow stance with forearm block"@en ;
@@ -5326,7 +5326,7 @@ mao:taming_tiger_82 rdf:type owl:NamedIndividual ,
                                  mao:lower_gravity_centere ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:stay_bridge ;
                     :name_en "Lowering the body to block with the latching hammer fist"@en ;
@@ -5344,7 +5344,7 @@ mao:taming_tiger_83 rdf:type owl:NamedIndividual ,
                                  mao:rocket_hammer ;
                     mao:has_intent mao:defense_dodge ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:straight_bridge ;
                     :name_en "A quick jump followed by the rocket hammer fist"@en ;
@@ -5363,7 +5363,7 @@ mao:taming_tiger_84 rdf:type owl:NamedIndividual ,
                                  mao:joint_lock ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_subduing ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:lifting_bridge ,
                                    mao:move_bridge ,
                                    mao:pressure_bridge ,
@@ -5383,7 +5383,7 @@ mao:taming_tiger_85 rdf:type owl:NamedIndividual ,
                                  mao:twisting_stance ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
                                    mao:subdue_bridge ;
                     :name_en "Stepping back and strike backwards with the dragon claws"@en ;
@@ -5402,7 +5402,7 @@ mao:taming_tiger_86 rdf:type owl:NamedIndividual ,
                                  mao:straight_punch ;
                     mao:has_intent mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:separating_bridge ,
@@ -5425,7 +5425,7 @@ mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
                                  mao:tangling_palms ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_subduing ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:straight_bridge ,
@@ -5439,7 +5439,7 @@ mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_88
 mao:taming_tiger_88 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_87 ;
                     :name_en "Repeating the tangling palms and punch combination"@en ;
                     mao:ontoMA_name_zh "左右連環各一勻"@zh ;
@@ -5455,7 +5455,7 @@ mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
                                  mao:cat_stance ,
                                  mao:cat_to_bow_stance ;
                     mao:has_intent mao:reconciliation_block ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:pressure_bridge ,
                                    mao:separating_bridge ;
@@ -5469,7 +5469,7 @@ mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_9 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ;
-                   mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                   mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Pulling back the fists toward the side of the waist"@en ;
                    mao:ontoMA_name_zh "扭手收拳歸原位"@zh ;
                    rdfs:description "向後收步立正，雙手扭拳至腰間盆骨，氣沉丹田。"@zh ;
@@ -5488,7 +5488,7 @@ mao:taming_tiger_90 rdf:type owl:NamedIndividual ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_subduing ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
                                    mao:straight_bridge ,
                                    mao:subdue_bridge ;
@@ -5508,7 +5508,7 @@ mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
                                  mao:turning ;
                     mao:has_intent mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:straight_bridge ;
@@ -5521,7 +5521,7 @@ mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_92
 mao:taming_tiger_92 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_8 ;
                     :name_en "Pulling back the fist and saluting with a cat stance"@en ;
                     mao:ontoMA_name_zh "收拳見禮須吊腳"@zh ;
@@ -5532,7 +5532,7 @@ mao:taming_tiger_92 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_93
 mao:taming_tiger_93 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:is_form_in mao:Gung_Gee_Fok_Fu_Kuen ;
+                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Standing up and bowing"@en ;
                     mao:ontoMA_name_zh "扭手收拳一鞠躬"@zh ;
                     rdfs:description "收式：收步立正，同時雙拳收拳平肩，再扭拳收腰，后埀掌。"@zh ;
@@ -6028,17 +6028,17 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
                                                                     rdfs:label "YongChun_(place)" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/book:Gung_Gee_Fok_Fu_Kuen_by_Lam_Sai_Wing
-mao:book:Gung_Gee_Fok_Fu_Kuen_by_Lam_Sai_Wing rdf:type owl:NamedIndividual ,
+###  http://EncodingActs.github.io/annotated/MAon/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing
+mao:book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing rdf:type owl:NamedIndividual ,
                                                         mao:class:MA_book ,
                                                         [ rdf:type owl:Restriction ;
                                                           owl:onProperty mao:data_format ;
                                                           owl:someValuesFrom mao:ManualBook
                                                         ] ;
-                                               mao:documents mao:Gung_Gee_Fok_Fu_Kuen ,
+                                               mao:documents mao:Gung_Gee_Fook_Fu_Kuen ,
                                                              mao:Hung_Kuen ,
                                                              mao:Lam_Sai_Wing ;
-                                               rdfs:label "Book:Gung_Gee_Fok_Fu_Kuen_by_Lam_Sai_Wing" .
+                                               rdfs:label "Book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing" .
 
 
 #################################################################
