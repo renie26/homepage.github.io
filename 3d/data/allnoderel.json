@@ -13,7 +13,8 @@
       "id": 122,
       "class": "MA_system",
       "properties": {
-        "rdfs__label": "Choy_Li_Fut",
+        "ontoMA_name_zh": "蔡李佛",
+        "rdfs__label": "Choy Li Fut",
         "name_en": "Choy Li Fut system",
         "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/Choy_Li_Fut"
       },
