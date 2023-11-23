@@ -1,0 +1,173 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙手轉為指手，收至平肩，將力橫逼于掌、橋（臂）、指中，橫向橫向外連環推出三次。之後左右抛踭至膊頭高度，雙手向下冚落至腰側，手心向前。後拳化掌，向两侧橫向标直。",
+        "ns1__ontoMA_name_zh": "橫迫三株標串掌",
+        "rdfs__label": "taming_tiger_05",
+        "ns0__name_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_5"
+    },
+    "data": [
+        {
+            "source_zh": "橫迫三株標串掌",
+            "source_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+            "source_rdfs_label": "taming_tiger_05",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "橫迫三株標串掌",
+            "source_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+            "source_rdfs_label": "taming_tiger_05",
+            "source_labels": "MA_form",
+            "target_zh": "寸",
+            "target_en": "Inch",
+            "target_rdfs_label": "inch_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "橫迫三株標串掌",
+            "source_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+            "source_rdfs_label": "taming_tiger_05",
+            "source_labels": "MA_form",
+            "target_zh": "三展手",
+            "target_en": "Thrice extending hands",
+            "target_rdfs_label": "three_extending_hand",
+            "target_labels": "body_bridge",
+            "type": "contains"
+        },
+        {
+            "source_zh": "三展手",
+            "source_en": "Thrice extending hands",
+            "source_rdfs_label": "three_extending_hand",
+            "source_labels": "body_bridge",
+            "target_zh": "展手",
+            "target_en": "Extending hand",
+            "target_rdfs_label": "extending_hand",
+            "target_labels": "body_bridge",
+            "type": "employs"
+        },
+        {
+            "source_zh": "橫迫三株標串掌",
+            "source_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+            "source_rdfs_label": "taming_tiger_05",
+            "source_labels": "MA_form",
+            "target_zh": "抛踭",
+            "target_en": "Throwing elbow strike",
+            "target_rdfs_label": "throwing_elbow",
+            "target_labels": "elbow_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "橫迫三株標串掌",
+            "source_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+            "source_rdfs_label": "taming_tiger_05",
+            "source_labels": "MA_form",
+            "target_zh": "冚標手",
+            "target_en": "Downward palm block followed by a knife hand strike",
+            "target_rdfs_label": "dw_block_n_target_hand",
+            "target_labels": "combo_tech<br>handwork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "冚標手",
+            "source_en": "Downward palm block followed by a knife hand strike",
+            "source_rdfs_label": "dw_block_n_target_hand",
+            "source_labels": "combo_tech<br>handwork",
+            "target_zh": "標手",
+            "target_en": "Target hand",
+            "target_rdfs_label": "target_hand",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "標手",
+            "source_en": "Target hand",
+            "source_rdfs_label": "target_hand",
+            "source_labels": "palm_tech",
+            "target_zh": "標掌",
+            "target_en": "Horizontal knife hand",
+            "target_rdfs_label": "blade_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "橫迫三株標串掌",
+            "source_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+            "source_rdfs_label": "taming_tiger_05",
+            "source_labels": "MA_form",
+            "target_zh": "冚標手",
+            "target_en": "Downward palm block followed by a knife hand strike",
+            "target_rdfs_label": "dw_block_n_target_hand",
+            "target_labels": "combo_tech<br>handwork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "冚標手",
+            "source_en": "Downward palm block followed by a knife hand strike",
+            "source_rdfs_label": "dw_block_n_target_hand",
+            "source_labels": "combo_tech<br>handwork",
+            "target_zh": "冚手",
+            "target_en": "Downward whipping palm",
+            "target_rdfs_label": "dw_whipping_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "冚手",
+            "source_en": "Downward whipping palm",
+            "source_rdfs_label": "dw_whipping_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "橫迫三株標串掌",
+            "source_en": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand",
+            "source_rdfs_label": "taming_tiger_05",
+            "source_labels": "MA_form",
+            "target_zh": "逼",
+            "target_en": "Pressure",
+            "target_rdfs_label": "pressure_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 10,
+        "endTime": 24,
+        "info": "Thrice side extending hands followed by throwing elbow, downward palm block and target hand"
+    },
+    "recoInfo": {
+        "label": 631,
+        "recomd": [
+            {
+                "recomd_label": 536,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 551,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 631,
+            "end": 536,
+            "type": "similar_move"
+        },
+        {
+            "start": 631,
+            "end": 551,
+            "type": "share_tech"
+        }
+    ]
+}

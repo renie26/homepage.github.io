@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "左脚上馬同時向上90度抽左拳，右手平搥打出。",
+        "ns1__ontoMA_name_zh": "左右連環一樣同",
+        "rdfs__label": "taming_tiger_68",
+        "ns0__name_en": "Clipping hammer fists to the left",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_68"
+    },
+    "data": [
+        {
+            "source_zh": "左右連環一樣同",
+            "source_en": "Clipping hammer fists to the left",
+            "source_rdfs_label": "taming_tiger_68",
+            "source_labels": "MA_form",
+            "target_zh": "右抽一拳連打出",
+            "target_en": "Clipping hammer fists to the right",
+            "target_rdfs_label": "taming_tiger_67",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 325,
+        "endTime": 326,
+        "info": "Clipping hammer fists to the left"
+    },
+    "recoInfo": {
+        "label": 602,
+        "recomd": [
+            {
+                "recomd_label": 603,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 322,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 602,
+            "end": 603,
+            "type": "similar_move"
+        },
+        {
+            "start": 602,
+            "end": 322,
+            "type": "share_tech"
+        }
+    ]
+}

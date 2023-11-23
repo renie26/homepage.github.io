@@ -1,0 +1,215 @@
+{
+    "node_properties": {
+        "rdfs__description": "第四次抛踭後，雙掌手腕按至腰下，順勢前上平出標手，後沉橋對膊，雙手變四指撐天。攻胸手法，若敵出拳打我中部，可以標掌直出迎擊，連消帶打。",
+        "ns1__ontoMA_name_zh": "四拋標串撐天指",
+        "rdfs__label": "taming_tiger_15",
+        "ns0__name_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_15"
+    },
+    "data": [
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "寸",
+            "target_en": "Inch",
+            "target_rdfs_label": "inch_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "定金橋",
+            "target_en": "Stabilizing bridge",
+            "target_rdfs_label": "stabilizing_bridge",
+            "target_labels": "body_bridge",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "直",
+            "target_en": "Straightness",
+            "target_rdfs_label": "straight_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "標串手法定金橋",
+            "target_en": "Forward target hands followed by the stabilizing bridge",
+            "target_rdfs_label": "taming_tiger_50",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "朝陽手",
+            "target_en": "Facing-the-sun palm",
+            "target_rdfs_label": "facing_sun_palm",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "連消帶打",
+            "target_en": "Defense via attacking",
+            "target_rdfs_label": "defend_by_attack",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "冚標手",
+            "target_en": "Downward palm block followed by a knife hand strike",
+            "target_rdfs_label": "dw_block_n_target_hand",
+            "target_labels": "combo_tech<br>handwork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "冚標手",
+            "source_en": "Downward palm block followed by a knife hand strike",
+            "source_rdfs_label": "dw_block_n_target_hand",
+            "source_labels": "combo_tech<br>handwork",
+            "target_zh": "標手",
+            "target_en": "Target hand",
+            "target_rdfs_label": "target_hand",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "標手",
+            "source_en": "Target hand",
+            "source_rdfs_label": "target_hand",
+            "source_labels": "palm_tech",
+            "target_zh": "標掌",
+            "target_en": "Horizontal knife hand",
+            "target_rdfs_label": "blade_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "冚標手",
+            "target_en": "Downward palm block followed by a knife hand strike",
+            "target_rdfs_label": "dw_block_n_target_hand",
+            "target_labels": "combo_tech<br>handwork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "冚標手",
+            "source_en": "Downward palm block followed by a knife hand strike",
+            "source_rdfs_label": "dw_block_n_target_hand",
+            "source_labels": "combo_tech<br>handwork",
+            "target_zh": "冚手",
+            "target_en": "Downward whipping palm",
+            "target_rdfs_label": "dw_whipping_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "冚手",
+            "source_en": "Downward whipping palm",
+            "source_rdfs_label": "dw_whipping_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "阻擋攻擊",
+            "target_en": "Defense via blocking",
+            "target_rdfs_label": "defend_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "四拋標串撐天指",
+            "source_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "source_rdfs_label": "taming_tiger_15",
+            "source_labels": "MA_form",
+            "target_zh": "定",
+            "target_en": "Steadiness",
+            "target_rdfs_label": "steady_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 75,
+        "endTime": 81,
+        "info": "Downward double-palm block followed by the forward target hands and facing-the-sun palms"
+    },
+    "recoInfo": {
+        "label": 551,
+        "recomd": [
+            {
+                "recomd_label": 655,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 631,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 632,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 551,
+            "end": 655,
+            "type": "similar_move"
+        },
+        {
+            "start": 551,
+            "end": 631,
+            "type": "share_tech"
+        },
+        {
+            "start": 551,
+            "end": 632,
+            "type": "share_principle"
+        }
+    ]
+}

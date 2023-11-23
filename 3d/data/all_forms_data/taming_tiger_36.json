@@ -1,0 +1,349 @@
+{
+    "node_properties": {
+        "rdfs__description": "掌心向内成“美人照鏡”，接右脚踏前子午馬，雙手成虎爪，右為前爪，左後爪置右踭位置，連續向前劃抓三次。接右脚吊馬冚擸手，再轉右子午馬向前出雙爪手。",
+        "ns1__ontoMA_name_zh": "照鏡手法爪三勻",
+        "rdfs__label": "taming_tiger_36",
+        "ns0__name_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_36"
+    },
+    "data": [
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "逼",
+            "target_en": "Pressure",
+            "target_rdfs_label": "pressure_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "美人照鏡",
+            "target_en": "Looking-in-the-mirror palm",
+            "target_rdfs_label": "mirror_palm",
+            "target_labels": "palm_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "美人照鏡",
+            "source_en": "Looking-in-the-mirror palm",
+            "source_rdfs_label": "mirror_palm",
+            "source_labels": "palm_tech<br>combo_tech",
+            "target_zh": "柳葉掌",
+            "target_en": "Willow-leaf palm",
+            "target_rdfs_label": "willow_leaf_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "美人照鏡",
+            "target_en": "Looking-in-the-mirror palm",
+            "target_rdfs_label": "mirror_palm",
+            "target_labels": "palm_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "美人照鏡",
+            "source_en": "Looking-in-the-mirror palm",
+            "source_rdfs_label": "mirror_palm",
+            "source_labels": "palm_tech<br>combo_tech",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "美人照鏡",
+            "target_en": "Looking-in-the-mirror palm",
+            "target_rdfs_label": "mirror_palm",
+            "target_labels": "palm_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "美人照鏡",
+            "source_en": "Looking-in-the-mirror palm",
+            "source_rdfs_label": "mirror_palm",
+            "source_labels": "palm_tech<br>combo_tech",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "employs"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "雙爪手",
+            "target_en": "Double claws",
+            "target_rdfs_label": "double_claws",
+            "target_labels": "claw_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙爪手",
+            "source_en": "Double claws",
+            "source_rdfs_label": "double_claws",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "貓兒洗面又三勻",
+            "target_en": "Striking with the double tiger claws three times again",
+            "target_rdfs_label": "taming_tiger_38",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "致命攻擊",
+            "target_en": "Subduing",
+            "target_rdfs_label": "attack_subdue",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "冚手",
+            "target_en": "Downward whipping palm",
+            "target_rdfs_label": "dw_whipping_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "冚手",
+            "source_en": "Downward whipping palm",
+            "source_rdfs_label": "dw_whipping_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "化解，改變攻擊方向",
+            "target_en": "Defense via deflecting",
+            "target_rdfs_label": "defend_deflect",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "貓兒洗面",
+            "target_en": "Double tiger claw strikes to the face",
+            "target_rdfs_label": "serial_upper_claws",
+            "target_labels": "claw_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "貓兒洗面",
+            "source_en": "Double tiger claw strikes to the face",
+            "source_rdfs_label": "serial_upper_claws",
+            "source_labels": "claw_tech<br>combo_tech",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "貓兒洗面",
+            "target_en": "Double tiger claw strikes to the face",
+            "target_rdfs_label": "serial_upper_claws",
+            "target_labels": "claw_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "貓兒洗面",
+            "source_en": "Double tiger claw strikes to the face",
+            "source_rdfs_label": "serial_upper_claws",
+            "source_labels": "claw_tech<br>combo_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "照鏡手法爪三勻",
+            "source_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "source_rdfs_label": "taming_tiger_36",
+            "source_labels": "MA_form",
+            "target_zh": "貓兒洗面",
+            "target_en": "Double tiger claw strikes to the face",
+            "target_rdfs_label": "serial_upper_claws",
+            "target_labels": "claw_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "貓兒洗面",
+            "source_en": "Double tiger claw strikes to the face",
+            "source_rdfs_label": "serial_upper_claws",
+            "source_labels": "claw_tech<br>combo_tech",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 178,
+        "endTime": 192,
+        "info": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face"
+    },
+    "recoInfo": {
+        "label": 579,
+        "recomd": [
+            {
+                "recomd_label": 590,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 271,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 579,
+            "end": 590,
+            "type": "similar_move"
+        },
+        {
+            "start": 579,
+            "end": 271,
+            "type": "share_tech"
+        }
+    ]
+}

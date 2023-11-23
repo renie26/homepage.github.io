@@ -1,0 +1,32 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙手外翻握拳，拳心向上，用力朝上抽起，至雙拳與肩膊對平，拳心向身。",
+        "ns1__ontoMA_name_zh": "反手抽拳對膀肩",
+        "rdfs__label": "taming_tiger_04",
+        "ns0__name_en": "Lifting the hammer fists toward the shoulders",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_4"
+    },
+    "data": [
+        {
+            "source_zh": "反手抽拳對膀肩",
+            "source_en": "Lifting the hammer fists toward the shoulders",
+            "source_rdfs_label": "taming_tiger_04",
+            "source_labels": "MA_form",
+            "target_zh": "平拳",
+            "target_en": "Forefist",
+            "target_rdfs_label": "forefist",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 7,
+        "endTime": 10,
+        "info": "Lifting the hammer fists toward the shoulders"
+    },
+    "recoInfo": {
+        "label": 630,
+        "recomd": []
+    },
+    "recoLinks": []
+}

@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "左脚向前方彈踢，預想對手下陰位置。",
+        "ns1__ontoMA_name_zh": "鏟腳四平馬八分",
+        "rdfs__label": "taming_tiger_27",
+        "ns0__name_en": "Blocking with groin stop kick",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_27"
+    },
+    "data": [
+        {
+            "source_zh": "鏟腳四平馬八分",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_27",
+            "source_labels": "MA_form",
+            "target_zh": "鏟腳四平八分馬",
+            "target_en": "Blocking with groin stop kick",
+            "target_rdfs_label": "taming_tiger_18",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 137,
+        "endTime": 140,
+        "info": "Blocking with groin stop kick"
+    },
+    "recoInfo": {
+        "label": 525,
+        "recomd": [
+            {
+                "recomd_label": 546,
+                "recomd_type": "similar_move"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 525,
+            "end": 546,
+            "type": "similar_move"
+        }
+    ]
+}

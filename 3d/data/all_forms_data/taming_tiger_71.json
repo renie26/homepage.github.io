@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "正面上四平馬右分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。",
+        "ns1__ontoMA_name_zh": "向前掛打連環落",
+        "rdfs__label": "taming_tiger_71",
+        "ns0__name_en": "Turning with the backfist block followed by a straight punch to the front",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_71"
+    },
+    "data": [
+        {
+            "source_zh": "向前掛打連環落",
+            "source_en": "Turning with the backfist block followed by a straight punch to the front",
+            "source_rdfs_label": "taming_tiger_71",
+            "source_labels": "MA_form",
+            "target_zh": "轉身單掛槌中出",
+            "target_en": "Turning with the backfist block followed by a straight punch to the right",
+            "target_rdfs_label": "taming_tiger_69",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 331,
+        "endTime": 334,
+        "info": "Turning with the backfist block followed by a straight punch to the front"
+    },
+    "recoInfo": {
+        "label": 321,
+        "recomd": [
+            {
+                "recomd_label": 601,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 322,
+                "recomd_type": "similar_move"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 321,
+            "end": 601,
+            "type": "similar_move"
+        },
+        {
+            "start": 321,
+            "end": 322,
+            "type": "similar_move"
+        }
+    ]
+}

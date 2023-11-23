@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "吊左馬，左掌一劈護頭胸；后左脚踏前子午馬，雙收成虎爪，左為前爪，右後爪置左踭位置，連續向前抓三次；接左吊馬再接冚擸手，再轉左子午馬出雙爪手前抓。",
+        "ns1__ontoMA_name_zh": "貓兒洗面又三勻",
+        "rdfs__label": "taming_tiger_38",
+        "ns0__name_en": "Striking with the double tiger claws three times again",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_38"
+    },
+    "data": [
+        {
+            "source_zh": "貓兒洗面又三勻",
+            "source_en": "Striking with the double tiger claws three times again",
+            "source_rdfs_label": "taming_tiger_38",
+            "source_labels": "MA_form",
+            "target_zh": "照鏡手法爪三勻",
+            "target_en": "Reconciling using the looking-in-the-mirror palm followed by double tiger claw strikes to the opponent's face",
+            "target_rdfs_label": "taming_tiger_36",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 196,
+        "endTime": 210,
+        "info": "Striking with the double tiger claws three times again"
+    },
+    "recoInfo": {
+        "label": 590,
+        "recomd": [
+            {
+                "recomd_label": 579,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 269,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 590,
+            "end": 579,
+            "type": "similar_move"
+        },
+        {
+            "start": 590,
+            "end": 269,
+            "type": "share_principle"
+        }
+    ]
+}

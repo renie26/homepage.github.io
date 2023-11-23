@@ -1,0 +1,162 @@
+{
+    "node_properties": {
+        "rdfs__description": "右脚上右子午馬，左右拳一抽一搥：抽右拳向上90度，同時左搥平直打出。",
+        "ns1__ontoMA_name_zh": "右抽一拳連打出",
+        "rdfs__label": "taming_tiger_67",
+        "ns0__name_en": "Clipping hammer fists to the right",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_67"
+    },
+    "data": [
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "直",
+            "target_en": "Straightness",
+            "target_rdfs_label": "straight_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "左右連環一樣同",
+            "target_en": "Clipping hammer fists to the left",
+            "target_rdfs_label": "taming_tiger_68",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬轉子午馬",
+            "target_en": "Turning from horse stance to bow stance",
+            "target_rdfs_label": "horse_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四平馬轉子午馬",
+            "source_en": "Turning from horse stance to bow stance",
+            "source_rdfs_label": "horse_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "右抽一拳連打出",
+            "source_en": "Clipping hammer fists to the right",
+            "source_rdfs_label": "taming_tiger_67",
+            "source_labels": "MA_form",
+            "target_zh": "夾木搥",
+            "target_en": "Clipping hammer fists",
+            "target_rdfs_label": "clipping_fists",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "夾木搥",
+            "source_en": "Clipping hammer fists",
+            "source_rdfs_label": "clipping_fists",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "平搥",
+            "target_en": "Straight punch",
+            "target_rdfs_label": "straight_punch",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "平搥",
+            "source_en": "Straight punch",
+            "source_rdfs_label": "straight_punch",
+            "source_labels": "fist_tech",
+            "target_zh": "平拳",
+            "target_en": "Forefist",
+            "target_rdfs_label": "forefist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 323,
+        "endTime": 325,
+        "info": "Clipping hammer fists to the right"
+    },
+    "recoInfo": {
+        "label": 603,
+        "recomd": [
+            {
+                "recomd_label": 602,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 601,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 603,
+            "end": 602,
+            "type": "similar_move"
+        },
+        {
+            "start": 603,
+            "end": 601,
+            "type": "share_tech"
+        }
+    ]
+}

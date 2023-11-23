@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙指手抽回胸前平肩推出，連續三次。",
+        "ns1__ontoMA_name_zh": "一指撐天三株出",
+        "rdfs__label": "taming_tiger_49",
+        "ns0__name_en": "Thrice forward extending hands",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_49"
+    },
+    "data": [
+        {
+            "source_zh": "一指撐天三株出",
+            "source_en": "Thrice forward extending hands",
+            "source_rdfs_label": "taming_tiger_49",
+            "source_labels": "MA_form",
+            "target_zh": "一指三株拋肘手",
+            "target_en": "Thrice forward extending hands",
+            "target_rdfs_label": "taming_tiger_13",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 64,
+        "endTime": 75,
+        "info": "Thrice forward extending hands"
+    },
+    "recoInfo": {
+        "label": 568,
+        "recomd": [
+            {
+                "recomd_label": 536,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 631,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 568,
+            "end": 536,
+            "type": "share_tech"
+        },
+        {
+            "start": 568,
+            "end": 631,
+            "type": "share_tech"
+        }
+    ]
+}

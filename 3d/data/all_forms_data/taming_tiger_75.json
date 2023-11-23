@@ -1,0 +1,184 @@
+{
+    "node_properties": {
+        "rdfs__description": "進左子午馬以右掌平出，左拳在腰；接向身左扭馬，同時右擸手抓踭；再出右脚虎尾脚攻敵腰腹。",
+        "ns1__ontoMA_name_zh": "子午一掌虎尾腳",
+        "rdfs__label": "taming_tiger_75",
+        "ns0__name_en": "Bow stance palm strike followed by the tiger tail kick",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_75"
+    },
+    "data": [
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "攻擊",
+            "target_en": "Launch an attack",
+            "target_rdfs_label": "attack_int",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "直",
+            "target_en": "Straightness",
+            "target_rdfs_label": "straight_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "虎尾脚",
+            "target_en": "Tiger tail kick",
+            "target_rdfs_label": "tiger_tail_kick",
+            "target_labels": "leg_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬轉子午馬",
+            "target_en": "Turning from horse stance to bow stance",
+            "target_rdfs_label": "horse_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四平馬轉子午馬",
+            "source_en": "Turning from horse stance to bow stance",
+            "source_rdfs_label": "horse_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "撐掌",
+            "target_en": "Buddha palm strike",
+            "target_rdfs_label": "palm_strike",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "撐掌",
+            "source_en": "Buddha palm strike",
+            "source_rdfs_label": "palm_strike",
+            "source_labels": "palm_tech",
+            "target_zh": "立掌",
+            "target_en": "Buddha palm",
+            "target_rdfs_label": "buddha_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "子午一掌虎尾腳",
+            "source_en": "Bow stance palm strike followed by the tiger tail kick",
+            "source_rdfs_label": "taming_tiger_75",
+            "source_labels": "MA_form",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 351,
+        "endTime": 357,
+        "info": "Bow stance palm strike followed by the tiger tail kick"
+    },
+    "recoInfo": {
+        "label": 302,
+        "recomd": [
+            {
+                "recomd_label": 271,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 288,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 302,
+            "end": 271,
+            "type": "share_tech"
+        },
+        {
+            "start": 302,
+            "end": 288,
+            "type": "share_principle"
+        }
+    ]
+}

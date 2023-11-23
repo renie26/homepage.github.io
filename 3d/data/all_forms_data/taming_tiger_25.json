@@ -1,0 +1,215 @@
+{
+    "node_properties": {
+        "rdfs__description": "抽左拳在胸，再向下一冚截在腰前方；接抽左拳在胸，後左分搥（邊搥）成對角綫向外打出，截擋格打。",
+        "ns1__ontoMA_name_zh": "一揸抽手轉一分",
+        "rdfs__label": "taming_tiger_25",
+        "ns0__name_en": "Pulling back the fist to launch a back fist punch",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_25"
+    },
+    "data": [
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "冚手",
+            "target_en": "Downward whipping palm",
+            "target_rdfs_label": "dw_whipping_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "冚手",
+            "source_en": "Downward whipping palm",
+            "source_rdfs_label": "dw_whipping_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "分",
+            "target_en": "Separating",
+            "target_rdfs_label": "separate_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "分橋",
+            "target_en": "Dividing bridge",
+            "target_rdfs_label": "dividing_bridge",
+            "target_labels": "body_bridge",
+            "type": "contains"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "阻擋攻擊",
+            "target_en": "Defense via blocking",
+            "target_rdfs_label": "defend_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "邊搥",
+            "target_en": "Side hammer fist",
+            "target_rdfs_label": "side_hammer_fist",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "邊搥",
+            "source_en": "Side hammer fist",
+            "source_rdfs_label": "side_hammer_fist",
+            "source_labels": "fist_tech",
+            "target_zh": "背拳",
+            "target_en": "Back fist",
+            "target_rdfs_label": "backfist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "邊搥",
+            "target_en": "Side hammer fist",
+            "target_rdfs_label": "side_hammer_fist",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "邊搥",
+            "source_en": "Side hammer fist",
+            "source_rdfs_label": "side_hammer_fist",
+            "source_labels": "fist_tech",
+            "target_zh": "牛角拳",
+            "target_en": "Bull horn fist",
+            "target_rdfs_label": "bull_horn_fist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "一揸抽手轉一分",
+            "source_en": "Pulling back the fist to launch a back fist punch",
+            "source_rdfs_label": "taming_tiger_25",
+            "source_labels": "MA_form",
+            "target_zh": "一揸一抽轉一分",
+            "target_en": "Pulling back the fist to launch a back fist punch",
+            "target_rdfs_label": "taming_tiger_34",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 126,
+        "endTime": 132,
+        "info": "Pulling back the fist to launch a back fist punch"
+    },
+    "recoInfo": {
+        "label": 510,
+        "recomd": [
+            {
+                "recomd_label": 582,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 549,
+                "recomd_type": "share_principle"
+            },
+            {
+                "recomd_label": 644,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 510,
+            "end": 582,
+            "type": "similar_move"
+        },
+        {
+            "start": 510,
+            "end": 549,
+            "type": "share_principle"
+        },
+        {
+            "start": 510,
+            "end": 644,
+            "type": "share_principle"
+        }
+    ]
+}

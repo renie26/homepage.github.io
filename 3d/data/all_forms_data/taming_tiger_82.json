@@ -1,0 +1,325 @@
+{
+    "node_properties": {
+        "rdfs__description": "吊右脚身腰往下一沉，雙拳右前左後掛打，拳心向上墜壓敵脚；再落右子午馬，同時雙拳衝拳向前上打出，利用身體墜力增加拳勢壓制敵脚，再衝拳反擊。",
+        "ns1__ontoMA_name_zh": "千斤一墜鐵門閂",
+        "rdfs__label": "taming_tiger_82",
+        "ns0__name_en": "Lowering the body to block with the latching hammer fist",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_82"
+    },
+    "data": [
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "連消帶打",
+            "target_en": "Defense via attacking",
+            "target_rdfs_label": "defend_by_attack",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬進子午馬",
+            "target_en": "Advancing from cat stance to bow stance",
+            "target_rdfs_label": "cat_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊馬進子午馬",
+            "source_en": "Advancing from cat stance to bow stance",
+            "source_rdfs_label": "cat_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬進子午馬",
+            "target_en": "Advancing from cat stance to bow stance",
+            "target_rdfs_label": "cat_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊馬進子午馬",
+            "source_en": "Advancing from cat stance to bow stance",
+            "source_rdfs_label": "cat_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "沉",
+            "target_en": "Lowering the centre of gravity",
+            "target_rdfs_label": "lower_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "阻擋攻擊",
+            "target_en": "Defense via blocking",
+            "target_rdfs_label": "defend_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "鐵門閂",
+            "target_en": "Latching hammer fist",
+            "target_rdfs_label": "latch_fist",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "鐵門閂",
+            "source_en": "Latching hammer fist",
+            "source_rdfs_label": "latch_fist",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "鐵門閂",
+            "target_en": "Latching hammer fist",
+            "target_rdfs_label": "latch_fist",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "鐵門閂",
+            "source_en": "Latching hammer fist",
+            "source_rdfs_label": "latch_fist",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "合",
+            "target_en": "With the body closed",
+            "target_rdfs_label": "closed_body",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "鐵門閂",
+            "target_en": "Latching hammer fist",
+            "target_rdfs_label": "latch_fist",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "鐵門閂",
+            "source_en": "Latching hammer fist",
+            "source_rdfs_label": "latch_fist",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "背拳",
+            "target_en": "Back fist",
+            "target_rdfs_label": "backfist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "鐵門閂",
+            "target_en": "Latching hammer fist",
+            "target_rdfs_label": "latch_fist",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "鐵門閂",
+            "source_en": "Latching hammer fist",
+            "source_rdfs_label": "latch_fist",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "牛角拳",
+            "target_en": "Bull horn fist",
+            "target_rdfs_label": "bull_horn_fist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "鐵門閂",
+            "target_en": "Latching hammer fist",
+            "target_rdfs_label": "latch_fist",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "鐵門閂",
+            "source_en": "Latching hammer fist",
+            "source_rdfs_label": "latch_fist",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "沉",
+            "target_en": "Lowering the centre of gravity",
+            "target_rdfs_label": "lower_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "日子搥",
+            "target_en": "日-character hammer fist",
+            "target_rdfs_label": "verticalfist_hammer",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "日子搥",
+            "source_en": "日-character hammer fist",
+            "source_rdfs_label": "verticalfist_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "平拳",
+            "target_en": "Forefist",
+            "target_rdfs_label": "forefist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "千斤一墜鐵門閂",
+            "source_en": "Lowering the body to block with the latching hammer fist",
+            "source_rdfs_label": "taming_tiger_82",
+            "source_labels": "MA_form",
+            "target_zh": "沉",
+            "target_en": "Lowering the centre of gravity",
+            "target_rdfs_label": "lower_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 394,
+        "endTime": 399,
+        "info": "Lowering the body to block with the latching hammer fist"
+    },
+    "recoInfo": {
+        "label": 289,
+        "recomd": [
+            {
+                "recomd_label": 265,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 641,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 544,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 289,
+            "end": 265,
+            "type": "share_tech"
+        },
+        {
+            "start": 289,
+            "end": 641,
+            "type": "share_tech"
+        },
+        {
+            "start": 289,
+            "end": 544,
+            "type": "share_principle"
+        }
+    ]
+}

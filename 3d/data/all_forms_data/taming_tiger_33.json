@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "回四平馬，右掌向下割手至腰，接右撐掌打出，連消帶打。",
+        "ns1__ontoMA_name_zh": "割手四平掌打正",
+        "rdfs__label": "taming_tiger_33",
+        "ns0__name_en": "Curving palm with a horse stance follow by the palm strike",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_33"
+    },
+    "data": [
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_33",
+            "source_labels": "MA_form",
+            "target_zh": "割手四平掌打正",
+            "target_en": "Curving palm with a horse stance follow by the palm strike",
+            "target_rdfs_label": "taming_tiger_24",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 165,
+        "endTime": 168,
+        "info": "Curving palm with a horse stance follow by the palm strike"
+    },
+    "recoInfo": {
+        "label": 583,
+        "recomd": [
+            {
+                "recomd_label": 511,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 516,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 583,
+            "end": 511,
+            "type": "similar_move"
+        },
+        {
+            "start": 583,
+            "end": 516,
+            "type": "share_tech"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙掌前上平出標手，後沉踭（沉橋）對膊，雙手變四指撐天。",
+        "ns1__ontoMA_name_zh": "標串手法定金橋",
+        "rdfs__label": "taming_tiger_50",
+        "ns0__name_en": "Forward target hands followed by the stabilizing bridge",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_50"
+    },
+    "data": [
+        {
+            "source_zh": "標串手法定金橋",
+            "source_en": "Forward target hands followed by the stabilizing bridge",
+            "source_rdfs_label": "taming_tiger_50",
+            "source_labels": "MA_form",
+            "target_zh": "四拋標串撐天指",
+            "target_en": "Downward double-palm block followed by the forward target hands and facing-the-sun palms",
+            "target_rdfs_label": "taming_tiger_15",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 75,
+        "endTime": 81,
+        "info": "Forward target hands followed by the stabilizing bridge"
+    },
+    "recoInfo": {
+        "label": 655,
+        "recomd": [
+            {
+                "recomd_label": 551,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 655,
+            "end": 551,
+            "type": "share_tech"
+        }
+    ]
+}

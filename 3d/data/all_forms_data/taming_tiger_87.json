@@ -1,0 +1,237 @@
+{
+    "node_properties": {
+        "rdfs__description": "左拳收腰，吊右馬，右割手接右迫手，再以右纏枝手擸踭，接進右子午馬出左拳平搥。",
+        "ns1__ontoMA_name_zh": "吊腳纏枝一槌來",
+        "rdfs__label": "taming_tiger_87",
+        "ns0__name_en": "Tangling palms with a cat stance followed by a straight punch",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_87"
+    },
+    "data": [
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "直",
+            "target_en": "Straightness",
+            "target_rdfs_label": "straight_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "沉",
+            "target_en": "Lowering the centre of gravity",
+            "target_rdfs_label": "lower_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬轉子午馬",
+            "target_en": "Turning from horse stance to bow stance",
+            "target_rdfs_label": "horse_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四平馬轉子午馬",
+            "source_en": "Turning from horse stance to bow stance",
+            "source_rdfs_label": "horse_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "致命攻擊",
+            "target_en": "Subduing",
+            "target_rdfs_label": "attack_subdue",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "左右連環各一勻",
+            "target_en": "Repeating the tangling palms and punch combination",
+            "target_rdfs_label": "taming_tiger_88",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "纏枝手",
+            "target_en": "Tangling palms",
+            "target_rdfs_label": "tangling_palms",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "纏枝手",
+            "source_en": "Tangling palms",
+            "source_rdfs_label": "tangling_palms",
+            "source_labels": "palm_tech",
+            "target_zh": "迫手",
+            "target_en": "Upward forcing palm",
+            "target_rdfs_label": "uw_forcing_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "迫手",
+            "source_en": "Upward forcing palm",
+            "source_rdfs_label": "uw_forcing_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "吊腳纏枝一槌來",
+            "source_en": "Tangling palms with a cat stance followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_87",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 428,
+        "endTime": 436,
+        "info": "Tangling palms with a cat stance followed by a straight punch"
+    },
+    "recoInfo": {
+        "label": 265,
+        "recomd": [
+            {
+                "recomd_label": 263,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 289,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 641,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 265,
+            "end": 263,
+            "type": "similar_move"
+        },
+        {
+            "start": 265,
+            "end": 289,
+            "type": "share_tech"
+        },
+        {
+            "start": 265,
+            "end": 641,
+            "type": "share_principle"
+        }
+    ]
+}

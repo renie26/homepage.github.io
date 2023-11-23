@@ -1,0 +1,374 @@
+{
+    "taming_tiger_01": {
+        "startTime": 0,
+        "endTime": 2
+    },
+    "taming_tiger_02": {
+        "startTime": 0,
+        "endTime": 2
+    },
+    "taming_tiger_03": {
+        "startTime": 2,
+        "endTime": 7
+    },
+    "taming_tiger_04": {
+        "startTime": 7,
+        "endTime": 10
+    },
+    "taming_tiger_05": {
+        "startTime": 10,
+        "endTime": 24
+    },
+    "taming_tiger_06": {
+        "startTime": 24,
+        "endTime": 26
+    },
+    "taming_tiger_07": {
+        "startTime": 26,
+        "endTime": 29
+    },
+    "taming_tiger_08": {
+        "startTime": 29,
+        "endTime": 35
+    },
+    "taming_tiger_09": {
+        "startTime": 35,
+        "endTime": 38
+    },
+    "taming_tiger_10": {
+        "startTime": 38,
+        "endTime": 43
+    },
+    "taming_tiger_11": {
+        "startTime": 43,
+        "endTime": 47
+    },
+    "taming_tiger_12": {
+        "startTime": 47,
+        "endTime": 52
+    },
+    "taming_tiger_13": {
+        "startTime": 52,
+        "endTime": 64
+    },
+    "taming_tiger_14": {
+        "startTime": 64,
+        "endTime": 75
+    },
+    "taming_tiger_15": {
+        "startTime": 75,
+        "endTime": 81
+    },
+    "taming_tiger_16": {
+        "startTime": 81,
+        "endTime": 88
+    },
+    "taming_tiger_17": {
+        "startTime": 88,
+        "endTime": 90
+    },
+    "taming_tiger_18": {
+        "startTime": 90,
+        "endTime": 94
+    },
+    "taming_tiger_19": {
+        "startTime": 94,
+        "endTime": 97
+    },
+    "taming_tiger_20": {
+        "startTime": 97,
+        "endTime": 109
+    },
+    "taming_tiger_21": {
+        "startTime": 109,
+        "endTime": 115
+    },
+    "taming_tiger_22": {
+        "startTime": 115,
+        "endTime": 117
+    },
+    "taming_tiger_23": {
+        "startTime": 117,
+        "endTime": 122
+    },
+    "taming_tiger_24": {
+        "startTime": 122,
+        "endTime": 126
+    },
+    "taming_tiger_25": {
+        "startTime": 126,
+        "endTime": 132
+    },
+    "taming_tiger_26": {
+        "startTime": 132,
+        "endTime": 137
+    },
+    "taming_tiger_27": {
+        "startTime": 137,
+        "endTime": 140
+    },
+    "taming_tiger_28": {
+        "startTime": 140,
+        "endTime": 142
+    },
+    "taming_tiger_29": {
+        "startTime": 142,
+        "endTime": 153
+    },
+    "taming_tiger_30": {
+        "startTime": 153,
+        "endTime": 158
+    },
+    "taming_tiger_31": {
+        "startTime": 158,
+        "endTime": 160
+    },
+    "taming_tiger_32": {
+        "startTime": 160,
+        "endTime": 165
+    },
+    "taming_tiger_33": {
+        "startTime": 165,
+        "endTime": 168
+    },
+    "taming_tiger_34": {
+        "startTime": 168,
+        "endTime": 173
+    },
+    "taming_tiger_35": {
+        "startTime": 175,
+        "endTime": 178
+    },
+    "taming_tiger_36": {
+        "startTime": 178,
+        "endTime": 192
+    },
+    "taming_tiger_37": {
+        "startTime": 192,
+        "endTime": 196
+    },
+    "taming_tiger_38": {
+        "startTime": 196,
+        "endTime": 210
+    },
+    "taming_tiger_39": {
+        "startTime": 210,
+        "endTime": 215
+    },
+    "taming_tiger_40": {
+        "startTime": 215,
+        "endTime": 217
+    },
+    "taming_tiger_41": {
+        "startTime": 217,
+        "endTime": 218
+    },
+    "taming_tiger_42": {
+        "startTime": 218,
+        "endTime": 228
+    },
+    "taming_tiger_43": {
+        "startTime": 228,
+        "endTime": 235
+    },
+    "taming_tiger_44": {
+        "startTime": 235,
+        "endTime": 238
+    },
+    "taming_tiger_45": {
+        "startTime": 238,
+        "endTime": 243
+    },
+    "taming_tiger_46": {
+        "startTime": 243,
+        "endTime": 255
+    },
+    "taming_tiger_47": {
+        "startTime": 255,
+        "endTime": 262
+    },
+    "taming_tiger_48": {
+        "startTime": 46,
+        "endTime": 64
+    },
+    "taming_tiger_49": {
+        "startTime": 64,
+        "endTime": 75
+    },
+    "taming_tiger_50": {
+        "startTime": 75,
+        "endTime": 81
+    },
+    "taming_tiger_51": {
+        "startTime": 81,
+        "endTime": 88
+    },
+    "taming_tiger_52": {
+        "startTime": 262,
+        "endTime": 269
+    },
+    "taming_tiger_53": {
+        "startTime": 269,
+        "endTime": 273
+    },
+    "taming_tiger_54": {
+        "startTime": 273,
+        "endTime": 278
+    },
+    "taming_tiger_55": {
+        "startTime": 278,
+        "endTime": 279
+    },
+    "taming_tiger_56": {
+        "startTime": 279,
+        "endTime": 283
+    },
+    "taming_tiger_57": {
+        "startTime": 283,
+        "endTime": 287
+    },
+    "taming_tiger_58": {
+        "startTime": 287,
+        "endTime": 290
+    },
+    "taming_tiger_59": {
+        "startTime": 290,
+        "endTime": 295
+    },
+    "taming_tiger_60": {
+        "startTime": 295,
+        "endTime": 299
+    },
+    "taming_tiger_61": {
+        "startTime": 299,
+        "endTime": 301
+    },
+    "taming_tiger_62": {
+        "startTime": 301,
+        "endTime": 304
+    },
+    "taming_tiger_63": {
+        "startTime": 304,
+        "endTime": 309
+    },
+    "taming_tiger_64": {
+        "startTime": 309,
+        "endTime": 314
+    },
+    "taming_tiger_65": {
+        "startTime": 314,
+        "endTime": 319
+    },
+    "taming_tiger_66": {
+        "startTime": 319,
+        "endTime": 323
+    },
+    "taming_tiger_67": {
+        "startTime": 323,
+        "endTime": 325
+    },
+    "taming_tiger_68": {
+        "startTime": 325,
+        "endTime": 326
+    },
+    "taming_tiger_69": {
+        "startTime": 326,
+        "endTime": 328
+    },
+    "taming_tiger_70": {
+        "startTime": 328,
+        "endTime": 331
+    },
+    "taming_tiger_71": {
+        "startTime": 331,
+        "endTime": 334
+    },
+    "taming_tiger_72": {
+        "startTime": 334,
+        "endTime": 336
+    },
+    "taming_tiger_73": {
+        "startTime": 336,
+        "endTime": 344
+    },
+    "taming_tiger_74": {
+        "startTime": 344,
+        "endTime": 351
+    },
+    "taming_tiger_75": {
+        "startTime": 351,
+        "endTime": 357
+    },
+    "taming_tiger_76": {
+        "startTime": 357,
+        "endTime": 361
+    },
+    "taming_tiger_77": {
+        "startTime": 361,
+        "endTime": 369
+    },
+    "taming_tiger_78": {
+        "startTime": 371,
+        "endTime": 375
+    },
+    "taming_tiger_79": {
+        "startTime": 375,
+        "endTime": 382
+    },
+    "taming_tiger_80": {
+        "startTime": 383,
+        "endTime": 388
+    },
+    "taming_tiger_81": {
+        "startTime": 388,
+        "endTime": 394
+    },
+    "taming_tiger_82": {
+        "startTime": 394,
+        "endTime": 399
+    },
+    "taming_tiger_83": {
+        "startTime": 399,
+        "endTime": 406
+    },
+    "taming_tiger_84": {
+        "startTime": 406,
+        "endTime": 415
+    },
+    "taming_tiger_85": {
+        "startTime": 416,
+        "endTime": 420
+    },
+    "taming_tiger_86": {
+        "startTime": 420,
+        "endTime": 428
+    },
+    "taming_tiger_87": {
+        "startTime": 428,
+        "endTime": 436
+    },
+    "taming_tiger_88": {
+        "startTime": 436,
+        "endTime": 441
+    },
+    "taming_tiger_89": {
+        "startTime": 441,
+        "endTime": 448
+    },
+    "taming_tiger_90": {
+        "startTime": 448,
+        "endTime": 459
+    },
+    "taming_tiger_91": {
+        "startTime": 460,
+        "endTime": 464
+    },
+    "taming_tiger_92": {
+        "startTime": 464,
+        "endTime": 466
+    },
+    "taming_tiger_93": {
+        "startTime": 466,
+        "endTime": 469
+    }
+}

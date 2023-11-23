@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "扭身左轉，左脚順勢落弓步，右手成掌，掌心向下按護右邊，左掌化爪從右肩前劃出。",
+        "ns1__ontoMA_name_zh": "子午一轉右膀手",
+        "rdfs__label": "taming_tiger_28",
+        "ns0__name_en": "Lower forearm block with a bow stance",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_28"
+    },
+    "data": [
+        {
+            "source_zh": "子午一轉右膀手",
+            "source_en": "Lower forearm block with a bow stance",
+            "source_rdfs_label": "taming_tiger_28",
+            "source_labels": "MA_form",
+            "target_zh": "子午連轉單膀手",
+            "target_en": "Lower forearm block with a bow stance",
+            "target_rdfs_label": "taming_tiger_19",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 140,
+        "endTime": 142,
+        "info": "Lower forearm block with a bow stance"
+    },
+    "recoInfo": {
+        "label": 524,
+        "recomd": [
+            {
+                "recomd_label": 544,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 290,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 524,
+            "end": 544,
+            "type": "similar_move"
+        },
+        {
+            "start": 524,
+            "end": 290,
+            "type": "share_tech"
+        }
+    ]
+}

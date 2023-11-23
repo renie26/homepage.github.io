@@ -1,0 +1,226 @@
+{
+    "node_properties": {
+        "rdfs__description": "右手穿橋成雙爪手抓頸，以右脚先掃脚後彈脚攻擊下路，同時身前運爪，右爪下抓、左爪護胸；接以右擸手左逼踭，然後上正面出黑虎爪。",
+        "ns1__ontoMA_name_zh": "抅彈一迫黑虎爪",
+        "rdfs__label": "taming_tiger_84",
+        "ns0__name_en": "Hook sweep and forcing with the black tiger claws",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_84"
+    },
+    "data": [
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "逼",
+            "target_en": "Pressure",
+            "target_rdfs_label": "pressure_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "致命攻擊",
+            "target_en": "Subduing",
+            "target_rdfs_label": "attack_subdue",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "雙爪手",
+            "target_en": "Double claws",
+            "target_rdfs_label": "double_claws",
+            "target_labels": "claw_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙爪手",
+            "source_en": "Double claws",
+            "source_rdfs_label": "double_claws",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "抅彈脚",
+            "target_en": "Hook sweep",
+            "target_rdfs_label": "hook_sweep",
+            "target_labels": "leg_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿",
+            "target_en": "Joint lock",
+            "target_rdfs_label": "joint_lock",
+            "target_labels": "handwork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "contains"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "提",
+            "target_en": "Lifting",
+            "target_rdfs_label": "lift_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "抅彈一迫黑虎爪",
+            "source_en": "Hook sweep and forcing with the black tiger claws",
+            "source_rdfs_label": "taming_tiger_84",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 406,
+        "endTime": 415,
+        "info": "Hook sweep and forcing with the black tiger claws"
+    },
+    "recoInfo": {
+        "label": 271,
+        "recomd": [
+            {
+                "recomd_label": 579,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 639,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 363,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 271,
+            "end": 579,
+            "type": "share_tech"
+        },
+        {
+            "start": 271,
+            "end": 639,
+            "type": "share_tech"
+        },
+        {
+            "start": 271,
+            "end": 363,
+            "type": "share_tech"
+        }
+    ]
+}

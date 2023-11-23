@@ -1,0 +1,184 @@
+{
+    "node_properties": {
+        "rdfs__description": "回四平馬，左掌向下割手至腰，接左撐掌打出，連消帶打。",
+        "ns1__ontoMA_name_zh": "割手四平掌打正",
+        "rdfs__label": "taming_tiger_24",
+        "ns0__name_en": "Curving palm with a horse stance follow by the palm strike",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_24"
+    },
+    "data": [
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "撐掌",
+            "target_en": "Buddha palm strike",
+            "target_rdfs_label": "palm_strike",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "撐掌",
+            "source_en": "Buddha palm strike",
+            "source_rdfs_label": "palm_strike",
+            "source_labels": "palm_tech",
+            "target_zh": "立掌",
+            "target_en": "Buddha palm",
+            "target_rdfs_label": "buddha_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "化解，改變攻擊方向",
+            "target_en": "Defense via deflecting",
+            "target_rdfs_label": "defend_deflect",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "割手",
+            "target_en": "Curving palm",
+            "target_rdfs_label": "curving_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "割手",
+            "source_en": "Curving palm",
+            "source_rdfs_label": "curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "employs"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "割手",
+            "target_en": "Curving palm",
+            "target_rdfs_label": "curving_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "割手",
+            "source_en": "Curving palm",
+            "source_rdfs_label": "curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "割手四平掌打正",
+            "target_en": "Curving palm with a horse stance follow by the palm strike",
+            "target_rdfs_label": "taming_tiger_33",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "割手四平掌打正",
+            "source_en": "Curving palm with a horse stance follow by the palm strike",
+            "source_rdfs_label": "taming_tiger_24",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 122,
+        "endTime": 126,
+        "info": "Curving palm with a horse stance follow by the palm strike"
+    },
+    "recoInfo": {
+        "label": 511,
+        "recomd": [
+            {
+                "recomd_label": 583,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 516,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 511,
+            "end": 583,
+            "type": "similar_move"
+        },
+        {
+            "start": 511,
+            "end": 516,
+            "type": "share_tech"
+        }
+    ]
+}

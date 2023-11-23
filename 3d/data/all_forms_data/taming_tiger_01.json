@@ -1,0 +1,32 @@
+{
+    "node_properties": {
+        "rdfs__description": "預備式，身體立正，雙手自然貼身下垂，雙脚平開一寸，頸正頭平，氣沉丹田。",
+        "ns1__ontoMA_name_zh": "合脚離開一寸闊",
+        "rdfs__label": "taming_tiger_01",
+        "ns0__name_en": "Standing with the feet about one inch apart",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_1"
+    },
+    "data": [
+        {
+            "source_zh": "合脚離開一寸闊",
+            "source_en": "Standing with the feet about one inch apart",
+            "source_rdfs_label": "taming_tiger_01",
+            "source_labels": "MA_form",
+            "target_zh": "調整呼吸，存氣蓄力",
+            "target_en": "Breath control",
+            "target_rdfs_label": "breath_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 0,
+        "endTime": 2,
+        "info": "Standing with the feet about one inch apart"
+    },
+    "recoInfo": {
+        "label": 490,
+        "recomd": []
+    },
+    "recoLinks": []
+}

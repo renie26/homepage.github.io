@@ -1,0 +1,127 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙指手（亦說左手虎爪，右手指手）抽回胸前平肩推出，連續三次，練橋架之勁。",
+        "ns1__ontoMA_name_zh": "一指三株拋肘手",
+        "rdfs__label": "taming_tiger_13",
+        "ns0__name_en": "Thrice forward extending hands",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_13"
+    },
+    "data": [
+        {
+            "source_zh": "一指三株拋肘手",
+            "source_en": "Thrice forward extending hands",
+            "source_rdfs_label": "taming_tiger_13",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "一指三株拋肘手",
+            "source_en": "Thrice forward extending hands",
+            "source_rdfs_label": "taming_tiger_13",
+            "source_labels": "MA_form",
+            "target_zh": "一指撐天三株出",
+            "target_en": "Thrice forward extending hands",
+            "target_rdfs_label": "taming_tiger_49",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "一指三株拋肘手",
+            "source_en": "Thrice forward extending hands",
+            "source_rdfs_label": "taming_tiger_13",
+            "source_labels": "MA_form",
+            "target_zh": "定",
+            "target_en": "Steadiness",
+            "target_rdfs_label": "steady_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "一指三株拋肘手",
+            "source_en": "Thrice forward extending hands",
+            "source_rdfs_label": "taming_tiger_13",
+            "source_labels": "MA_form",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "一指三株拋肘手",
+            "source_en": "Thrice forward extending hands",
+            "source_rdfs_label": "taming_tiger_13",
+            "source_labels": "MA_form",
+            "target_zh": "逼",
+            "target_en": "Pressure",
+            "target_rdfs_label": "pressure_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "一指三株拋肘手",
+            "source_en": "Thrice forward extending hands",
+            "source_rdfs_label": "taming_tiger_13",
+            "source_labels": "MA_form",
+            "target_zh": "指手",
+            "target_en": "Finger hand",
+            "target_rdfs_label": "finger_hand",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 52,
+        "endTime": 64,
+        "info": "Thrice forward extending hands"
+    },
+    "recoInfo": {
+        "label": 536,
+        "recomd": [
+            {
+                "recomd_label": 631,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 551,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 568,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 536,
+            "end": 631,
+            "type": "similar_move"
+        },
+        {
+            "start": 536,
+            "end": 551,
+            "type": "share_tech"
+        },
+        {
+            "start": 536,
+            "end": 568,
+            "type": "share_tech"
+        }
+    ]
+}

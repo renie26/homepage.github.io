@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "右轉四平馬，同時右踭平肩頂出（四平踭），再轉左子午馬，接右手標出反擊其喉。",
+        "ns1__ontoMA_name_zh": "四平肘頂標串手",
+        "rdfs__label": "taming_tiger_32",
+        "ns0__name_en": "Side elbow strike in the horse stance followed by the knifehand strike",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_32"
+    },
+    "data": [
+        {
+            "source_zh": "四平肘頂標串手",
+            "source_en": "Side elbow strike in the horse stance followed by the knifehand strike",
+            "source_rdfs_label": "taming_tiger_32",
+            "source_labels": "MA_form",
+            "target_zh": "四平肘頂標串出",
+            "target_en": "Side elbow strike in the horse stance followed by the knifehand strike",
+            "target_rdfs_label": "taming_tiger_23",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 160,
+        "endTime": 165,
+        "info": "Side elbow strike in the horse stance followed by the knifehand strike"
+    },
+    "recoInfo": {
+        "label": 584,
+        "recomd": [
+            {
+                "recomd_label": 512,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 306,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 584,
+            "end": 512,
+            "type": "similar_move"
+        },
+        {
+            "start": 584,
+            "end": 306,
+            "type": "share_tech"
+        }
+    ]
+}

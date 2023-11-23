@@ -1,0 +1,292 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙掌胸前交叉挑手平肩，再各自向外下方割手至腰；後雙手抽拳抱胸前，接左右分金搥，雙拳拳背向外左右打出，實戰中可變化為邊搥。",
+        "ns1__ontoMA_name_zh": "雙抽雙割一揸分",
+        "rdfs__label": "taming_tiger_16",
+        "ns0__name_en": "Double splitting and curving palms followed by the divide punch",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_16"
+    },
+    "data": [
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "雙抽雙割一揸分",
+            "target_en": "Double splitting and curving palms followed by the divide punch",
+            "target_rdfs_label": "taming_tiger_51",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "化解，改變攻擊方向",
+            "target_en": "Defense via deflecting",
+            "target_rdfs_label": "defend_deflect",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "分金搥",
+            "target_en": "Divide punch",
+            "target_rdfs_label": "divide_punch",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "分金搥",
+            "source_en": "Divide punch",
+            "source_rdfs_label": "divide_punch",
+            "source_labels": "fist_tech",
+            "target_zh": "邊搥",
+            "target_en": "Side hammer fist",
+            "target_rdfs_label": "side_hammer_fist",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "邊搥",
+            "source_en": "Side hammer fist",
+            "source_rdfs_label": "side_hammer_fist",
+            "source_labels": "fist_tech",
+            "target_zh": "背拳",
+            "target_en": "Back fist",
+            "target_rdfs_label": "backfist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "分金搥",
+            "target_en": "Divide punch",
+            "target_rdfs_label": "divide_punch",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "分金搥",
+            "source_en": "Divide punch",
+            "source_rdfs_label": "divide_punch",
+            "source_labels": "fist_tech",
+            "target_zh": "邊搥",
+            "target_en": "Side hammer fist",
+            "target_rdfs_label": "side_hammer_fist",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "邊搥",
+            "source_en": "Side hammer fist",
+            "source_rdfs_label": "side_hammer_fist",
+            "source_labels": "fist_tech",
+            "target_zh": "牛角拳",
+            "target_en": "Bull horn fist",
+            "target_rdfs_label": "bull_horn_fist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "分",
+            "target_en": "Separating",
+            "target_rdfs_label": "separate_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "雙割",
+            "target_en": "Double curving palms",
+            "target_rdfs_label": "db_curving_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙割",
+            "source_en": "Double curving palms",
+            "source_rdfs_label": "db_curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "割手",
+            "target_en": "Curving palm",
+            "target_rdfs_label": "curving_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "割手",
+            "source_en": "Curving palm",
+            "source_rdfs_label": "curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "employs"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "雙割",
+            "target_en": "Double curving palms",
+            "target_rdfs_label": "db_curving_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙割",
+            "source_en": "Double curving palms",
+            "source_rdfs_label": "db_curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "割手",
+            "target_en": "Curving palm",
+            "target_rdfs_label": "curving_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "割手",
+            "source_en": "Curving palm",
+            "source_rdfs_label": "curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "雙挑",
+            "target_en": "Double splitting palms",
+            "target_rdfs_label": "db_splitting_palms",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙挑",
+            "source_en": "Double splitting palms",
+            "source_rdfs_label": "db_splitting_palms",
+            "source_labels": "palm_tech",
+            "target_zh": "挑手",
+            "target_en": "Splitting palm",
+            "target_rdfs_label": "splitting_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "挑手",
+            "source_en": "Splitting palm",
+            "source_rdfs_label": "splitting_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "雙抽雙割一揸分",
+            "source_en": "Double splitting and curving palms followed by the divide punch",
+            "source_rdfs_label": "taming_tiger_16",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 81,
+        "endTime": 88,
+        "info": "Double splitting and curving palms followed by the divide punch"
+    },
+    "recoInfo": {
+        "label": 549,
+        "recomd": [
+            {
+                "recomd_label": 644,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 510,
+                "recomd_type": "share_principle"
+            },
+            {
+                "recomd_label": 582,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 549,
+            "end": 644,
+            "type": "similar_move"
+        },
+        {
+            "start": 549,
+            "end": 510,
+            "type": "share_principle"
+        },
+        {
+            "start": 549,
+            "end": 582,
+            "type": "share_principle"
+        }
+    ]
+}

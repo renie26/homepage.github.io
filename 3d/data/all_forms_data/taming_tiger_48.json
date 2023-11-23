@@ -1,0 +1,63 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙拳抽上胸閒再化掌切落，接雙膀手合掌一分，轉四指撐天。",
+        "ns1__ontoMA_name_zh": "雙膀切落合掌分",
+        "rdfs__label": "taming_tiger_48",
+        "ns0__name_en": "Lifting and pushing forward the palms forward after the lower double forearm block",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_48"
+    },
+    "data": [
+        {
+            "source_zh": "雙膀切落合掌分",
+            "source_en": "Lifting and pushing forward the palms forward after the lower double forearm block",
+            "source_rdfs_label": "taming_tiger_48",
+            "source_labels": "MA_form",
+            "target_zh": "合掌分開定金橋",
+            "target_en": "Palms up facing each other followed by the stabilizing bridge",
+            "target_rdfs_label": "taming_tiger_12",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "雙膀切落合掌分",
+            "source_en": "Lifting and pushing forward the palms forward after the lower double forearm block",
+            "source_rdfs_label": "taming_tiger_48",
+            "source_labels": "MA_form",
+            "target_zh": "抽拳在胸雙切膀",
+            "target_en": "Pulling up fists to throw the lower double forearm block",
+            "target_rdfs_label": "taming_tiger_11",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 46,
+        "endTime": 64,
+        "info": "Lifting and pushing forward the palms forward after the lower double forearm block"
+    },
+    "recoInfo": {
+        "label": 569,
+        "recomd": [
+            {
+                "recomd_label": 538,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 539,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 569,
+            "end": 538,
+            "type": "share_tech"
+        },
+        {
+            "start": 569,
+            "end": 539,
+            "type": "share_tech"
+        }
+    ]
+}

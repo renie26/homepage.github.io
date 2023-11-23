@@ -1,0 +1,171 @@
+{
+    "node_properties": {
+        "rdfs__description": "轉身落四平馬，左手身前穿橋成指定中原，右爪化拳抽腰；接進左子午馬出右拳平搥，左掌抽拳在腰。",
+        "ns1__ontoMA_name_zh": "轉身一橋又一槌",
+        "rdfs__label": "taming_tiger_91",
+        "ns0__name_en": "Turning with the crossing bridge followed by a straight punch",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_91"
+    },
+    "data": [
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "化解，改變攻擊方向",
+            "target_en": "Defense via deflecting",
+            "target_rdfs_label": "defend_deflect",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "contains"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "平搥",
+            "target_en": "Straight punch",
+            "target_rdfs_label": "straight_punch",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "平搥",
+            "source_en": "Straight punch",
+            "source_rdfs_label": "straight_punch",
+            "source_labels": "fist_tech",
+            "target_zh": "平拳",
+            "target_en": "Forefist",
+            "target_rdfs_label": "forefist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "連消帶打",
+            "target_en": "Defense via attacking",
+            "target_rdfs_label": "defend_by_attack",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "直",
+            "target_en": "Straightness",
+            "target_rdfs_label": "straight_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "轉身一橋又一槌",
+            "source_en": "Turning with the crossing bridge followed by a straight punch",
+            "source_rdfs_label": "taming_tiger_91",
+            "source_labels": "MA_form",
+            "target_zh": "轉身",
+            "target_en": "Turning the body",
+            "target_rdfs_label": "body_turning",
+            "target_labels": "bodywork",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 460,
+        "endTime": 464,
+        "info": "Turning with the crossing bridge followed by a straight punch"
+    },
+    "recoInfo": {
+        "label": 362,
+        "recomd": [
+            {
+                "recomd_label": 267,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 625,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 265,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 362,
+            "end": 267,
+            "type": "share_tech"
+        },
+        {
+            "start": 362,
+            "end": 625,
+            "type": "share_tech"
+        },
+        {
+            "start": 362,
+            "end": 265,
+            "type": "share_principle"
+        }
+    ]
+}

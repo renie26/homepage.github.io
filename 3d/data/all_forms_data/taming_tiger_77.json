@@ -1,0 +1,252 @@
+{
+    "node_properties": {
+        "rdfs__description": "保持左馬，右手向後上抽手護頭，左手托右踭，接扭馬掛向後下劈脚。",
+        "ns1__ontoMA_name_zh": "飯匙頭起蛇擺尾",
+        "rdfs__label": "taming_tiger_77",
+        "ns0__name_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_77"
+    },
+    "data": [
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "烏龍擺尾",
+            "target_en": "A black dragon wagging the tail",
+            "target_rdfs_label": "dragon_wagging",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "烏龍擺尾",
+            "source_en": "A black dragon wagging the tail",
+            "source_rdfs_label": "dragon_wagging",
+            "source_labels": "combo_tech",
+            "target_zh": "扭馬",
+            "target_en": "Twisting stance",
+            "target_rdfs_label": "twisting_stance",
+            "target_labels": "stance",
+            "type": "employs"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "烏龍擺尾",
+            "target_en": "A black dragon wagging the tail",
+            "target_rdfs_label": "dragon_wagging",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "烏龍擺尾",
+            "source_en": "A black dragon wagging the tail",
+            "source_rdfs_label": "dragon_wagging",
+            "source_labels": "combo_tech",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "背拳",
+            "target_en": "Back fist",
+            "target_rdfs_label": "backfist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "烏龍擺尾",
+            "target_en": "A black dragon wagging the tail",
+            "target_rdfs_label": "dragon_wagging",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "烏龍擺尾",
+            "source_en": "A black dragon wagging the tail",
+            "source_rdfs_label": "dragon_wagging",
+            "source_labels": "combo_tech",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "牛角拳",
+            "target_en": "Bull horn fist",
+            "target_rdfs_label": "bull_horn_fist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "提",
+            "target_en": "Lifting",
+            "target_rdfs_label": "lift_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "阻擋攻擊",
+            "target_en": "Defense via blocking",
+            "target_rdfs_label": "defend_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "扭馬",
+            "target_en": "Twisting stance",
+            "target_rdfs_label": "twisting_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "寸",
+            "target_en": "Inch",
+            "target_rdfs_label": "inch_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "背拳",
+            "target_en": "Back fist",
+            "target_rdfs_label": "backfist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "牛角拳",
+            "target_en": "Bull horn fist",
+            "target_rdfs_label": "bull_horn_fist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "釣魚手",
+            "target_en": "Fishing hand",
+            "target_rdfs_label": "fishing_hand",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        },
+        {
+            "source_zh": "飯匙頭起蛇擺尾",
+            "source_en": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail",
+            "source_rdfs_label": "taming_tiger_77",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 361,
+        "endTime": 369,
+        "info": "Lifting hands to hammer backwards and twisting to hit the lower body like a a snake's tail"
+    },
+    "recoInfo": {
+        "label": 296,
+        "recomd": [
+            {
+                "recomd_label": 304,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 296,
+            "end": 304,
+            "type": "share_tech"
+        }
+    ]
+}

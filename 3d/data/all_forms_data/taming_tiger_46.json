@@ -1,0 +1,173 @@
+{
+    "node_properties": {
+        "rdfs__description": "右脚上四平馬右虎爪擸手，接左子午馬左手抛踭；後左脚轉四平馬左虎爪擸手，接右子午馬右手抛踭；連抛四下。",
+        "ns1__ontoMA_name_zh": "回馬拋肘上四勻",
+        "rdfs__label": "taming_tiger_46",
+        "ns0__name_en": "Turning with throwing elbow stike for four times",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_46"
+    },
+    "data": [
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "抛踭",
+            "target_en": "Throwing elbow strike",
+            "target_rdfs_label": "throwing_elbow",
+            "target_labels": "elbow_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "致命攻擊",
+            "target_en": "Subduing",
+            "target_rdfs_label": "attack_subdue",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬轉子午馬",
+            "target_en": "Turning from horse stance to bow stance",
+            "target_rdfs_label": "horse_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四平馬轉子午馬",
+            "source_en": "Turning from horse stance to bow stance",
+            "source_rdfs_label": "horse_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "回馬拋肘上四勻",
+            "source_en": "Turning with throwing elbow stike for four times",
+            "source_rdfs_label": "taming_tiger_46",
+            "source_labels": "MA_form",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 243,
+        "endTime": 255,
+        "info": "Turning with throwing elbow stike for four times"
+    },
+    "recoInfo": {
+        "label": 557,
+        "recomd": [
+            {
+                "recomd_label": 631,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 535,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 557,
+            "end": 631,
+            "type": "share_tech"
+        },
+        {
+            "start": 557,
+            "end": 535,
+            "type": "share_tech"
+        }
+    ]
+}

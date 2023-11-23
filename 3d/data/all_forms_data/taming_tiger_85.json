@@ -1,0 +1,215 @@
+{
+    "node_properties": {
+        "rdfs__description": "右脚拉退一步扭馬轉身，雙虎爪歸右向後穿出，向後上抓，破敵后攻。",
+        "ns1__ontoMA_name_zh": "退馬金龍爪獻來",
+        "rdfs__label": "taming_tiger_85",
+        "ns0__name_en": "Stepping back and strike backwards with the dragon claws",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_85"
+    },
+    "data": [
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "黑虎爪",
+            "target_en": "Black tiger claw",
+            "target_rdfs_label": "black_tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "黑虎爪",
+            "source_en": "Black tiger claw",
+            "source_rdfs_label": "black_tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "逼",
+            "target_en": "Pressure",
+            "target_rdfs_label": "pressure_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "金龍獻爪",
+            "target_en": "Backward double claw strike",
+            "target_rdfs_label": "db_claw_bw",
+            "target_labels": "claw_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "金龍獻爪",
+            "source_en": "Backward double claw strike",
+            "source_rdfs_label": "db_claw_bw",
+            "source_labels": "claw_tech<br>combo_tech",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "employs"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "金龍獻爪",
+            "target_en": "Backward double claw strike",
+            "target_rdfs_label": "db_claw_bw",
+            "target_labels": "claw_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "金龍獻爪",
+            "source_en": "Backward double claw strike",
+            "source_rdfs_label": "db_claw_bw",
+            "source_labels": "claw_tech<br>combo_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "金龍獻爪",
+            "target_en": "Backward double claw strike",
+            "target_rdfs_label": "db_claw_bw",
+            "target_labels": "claw_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "金龍獻爪",
+            "source_en": "Backward double claw strike",
+            "source_rdfs_label": "db_claw_bw",
+            "source_labels": "claw_tech<br>combo_tech",
+            "target_zh": "扭馬",
+            "target_en": "Twisting stance",
+            "target_rdfs_label": "twisting_stance",
+            "target_labels": "stance",
+            "type": "employs"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "致命攻擊",
+            "target_en": "Subduing",
+            "target_rdfs_label": "attack_subdue",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "連消帶打",
+            "target_en": "Defense via attacking",
+            "target_rdfs_label": "defend_by_attack",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "退馬金龍爪獻來",
+            "source_en": "Stepping back and strike backwards with the dragon claws",
+            "source_rdfs_label": "taming_tiger_85",
+            "source_labels": "MA_form",
+            "target_zh": "扭馬",
+            "target_en": "Twisting stance",
+            "target_rdfs_label": "twisting_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 416,
+        "endTime": 420,
+        "info": "Stepping back and strike backwards with the dragon claws"
+    },
+    "recoInfo": {
+        "label": 269,
+        "recomd": [
+            {
+                "recomd_label": 363,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 300,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 560,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 269,
+            "end": 363,
+            "type": "share_tech"
+        },
+        {
+            "start": 269,
+            "end": 300,
+            "type": "share_tech"
+        },
+        {
+            "start": 269,
+            "end": 560,
+            "type": "share_principle"
+        }
+    ]
+}

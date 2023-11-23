@@ -1,0 +1,98 @@
+{
+    "node_properties": {
+        "rdfs__description": "左手踏前一步，吊右脚，同時右掌一劈護頭，左拳收腰。",
+        "ns1__ontoMA_name_zh": "出左踏右吊腳馬",
+        "rdfs__label": "taming_tiger_35",
+        "ns0__name_en": "Stepping with the left foot to defend with a cat stance",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_35"
+    },
+    "data": [
+        {
+            "source_zh": "出左踏右吊腳馬",
+            "source_en": "Stepping with the left foot to defend with a cat stance",
+            "source_rdfs_label": "taming_tiger_35",
+            "source_labels": "MA_form",
+            "target_zh": "提",
+            "target_en": "Lifting",
+            "target_rdfs_label": "lift_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "出左踏右吊腳馬",
+            "source_en": "Stepping with the left foot to defend with a cat stance",
+            "source_rdfs_label": "taming_tiger_35",
+            "source_labels": "MA_form",
+            "target_zh": "阻擋攻擊",
+            "target_en": "Defense via blocking",
+            "target_rdfs_label": "defend_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "出左踏右吊腳馬",
+            "source_en": "Stepping with the left foot to defend with a cat stance",
+            "source_rdfs_label": "taming_tiger_35",
+            "source_labels": "MA_form",
+            "target_zh": "攻迫手",
+            "target_en": "Upper forcing palm",
+            "target_rdfs_label": "up_forcing_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "攻迫手",
+            "source_en": "Upper forcing palm",
+            "source_rdfs_label": "up_forcing_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "出左踏右吊腳馬",
+            "source_en": "Stepping with the left foot to defend with a cat stance",
+            "source_rdfs_label": "taming_tiger_35",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "出左踏右吊腳馬",
+            "source_en": "Stepping with the left foot to defend with a cat stance",
+            "source_rdfs_label": "taming_tiger_35",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 175,
+        "endTime": 178,
+        "info": "Stepping with the left foot to defend with a cat stance"
+    },
+    "recoInfo": {
+        "label": 581,
+        "recomd": []
+    },
+    "recoLinks": []
+}

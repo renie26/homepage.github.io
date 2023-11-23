@@ -1,0 +1,160 @@
+{
+    "node_properties": {
+        "rdfs__description": "左扭身落四平馬，接著兩踭向外一兜，雙手變虎爪；後上前落右子午馬，雙撐掌向前上方打出。",
+        "ns1__ontoMA_name_zh": "進馬兜肘雙虎爪",
+        "rdfs__label": "taming_tiger_44",
+        "ns0__name_en": "Advancing with double palm/claw strike",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_44"
+    },
+    "data": [
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "進馬兜肘雙虎爪",
+            "target_en": "Advancing with double palm/claw strike",
+            "target_rdfs_label": "taming_tiger_59",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "逼",
+            "target_en": "Pressure",
+            "target_rdfs_label": "pressure_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "雙龍出海",
+            "target_en": "Two dragons coming out of the sea",
+            "target_rdfs_label": "two_dragons_outof_sea",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙龍出海",
+            "source_en": "Two dragons coming out of the sea",
+            "source_rdfs_label": "two_dragons_outof_sea",
+            "source_labels": "palm_tech",
+            "target_zh": "立掌",
+            "target_en": "Buddha palm",
+            "target_rdfs_label": "buddha_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬轉子午馬",
+            "target_en": "Turning from horse stance to bow stance",
+            "target_rdfs_label": "horse_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四平馬轉子午馬",
+            "source_en": "Turning from horse stance to bow stance",
+            "source_rdfs_label": "horse_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "進馬兜肘雙虎爪",
+            "source_en": "Advancing with double palm/claw strike",
+            "source_rdfs_label": "taming_tiger_44",
+            "source_labels": "MA_form",
+            "target_zh": "致命攻擊",
+            "target_en": "Subduing",
+            "target_rdfs_label": "attack_subdue",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 235,
+        "endTime": 238,
+        "info": "Advancing with double palm/claw strike"
+    },
+    "recoInfo": {
+        "label": 560,
+        "recomd": [
+            {
+                "recomd_label": 649,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 556,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 535,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 560,
+            "end": 649,
+            "type": "similar_move"
+        },
+        {
+            "start": 560,
+            "end": 556,
+            "type": "share_tech"
+        },
+        {
+            "start": 560,
+            "end": 535,
+            "type": "share_tech"
+        }
+    ]
+}

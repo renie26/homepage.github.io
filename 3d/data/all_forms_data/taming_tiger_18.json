@@ -1,0 +1,142 @@
+{
+    "node_properties": {
+        "rdfs__description": "右脚消脚后接著向前方彈踢反擊，預想對手下陰位置。",
+        "ns1__ontoMA_name_zh": "鏟腳四平八分馬",
+        "rdfs__label": "taming_tiger_18",
+        "ns0__name_en": "Blocking with groin stop kick",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_18"
+    },
+    "data": [
+        {
+            "source_zh": "鏟腳四平八分馬",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_18",
+            "source_labels": "MA_form",
+            "target_zh": "鏟腳四平馬八分",
+            "target_en": "Blocking with groin stop kick",
+            "target_rdfs_label": "taming_tiger_27",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "鏟腳四平八分馬",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_18",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "鏟腳四平八分馬",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_18",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "鏟腳四平八分馬",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_18",
+            "source_labels": "MA_form",
+            "target_zh": "直",
+            "target_en": "Straightness",
+            "target_rdfs_label": "straight_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "鏟腳四平八分馬",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_18",
+            "source_labels": "MA_form",
+            "target_zh": "消脚撩陰腿",
+            "target_en": "Blocking with groin stop kick",
+            "target_rdfs_label": "block_n_front_kick",
+            "target_labels": "leg_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "消脚撩陰腿",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "block_n_front_kick",
+            "source_labels": "leg_tech<br>combo_tech",
+            "target_zh": "撩陰腿",
+            "target_en": "Groin stop kick",
+            "target_rdfs_label": "lifting_kick",
+            "target_labels": "leg_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "鏟腳四平八分馬",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_18",
+            "source_labels": "MA_form",
+            "target_zh": "消脚撩陰腿",
+            "target_en": "Blocking with groin stop kick",
+            "target_rdfs_label": "block_n_front_kick",
+            "target_labels": "leg_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "消脚撩陰腿",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "block_n_front_kick",
+            "source_labels": "leg_tech<br>combo_tech",
+            "target_zh": "消脚",
+            "target_en": "Leg block",
+            "target_rdfs_label": "block_kick",
+            "target_labels": "leg_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "消脚",
+            "source_en": "Leg block",
+            "source_rdfs_label": "block_kick",
+            "source_labels": "leg_tech",
+            "target_zh": "浮",
+            "target_en": "Lifting the centre of gravity",
+            "target_rdfs_label": "lifting_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "鏟腳四平八分馬",
+            "source_en": "Blocking with groin stop kick",
+            "source_rdfs_label": "taming_tiger_18",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 90,
+        "endTime": 94,
+        "info": "Blocking with groin stop kick"
+    },
+    "recoInfo": {
+        "label": 546,
+        "recomd": [
+            {
+                "recomd_label": 525,
+                "recomd_type": "similar_move"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 546,
+            "end": 525,
+            "type": "similar_move"
+        }
+    ]
+}

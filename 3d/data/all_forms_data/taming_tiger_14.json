@@ -1,0 +1,170 @@
+{
+    "node_properties": {
+        "ns1__ontoMA_name_zh": "連拋三次有三勻",
+        "rdfs__label": "taming_tiger_14",
+        "ns0__name_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_14"
+    },
+    "data": [
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "雙龍出海",
+            "target_en": "Two dragons coming out of the sea",
+            "target_rdfs_label": "two_dragons_outof_sea",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙龍出海",
+            "source_en": "Two dragons coming out of the sea",
+            "source_rdfs_label": "two_dragons_outof_sea",
+            "source_labels": "palm_tech",
+            "target_zh": "立掌",
+            "target_en": "Buddha palm",
+            "target_rdfs_label": "buddha_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "抛踭",
+            "target_en": "Throwing elbow strike",
+            "target_rdfs_label": "throwing_elbow",
+            "target_labels": "elbow_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "提",
+            "target_en": "Lifting",
+            "target_rdfs_label": "lift_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "定",
+            "target_en": "Steadiness",
+            "target_rdfs_label": "steady_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "連拋三次有三勻",
+            "source_en": "Thrice throwing elbows followed by arm-drag claws and double-palm strike",
+            "source_rdfs_label": "taming_tiger_14",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 64,
+        "endTime": 75,
+        "info": "Thrice throwing elbows followed by arm-drag claws and double-palm strike"
+    },
+    "recoInfo": {
+        "label": 535,
+        "recomd": [
+            {
+                "recomd_label": 631,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 536,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 557,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 535,
+            "end": 631,
+            "type": "share_tech"
+        },
+        {
+            "start": 535,
+            "end": 536,
+            "type": "share_tech"
+        },
+        {
+            "start": 535,
+            "end": 557,
+            "type": "share_tech"
+        }
+    ]
+}

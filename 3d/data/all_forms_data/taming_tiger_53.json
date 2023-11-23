@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "右轉吊右脚同時右邊擸掌成蝴蝶掌；進右子午馬左側推出蝴蝶掌，轉身回四平馬左擸手，緊接轉左子午馬右手逼踭；轉右子午馬右分漏手，右掌以踭勁帶動向右切出，左掌護右肩。",
+        "ns1__ontoMA_name_zh": "再撤蝶掌迫分漏",
+        "rdfs__label": "taming_tiger_53",
+        "ns0__name_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_53"
+    },
+    "data": [
+        {
+            "source_zh": "再撤蝶掌迫分漏",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_53",
+            "source_labels": "MA_form",
+            "target_zh": "蝶掌一迫分漏手",
+            "target_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "target_rdfs_label": "taming_tiger_52",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 269,
+        "endTime": 273,
+        "info": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block"
+    },
+    "recoInfo": {
+        "label": 640,
+        "recomd": [
+            {
+                "recomd_label": 641,
+                "recomd_type": "similar_move"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 640,
+            "end": 641,
+            "type": "similar_move"
+        }
+    ]
+}

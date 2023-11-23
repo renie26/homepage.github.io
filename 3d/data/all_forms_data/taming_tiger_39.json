@@ -1,0 +1,206 @@
+{
+    "node_properties": {
+        "rdfs__description": "兩手往後一拖，扭身沉墜，后脚往後一踏成麒麟步；扭右馬右擸手，扭左馬左擸手。",
+        "ns1__ontoMA_name_zh": "帶馬扭身再拉後",
+        "rdfs__label": "taming_tiger_39",
+        "ns0__name_en": "Turning while dragging the horse",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_39"
+    },
+    "data": [
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "擒拖手",
+            "target_en": "Joint lock and dragging hands",
+            "target_rdfs_label": "lock_n_drag_hand",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擒拖手",
+            "source_en": "Joint lock and dragging hands",
+            "source_rdfs_label": "lock_n_drag_hand",
+            "source_labels": "combo_tech",
+            "target_zh": "轉身",
+            "target_en": "Turning the body",
+            "target_rdfs_label": "body_turning",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "擒拖手",
+            "target_en": "Joint lock and dragging hands",
+            "target_rdfs_label": "lock_n_drag_hand",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擒拖手",
+            "source_en": "Joint lock and dragging hands",
+            "source_rdfs_label": "lock_n_drag_hand",
+            "source_labels": "combo_tech",
+            "target_zh": "鎖臂",
+            "target_en": "Arm lock",
+            "target_rdfs_label": "arm_lock",
+            "target_labels": "handwork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "擒拖手",
+            "target_en": "Joint lock and dragging hands",
+            "target_rdfs_label": "lock_n_drag_hand",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擒拖手",
+            "source_en": "Joint lock and dragging hands",
+            "source_rdfs_label": "lock_n_drag_hand",
+            "source_labels": "combo_tech",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "扭馬",
+            "target_en": "Twisting stance",
+            "target_rdfs_label": "twisting_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "沉",
+            "target_en": "Lowering the centre of gravity",
+            "target_rdfs_label": "lower_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "帶馬扭身再拉後",
+            "source_en": "Turning while dragging the horse",
+            "source_rdfs_label": "taming_tiger_39",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 210,
+        "endTime": 215,
+        "info": "Turning while dragging the horse"
+    },
+    "recoInfo": {
+        "label": 589,
+        "recomd": [
+            {
+                "recomd_label": 593,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 271,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 589,
+            "end": 593,
+            "type": "similar_move"
+        },
+        {
+            "start": 589,
+            "end": 271,
+            "type": "share_tech"
+        }
+    ]
+}

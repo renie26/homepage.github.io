@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "左手成虎爪擺至右胸前擋護，右手同時抽拳在腰。",
+        "ns1__ontoMA_name_zh": "右手揸拳左用掌",
+        "rdfs__label": "taming_tiger_07",
+        "ns0__name_en": "Right hand holding the fist and the left holding the palm",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_7"
+    },
+    "data": [
+        {
+            "source_zh": "右手揸拳左用掌",
+            "source_en": "Right hand holding the fist and the left holding the palm",
+            "source_rdfs_label": "taming_tiger_07",
+            "source_labels": "MA_form",
+            "target_zh": "立掌",
+            "target_en": "Buddha palm",
+            "target_rdfs_label": "buddha_palm",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        },
+        {
+            "source_zh": "右手揸拳左用掌",
+            "source_en": "Right hand holding the fist and the left holding the palm",
+            "source_rdfs_label": "taming_tiger_07",
+            "source_labels": "MA_form",
+            "target_zh": "平拳",
+            "target_en": "Forefist",
+            "target_rdfs_label": "forefist",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 26,
+        "endTime": 29,
+        "info": "Right hand holding the fist and the left holding the palm"
+    },
+    "recoInfo": {
+        "label": 634,
+        "recomd": []
+    },
+    "recoLinks": []
+}

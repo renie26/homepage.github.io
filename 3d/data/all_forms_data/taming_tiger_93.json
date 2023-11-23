@@ -1,0 +1,20 @@
+{
+    "node_properties": {
+        "rdfs__description": "收式：收步立正，同時雙拳收拳平肩，再扭拳收腰，后埀掌。",
+        "ns1__ontoMA_name_zh": "扭手收拳一鞠躬",
+        "rdfs__label": "taming_tiger_93",
+        "ns0__name_en": "Standing up and bowing",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_93"
+    },
+    "data": [],
+    "videoInfo": {
+        "startTime": 466,
+        "endTime": 469,
+        "info": "Standing up and bowing"
+    },
+    "recoInfo": {
+        "label": 360,
+        "recomd": []
+    },
+    "recoLinks": []
+}

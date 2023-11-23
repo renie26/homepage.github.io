@@ -1,0 +1,446 @@
+{
+    "node_properties": {
+        "rdfs__description": "左轉吊左脚同時左邊擸掌成蝴蝶掌；進左子午馬左側推出蝴蝶掌，轉身回四平馬右擸手，緊接轉右子午馬左手逼踭；轉左子午馬左分漏手，左掌以踭勁帶動向左切出，右掌護左肩。",
+        "ns1__ontoMA_name_zh": "蝶掌一迫分漏手",
+        "rdfs__label": "taming_tiger_52",
+        "ns0__name_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_52"
+    },
+    "data": [
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "蝴蝶掌",
+            "target_en": "Butterfly palms",
+            "target_rdfs_label": "butterfly_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "蝴蝶掌",
+            "source_en": "Butterfly palms",
+            "source_rdfs_label": "butterfly_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "擸掌",
+            "target_en": "Palm pullback",
+            "target_rdfs_label": "palm_pullback",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "擸掌",
+            "source_en": "Palm pullback",
+            "source_rdfs_label": "palm_pullback",
+            "source_labels": "palm_tech",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "蝴蝶掌",
+            "target_en": "Butterfly palms",
+            "target_rdfs_label": "butterfly_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "蝴蝶掌",
+            "source_en": "Butterfly palms",
+            "source_rdfs_label": "butterfly_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "擸掌",
+            "target_en": "Palm pullback",
+            "target_rdfs_label": "palm_pullback",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "擸掌",
+            "source_en": "Palm pullback",
+            "source_rdfs_label": "palm_pullback",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "蝴蝶掌",
+            "target_en": "Butterfly palms",
+            "target_rdfs_label": "butterfly_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "蝴蝶掌",
+            "source_en": "Butterfly palms",
+            "source_rdfs_label": "butterfly_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "連消帶打",
+            "target_en": "Defense via attacking",
+            "target_rdfs_label": "defend_by_attack",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "逼踭分漏手",
+            "target_en": "Forcing elbow strike followed by split-and-attack hand",
+            "target_rdfs_label": "f_elbow_n_sna_hand",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "逼踭分漏手",
+            "source_en": "Forcing elbow strike followed by split-and-attack hand",
+            "source_rdfs_label": "f_elbow_n_sna_hand",
+            "source_labels": "combo_tech",
+            "target_zh": "逼踭",
+            "target_en": "Forcing elbow strike",
+            "target_rdfs_label": "forcing_elbow",
+            "target_labels": "elbow_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "逼踭分漏手",
+            "target_en": "Forcing elbow strike followed by split-and-attack hand",
+            "target_rdfs_label": "f_elbow_n_sna_hand",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "逼踭分漏手",
+            "source_en": "Forcing elbow strike followed by split-and-attack hand",
+            "source_rdfs_label": "f_elbow_n_sna_hand",
+            "source_labels": "combo_tech",
+            "target_zh": "分漏手",
+            "target_en": "Block breaking followed by upper body strikes",
+            "target_rdfs_label": "split_n_attack_hand",
+            "target_labels": "palm_tech<br>combo_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "分漏手",
+            "source_en": "Block breaking followed by upper body strikes",
+            "source_rdfs_label": "split_n_attack_hand",
+            "source_labels": "palm_tech<br>combo_tech",
+            "target_zh": "切掌",
+            "target_en": "Straight cutting palm",
+            "target_rdfs_label": "straight_cut_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "逼踭分漏手",
+            "target_en": "Forcing elbow strike followed by split-and-attack hand",
+            "target_rdfs_label": "f_elbow_n_sna_hand",
+            "target_labels": "combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "逼踭分漏手",
+            "source_en": "Forcing elbow strike followed by split-and-attack hand",
+            "source_rdfs_label": "f_elbow_n_sna_hand",
+            "source_labels": "combo_tech",
+            "target_zh": "分漏手",
+            "target_en": "Block breaking followed by upper body strikes",
+            "target_rdfs_label": "split_n_attack_hand",
+            "target_labels": "palm_tech<br>combo_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "分漏手",
+            "source_en": "Block breaking followed by upper body strikes",
+            "source_rdfs_label": "split_n_attack_hand",
+            "source_labels": "palm_tech<br>combo_tech",
+            "target_zh": "割手",
+            "target_en": "Curving palm",
+            "target_rdfs_label": "curving_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "逼",
+            "target_en": "Pressure",
+            "target_rdfs_label": "pressure_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "擸手",
+            "target_en": "Arm-drag claw",
+            "target_rdfs_label": "arm_drag_claw",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "擸手",
+            "source_en": "Arm-drag claw",
+            "source_rdfs_label": "arm_drag_claw",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "化解，改變攻擊方向",
+            "target_en": "Defense via deflecting",
+            "target_rdfs_label": "defend_deflect",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "再撤蝶掌迫分漏",
+            "target_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "target_rdfs_label": "taming_tiger_53",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬進子午馬",
+            "target_en": "Advancing from cat stance to bow stance",
+            "target_rdfs_label": "cat_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊馬進子午馬",
+            "source_en": "Advancing from cat stance to bow stance",
+            "source_rdfs_label": "cat_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬進子午馬",
+            "target_en": "Advancing from cat stance to bow stance",
+            "target_rdfs_label": "cat_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊馬進子午馬",
+            "source_en": "Advancing from cat stance to bow stance",
+            "source_rdfs_label": "cat_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "沉",
+            "target_en": "Lowering the centre of gravity",
+            "target_rdfs_label": "lower_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬轉子午馬",
+            "target_en": "Turning from horse stance to bow stance",
+            "target_rdfs_label": "horse_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四平馬轉子午馬",
+            "source_en": "Turning from horse stance to bow stance",
+            "source_rdfs_label": "horse_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "蝶掌一迫分漏手",
+            "source_en": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block",
+            "source_rdfs_label": "taming_tiger_52",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 262,
+        "endTime": 269,
+        "info": "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block"
+    },
+    "recoInfo": {
+        "label": 641,
+        "recomd": [
+            {
+                "recomd_label": 640,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 557,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 606,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 641,
+            "end": 640,
+            "type": "similar_move"
+        },
+        {
+            "start": 641,
+            "end": 557,
+            "type": "share_tech"
+        },
+        {
+            "start": 641,
+            "end": 606,
+            "type": "share_tech"
+        }
+    ]
+}

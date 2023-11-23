@@ -1,0 +1,105 @@
+{
+    "node_properties": {
+        "rdfs__description": "兩個麒麟步轉馬，后落左子午馬",
+        "ns1__ontoMA_name_zh": "斜風擺柳轉車身",
+        "rdfs__label": "taming_tiger_55",
+        "ns0__name_en": "Retreating steps while turning the body",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_55"
+    },
+    "data": [
+        {
+            "source_zh": "斜風擺柳轉車身",
+            "source_en": "Retreating steps while turning the body",
+            "source_rdfs_label": "taming_tiger_55",
+            "source_labels": "MA_form",
+            "target_zh": "斜風擺柳",
+            "target_en": "Retreating steps while turning the body",
+            "target_rdfs_label": "turning_steps_back",
+            "target_labels": "footwork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "斜風擺柳",
+            "source_en": "Retreating steps while turning the body",
+            "source_rdfs_label": "turning_steps_back",
+            "source_labels": "footwork",
+            "target_zh": "麒麟步",
+            "target_en": "Unicorn steps",
+            "target_rdfs_label": "unicorn_steps",
+            "target_labels": "stance",
+            "type": "employs"
+        },
+        {
+            "source_zh": "麒麟步",
+            "source_en": "Unicorn steps",
+            "source_rdfs_label": "unicorn_steps",
+            "source_labels": "stance",
+            "target_zh": "走馬",
+            "target_en": "Stepping",
+            "target_rdfs_label": "stepping",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "斜風擺柳轉車身",
+            "source_en": "Retreating steps while turning the body",
+            "source_rdfs_label": "taming_tiger_55",
+            "source_labels": "MA_form",
+            "target_zh": "斜風擺柳",
+            "target_en": "Retreating steps while turning the body",
+            "target_rdfs_label": "turning_steps_back",
+            "target_labels": "footwork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "斜風擺柳",
+            "source_en": "Retreating steps while turning the body",
+            "source_rdfs_label": "turning_steps_back",
+            "source_labels": "footwork",
+            "target_zh": "轉身",
+            "target_en": "Turning the body",
+            "target_rdfs_label": "body_turning",
+            "target_labels": "bodywork",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 278,
+        "endTime": 279,
+        "info": "Retreating steps while turning the body"
+    },
+    "recoInfo": {
+        "label": 638,
+        "recomd": [
+            {
+                "recomd_label": 516,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 586,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 295,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 638,
+            "end": 516,
+            "type": "share_tech"
+        },
+        {
+            "start": 638,
+            "end": 586,
+            "type": "share_tech"
+        },
+        {
+            "start": 638,
+            "end": 295,
+            "type": "share_tech"
+        }
+    ]
+}

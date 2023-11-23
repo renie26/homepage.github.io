@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙拳在腰，四步開馬至雙脚距月三個腳掌的長度，落身坐四平大馬，脚尖平行向前，大腿與地面平行，膝蓋不超過腳尖。",
+        "ns1__ontoMA_name_zh": "腳肘開發落四平",
+        "rdfs__label": "taming_tiger_10",
+        "ns0__name_en": "Posing a horse stance in four steps",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_10"
+    },
+    "data": [
+        {
+            "source_zh": "腳肘開發落四平",
+            "source_en": "Posing a horse stance in four steps",
+            "source_rdfs_label": "taming_tiger_10",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 38,
+        "endTime": 43,
+        "info": "Posing a horse stance in four steps"
+    },
+    "recoInfo": {
+        "label": 542,
+        "recomd": [
+            {
+                "recomd_label": 517,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 542,
+            "end": 517,
+            "type": "share_tech"
+        }
+    ]
+}

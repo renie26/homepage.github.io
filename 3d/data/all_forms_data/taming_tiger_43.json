@@ -1,0 +1,204 @@
+{
+    "node_properties": {
+        "rdfs__description": "接扭馬抽拳，吊右脚、拳對左膊；再疾上右子午馬，打出雙掛搥；再接扭馬割手至腰，疾上右子午馬雙掌向上插頸喉。",
+        "ns1__ontoMA_name_zh": "拉馬抽拳雙掛落",
+        "rdfs__label": "taming_tiger_43",
+        "ns0__name_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_43"
+    },
+    "data": [
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "拉馬抽拳雙掛落",
+            "target_en": "Striking with the double hanging back fists and then knife hand thrust",
+            "target_rdfs_label": "taming_tiger_58",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "致命攻擊",
+            "target_en": "Subduing",
+            "target_rdfs_label": "attack_subdue",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "制",
+            "target_en": "Subduing",
+            "target_rdfs_label": "subdue_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "雙掛搥",
+            "target_en": "Double hanging hammer fist",
+            "target_rdfs_label": "db_hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙掛搥",
+            "source_en": "Double hanging hammer fist",
+            "source_rdfs_label": "db_hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "背拳",
+            "target_en": "Back fist",
+            "target_rdfs_label": "backfist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "雙掛搥",
+            "target_en": "Double hanging hammer fist",
+            "target_rdfs_label": "db_hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙掛搥",
+            "source_en": "Double hanging hammer fist",
+            "source_rdfs_label": "db_hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "掛搥",
+            "source_en": "Hanging hammer fist",
+            "source_rdfs_label": "hanging_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "牛角拳",
+            "target_en": "Bull horn fist",
+            "target_rdfs_label": "bull_horn_fist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "拉馬抽拳雙掛落",
+            "source_en": "Pullback followed by striking with the double hanging back fists and then knife hand thrust",
+            "source_rdfs_label": "taming_tiger_43",
+            "source_labels": "MA_form",
+            "target_zh": "雙插手",
+            "target_en": "Double-palm thrust",
+            "target_rdfs_label": "db_thrust_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙插手",
+            "source_en": "Double-palm thrust",
+            "source_rdfs_label": "db_thrust_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "反掌",
+            "target_en": "Reverse palm",
+            "target_rdfs_label": "reverse_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 228,
+        "endTime": 235,
+        "info": "Pullback followed by striking with the double hanging back fists and then knife hand thrust"
+    },
+    "recoInfo": {
+        "label": 562,
+        "recomd": [
+            {
+                "recomd_label": 635,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 601,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 296,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 562,
+            "end": 635,
+            "type": "similar_move"
+        },
+        {
+            "start": 562,
+            "end": 601,
+            "type": "share_tech"
+        },
+        {
+            "start": 562,
+            "end": 296,
+            "type": "share_tech"
+        }
+    ]
+}

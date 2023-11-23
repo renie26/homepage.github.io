@@ -1,0 +1,32 @@
+{
+    "node_properties": {
+        "rdfs__description": "向後收步立正，雙手扭拳至腰間盆骨，氣沉丹田。",
+        "ns1__ontoMA_name_zh": "扭手收拳歸原位",
+        "rdfs__label": "taming_tiger_09",
+        "ns0__name_en": "Pulling back the fists toward the side of the waist",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_9"
+    },
+    "data": [
+        {
+            "source_zh": "扭手收拳歸原位",
+            "source_en": "Pulling back the fists toward the side of the waist",
+            "source_rdfs_label": "taming_tiger_09",
+            "source_labels": "MA_form",
+            "target_zh": "平拳",
+            "target_en": "Forefist",
+            "target_rdfs_label": "forefist",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 35,
+        "endTime": 38,
+        "info": "Pulling back the fists toward the side of the waist"
+    },
+    "recoInfo": {
+        "label": 628,
+        "recomd": []
+    },
+    "recoLinks": []
+}

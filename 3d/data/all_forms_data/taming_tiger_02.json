@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "雙掌握拳，吸氣抽拳提至腰間盆骨，再吸氣抽拳至胸。防備手法，力蓄拳臂，以靜待動。",
+        "ns1__ontoMA_name_zh": "兩手揸拳藏在腰",
+        "rdfs__label": "taming_tiger_02",
+        "ns0__name_en": "Holding the fists by the waist",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_2"
+    },
+    "data": [
+        {
+            "source_zh": "兩手揸拳藏在腰",
+            "source_en": "Holding the fists by the waist",
+            "source_rdfs_label": "taming_tiger_02",
+            "source_labels": "MA_form",
+            "target_zh": "平拳",
+            "target_en": "Forefist",
+            "target_rdfs_label": "forefist",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        },
+        {
+            "source_zh": "兩手揸拳藏在腰",
+            "source_en": "Holding the fists by the waist",
+            "source_rdfs_label": "taming_tiger_02",
+            "source_labels": "MA_form",
+            "target_zh": "調整呼吸，存氣蓄力",
+            "target_en": "Breath control",
+            "target_rdfs_label": "breath_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 0,
+        "endTime": 2,
+        "info": "Holding the fists by the waist"
+    },
+    "recoInfo": {
+        "label": 491,
+        "recomd": []
+    },
+    "recoLinks": []
+}

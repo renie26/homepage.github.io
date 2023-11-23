@@ -1,0 +1,164 @@
+{
+    "node_properties": {
+        "rdfs__description": "分,提,留,制\t上左馬右穿橋手，再上右馬，擧右手擋頭，左手掌心向上托敵手踭；后將敵右手扭轉壓下，左手撥頭同時左脚從後向前掃彈出。",
+        "ns1__ontoMA_name_zh": "撤掌連環抅彈腳",
+        "rdfs__label": "taming_tiger_54",
+        "ns0__name_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_54"
+    },
+    "data": [
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "化解，改變攻擊方向",
+            "target_en": "Defense via deflecting",
+            "target_rdfs_label": "defend_deflect",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "contains"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "攻迫手",
+            "target_en": "Upper forcing palm",
+            "target_rdfs_label": "up_forcing_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "攻迫手",
+            "source_en": "Upper forcing palm",
+            "source_rdfs_label": "up_forcing_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "擒拿控制",
+            "target_en": "Controlling the opponent",
+            "target_rdfs_label": "attack_control",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "運",
+            "target_en": "Moving",
+            "target_rdfs_label": "move_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "分",
+            "target_en": "Separating",
+            "target_rdfs_label": "separate_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "抅彈脚",
+            "target_en": "Hook sweep",
+            "target_rdfs_label": "hook_sweep",
+            "target_labels": "leg_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "留",
+            "target_en": "Staying",
+            "target_rdfs_label": "stay_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "撤掌連環抅彈腳",
+            "source_en": "Withdrawing palms to grab the opponent's elbow, lock and sweep",
+            "source_rdfs_label": "taming_tiger_54",
+            "source_labels": "MA_form",
+            "target_zh": "提",
+            "target_en": "Lifting",
+            "target_rdfs_label": "lift_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 273,
+        "endTime": 278,
+        "info": "Withdrawing palms to grab the opponent's elbow, lock and sweep"
+    },
+    "recoInfo": {
+        "label": 639,
+        "recomd": [
+            {
+                "recomd_label": 271,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 639,
+            "end": 271,
+            "type": "share_tech"
+        }
+    ]
+}

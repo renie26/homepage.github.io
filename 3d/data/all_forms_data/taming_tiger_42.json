@@ -1,0 +1,261 @@
+{
+    "node_properties": {
+        "rdfs__description": "舉右掌至前額前方，掌心向外作擋頭；后一撤步扭身吊馬，右掌向左下劈落，同時左掌一兜；接著右脚疾上一步，落右子午馬出雙弓手,右掌心向上擋頭，左掌心向下向前打出。",
+        "ns1__ontoMA_name_zh": "左上右落千字手",
+        "rdfs__label": "taming_tiger_42",
+        "ns0__name_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_42"
+    },
+    "data": [
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "阻擋攻擊",
+            "target_en": "Defense via blocking",
+            "target_rdfs_label": "defend_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "千字手",
+            "target_en": "千-character hand",
+            "target_rdfs_label": "qian_char_hand",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "千字手",
+            "source_en": "千-character hand",
+            "source_rdfs_label": "qian_char_hand",
+            "source_labels": "palm_tech",
+            "target_zh": "柳葉掌",
+            "target_en": "Willow-leaf palm",
+            "target_rdfs_label": "willow_leaf_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "格打",
+            "target_en": "Attacking while blocking",
+            "target_rdfs_label": "attack_while_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "攻迫手",
+            "target_en": "Upper forcing palm",
+            "target_rdfs_label": "up_forcing_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "攻迫手",
+            "source_en": "Upper forcing palm",
+            "source_rdfs_label": "up_forcing_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬",
+            "target_en": "Cat stance",
+            "target_rdfs_label": "cat_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "提",
+            "target_en": "Lifting",
+            "target_rdfs_label": "lift_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "一撇一劃千字手",
+            "target_en": "Double reverse knife hand strike following the block",
+            "target_rdfs_label": "taming_tiger_57",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "雙弓手",
+            "target_en": "Double bow hands",
+            "target_rdfs_label": "db_bow_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙弓手",
+            "source_en": "Double bow hands",
+            "source_rdfs_label": "db_bow_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "平掌",
+            "target_en": "Flat palm",
+            "target_rdfs_label": "palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "雙弓手",
+            "target_en": "Double bow hands",
+            "target_rdfs_label": "db_bow_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙弓手",
+            "source_en": "Double bow hands",
+            "source_rdfs_label": "db_bow_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "柳葉掌",
+            "target_en": "Willow-leaf palm",
+            "target_rdfs_label": "willow_leaf_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬進子午馬",
+            "target_en": "Advancing from cat stance to bow stance",
+            "target_rdfs_label": "cat_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊馬進子午馬",
+            "source_en": "Advancing from cat stance to bow stance",
+            "source_rdfs_label": "cat_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "左上右落千字手",
+            "source_en": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike",
+            "source_rdfs_label": "taming_tiger_42",
+            "source_labels": "MA_form",
+            "target_zh": "吊馬進子午馬",
+            "target_en": "Advancing from cat stance to bow stance",
+            "target_rdfs_label": "cat_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "吊馬進子午馬",
+            "source_en": "Advancing from cat stance to bow stance",
+            "source_rdfs_label": "cat_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "沉",
+            "target_en": "Lowering the centre of gravity",
+            "target_rdfs_label": "lower_gravity_centre",
+            "target_labels": "bodywork",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 218,
+        "endTime": 228,
+        "info": "Blocking with a knife hand chop quickly followed by the double reverse knife hand strike"
+    },
+    "recoInfo": {
+        "label": 563,
+        "recomd": [
+            {
+                "recomd_label": 636,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 517,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 563,
+            "end": 636,
+            "type": "similar_move"
+        },
+        {
+            "start": 563,
+            "end": 517,
+            "type": "share_tech"
+        }
+    ]
+}

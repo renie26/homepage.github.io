@@ -1,0 +1,215 @@
+{
+    "node_properties": {
+        "rdfs__description": "落左子午馬挑左手對肩，右手抽拳在腰；后轉身扭馬，左脚偷馬爭取空間，左割手在腰。",
+        "ns1__ontoMA_name_zh": "抽手轉身割歸後",
+        "rdfs__label": "taming_tiger_21",
+        "ns0__name_en": "Withdrawing the hand and turning with the curving palm",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_21"
+    },
+    "data": [
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "閃避",
+            "target_en": "Dodging",
+            "target_rdfs_label": "defend_dodge",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "扭馬",
+            "target_en": "Twisting stance",
+            "target_rdfs_label": "twisting_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "抽手轉身割歸後",
+            "target_en": "Withdrawing the hand and turning with the curving palm",
+            "target_rdfs_label": "taming_tiger_30",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "割手",
+            "target_en": "Curving palm",
+            "target_rdfs_label": "curving_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "割手",
+            "source_en": "Curving palm",
+            "source_rdfs_label": "curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "穿橋",
+            "target_en": "Crossing bridge",
+            "target_rdfs_label": "crossing_bridge",
+            "target_labels": "body_bridge",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "割手",
+            "target_en": "Curving palm",
+            "target_rdfs_label": "curving_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "割手",
+            "source_en": "Curving palm",
+            "source_rdfs_label": "curving_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "分",
+            "target_en": "Separating",
+            "target_rdfs_label": "separate_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "轉身",
+            "target_en": "Turning the body",
+            "target_rdfs_label": "body_turning",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "拉遠距離",
+            "target_en": "widening the distance",
+            "target_rdfs_label": "distance_widening",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "抽手轉身割歸後",
+            "source_en": "Withdrawing the hand and turning with the curving palm",
+            "source_rdfs_label": "taming_tiger_21",
+            "source_labels": "MA_form",
+            "target_zh": "挑手",
+            "target_en": "Splitting palm",
+            "target_rdfs_label": "splitting_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "挑手",
+            "source_en": "Splitting palm",
+            "source_rdfs_label": "splitting_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "虎爪",
+            "source_en": "Tiger claw",
+            "source_rdfs_label": "tiger_claw",
+            "source_labels": "claw_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "claw_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 109,
+        "endTime": 115,
+        "info": "Withdrawing the hand and turning with the curving palm"
+    },
+    "recoInfo": {
+        "label": 516,
+        "recomd": [
+            {
+                "recomd_label": 586,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 511,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 610,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 516,
+            "end": 586,
+            "type": "similar_move"
+        },
+        {
+            "start": 516,
+            "end": 511,
+            "type": "share_tech"
+        },
+        {
+            "start": 516,
+            "end": 610,
+            "type": "share_tech"
+        }
+    ]
+}

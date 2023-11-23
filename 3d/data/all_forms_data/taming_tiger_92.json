@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "見禮：轉右子午馬，同時右拳拉向左肩歸右腰，左掌運至右胸前護胸；接以左脚踏前吊馬收胸，左掌擺回左方平肩，同時右拳平胸打出。",
+        "ns1__ontoMA_name_zh": "收拳見禮須吊腳",
+        "rdfs__label": "taming_tiger_92",
+        "ns0__name_en": "Pulling back the fist and saluting with a cat stance",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_92"
+    },
+    "data": [
+        {
+            "source_zh": "收拳見禮須吊腳",
+            "source_en": "Pulling back the fist and saluting with a cat stance",
+            "source_rdfs_label": "taming_tiger_92",
+            "source_labels": "MA_form",
+            "target_zh": "吊腳收胸見禮謙",
+            "target_en": "Saluting with a cat stance",
+            "target_rdfs_label": "taming_tiger_08",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 464,
+        "endTime": 466,
+        "info": "Pulling back the fist and saluting with a cat stance"
+    },
+    "recoInfo": {
+        "label": 361,
+        "recomd": [
+            {
+                "recomd_label": 626,
+                "recomd_type": "similar_move"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 361,
+            "end": 626,
+            "type": "similar_move"
+        }
+    ]
+}

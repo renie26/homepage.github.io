@@ -1,0 +1,127 @@
+{
+    "node_properties": {
+        "rdfs__description": "提雙拳至胸前，雙拳化掌，掌心朝下，雙膀手切落至腰。守中掌法，截打中路來拳。",
+        "ns1__ontoMA_name_zh": "抽拳在胸雙切膀",
+        "rdfs__label": "taming_tiger_11",
+        "ns0__name_en": "Pulling up fists to throw the lower double forearm block",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_11"
+    },
+    "data": [
+        {
+            "source_zh": "抽拳在胸雙切膀",
+            "source_en": "Pulling up fists to throw the lower double forearm block",
+            "source_rdfs_label": "taming_tiger_11",
+            "source_labels": "MA_form",
+            "target_zh": "雙膀切落合掌分",
+            "target_en": "Lifting and pushing forward the palms forward after the lower double forearm block",
+            "target_rdfs_label": "taming_tiger_48",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        },
+        {
+            "source_zh": "抽拳在胸雙切膀",
+            "source_en": "Pulling up fists to throw the lower double forearm block",
+            "source_rdfs_label": "taming_tiger_11",
+            "source_labels": "MA_form",
+            "target_zh": "雙膀手",
+            "target_en": "Lower double forearm bock",
+            "target_rdfs_label": "db_blocking_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "雙膀手",
+            "source_en": "Lower double forearm bock",
+            "source_rdfs_label": "db_blocking_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "膀手",
+            "target_en": "Lower forearm block",
+            "target_rdfs_label": "blocking_palm",
+            "target_labels": "palm_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "膀手",
+            "source_en": "Lower forearm block",
+            "source_rdfs_label": "blocking_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "虎爪",
+            "target_en": "Tiger claw",
+            "target_rdfs_label": "tiger_claw",
+            "target_labels": "claw_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抽拳在胸雙切膀",
+            "source_en": "Pulling up fists to throw the lower double forearm block",
+            "source_rdfs_label": "taming_tiger_11",
+            "source_labels": "MA_form",
+            "target_zh": "阻擋攻擊",
+            "target_en": "Defense via blocking",
+            "target_rdfs_label": "defend_block",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "抽拳在胸雙切膀",
+            "source_en": "Pulling up fists to throw the lower double forearm block",
+            "source_rdfs_label": "taming_tiger_11",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "抽拳在胸雙切膀",
+            "source_en": "Pulling up fists to throw the lower double forearm block",
+            "source_rdfs_label": "taming_tiger_11",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬",
+            "target_en": "Forward horse stance",
+            "target_rdfs_label": "fw_horse_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 43,
+        "endTime": 47,
+        "info": "Pulling up fists to throw the lower double forearm block"
+    },
+    "recoInfo": {
+        "label": 539,
+        "recomd": [
+            {
+                "recomd_label": 569,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 564,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 290,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 539,
+            "end": 569,
+            "type": "similar_move"
+        },
+        {
+            "start": 539,
+            "end": 564,
+            "type": "share_tech"
+        },
+        {
+            "start": 539,
+            "end": 290,
+            "type": "share_tech"
+        }
+    ]
+}

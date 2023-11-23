@@ -1,0 +1,43 @@
+{
+    "node_properties": {
+        "rdfs__description": "向前落右子午馬。",
+        "ns1__ontoMA_name_zh": "右腳一齣子午馬",
+        "rdfs__label": "taming_tiger_40",
+        "ns0__name_en": "Advancing one step with the bow stance",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_40"
+    },
+    "data": [
+        {
+            "source_zh": "右腳一齣子午馬",
+            "source_en": "Advancing one step with the bow stance",
+            "source_rdfs_label": "taming_tiger_40",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "右腳一齣子午馬",
+            "source_en": "Advancing one step with the bow stance",
+            "source_rdfs_label": "taming_tiger_40",
+            "source_labels": "MA_form",
+            "target_zh": "逼近",
+            "target_en": "closing the distance",
+            "target_rdfs_label": "distance_closing",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 215,
+        "endTime": 217,
+        "info": "Advancing one step with the bow stance"
+    },
+    "recoInfo": {
+        "label": 566,
+        "recomd": []
+    },
+    "recoLinks": []
+}

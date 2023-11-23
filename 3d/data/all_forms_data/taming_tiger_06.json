@@ -1,0 +1,85 @@
+{
+    "node_properties": {
+        "rdfs__description": "沉踭對膊一定，雙掌四指撐天，沉橋灌力與掌指，直至指端。架攔手法，用橋臂之力硬架敵手拳臂。",
+        "ns1__ontoMA_name_zh": "沉踭一定指撐天",
+        "rdfs__label": "taming_tiger_06",
+        "ns0__name_en": "Descending the elbows with the palms facing the sun",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_6"
+    },
+    "data": [
+        {
+            "source_zh": "沉踭一定指撐天",
+            "source_en": "Descending the elbows with the palms facing the sun",
+            "source_rdfs_label": "taming_tiger_06",
+            "source_labels": "MA_form",
+            "target_zh": "沉踭",
+            "target_en": "Descending elbow",
+            "target_rdfs_label": "descend_elbow",
+            "target_labels": "elbow_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "沉踭一定指撐天",
+            "source_en": "Descending the elbows with the palms facing the sun",
+            "source_rdfs_label": "taming_tiger_06",
+            "source_labels": "MA_form",
+            "target_zh": "朝陽手",
+            "target_en": "Facing-the-sun palm",
+            "target_rdfs_label": "facing_sun_palm",
+            "target_labels": "hand_shape",
+            "type": "contains"
+        },
+        {
+            "source_zh": "沉踭一定指撐天",
+            "source_en": "Descending the elbows with the palms facing the sun",
+            "source_rdfs_label": "taming_tiger_06",
+            "source_labels": "MA_form",
+            "target_zh": "定",
+            "target_en": "Steadiness",
+            "target_rdfs_label": "steady_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "沉踭一定指撐天",
+            "source_en": "Descending the elbows with the palms facing the sun",
+            "source_rdfs_label": "taming_tiger_06",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 24,
+        "endTime": 26,
+        "info": "Descending the elbows with the palms facing the sun"
+    },
+    "recoInfo": {
+        "label": 632,
+        "recomd": [
+            {
+                "recomd_label": 538,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 551,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 632,
+            "end": 538,
+            "type": "similar_move"
+        },
+        {
+            "start": 632,
+            "end": 551,
+            "type": "share_principle"
+        }
+    ]
+}

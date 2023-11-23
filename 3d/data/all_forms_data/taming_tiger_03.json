@@ -1,0 +1,54 @@
+{
+    "node_properties": {
+        "rdfs__description": "呼氣雙拳化掌，雙橋半身切出，氣貫掌底，掌邊向前。",
+        "ns1__ontoMA_name_zh": "抽上胸中一切出",
+        "rdfs__label": "taming_tiger_03",
+        "ns0__name_en": "Lifting the fists and pushing forward the palms from the side of chest",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_3"
+    },
+    "data": [
+        {
+            "source_zh": "抽上胸中一切出",
+            "source_en": "Lifting the fists and pushing forward the palms from the side of chest",
+            "source_rdfs_label": "taming_tiger_03",
+            "source_labels": "MA_form",
+            "target_zh": "切掌",
+            "target_en": "Straight cutting palm",
+            "target_rdfs_label": "straight_cut_palm",
+            "target_labels": "palm_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "切掌",
+            "source_en": "Straight cutting palm",
+            "source_rdfs_label": "straight_cut_palm",
+            "source_labels": "palm_tech",
+            "target_zh": "柳葉掌",
+            "target_en": "Willow-leaf palm",
+            "target_rdfs_label": "willow_leaf_palm",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抽上胸中一切出",
+            "source_en": "Lifting the fists and pushing forward the palms from the side of chest",
+            "source_rdfs_label": "taming_tiger_03",
+            "source_labels": "MA_form",
+            "target_zh": "直",
+            "target_en": "Straightness",
+            "target_rdfs_label": "straight_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 2,
+        "endTime": 7,
+        "info": "Lifting the fists and pushing forward the palms from the side of chest"
+    },
+    "recoInfo": {
+        "label": 492,
+        "recomd": []
+    },
+    "recoLinks": []
+}

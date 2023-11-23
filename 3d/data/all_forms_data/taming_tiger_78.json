@@ -1,0 +1,270 @@
+{
+    "node_properties": {
+        "rdfs__description": "接轉身一跳，落四平馬出左掛搥；後進左子午馬接水浪抛搥，即左拳弧形向上打出，右拳從後抛上，以拳背向上擊打。",
+        "ns1__ontoMA_name_zh": "轉身一跳碌鼓槌",
+        "rdfs__label": "taming_tiger_78",
+        "ns0__name_en": "Jump turn followed by the water crest throwing hammer fist",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_78"
+    },
+    "data": [
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "水浪抛搥",
+            "target_en": "Water crest throwing hammer fist",
+            "target_rdfs_label": "crest_throwing_hammers",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "水浪抛搥",
+            "source_en": "Water crest throwing hammer fist",
+            "source_rdfs_label": "crest_throwing_hammers",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "抛搥",
+            "target_en": "Throwing hammer fist",
+            "target_rdfs_label": "throwing_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抛搥",
+            "source_en": "Throwing hammer fist",
+            "source_rdfs_label": "throwing_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "背拳",
+            "target_en": "Back fist",
+            "target_rdfs_label": "backfist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "水浪抛搥",
+            "target_en": "Water crest throwing hammer fist",
+            "target_rdfs_label": "crest_throwing_hammers",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "水浪抛搥",
+            "source_en": "Water crest throwing hammer fist",
+            "source_rdfs_label": "crest_throwing_hammers",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "抛搥",
+            "target_en": "Throwing hammer fist",
+            "target_rdfs_label": "throwing_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "抛搥",
+            "source_en": "Throwing hammer fist",
+            "source_rdfs_label": "throwing_hammer",
+            "source_labels": "fist_tech",
+            "target_zh": "牛角拳",
+            "target_en": "Bull horn fist",
+            "target_rdfs_label": "bull_horn_fist",
+            "target_labels": "hand_shape",
+            "type": "employs"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "水浪抛搥",
+            "target_en": "Water crest throwing hammer fist",
+            "target_rdfs_label": "crest_throwing_hammers",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "水浪抛搥",
+            "source_en": "Water crest throwing hammer fist",
+            "source_rdfs_label": "crest_throwing_hammers",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "反身掛搥",
+            "target_en": "Reverse hanging back fist",
+            "target_rdfs_label": "reverse_hanging_fist",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "反身掛搥",
+            "source_en": "Reverse hanging back fist",
+            "source_rdfs_label": "reverse_hanging_fist",
+            "source_labels": "fist_tech",
+            "target_zh": "轉身",
+            "target_en": "Turning the body",
+            "target_rdfs_label": "body_turning",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "水浪抛搥",
+            "target_en": "Water crest throwing hammer fist",
+            "target_rdfs_label": "crest_throwing_hammers",
+            "target_labels": "fist_tech<br>combo_tech",
+            "type": "contains"
+        },
+        {
+            "source_zh": "水浪抛搥",
+            "source_en": "Water crest throwing hammer fist",
+            "source_rdfs_label": "crest_throwing_hammers",
+            "source_labels": "fist_tech<br>combo_tech",
+            "target_zh": "反身掛搥",
+            "target_en": "Reverse hanging back fist",
+            "target_rdfs_label": "reverse_hanging_fist",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "反身掛搥",
+            "source_en": "Reverse hanging back fist",
+            "source_rdfs_label": "reverse_hanging_fist",
+            "source_labels": "fist_tech",
+            "target_zh": "掛搥",
+            "target_en": "Hanging hammer fist",
+            "target_rdfs_label": "hanging_hammer",
+            "target_labels": "fist_tech",
+            "type": "employs"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "剛",
+            "target_en": "Hardness",
+            "target_rdfs_label": "hard_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "攻擊",
+            "target_en": "Launch an attack",
+            "target_rdfs_label": "attack_int",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "子午馬",
+            "target_en": "Bow stance",
+            "target_rdfs_label": "bow_stance",
+            "target_labels": "stance",
+            "type": "contains"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "連消帶打",
+            "target_en": "Defense via attacking",
+            "target_rdfs_label": "defend_by_attack",
+            "target_labels": "MA_tactic",
+            "type": "has_intent"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "提",
+            "target_en": "Lifting",
+            "target_rdfs_label": "lift_bridge",
+            "target_labels": "fighting_strategy",
+            "type": "represents"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "四平馬轉子午馬",
+            "target_en": "Turning from horse stance to bow stance",
+            "target_rdfs_label": "horse_to_bow_stance",
+            "target_labels": "bodywork",
+            "type": "contains"
+        },
+        {
+            "source_zh": "四平馬轉子午馬",
+            "source_en": "Turning from horse stance to bow stance",
+            "source_rdfs_label": "horse_to_bow_stance",
+            "source_labels": "bodywork",
+            "target_zh": "扭腰",
+            "target_en": "Waist twist",
+            "target_rdfs_label": "waist_twist",
+            "target_labels": "bodywork",
+            "type": "employs"
+        },
+        {
+            "source_zh": "轉身一跳碌鼓槌",
+            "source_en": "Jump turn followed by the water crest throwing hammer fist",
+            "source_rdfs_label": "taming_tiger_78",
+            "source_labels": "MA_form",
+            "target_zh": "跳",
+            "target_en": "Jumping",
+            "target_rdfs_label": "jumping",
+            "target_labels": "bodywork",
+            "type": "contains"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 371,
+        "endTime": 375,
+        "info": "Jump turn followed by the water crest throwing hammer fist"
+    },
+    "recoInfo": {
+        "label": 295,
+        "recomd": [
+            {
+                "recomd_label": 288,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 601,
+                "recomd_type": "share_tech"
+            },
+            {
+                "recomd_label": 558,
+                "recomd_type": "share_principle"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 295,
+            "end": 288,
+            "type": "share_tech"
+        },
+        {
+            "start": 295,
+            "end": 601,
+            "type": "share_tech"
+        },
+        {
+            "start": 295,
+            "end": 558,
+            "type": "share_principle"
+        }
+    ]
+}

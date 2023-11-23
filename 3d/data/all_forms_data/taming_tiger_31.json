@@ -1,0 +1,52 @@
+{
+    "node_properties": {
+        "rdfs__description": "開左馬，左脚前踏轉子午馬，同時右側掌從腰間打出。中攻手法，以轉馬帶動腰背勁力，貫于側掌擊出。",
+        "ns1__ontoMA_name_zh": "上馬連出一側掌",
+        "rdfs__label": "taming_tiger_31",
+        "ns0__name_en": "Advancing with the horizontal palm strike",
+        "uri": "http://EncodingActs.github.io/annotated/MAOcorpus/taming_tiger_31"
+    },
+    "data": [
+        {
+            "source_zh": "上馬連出一側掌",
+            "source_en": "Advancing with the horizontal palm strike",
+            "source_rdfs_label": "taming_tiger_31",
+            "source_labels": "MA_form",
+            "target_zh": "上馬連變側掌打",
+            "target_en": "Advancing with the horizontal palm strike",
+            "target_rdfs_label": "taming_tiger_22",
+            "target_labels": "MA_form",
+            "type": "similar_form_to"
+        }
+    ],
+    "videoInfo": {
+        "startTime": 158,
+        "endTime": 160,
+        "info": "Advancing with the horizontal palm strike"
+    },
+    "recoInfo": {
+        "label": 585,
+        "recomd": [
+            {
+                "recomd_label": 514,
+                "recomd_type": "similar_move"
+            },
+            {
+                "recomd_label": 294,
+                "recomd_type": "share_tech"
+            }
+        ]
+    },
+    "recoLinks": [
+        {
+            "start": 585,
+            "end": 514,
+            "type": "similar_move"
+        },
+        {
+            "start": 585,
+            "end": 294,
+            "type": "share_tech"
+        }
+    ]
+}
