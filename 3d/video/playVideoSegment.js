@@ -4,6 +4,14 @@ $('.infobtn').click(function(){
   $('.info').css("display", "none");
 });
 
+$('.legendbtn').click(function(){
+    console.log("cnt")
+    if( $('.legendimg').css("display")=="block")
+        $('.legendimg').css("display", "none")
+    else
+        $('.legendimg').css("display", "block");
+});
+
 window.playVideoSegment = function(videoInfo, isVideoPlay) {
     if (!video) {
         console.error('Video element not found');

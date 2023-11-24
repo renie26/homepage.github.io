@@ -33,7 +33,7 @@ const Graph = ForceGraph3D()(elem)
             return "black"
         else return getLinkColor(link.type)
     })
-    .linkOpacity(0.2);
+    .linkOpacity(0.1);
 
 Graph.onNodeHover(node => {
     if ((!node && !linkedNodes.size) || (node && hoverNode === node)) return;
@@ -210,13 +210,14 @@ function updateHighlight() {
 
 
 const groupColors = {
-    "group-0": "lightblue",
+    "group-0": "#8FAADC",
     "group-1": "lightgreen",
-    "group-2": "#883a19",
-    "group-3": "#c7a46a",
-    "group-4": "#df8b46",
-    "group-5": "#be5f1b",
-    "group-6": "#cabcab"
+    "group-2": "#70AD47",
+    "group-3": "#D4C282",
+    "group-4": "#70AD47",
+    "group-5": "#ED7D31",
+    "group-6": "#883A19",
+    "group-7": "#ADB9CA"
 };
 
 function getColorByClass(nclass) {
@@ -224,26 +225,28 @@ function getColorByClass(nclass) {
         return groupColors['group-1'];
     switch (nclass) {
         case 'combo_tech':
+            return groupColors['group-0'];
         case 'gestrue':
         case 'stance':
         case 'handwork':
         case 'bodywork':
         case 'footwork':
-            return groupColors['group-0'];
-        case 'fighting_strategy':
+            return groupColors['group-1'];
+        case 'MA_principle':
+        case 'MA_tactic':
         case 'symbolic_animal':
             return groupColors['group-2'];
         case 'MA_form':
             return groupColors['group-3'];
-        case 'MA_tactic':
+        case 'fighting_strategy':
             return groupColors['group-4'];
         case 'Form_set':
+            return groupColors['group-5'];
         case 'MA_style':
         case 'MA_system':
-        case 'MA_principle':
-            return groupColors['group-5'];
-        default:
             return groupColors['group-6'];
+        default:
+            return groupColors['group-7'];
     }
 }
 
@@ -274,16 +277,16 @@ function getLinkColor(type) {
 
 function getNodeSize(nclass) {
     if (nclass.includes("_tech") && nclass !== 'combo_tech')
-        return 6;
+        return 5;
     switch (nclass) {
         case 'combo_tech':
-            return 6;
+            return 8;
         case 'gestrue':
         case 'stance':
         case 'handwork':
         case 'bodywork':
         case 'footwork':
-            return 4;
+            return 5;
         case 'symbolic_animal':
             return 3;
         case 'MA_form':
@@ -292,9 +295,9 @@ function getNodeSize(nclass) {
             return 4;
         case 'MA_style':
         case 'MA_system':
-            return 40;
+            return 50;
         case 'Form_set':
-            return 30;
+            return 40;
         case 'fighting_strategy':
         case 'MA_principle':
             return 12;

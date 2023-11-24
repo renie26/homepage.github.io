@@ -1,6 +1,26 @@
 body{
 	background-color: black;
 }
+
+.legend{
+    position: absolute;
+    right: 0.1em;
+    top: 0em;
+    width: 9em;
+    text-align: right;
+    z-index: 1000;
+}
+.legendbtn{
+    width: 8em;
+    font-size: 0.8em;
+    padding: 0.2em;
+    margin-bottom: -0.3em;
+}
+
+.legendimg{
+    display: none;
+}
+
 .info{
     width: 60%;
     position: absolute;
