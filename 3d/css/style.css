@@ -5,10 +5,10 @@ body{
     width: 60%;
     position: absolute;
     z-index: 999;
-    height: 30%;
+    height: 38%;
     left: 20%;
     top: 25%;
-    background: rgb(10, 10, 10, 10);
+    background: rgb(10, 10, 10, 0.9);
     color: white;
     padding: 2em 0;
     text-align: center;
