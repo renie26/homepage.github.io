@@ -232,15 +232,8 @@ mao:adopts rdf:type owl:ObjectProperty ;
                        mao:class:MA_style ,
                        mao:class:MA_syllabus ,
                        mao:class:MA_system ;
-           rdfs:range mao:class:grading_system ,
-                      mao:class:training_method ;
+           rdfs:range mao:class:training_method ;
            rdfs:label "adopts" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/assessed_by
-mao:assessed_by rdf:type owl:ObjectProperty ;
-                rdfs:label "assessed_by" .
-
 
 ###  http://EncodingActs.github.io/annotated/MAon/belongs_to
 mao:belongs_to rdf:type owl:ObjectProperty ;
@@ -422,8 +415,7 @@ mao:practices rdf:type owl:ObjectProperty ;
 
 ###  http://EncodingActs.github.io/annotated/MAon/represents
 mao:represents rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_form ,
-                           mao:class:MA_technique ;
+               rdfs:domain mao:class:MA_form ;
                rdfs:range mao:class:MA_principle ;
                rdfs:label "represents" .
 
@@ -438,6 +430,9 @@ mao:resides_in rdf:type owl:ObjectProperty ;
 ###  http://EncodingActs.github.io/annotated/MAon/similar_form_to
 mao:similar_form_to rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf mao:similar_to ;
+                    rdf:type owl:FunctionalProperty ,
+                             owl:SymmetricProperty ,
+                             owl:TransitiveProperty ;
                     rdfs:domain mao:class:MA_form ;
                     rdfs:range mao:class:MA_form ;
                     rdfs:label "similar_form_to" .
@@ -446,16 +441,26 @@ mao:similar_form_to rdf:type owl:ObjectProperty ;
 ###  http://EncodingActs.github.io/annotated/MAon/similar_set_of
 mao:similar_set_of rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf mao:similar_to ;
+                   rdf:type owl:SymmetricProperty ,
+                            owl:TransitiveProperty ;
                    rdfs:domain mao:Form_set ;
                    rdfs:range mao:Form_set ;
                    rdfs:label "similar_set_to"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/similar_to
-mao:similar_to rdf:type owl:ObjectProperty ;
+mao:similar_to rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ,
+                        owl:TransitiveProperty ;
                rdfs:domain mao:class:MA_technique ;
                rdfs:range mao:class:MA_technique ;
                rdfs:label "similar_to" .
+
+###  http://EncodingActs.github.io/annotated/MAon/imitates
+mao:imitates rdf:type owl:ObjectProperty ;
+              rdfs:domain mao:class:MA_Technique ;
+              rdfs:range mao:class:symbolic_animal ;
+              rdfs:label "imitates"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/simulates
@@ -517,13 +522,6 @@ mao:uses rdf:type owl:ObjectProperty ;
          rdfs:label "uses" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/valid_for
-mao:valid_for rdf:type owl:ObjectProperty ;
-              rdfs:domain mao:class:grading_system ;
-              rdfs:range mao:class:MA_system ;
-              rdfs:label "valid_for" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAon/with
 mao:with rdf:type owl:ObjectProperty ;
          rdfs:label "with" .
@@ -541,16 +539,6 @@ mao:appellation_type rdf:type owl:DatatypeProperty ;
                                 mao:EN_Name ,
                                 mao:name_originalLang ;
                      rdfs:label "appellation_type" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/assess_type
-mao:assess_type rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf mao:dataProperties ;
-                rdfs:domain mao:class:grading_system ;
-                rdfs:range mao:grading_system ,
-                           mao:ranking_system ,
-                           mao:reputation ;
-                rdfs:label "assess_type" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/attack_defend_tactic
@@ -625,10 +613,6 @@ mao:weapon_type rdf:type owl:DatatypeProperty ;
 ###  http://EncodingActs.github.io/annotated/MAon/Form_set
 mao:Form_set rdf:type owl:Class ;
              rdfs:subClassOf mao:class:training_method ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:assessed_by ;
-                               owl:someValuesFrom mao:class:grading_system
-                             ] ,
                              [ rdf:type owl:Restriction ;
                                owl:onProperty mao:belongs_to ;
                                owl:someValuesFrom mao:class:MA_system
@@ -822,18 +806,6 @@ mao:class:MA_Master rdf:type owl:Class ;
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty mao:type_of ;
                                       owl:someValuesFrom mao:class:E21-Person
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:valid_for ;
-                                      owl:someValuesFrom mao:class:grading_system
                                     ] ;
                     rdfs:label "MA_Master"@en .
 
@@ -910,10 +882,6 @@ mao:class:MA_institute rdf:type owl:Class ;
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:adopts ;
-                                         owl:someValuesFrom mao:class:grading_system
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:adopts ;
                                          owl:someValuesFrom mao:class:training_method
                                        ] ,
                                        [ rdf:type owl:Restriction ;
@@ -940,10 +908,6 @@ mao:class:MA_principle rdf:type owl:Class ;
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_style
 mao:class:MA_style rdf:type owl:Class ;
                    rdfs:subClassOf owl:Thing ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:adopts ;
-                                     owl:someValuesFrom mao:class:grading_system
-                                   ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:adopts ;
                                      owl:someValuesFrom mao:class:training_method
@@ -991,10 +955,6 @@ mao:class:MA_syllabus rdf:type owl:Class ;
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_system
 mao:class:MA_system rdf:type owl:Class ;
                     rdfs:subClassOf owl:Thing ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adopts ;
-                                      owl:someValuesFrom mao:class:grading_system
-                                    ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty mao:adopts ;
                                       owl:someValuesFrom mao:class:training_method
@@ -1047,10 +1007,6 @@ mao:class:MA_tactic rdf:type owl:Class ;
 mao:class:MA_technique rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ,
                                        [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:assessed_by ;
-                                         owl:someValuesFrom mao:class:grading_system
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:employs ;
                                          owl:someValuesFrom mao:class:body_bridge
                                        ] ,
@@ -1075,16 +1031,8 @@ mao:class:MA_technique rdf:type owl:Class ;
                                          owl:someValuesFrom mao:class:training_method
                                        ] ,
                                        [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:represents ;
-                                         owl:someValuesFrom mao:class:MA_principle
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:similar_to ;
                                          owl:someValuesFrom mao:class:MA_technique
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:simulates ;
-                                         owl:someValuesFrom mao:class:symbolic_animal
                                        ] ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty mao:used_in ;
@@ -1147,14 +1095,14 @@ mao:class:breath_cntr_mnpl rdf:type owl:Class ;
                            rdfs:label "Breath_control"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/class:breathing_method
-mao:class:breathing_method rdf:type owl:Class ;
+###  http://EncodingActs.github.io/annotated/MAon/class:breathing_tech
+mao:class:breathing_tech rdf:type owl:Class ;
                            rdfs:subClassOf mao:class:MA_technique ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty mao:type_of ;
                                              owl:someValuesFrom mao:class:MA_technique
                                            ] ;
-                           rdfs:label "Breathing_method" .
+                           rdfs:label "breathing_tech" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:claw_tech
@@ -1232,19 +1180,6 @@ mao:class:footwork rdf:type owl:Class ;
                                      owl:someValuesFrom mao:class:MA_technique
                                    ] ;
                    rdfs:label "Footwork" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/class:grading_system
-mao:class:grading_system rdf:type owl:Class ;
-                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                           owl:onProperty mao:valid_for ;
-                                           owl:someValuesFrom mao:class:MA_style
-                                         ] ,
-                                         [ rdf:type owl:Restriction ;
-                                           owl:onProperty mao:valid_for ;
-                                           owl:someValuesFrom mao:class:MA_system
-                                         ] ;
-                         rdfs:label "Assessment_method"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:hand_shape
@@ -1414,6 +1349,11 @@ mao:class:weapon_tech rdf:type owl:Class ;
 ###  http://EncodingActs.github.io/annotated/MAon#Southern_Chinese_Martial_Arts
 :Southern_Chinese_Martial_Arts rdf:type owl:NamedIndividual ,
                                         mao:class:MA_system ;
+                               :name_en "Southern Chinese Martial Arts" ,
+                                        "中國南派武術" ;
+                               mao:ontoMA_otherName_en "Southern styles" ;
+                               mao:ontoMA_otherName_zh "南拳" ;
+                               rdfs:label "Southern_Chinese_Martial_Arts" ;
                                rdfs:wikiURL "https://en.wikipedia.org/wiki/Styles_of_Chinese_martial_arts" .
 
 
@@ -1421,6 +1361,8 @@ mao:class:weapon_tech rdf:type owl:Class ;
 mao:Choy_Li_Fut rdf:type owl:NamedIndividual ,
                          mao:class:MA_system ;
                 mao:belongs_to :Southern_Chinese_Martial_Arts ;
+                :name_en "Choy Li Fut" ;
+                mao:ontoMA_name_zh "蔡李佛" ;
                 rdfs:label "Choy_Li_Fut" ;
                 rdfs:wikiURL "https://en.wikipedia.org/wiki/Choy_Li_Fut" .
 
@@ -1430,18 +1372,10 @@ mao:Dan_Tien_focus rdf:type owl:NamedIndividual ,
                             mao:class:breath_cntr_mnpl ;
                    mao:used_in mao:Choy_Li_Fut ,
                                mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Dan Tien focus"@en ;
                    mao:ontoMA_name_zh "氣沉丹田"@zh ;
                    rdfs:label "Dan_Tien_focus" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/Fujian_White_Crane
-mao:Fujian_White_Crane rdf:type owl:NamedIndividual ,
-                                mao:class:MA_style ;
-                       mao:belongs_to mao:white_Crane_kungfu ;
-                       mao:ontoMA_otherName_en "Yongchun_White_Crane"@en ;
-                       rdfs:label "Yongchun_White_Crane" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/GungGee_video_OscarLam
@@ -1476,6 +1410,7 @@ mao:Hung_Kuen rdf:type owl:NamedIndividual ,
                              mao:leopard ,
                              mao:tiger ,
                              mao:white_crane ;
+              :name_en "Hung Kuen" ;
               mao:ontoMA_name_zh "洪拳"@zh ;
               mao:ontoMA_otherName_en "Hung Gar,Hung Ga"@en ;
               mao:ontoMA_otherName_zh "洪家,洪家拳"@zh ;
@@ -1491,7 +1426,8 @@ mao:Lam_Family_Hung_Kuen rdf:type owl:NamedIndividual ,
                                     owl:someValuesFrom mao:class:MA_style
                                   ] ;
                          mao:belongs_to mao:Hung_Kuen ;
-                         mao:ontoMA_otherName_en "Lam_Gar_Hung_Kuen"@en ;
+                         :name_en "Lam Family Hung Kuen"@en ;
+                         mao:ontoMA_name_zh "林家洪拳" ;
                          rdfs:label "Lam_Family_Hung_Kuen" .
 
 
@@ -1526,9 +1462,26 @@ mao:Uprightness rdf:type owl:NamedIndividual ,
                          mao:class:honor_code ;
                 mao:is mao:honest_integrity ;
                 :name_en "Uprightness"@en ;
-                mao:ontoMA_name_zh "訂乾坤"@zh ;
-                mao:ontoMA_otherName_zh "頂天立地"@zh ;
+                mao:ontoMA_name_zh "頂天立地"@zh ;
+                mao:ontoMA_otherName_zh "定乾坤"@zh ;
                 rdfs:label "Uprightness"@en .
+
+
+###  http://EncodingActs.github.io/annotated/MAon/White_Crane_Kungfu
+mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
+                                mao:class:MA_system ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty mao:teaches ;
+                                  owl:someValuesFrom mao:class:breathing_tech
+                                ] ;
+                       mao:belongs_to :Southern_Chinese_Martial_Arts ;
+                       mao:has_origin_place <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> ;
+                       mao:has_principle mao:Dan_Tien_focus ;
+                       mao:has_symbol mao:white_crane ;
+                       :name_en "White Crane Kungfu" ;
+                       mao:ontoMA_name_zh "白鶴拳" ;
+                       rdfs:label "White_Crane_Kungfu"@en ;
+                       rdfs:wikiURL "https://en.wikipedia.org/wiki/Fujian_White_Crane" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/Yin_Yang
@@ -1537,6 +1490,16 @@ mao:Yin_Yang rdf:type owl:NamedIndividual ,
              :name_en "Yin and Yang"@en ;
              mao:ontoMA_name_zh "陰陽"@zh ;
              rdfs:label "Yin_Yang" .
+
+
+###  http://EncodingActs.github.io/annotated/MAon/Yongchun_White_Crane
+mao:Yongchun_White_Crane rdf:type owl:NamedIndividual ,
+                                  mao:class:MA_style ;
+                         mao:belongs_to mao:White_Crane_Kungfu ;
+                         :name_en "Yongchun_White_Crane" ;
+                         mao:ontoMA_name_zh "永春白鹤拳" ;
+                         mao:ontoMA_otherName_en "Fujian White Crane"@en ;
+                         rdfs:label "Yongchun_White_Crane" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/arm_lock
@@ -1627,7 +1590,7 @@ mao:backfist rdf:type owl:NamedIndividual ,
                       mao:class:hand_shape ;
              mao:used_in mao:Choy_Li_Fut ,
                          mao:Hung_Kuen ,
-                         mao:white_Crane_kungfu ;
+                         mao:White_Crane_Kungfu ;
              :name_en "Back fist"@en ;
              :name_romanCAN "Bui Kyun"@en ;
              :name_romanMAN "Bei Quan"@en ;
@@ -1665,8 +1628,7 @@ mao:black_tiger_claw rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/blacktiger_punch
 mao:blacktiger_punch rdf:type owl:NamedIndividual ,
-                              mao:class:combo_tech ,
-                              mao:class:fist_tech ;
+                              mao:class:combo_tech ;
                      mao:employs mao:dbsquare_hammer ,
                                  mao:stepping ,
                                  mao:switch-hitting ;
@@ -1681,7 +1643,7 @@ mao:blacktiger_punch rdf:type owl:NamedIndividual ,
 mao:blade_palm rdf:type owl:NamedIndividual ,
                         mao:class:hand_shape ;
                mao:used_in mao:Hung_Kuen ,
-                           mao:white_Crane_kungfu ;
+                           mao:White_Crane_Kungfu ;
                :name_en "Horizontal knife hand"@en ;
                :name_romanCAN "Biu Zoeng"@en ;
                :name_romanMAN "Biao Zhang"@en ;
@@ -1705,7 +1667,6 @@ mao:block_kick rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/block_n_front_kick
 mao:block_n_front_kick rdf:type owl:NamedIndividual ,
-                                mao:class:combo_tech ,
                                 mao:class:leg_tech ;
                        mao:employs mao:block_kick ,
                                    mao:front_kick ;
@@ -1733,7 +1694,7 @@ mao:blocking_palm rdf:type owl:NamedIndividual ,
 mao:blocking_palms rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:similar_to mao:butterfly_palm ;
-                   mao:used_in mao:white_Crane_kungfu ;
+                   mao:used_in mao:White_Crane_Kungfu ;
                    :name_en "Blocking palms"@en ;
                    :name_romanCAN "Pou Paai"@en ;
                    :name_romanMAN "Bao Pai"@en ;
@@ -1750,7 +1711,7 @@ mao:body_twisting rdf:type owl:NamedIndividual ,
                            ] ;
                   mao:used_in mao:Choy_Li_Fut ,
                               mao:Hung_Kuen ,
-                              mao:white_Crane_kungfu ;
+                              mao:White_Crane_Kungfu ;
                   :name_en "Waist twist"@en ;
                   :name_romanCAN "Nou Jiu"@en ;
                   :name_romanMAN "Niu Yao"@en ;
@@ -1762,7 +1723,7 @@ mao:body_twisting rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/bouncing_kick
 mao:bouncing_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Bouncing kick"@en ;
                   :name_romanCAN "Tiu Goek"@en ;
                   :name_romanMAN "Tiao Jiao"@en ;
@@ -1799,7 +1760,7 @@ mao:breath_regulation rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/breathing_in
 mao:breathing_in rdf:type owl:NamedIndividual ,
-                          mao:class:breathing_method ;
+                          mao:class:breathing_tech ;
                  :name_en "Breathing in"@en ;
                  mao:ontoMA_name_zh "吞"@zh ;
                  mao:ontoMA_otherName_zh "吸氣"@zh ;
@@ -1808,7 +1769,7 @@ mao:breathing_in rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/breathing_out
 mao:breathing_out rdf:type owl:NamedIndividual ,
-                           mao:class:breathing_method ;
+                           mao:class:breathing_tech ;
                   :name_en "Breathing out"@en ;
                   mao:ontoMA_name_zh "吐"@en ;
                   mao:ontoMA_otherName_zh "呼氣"@zh ;
@@ -1818,7 +1779,7 @@ mao:breathing_out rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/brushing_palm
 mao:brushing_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Brushing palm"@en ;
                   :name_romanCAN "So Sau"@en ;
                   :name_romanMAN "Shu Shou"@en ;
@@ -1831,7 +1792,7 @@ mao:bullhorn_fist rdf:type owl:NamedIndividual ,
                            mao:class:hand_shape ;
                   mao:used_in mao:Choy_Li_Fut ,
                               mao:Hung_Kuen ,
-                              mao:white_Crane_kungfu ;
+                              mao:White_Crane_Kungfu ;
                   :name_en "Bull horn fist"@en ;
                   :name_romanCAN "Ngau Gok Kyun"@en ;
                   :name_romanMAN "Niu Jiao Quan"@en ;
@@ -1874,7 +1835,7 @@ mao:bullhorn_uppercut rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/bumping_kick
 mao:bumping_kick rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Bumping kick"@en ;
                  :name_romanCAN "Din Goek"@en ;
                  :name_romanMAN "Dian Jiao"@en ;
@@ -1889,7 +1850,7 @@ mao:butterfly_palm rdf:type owl:NamedIndividual ,
                                mao:tiger_claw ;
                    mao:used_in mao:Choy_Li_Fut ,
                                mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Butterfly palms"@en ;
                    :name_romanCAN "Wu Dip Zoeng"@en ;
                    :name_romanMAN "Hu Die Zhang"@en ;
@@ -1914,7 +1875,7 @@ mao:cat_stance rdf:type owl:NamedIndividual ,
                         mao:class:stance ;
                mao:used_in mao:Choy_Li_Fut ,
                            mao:Hung_Kuen ,
-                           mao:white_Crane_kungfu ;
+                           mao:White_Crane_Kungfu ;
                :name_en "Cat stance"@en ;
                :name_romanCAN "Diu Maa"@en ;
                :name_romanMAN "Diao Ma"@en ;
@@ -1927,12 +1888,10 @@ mao:cat_stance rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance
 mao:cat_to_bow_stance rdf:type owl:NamedIndividual ,
-                               mao:class:bodywork ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty mao:bodywork_type ;
-                                 owl:someValuesFrom mao:body_movement
-                               ] ;
+                               mao:class:footwork ;
                       mao:employs mao:body_twisting ,
+                                  mao:bow_stance ,
+                                  mao:cat_stance ,
                                   mao:lower_gravity_centere ;
                       mao:used_in mao:Choy_Li_Fut ,
                                   mao:Hung_Kuen ;
@@ -1943,11 +1902,10 @@ mao:cat_to_bow_stance rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/catch_n_whip
 mao:catch_n_whip rdf:type owl:NamedIndividual ,
-                          mao:class:combo_tech ,
-                          mao:class:fist_tech ;
+                          mao:class:combo_tech ;
                  mao:employs mao:cr_whip_punch ,
                              mao:seizing_palm ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Chin-Na palm and uppercut"@en ;
                  :name_romanCAN "Kam Bin"@en ;
                  :name_romanMAN "Qin Bian"@en ;
@@ -1986,7 +1944,7 @@ mao:choy_throwing_punch rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/cirling_palm
 mao:cirling_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Cirling palm"@en ;
                  :name_romanCAN "Hyun Sau"@en ;
                  :name_romanMAN "Quan Shou"@en ;
@@ -1999,7 +1957,7 @@ mao:claw_palm rdf:type owl:NamedIndividual ,
                        mao:class:hand_shape ;
               mao:used_in mao:Choy_Li_Fut ,
                           mao:Hung_Kuen ,
-                          mao:white_Crane_kungfu ;
+                          mao:White_Crane_Kungfu ;
               :name_en "Tiger claw"@en ;
               :name_romanCAN "Fu Zaau"@en ;
               :name_romanMAN "Hu Zhao"@en ;
@@ -2009,11 +1967,10 @@ mao:claw_palm rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/clipping_fists
 mao:clipping_fists rdf:type owl:NamedIndividual ,
-                            mao:class:combo_tech ,
-                            mao:class:fist_tech ;
+                            mao:class:combo_tech ;
                    mao:employs mao:straight_punch ;
                    mao:used_in mao:Hung_Kuen ;
-                   :name_en "Clipping hammer fist"@en ;
+                   :name_en "Clipping hammer fists"@en ;
                    :name_romanCAN "Gaap Muk Ceoi"@en ;
                    :name_romanMAN "Jia Mu Chui"@en ;
                    mao:ontoMA_name_zh "夾木搥"@zh ;
@@ -2053,7 +2010,7 @@ mao:closing_distance rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/covering_palm
 mao:covering_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Covering palm"@en ;
                   :name_romanCAN "Zaau Sau"@en ;
                   :name_romanMAN "Zhao Shou"@en ;
@@ -2066,7 +2023,7 @@ mao:cr_cutting_palm rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
                     mao:employs mao:willow_leaf_palm ;
                     mao:similar_to mao:straight_cut_palm ;
-                    mao:used_in mao:white_Crane_kungfu ;
+                    mao:used_in mao:White_Crane_Kungfu ;
                     :name_en "Cutting palm"@en ;
                     :name_romanCAN "Got Sau"@en ;
                     :name_romanMAN "Ge Shou"@en ;
@@ -2078,7 +2035,7 @@ mao:cr_cutting_palm rdf:type owl:NamedIndividual ,
 mao:cr_whip_punch rdf:type owl:NamedIndividual ,
                            mao:class:fist_tech ;
                   mao:similar_to mao:sky_hammer ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Crane-style uppercut"@en ;
                   :name_romanCAN "Bin Ceoi"@en ;
                   :name_romanMAN "Bian Chui"@en ;
@@ -2089,7 +2046,7 @@ mao:cr_whip_punch rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/crane_beak
 mao:crane_beak rdf:type owl:NamedIndividual ,
                         mao:class:hand_shape ;
-               mao:used_in mao:white_Crane_kungfu ;
+               mao:used_in mao:White_Crane_Kungfu ;
                :name_en "Crane beak"@en ;
                :name_romanCAN "Doek Sau"@en ;
                :name_romanMAN "Zhuo Shou"@en ;
@@ -2101,7 +2058,7 @@ mao:crane_beak rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/crane_claw_palm
 mao:crane_claw_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
-                    mao:used_in mao:white_Crane_kungfu ;
+                    mao:used_in mao:White_Crane_Kungfu ;
                     :name_en "Crane-claw palm"@en ;
                     :name_romanCAN "Hok Zaau Zoeng"@en ;
                     :name_romanMAN "He Zhao Zhuang"@en ;
@@ -2112,7 +2069,7 @@ mao:crane_claw_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/crane_head_palm
 mao:crane_head_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
-                    mao:used_in mao:white_Crane_kungfu ;
+                    mao:used_in mao:White_Crane_Kungfu ;
                     :name_en "Crane-head palm"@en ;
                     :name_romanCAN "Hok Tau Zoeng"@en ;
                     :name_romanMAN "He Tou Shou"@en ;
@@ -2123,7 +2080,7 @@ mao:crane_head_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/crane_kick
 mao:crane_kick rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
-               mao:used_in mao:white_Crane_kungfu ;
+               mao:used_in mao:White_Crane_Kungfu ;
                :name_en "Flying-crane kick"@en ;
                :name_romanCAN "Baak Hok Zin Ci"@en ;
                :name_romanMAN "Bai He Zhan Chi (Jiao)"@en ;
@@ -2135,7 +2092,7 @@ mao:crane_kick rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/crane_wing_palm
 mao:crane_wing_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
-                    mao:used_in mao:white_Crane_kungfu ;
+                    mao:used_in mao:White_Crane_Kungfu ;
                     :name_en "Crane-wing palm"@en ;
                     :name_romanCAN "Hok Ci Zoeng"@en ;
                     :name_romanMAN "He Chi Zhang"@en ;
@@ -2147,8 +2104,7 @@ mao:crane_wing_palm rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/crest_throwing_hammers
 mao:crest_throwing_hammers rdf:type owl:NamedIndividual ,
-                                    mao:class:combo_tech ,
-                                    mao:class:fist_tech ;
+                                    mao:class:combo_tech ;
                            mao:employs mao:reverse_hanging_fist ,
                                        mao:throwing_hammer ;
                            mao:used_in mao:Hung_Kuen ;
@@ -2167,7 +2123,7 @@ mao:cross_punch rdf:type owl:NamedIndividual ,
                 mao:employs mao:crossing_bridge ,
                             mao:willow_leaf_palm ;
                 mao:used_in mao:Choy_Li_Fut ,
-                            mao:white_Crane_kungfu ;
+                            mao:White_Crane_Kungfu ;
                 :name_en "Cross knifehand strike"@en ;
                 :name_romanCAN "Cyun"@en ;
                 :name_romanMAN "Chuan"@en ;
@@ -2194,7 +2150,7 @@ mao:crossing_bridge rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/crossing_kick
 mao:crossing_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Crossing leg"@en ;
                   :name_romanCAN "Cyun goek"@en ;
                   :name_romanMAN "Chuan Jiao"@en ;
@@ -2205,7 +2161,7 @@ mao:crossing_kick rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/curving_leg
 mao:curving_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
-                mao:used_in mao:white_Crane_kungfu ;
+                mao:used_in mao:White_Crane_Kungfu ;
                 :name_en "Curving leg"@en ;
                 :name_romanCAN "Got goek"@en ;
                 :name_romanMAN "Ge Jiao"@en ;
@@ -2243,18 +2199,12 @@ mao:cut_n_block_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/cutting_elbow
 mao:cutting_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Cutting elbow strike"@en ;
                   :name_romanCAN "Ngaai Zaang"@en ;
                   :name_romanMAN "Yi Zhou"@en ;
                   mao:ontoMA_name_zh "刈肘"@zh ;
                   rdfs:label "cutting_elbow" .
-
-
-###  http://EncodingActs.github.io/annotated/MAon/dan_ranking
-mao:dan_ranking rdf:type owl:NamedIndividual ,
-                         mao:class:grading_system ;
-                rdfs:label "Dan_ranking" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_blocking_palm
@@ -2286,7 +2236,6 @@ mao:db_bow_palm rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_claw_bw
 mao:db_claw_bw rdf:type owl:NamedIndividual ,
-                        mao:class:claw_tech ,
                         mao:class:combo_tech ;
                mao:employs mao:crossing_bridge ,
                            mao:tiger_claw ,
@@ -2304,7 +2253,7 @@ mao:db_claw_bw rdf:type owl:NamedIndividual ,
 mao:db_cr_cutting_palm rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:cr_cutting_palm ;
-                       mao:used_in mao:white_Crane_kungfu ;
+                       mao:used_in mao:White_Crane_Kungfu ;
                        :name_en "Double cutting palms"@en ;
                        :name_romanCAN "Soeng Got"@en ;
                        :name_romanMAN "Shuang Ge"@en ;
@@ -2355,7 +2304,7 @@ mao:db_splitting_palms rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:splitting_palm ;
                        mao:used_in mao:Hung_Kuen ,
-                                   mao:white_Crane_kungfu ;
+                                   mao:White_Crane_Kungfu ;
                        :name_en "Double splitting palms"@en ;
                        :name_romanCAN "Soeng Tiu"@en ;
                        :name_romanMAN "Shuang Tiao"@en ;
@@ -2368,7 +2317,7 @@ mao:db_spreading_wings rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:covering_palm ,
                                    mao:seizing_palm ;
-                       mao:used_in mao:white_Crane_kungfu ;
+                       mao:used_in mao:White_Crane_Kungfu ;
                        :name_en "Double spreading wings"@en ;
                        :name_romanCAN "Soeng Zin Ci"@en ;
                        :name_romanMAN "Shuang Zhan Chi"@en ;
@@ -2392,7 +2341,7 @@ mao:db_subduing_palms rdf:type owl:NamedIndividual ,
 mao:db_swing_palms rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:swing_palm ;
-                   mao:used_in mao:white_Crane_kungfu ;
+                   mao:used_in mao:White_Crane_Kungfu ;
                    :name_en "Double swinging palms"@en ;
                    :name_romanCAN "Soeng Jiu"@en ;
                    :name_romanMAN "Shuang Yao"@en ;
@@ -2405,7 +2354,7 @@ mao:db_thrust_palm rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:reverse_palm ;
                    mao:used_in mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Double-palm thrust"@en ;
                    :name_romanCAN "Soeng Caap Sau"@en ;
                    :name_romanMAN "Shuang Cha Shou"@en ;
@@ -2430,7 +2379,7 @@ mao:db_uw_forcing_palms rdf:type owl:NamedIndividual ,
 mao:db_vertical_thrust rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
                        mao:employs mao:willow_leaf_palm ;
-                       mao:used_in mao:white_Crane_kungfu ;
+                       mao:used_in mao:White_Crane_Kungfu ;
                        :name_en "Double vertical palm thrust"@en ;
                        :name_romanCAN "Soeng Caap"@en ;
                        :name_romanMAN "Shuang Cha"@en ;
@@ -2500,7 +2449,7 @@ mao:divide_punch rdf:type owl:NamedIndividual ,
                           mao:class:fist_tech ;
                  mao:employs mao:side_punch ;
                  mao:used_in mao:Hung_Kuen ;
-                 :name_en "Dividing hammer fist"@en ;
+                 :name_en "Divide punch"@en ;
                  :name_romanCAN "Fan Gam Ceoi"@en ;
                  :name_romanMAN "Fen Jin Chui"@en ;
                  mao:ontoMA_name_zh "分金搥"@zh ;
@@ -2529,7 +2478,7 @@ mao:dodging_body rdf:type owl:NamedIndividual ,
                             owl:onProperty mao:bodywork_type ;
                             owl:someValuesFrom mao:body_posture
                           ] ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Dodging body"@en ;
                  :name_romanCAN "Siu San"@en ;
                  :name_romanMAN "Xiao Shen"@en ;
@@ -2552,7 +2501,7 @@ mao:double_claws rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/dragging_palm
 mao:dragging_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Dragging palm"@en ;
                   :name_romanCAN "To Sau"@en ;
                   :name_romanMAN "Tuo Shou"@en ;
@@ -2581,13 +2530,12 @@ mao:dragon_wagging rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/dw_block_n_target_hand
 mao:dw_block_n_target_hand rdf:type owl:NamedIndividual ,
-                                    mao:class:combo_tech ,
-                                    mao:class:handwork ;
+                                    mao:class:combo_tech ;
                            mao:employs mao:target_hand ,
                                        mao:whipping_palm ;
                            mao:used_in mao:Choy_Li_Fut ,
                                        mao:Hung_Kuen ,
-                                       mao:white_Crane_kungfu ;
+                                       mao:White_Crane_Kungfu ;
                            :name_en "Downward palm block followed by a knife hand strike"@en ;
                            :name_romanCAN "Kam Biu Sau"@en ;
                            :name_romanMAN "Kan Biao Shou"@en ;
@@ -2638,7 +2586,7 @@ mao:facing_sun_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
                     mao:represents mao:Uprightness ;
                     mao:used_in mao:Hung_Kuen ,
-                                mao:white_Crane_kungfu ;
+                                mao:White_Crane_Kungfu ;
                     :name_en "Facing-the-sun palm"@en ;
                     :name_romanCAN "Ziu Yeung Sau"@en ;
                     :name_romanMAN "Zhao Yang Shou"@en ;
@@ -2680,7 +2628,7 @@ mao:fishing_hand rdf:type owl:NamedIndividual ,
 mao:flat_palm rdf:type owl:NamedIndividual ,
                        mao:class:hand_shape ;
               mao:used_in mao:Hung_Kuen ,
-                          mao:white_Crane_kungfu ;
+                          mao:White_Crane_Kungfu ;
               :name_en "Flat palm"@en ;
               :name_romanCAN "Ping Zoeng"@en ;
               :name_romanMAN "Ping Zhang"@en ;
@@ -2717,7 +2665,7 @@ mao:fore_knuckle_fist rdf:type owl:NamedIndividual ,
                                mao:class:hand_shape ;
                       mao:used_in mao:Choy_Li_Fut ,
                                   mao:Hung_Kuen ,
-                                  mao:white_Crane_kungfu ;
+                                  mao:White_Crane_Kungfu ;
                       :name_en "Fore knuckle fist"@en ;
                       :name_romanCAN "Paau Kyun"@en ;
                       :name_romanMAN "Bao Quan"@en ;
@@ -2732,7 +2680,7 @@ mao:forefist rdf:type owl:NamedIndividual ,
                       mao:class:hand_shape ;
              mao:used_in mao:Choy_Li_Fut ,
                          mao:Hung_Kuen ,
-                         mao:white_Crane_kungfu ;
+                         mao:White_Crane_Kungfu ;
              :name_en "Forefist"@en ;
              :name_romanCAN "Ping Kyun"@en ;
              :name_romanMAN "Ping Quan"@en ;
@@ -2758,7 +2706,7 @@ mao:front_block_hands rdf:type owl:NamedIndividual ,
 mao:front_kick rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
                mao:used_in mao:Hung_Kuen ,
-                           mao:white_Crane_kungfu ;
+                           mao:White_Crane_Kungfu ;
                :name_en "Groin stop kick"@en ;
                :name_romanCAN "Liu Jan Teoi"@en ;
                :name_romanMAN "Liao Yin Tui"@en ;
@@ -2779,7 +2727,7 @@ mao:fw_face_body rdf:type owl:NamedIndividual ,
                           ] ;
                  mao:used_in mao:Choy_Li_Fut ,
                              mao:Hung_Kuen ,
-                             mao:white_Crane_kungfu ;
+                             mao:White_Crane_Kungfu ;
                  :name_en "Forward-facing body"@en ;
                  :name_romanCAN "Zing San"@en ;
                  :name_romanMAN "Zheng Shen"@en ;
@@ -2815,7 +2763,7 @@ mao:grappling_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/gripping_leg
 mao:gripping_leg rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Gripping leg"@en ;
                  :name_romanCAN "Haai Goek"@en ;
                  :name_romanMAN "Xie Jiao"@en ;
@@ -2879,7 +2827,7 @@ mao:hard_bridge rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/hold_stamp_palms
 mao:hold_stamp_palms rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
-                     mao:used_in mao:white_Crane_kungfu ;
+                     mao:used_in mao:White_Crane_Kungfu ;
                      :name_en "Holding palms"@en ;
                      :name_romanCAN "Pou Jan"@en ;
                      :name_romanMAN "Bao Yin"@en ;
@@ -2889,7 +2837,7 @@ mao:hold_stamp_palms rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/holding_breath
 mao:holding_breath rdf:type owl:NamedIndividual ,
-                            mao:class:breathing_method ;
+                            mao:class:breathing_tech ;
                    :name_en "Holding the breath"@en ;
                    mao:ontoMA_name_zh "屏氣"@zh ;
                    rdfs:label "holding_breath" .
@@ -2898,7 +2846,7 @@ mao:holding_breath rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/holding_leg
 mao:holding_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
-                mao:used_in mao:white_Crane_kungfu ;
+                mao:used_in mao:White_Crane_Kungfu ;
                 :name_en "Holding leg"@en ;
                 :name_romanCAN "Gei Goek"@en ;
                 :name_romanMAN "Ji Jiao"@en ;
@@ -2910,7 +2858,7 @@ mao:holding_leg rdf:type owl:NamedIndividual ,
 mao:holding_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:used_in mao:Hung_Kuen ,
-                             mao:white_Crane_kungfu ;
+                             mao:White_Crane_Kungfu ;
                  :name_en "Holding palm"@en ;
                  :name_romanCAN "Tok Sau"@en ;
                  :name_romanMAN "Tuo Shou"@en ;
@@ -2981,23 +2929,20 @@ mao:horse_stance rdf:type owl:NamedIndividual ,
                           mao:class:stance ;
                  mao:similar_to mao:out_horse_stance ;
                  mao:used_in mao:Hung_Kuen ;
-                 :name_en "Horse stance"@en ;
+                 :name_en "Forward horse stance"@en ;
                  :name_romanCAN "Sei Ping Maa"@en ;
                  :name_romanMAN "Si Ping Ma"@en ;
                  mao:ontoMA_name_zh "四平馬"@zh ;
-                 mao:ontoMA_otherName_en "Horse riding stance"@en ;
                  mao:ontoMA_otherName_zh "四平大馬"@zh ;
                  rdfs:label "fw_horse_stance"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance
 mao:horse_to_bow_stance rdf:type owl:NamedIndividual ,
-                                 mao:class:bodywork ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty mao:bodywork_type ;
-                                   owl:someValuesFrom mao:body_movement
-                                 ] ;
-                        mao:employs mao:body_twisting ;
+                                 mao:class:footwork ;
+                        mao:employs mao:body_twisting ,
+                                    mao:bow_stance ,
+                                    mao:horse_stance ;
                         mao:has_intent mao:power_generation ;
                         mao:used_in mao:Choy_Li_Fut ,
                                     mao:Hung_Kuen ;
@@ -3013,7 +2958,7 @@ mao:inch_body rdf:type owl:NamedIndividual ,
                          owl:onProperty mao:bodywork_type ;
                          owl:someValuesFrom mao:body_posture
                        ] ;
-              mao:used_in mao:white_Crane_kungfu ;
+              mao:used_in mao:White_Crane_Kungfu ;
               :name_en "Inch body"@en ;
               :name_romanCAN "Zeon San"@en ;
               :name_romanMAN "Jun Shen"@en ;
@@ -3040,7 +2985,7 @@ mao:intent_clarity rdf:type owl:NamedIndividual ,
 mao:inward_sweep rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
                  mao:similar_to mao:hook_sweep ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Inward sweep"@en ;
                  :name_romanCAN "Noi Sou"@en ;
                  :name_romanMAN "Nei Sao"@en ;
@@ -3080,7 +3025,7 @@ mao:knocking_fist rdf:type owl:NamedIndividual ,
                            mao:class:hand_shape ;
                   mao:used_in mao:Choy_Li_Fut ,
                               mao:Hung_Kuen ,
-                              mao:white_Crane_kungfu ;
+                              mao:White_Crane_Kungfu ;
                   :name_en "Nailing fist"@en ;
                   :name_romanCAN "Dim Gam Kyun"@en ;
                   :name_romanMAN "Dian Jin Quan"@en ;
@@ -3093,8 +3038,7 @@ mao:knocking_fist rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/latch_fist
 mao:latch_fist rdf:type owl:NamedIndividual ,
-                        mao:class:combo_tech ,
-                        mao:class:fist_tech ;
+                        mao:class:combo_tech ;
                mao:employs mao:cat_stance ,
                            mao:closed_body ,
                            mao:hanging_hammer ,
@@ -3115,7 +3059,7 @@ mao:leaning_body rdf:type owl:NamedIndividual ,
                             owl:onProperty mao:bodywork_type ;
                             owl:someValuesFrom mao:body_posture
                           ] ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Forward leaning body"@en ;
                  :name_romanCAN "Ji San"@en ;
                  :name_romanMAN "Yi Shen"@en ;
@@ -3133,7 +3077,7 @@ mao:leg_sweep rdf:type owl:NamedIndividual ,
               :name_romanMAN "Sao Tang Tui"@en ;
               mao:ontoMA_name_zh "掃堂腿"@zh ;
               mao:ontoMA_otherName_en "掃脚"@zh ;
-              rdfs:description "Sweeping directions: inward and outward"@en ;
+              rdfs:description "Sweeping directions: inward and outword"@en ;
               rdfs:label "leg_sweep" ;
               rdfs:seeAlso <https://en.wikipedia.org/wiki/Sweep_(martial_arts)> .
 
@@ -3164,7 +3108,7 @@ mao:lifting_body rdf:type owl:NamedIndividual ,
                             owl:onProperty mao:bodywork_type ;
                             owl:someValuesFrom mao:body_posture
                           ] ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Lifting body"@en ;
                  :name_romanCAN "Liu San"@en ;
                  :name_romanMAN "Liao Shen"@en ;
@@ -3254,7 +3198,7 @@ mao:lower_gravity_centere rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/lower_swing_palm
 mao:lower_swing_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
-                     mao:used_in mao:white_Crane_kungfu ;
+                     mao:used_in mao:White_Crane_Kungfu ;
                      :name_en "Lower palm swinging upward"@en ;
                      :name_romanCAN "Haa Jiu"@en ;
                      :name_romanMAN "Xia Yao"@en ;
@@ -3266,7 +3210,7 @@ mao:lower_swing_palm rdf:type owl:NamedIndividual ,
 mao:mantis_flick rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:employs mao:willow_leaf_palm ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Mantis flick"@en ;
                  :name_romanCAN "Haa Gu Daan"@en ;
                  :name_romanMAN "Xia Gu Dan"@en ;
@@ -3277,8 +3221,7 @@ mao:mantis_flick rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/mirror_palm
 mao:mirror_palm rdf:type owl:NamedIndividual ,
-                         mao:class:combo_tech ,
-                         mao:class:palm_tech ;
+                         mao:class:combo_tech ;
                 mao:employs mao:body_twisting ,
                             mao:cat_stance ,
                             mao:willow_leaf_palm ;
@@ -3306,7 +3249,7 @@ mao:nailing_hammer rdf:type owl:NamedIndividual ,
                    mao:employs mao:bullhorn_fist ,
                                mao:knocking_fist ;
                    mao:used_in mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Nailing hammer fist"@en ;
                    :name_romanCAN "Deng Ceoi"@en ;
                    :name_romanMAN "Ding Chui"@en ;
@@ -3318,7 +3261,7 @@ mao:nailing_hammer rdf:type owl:NamedIndividual ,
 mao:nr_horse_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
                     mao:similar_to mao:out_horse_stance ;
-                    mao:used_in mao:white_Crane_kungfu ;
+                    mao:used_in mao:White_Crane_Kungfu ;
                     :name_en "Narrow horse stance"@en ;
                     :name_romanCAN "Zaak Sei Ping Maa"@en ;
                     :name_romanMAN "Xiao Si Ping Ma"@en ;
@@ -3345,7 +3288,7 @@ mao:out_horse_stance rdf:type owl:NamedIndividual ,
                               mao:class:stance ;
                      mao:similar_to mao:horse_stance ;
                      mao:used_in mao:Choy_Li_Fut ;
-                     :name_en "Horse stance (outward)"@en ;
+                     :name_en "Outward Horse Stance"@en ;
                      :name_romanCAN "Baat Zi Sei Ping Maa"@en ;
                      :name_romanMAN "Wai Ba Si Ping Ma"@en ;
                      mao:ontoMA_name_zh "外八字四平馬"@zh ;
@@ -3357,7 +3300,7 @@ mao:out_horse_stance rdf:type owl:NamedIndividual ,
 mao:outward_sweep rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
                   mao:similar_to mao:hook_sweep ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Outward sweep"@en ;
                   :name_romanCAN "Ngoi Sou"@en ;
                   :name_romanMAN "Wai Sao"@en ;
@@ -3371,7 +3314,7 @@ mao:palm_strike rdf:type owl:NamedIndividual ,
                 mao:employs mao:upright_buddha_palm ;
                 mao:used_in mao:Choy_Li_Fut ,
                             mao:Hung_Kuen ,
-                            mao:white_Crane_kungfu ;
+                            mao:White_Crane_Kungfu ;
                 :name_en "Buddha palm strike"@en ;
                 :name_romanCAN "Caang Zoeng"@en ;
                 :name_romanMAN "Cheng Zhang"@en ;
@@ -3386,7 +3329,7 @@ mao:pecking_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:employs mao:crane_beak ,
                              mao:willow_leaf_palm ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Pecking palm"@en ;
                  :name_romanCAN "Doek Sau"@en ;
                  :name_romanMAN "Zhuo Shou"@en ;
@@ -3413,7 +3356,7 @@ mao:pressure_bridge rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/probing_elbow
 mao:probing_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Probing elbow strike"@en ;
                   :name_romanCAN "Ham Zaang"@en ;
                   :name_romanMAN "Kan Zhou"@en ;
@@ -3425,7 +3368,7 @@ mao:probing_elbow rdf:type owl:NamedIndividual ,
 mao:probing_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
                  mao:similar_to mao:blocking_palm ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Probing palm"@en ;
                  :name_romanCAN "Ham Sau"@en ;
                  :name_romanMAN "Kan Shou"@en ;
@@ -3436,7 +3379,7 @@ mao:probing_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/pushing_leg
 mao:pushing_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
-                mao:used_in mao:white_Crane_kungfu ;
+                mao:used_in mao:White_Crane_Kungfu ;
                 :name_en "Pushing leg"@en ;
                 :name_romanCAN "Gon Goek"@en ;
                 :name_romanMAN "Gan Jiao"@en ;
@@ -3550,7 +3493,7 @@ mao:rubbing_hand rdf:type owl:NamedIndividual ,
                  mao:employs mao:flat_palm ,
                              mao:forefist ,
                              mao:tiger_claw ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Rubbing hand"@en ;
                  :name_romanCAN "Co Sau"@en ;
                  :name_romanMAN "Cuo Shou"@en ;
@@ -3562,7 +3505,7 @@ mao:rubbing_hand rdf:type owl:NamedIndividual ,
 mao:san_chin_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
                     mao:similar_to mao:bow_stance ;
-                    mao:used_in mao:white_Crane_kungfu ;
+                    mao:used_in mao:White_Crane_Kungfu ;
                     :name_en "San-Chin Stance"@en ;
                     :name_romanCAN "Saam Zin Maa"@en ;
                     :name_romanMAN "San Zhan Ma"@en ;
@@ -3582,7 +3525,7 @@ mao:san_zhan rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/seizing_palm
 mao:seizing_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Seizing palm"@en ;
                  :name_romanCAN "Kam Sau"@en ;
                  :name_romanMAN "Qin Shou"@en ;
@@ -3601,7 +3544,6 @@ mao:separating_bridge rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/serial_upper_claws
 mao:serial_upper_claws rdf:type owl:NamedIndividual ,
-                                mao:class:claw_tech ,
                                 mao:class:combo_tech ;
                        mao:employs mao:bow_stance ,
                                    mao:grappling_claw ,
@@ -3635,7 +3577,7 @@ mao:side_block_hands rdf:type owl:NamedIndividual ,
 mao:side_elbow rdf:type owl:NamedIndividual ,
                         mao:class:elbow_tech ;
                mao:used_in mao:Hung_Kuen ,
-                           mao:white_Crane_kungfu ;
+                           mao:White_Crane_Kungfu ;
                :name_en "Side elbow strike"@en ;
                :name_romanCAN "Ding Zaang"@en ;
                :name_romanMAN "Ding Zhou"@en ;
@@ -3646,8 +3588,7 @@ mao:side_elbow rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/side_hanging_fist
 mao:side_hanging_fist rdf:type owl:NamedIndividual ,
-                               mao:class:combo_tech ,
-                               mao:class:fist_tech ;
+                               mao:class:combo_tech ;
                       mao:employs mao:body_twisting ,
                                   mao:hanging_hammer ,
                                   mao:sideways_body ;
@@ -3667,7 +3608,7 @@ mao:side_leaning_body rdf:type owl:NamedIndividual ,
                                  owl:someValuesFrom mao:body_posture
                                ] ;
                       mao:used_in mao:Choy_Li_Fut ,
-                                  mao:white_Crane_kungfu ;
+                                  mao:White_Crane_Kungfu ;
                       :name_en "Side leaning body"@en ;
                       :name_romanCAN "Ce San"@en ;
                       :name_romanMAN "Xie Shen"@en ;
@@ -3692,8 +3633,7 @@ mao:side_punch rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/sidestep_n_whip_fist
 mao:sidestep_n_whip_fist rdf:type owl:NamedIndividual ,
-                                  mao:class:combo_tech ,
-                                  mao:class:fist_tech ;
+                                  mao:class:combo_tech ;
                          mao:employs mao:body_twisting ,
                                      mao:chlf_hook_punch ,
                                      mao:sideways_body ;
@@ -3713,7 +3653,7 @@ mao:sideways_body rdf:type owl:NamedIndividual ,
                              owl:someValuesFrom mao:body_posture
                            ] ;
                   mao:used_in mao:Choy_Li_Fut ,
-                              mao:white_Crane_kungfu ;
+                              mao:White_Crane_Kungfu ;
                   :name_en "Sideways"@en ;
                   :name_romanCAN "Pin San"@en ;
                   :name_romanMAN "Pian Shen"@en ;
@@ -3727,7 +3667,7 @@ mao:sky_hammer rdf:type owl:NamedIndividual ,
                mao:employs mao:backfist ,
                            mao:bullhorn_fist ;
                mao:used_in mao:Hung_Kuen ,
-                           mao:white_Crane_kungfu ;
+                           mao:White_Crane_Kungfu ;
                :name_en "Reaching the sky hammer fist"@en ;
                :name_romanCAN "Tong Tin Ceoi"@en ;
                :name_romanMAN "Tong Tian Chui"@en ;
@@ -3740,12 +3680,11 @@ mao:sky_hammer rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/slap_n_cross_punch
 mao:slap_n_cross_punch rdf:type owl:NamedIndividual ,
-                                mao:class:combo_tech ,
-                                mao:class:fist_tech ;
+                                mao:class:combo_tech ;
                        mao:employs mao:cross_punch ,
                                    mao:whipping_palm ;
                        mao:used_in mao:Choy_Li_Fut ,
-                                   mao:white_Crane_kungfu ;
+                                   mao:White_Crane_Kungfu ;
                        :name_en "Slap and cross knife hand strike"@en ;
                        :name_romanCAN "Paak Hoi Cyun Laan"@en ;
                        :name_romanMAN "Pai Kai Chuan Lan"@en ;
@@ -3755,8 +3694,7 @@ mao:slap_n_cross_punch rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/slap_n_throw_punch
 mao:slap_n_throw_punch rdf:type owl:NamedIndividual ,
-                                mao:class:combo_tech ,
-                                mao:class:fist_tech ;
+                                mao:class:combo_tech ;
                        mao:employs mao:choy_throwing_punch ,
                                    mao:whipping_palm ;
                        mao:used_in mao:Choy_Li_Fut ;
@@ -3769,8 +3707,7 @@ mao:slap_n_throw_punch rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/slap_n_whip_fist
 mao:slap_n_whip_fist rdf:type owl:NamedIndividual ,
-                              mao:class:combo_tech ,
-                              mao:class:fist_tech ;
+                              mao:class:combo_tech ;
                      mao:employs mao:chlf_hook_punch ,
                                  mao:whipping_palm ;
                      mao:used_in mao:Choy_Li_Fut ;
@@ -3798,7 +3735,7 @@ mao:spiral_arm rdf:type owl:NamedIndividual ,
                         ] ;
                mao:used_in mao:Choy_Li_Fut ,
                            mao:Hung_Kuen ,
-                           mao:white_Crane_kungfu ;
+                           mao:White_Crane_Kungfu ;
                :name_en "Arm rotation"@en ;
                :name_romanCAN "Syun Zyun Bei"@en ;
                :name_romanMAN "Xuan Zhuan Bi"@en ;
@@ -3808,8 +3745,7 @@ mao:spiral_arm rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/split_n_attack_hand
 mao:split_n_attack_hand rdf:type owl:NamedIndividual ,
-                                 mao:class:combo_tech ,
-                                 mao:class:palm_tech ;
+                                 mao:class:combo_tech ;
                         mao:employs mao:curving_palm ,
                                     mao:straight_cut_palm ;
                         mao:used_in mao:Hung_Kuen ;
@@ -3826,7 +3762,7 @@ mao:splitting_palm rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
                    mao:employs mao:tiger_claw ;
                    mao:used_in mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Splitting palm"@en ;
                    :name_romanCAN "Tiu Sau"@en ;
                    :name_romanMAN "Tiao Shou"@en ;
@@ -3852,7 +3788,7 @@ mao:stamp_palm_strike rdf:type owl:NamedIndividual ,
                                mao:class:palm_tech ;
                       mao:employs mao:upright_buddha_palm ;
                       mao:similar_to mao:palm_strike ;
-                      mao:used_in mao:white_Crane_kungfu ;
+                      mao:used_in mao:White_Crane_Kungfu ;
                       :name_en "Stamping palm"@en ;
                       :name_romanCAN "Jan Zoeng"@en ;
                       :name_romanMAN "Yin Zhang"@en ;
@@ -3870,7 +3806,7 @@ mao:stance_turning rdf:type owl:NamedIndividual ,
                    mao:employs mao:body_twisting ;
                    mao:used_in mao:Choy_Li_Fut ,
                                mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Switching stance while turning the body"@en ;
                    :name_romanCAN "Zyun Ma"@en ;
                    :name_romanMAN "Zhuan Ma"@en ;
@@ -3880,32 +3816,27 @@ mao:stance_turning rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/stay_bridge
 mao:stay_bridge rdf:type owl:NamedIndividual ,
-                         mao:class:figh
-                mao:ontoMA_name_zh "留"@zh ;ting_strategy ;
+                         mao:class:fighting_strategy ;
                 :name_en "Staying"@en ;
-                mao:ontoMA_otherName_en "Detaining"@en ;
+                mao:ontoMA_name_zh "留"@zh ;
                 rdfs:label "stay_bridge" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/stable_bridge
-mao:stable_bridge rdf:type owl:NamedIndividual ,
+###  http://EncodingActs.github.io/annotated/MAon/steady_bridge
+mao:steady_bridge rdf:type owl:NamedIndividual ,
                            mao:class:fighting_strategy ;
-                  :name_en "Stabilizing"@en ;
+                  :name_en "Steadiness"@en ;
                   mao:ontoMA_name_zh "定"@zh ;
-                  mao:ontoMA_otherName_en "Stabilizing"@en ;
-                  rdfs:label "stable_bridge" .
+                  mao:ontoMA_otherName_en "Still"@en ;
+                  rdfs:label "steady_bridge" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/stepping
 mao:stepping rdf:type owl:NamedIndividual ,
-                      mao:class:bodywork ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty mao:bodywork_type ;
-                        owl:someValuesFrom mao:body_movement
-                      ] ;
+                      mao:class:footwork ;
              mao:used_in mao:Choy_Li_Fut ,
                          mao:Hung_Kuen ,
-                         mao:white_Crane_kungfu ;
+                         mao:White_Crane_Kungfu ;
              :name_en "Stepping"@en ;
              :name_romanCAN "Zau Maa"@en ;
              :name_romanMAN "Zou Ma"@en ;
@@ -3916,7 +3847,7 @@ mao:stepping rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/sticky_leg
 mao:sticky_leg rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
-               mao:used_in mao:white_Crane_kungfu ;
+               mao:used_in mao:White_Crane_Kungfu ;
                :name_en "Sticky leg"@en ;
                :name_romanCAN "Zim Goek"@en ;
                :name_romanMAN "Zhan Jiao"@en ;
@@ -3927,7 +3858,7 @@ mao:sticky_leg rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/sticky_palm
 mao:sticky_palm rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
-                mao:used_in mao:white_Crane_kungfu ;
+                mao:used_in mao:White_Crane_Kungfu ;
                 :name_en "Sticky palm"@en ;
                 :name_romanCAN "Daai Sau"@en ;
                 :name_romanMAN "Dai Shou"@en ;
@@ -3948,7 +3879,7 @@ mao:stiff_elbow rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/stiff_palm
 mao:stiff_palm rdf:type owl:NamedIndividual ,
                         mao:class:palm_tech ;
-               mao:used_in mao:white_Crane_kungfu ;
+               mao:used_in mao:White_Crane_Kungfu ;
                :name_en "Stiff palm"@en ;
                :name_romanCAN "Gin Sau"@en ;
                :name_romanMAN "Jian Shou"@en ;
@@ -3984,7 +3915,7 @@ mao:straight_cut_palm rdf:type owl:NamedIndividual ,
                       mao:employs mao:willow_leaf_palm ;
                       mao:used_in mao:Choy_Li_Fut ,
                                   mao:Hung_Kuen ,
-                                  mao:white_Crane_kungfu ;
+                                  mao:White_Crane_Kungfu ;
                       :name_en "Straight cutting palm"@en ;
                       :name_romanCAN "Cit Zoeng"@en ;
                       :name_romanMAN "Qie Zhang"@en ;
@@ -3996,7 +3927,7 @@ mao:straight_cut_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/straight_kick
 mao:straight_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Straight kick"@en ;
                   :name_romanCAN "Zik Goek"@en ;
                   :name_romanMAN "Zhi Jiao"@en ;
@@ -4010,7 +3941,7 @@ mao:straight_punch rdf:type owl:NamedIndividual ,
                    mao:employs mao:forefist ;
                    mao:used_in mao:Choy_Li_Fut ,
                                mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Straight punch"@en ;
                    :name_romanCAN "Ping Ceoi"@en ;
                    :name_romanMAN "Ping Chui"@en ;
@@ -4025,7 +3956,6 @@ mao:subdue_bridge rdf:type owl:NamedIndividual ,
                            mao:class:fighting_strategy ;
                   :name_en "Subduing"@en ;
                   mao:ontoMA_name_zh "制"@zh ;
-                  mao:ontoMA_otherName_en "Controlling Bridge"@en ;
                   rdfs:label "subdue_bridge" .
 
 
@@ -4046,7 +3976,7 @@ mao:subduing_palm rdf:type owl:NamedIndividual ,
 mao:sun_palm_strike rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
                     mao:employs mao:facing_sun_palm ;
-                    mao:used_in mao:white_Crane_kungfu ;
+                    mao:used_in mao:White_Crane_Kungfu ;
                     :name_en "Facing-the-sun palm strike"@en ;
                     :name_romanCAN "Daan Ciu Joeng"@en ;
                     :name_romanMAN "Dan Zhao Yang"@en ;
@@ -4074,7 +4004,7 @@ mao:swing_body rdf:type owl:NamedIndividual ,
                           owl:onProperty mao:bodywork_type ;
                           owl:someValuesFrom mao:body_posture
                         ] ;
-               mao:used_in mao:white_Crane_kungfu ;
+               mao:used_in mao:White_Crane_Kungfu ;
                :name_en "Swinging body"@en ;
                :name_romanCAN "Jiu San"@en ;
                :name_romanMAN "Yao Shen"@en ;
@@ -4085,7 +4015,7 @@ mao:swing_body rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/swing_palm
 mao:swing_palm rdf:type owl:NamedIndividual ,
                         mao:class:palm_tech ;
-               mao:used_in mao:white_Crane_kungfu ;
+               mao:used_in mao:White_Crane_Kungfu ;
                :name_en "Swinging palm"@en ;
                :name_romanCAN "Jiu Sau"@en ;
                :name_romanMAN "Yao Shou"@en ;
@@ -4102,7 +4032,7 @@ mao:switch-hitting rdf:type owl:NamedIndividual ,
                             ] ;
                    mao:used_in mao:Choy_Li_Fut ,
                                mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Switch hitting"@en ;
                    :name_romanCAN "Zo Jau Hoi Gung"@en ;
                    :name_romanMAN "Zuo You Kai Gong"@en ;
@@ -4156,7 +4086,7 @@ mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
                                  mao:horse_stance ,
                                  mao:stabilizing_bridge ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:represents mao:stable_bridge ;
+                    mao:represents mao:steady_bridge ;
                     :name_en "Palms up facing each other followed by the stabilizing bridge"@en ;
                     mao:ontoMA_name_zh "合掌分開定金橋"@zh ;
                     rdfs:description "雙手由中綫穿上（亦說挑上），合掌護胸，後分開成雙指手平肩，再成四指撐天掌，沉踭逼力于掌、橋、指。"@zh ;
@@ -4171,7 +4101,7 @@ mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
                                  mao:tiger_claw ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
-                                   mao:stable_bridge ;
+                                   mao:steady_bridge ;
                     :name_en "Thrice forward extending hands"@en ;
                     mao:ontoMA_name_zh "一指三株拋肘手"@zh ;
                     rdfs:description "雙指手（亦說左手虎爪，右手指手）抽回胸前平肩推出，連續三次，練橋架之勁。"@zh ;
@@ -4189,7 +4119,7 @@ mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:lifting_bridge ,
                                    mao:move_bridge ,
-                                   mao:stable_bridge ;
+                                   mao:steady_bridge ;
                     :name_en "Thrice throwing elbows followed by arm-drag claws and double-palm strike"@en ;
                     mao:ontoMA_name_zh "連拋三次有三勻"@zh ;
                     rdfs:label "taming_tiger_14" .
@@ -4206,7 +4136,7 @@ mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:inch_bridge ,
-                                   mao:stable_bridge ,
+                                   mao:steady_bridge ,
                                    mao:straight_bridge ;
                     :name_en "Downward double-palm block followed by the forward target hands and facing-the-sun palms"@en ;
                     mao:ontoMA_name_zh "四拋標串撐天指"@zh ;
@@ -4227,7 +4157,7 @@ mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
                     mao:represents mao:hard_bridge ,
                                    mao:move_bridge ,
                                    mao:separating_bridge ;
-                    :name_en "Double splitting and curving palms followed by the dividing punch"@en ;
+                    :name_en "Double splitting and curving palms followed by the divide punch"@en ;
                     mao:ontoMA_name_zh "雙抽雙割一揸分"@zh ;
                     rdfs:description "雙掌胸前交叉挑手平肩，再各自向外下方割手至腰；後雙手抽拳抱胸前，接左右分金搥，雙拳拳背向外左右打出，實戰中可變化為邊搥。"@zh ;
                     rdfs:label "taming_tiger_16" .
@@ -4594,7 +4524,7 @@ mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:contains mao:forefist ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                   :name_en "Lifting the fists toward the shoulders"@en ;
+                   :name_en "Lifting the hammer fists toward the shoulders"@en ;
                    mao:ontoMA_name_zh "反手抽拳對膀肩"@zh ;
                    rdfs:description "雙手外翻握拳，拳心向上，用力朝上抽起，至雙拳與肩膊對平，拳心向身。"@zh ;
                    rdfs:label "taming_tiger_4" .
@@ -4843,7 +4773,7 @@ mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
                                    mao:stay_bridge ;
                     :name_en "Withdrawing palms to grab the opponent's elbow, lock and sweep"@en ;
                     mao:ontoMA_name_zh "撤掌連環抅彈腳"@zh ;
-                    rdfs:description "分,提,留,制	上左馬右穿橋手，再上右馬，擧右手擋頭，左手掌心向上托敵手踭；后將敵右手扭轉壓下，左手撥頭同時左脚從後向前掃彈出。"@zh ;
+                    rdfs:description "分,提,留,制   上左馬右穿橋手，再上右馬，擧右手擋頭，左手掌心向上托敵手踭；后將敵右手扭轉壓下，左手撥頭同時左脚從後向前掃彈出。"@zh ;
                     rdfs:label "taming_tiger_54" .
 
 
@@ -4909,7 +4839,7 @@ mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
                                 mao:facing_sun_palm ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:hard_bridge ,
-                                  mao:stable_bridge ;
+                                  mao:steady_bridge ;
                    :name_en "Descending the elbows with the palms facing the sun"@en ;
                    mao:ontoMA_name_zh "沉踭一定指撐天"@zh ;
                    rdfs:description "沉踭對膊一定，雙掌四指撐天，沉橋灌力與掌指，直至指端。架攔手法，用橋臂之力硬架敵手拳臂。"@zh ;
@@ -5050,7 +4980,7 @@ mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
                     mao:represents mao:hard_bridge ,
                                    mao:stay_bridge ,
                                    mao:straight_bridge ;
-                    :name_en "Clipping hammer fist to the right"@en ;
+                    :name_en "Clipping hammer fists to the right"@en ;
                     mao:ontoMA_name_zh "右抽一拳連打出"@zh ;
                     rdfs:description "右脚上右子午馬，左右拳一抽一搥：抽右拳向上90度，同時左搥平直打出。"@zh ;
                     rdfs:label "taming_tiger_67" .
@@ -5061,7 +4991,7 @@ mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:similar_form_to mao:taming_tiger_67 ;
-                    :name_en "Clipping hammer fist to the left"@en ;
+                    :name_en "Clipping hammer fists to the left"@en ;
                     mao:ontoMA_name_zh "左右連環一樣同"@zh ;
                     rdfs:description "左脚上馬同時向上90度抽左拳，右手平搥打出。"@zh ;
                     rdfs:label "taming_tiger_68" .
@@ -5558,7 +5488,7 @@ mao:target_hand rdf:type owl:NamedIndividual ,
                 mao:employs mao:blade_palm ;
                 mao:used_in mao:Choy_Li_Fut ,
                             mao:Hung_Kuen ,
-                            mao:white_Crane_kungfu ;
+                            mao:White_Crane_Kungfu ;
                 :name_en "Target hand"@en ;
                 :name_romanCAN "Biu Sau"@en ;
                 :name_romanMAN "Biao Shou"@en ;
@@ -5612,7 +5542,7 @@ mao:throwing_hammer rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/throwing_palm
 mao:throwing_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
-                  mao:used_in mao:white_Crane_kungfu ;
+                  mao:used_in mao:White_Crane_Kungfu ;
                   :name_en "Throwing palm"@en ;
                   :name_romanCAN "Seot Sau"@en ;
                   :name_romanMAN "Shuai Shou"@en ;
@@ -5638,7 +5568,7 @@ mao:thrusting_palm rdf:type owl:NamedIndividual ,
                    mao:employs mao:reverse_palm ;
                    mao:used_in mao:Choy_Li_Fut ,
                                mao:Hung_Kuen ,
-                               mao:white_Crane_kungfu ;
+                               mao:White_Crane_Kungfu ;
                    :name_en "Palm thrust"@en ;
                    :name_romanCAN "Caap Zoeng"@en ;
                    :name_romanMAN "Cha Zhang"@en ;
@@ -5659,7 +5589,7 @@ mao:tiger_claw rdf:type owl:NamedIndividual ,
                mao:employs mao:claw_palm ;
                mao:used_in mao:Choy_Li_Fut ,
                            mao:Hung_Kuen ,
-                           mao:white_Crane_kungfu ;
+                           mao:White_Crane_Kungfu ;
                :name_en "Tiger claw"@en ;
                :name_romanCAN "Fu Zaau"@en ;
                :name_romanMAN "Hu Zhao"@en ;
@@ -5671,7 +5601,7 @@ mao:tiger_claw rdf:type owl:NamedIndividual ,
 mao:tiger_tail_kick rdf:type owl:NamedIndividual ,
                              mao:class:leg_tech ;
                     mao:used_in mao:Hung_Kuen ,
-                                mao:white_Crane_kungfu ;
+                                mao:White_Crane_Kungfu ;
                     :name_en "Tiger tail kick"@en ;
                     :name_romanCAN "Fu Mei Goek"@en ;
                     :name_romanMAN "Hu Wei Jiao"@en ;
@@ -5696,7 +5626,7 @@ mao:torsion rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/trample
 mao:trample rdf:type owl:NamedIndividual ,
                      mao:class:leg_tech ;
-            mao:used_in mao:white_Crane_kungfu ;
+            mao:used_in mao:White_Crane_Kungfu ;
             :name_en "Trampling"@en ;
             :name_romanCAN "Caai"@en ;
             :name_romanMAN "Cai"@en ;
@@ -5707,7 +5637,7 @@ mao:trample rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/turfing_kick
 mao:turfing_kick rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
-                 mao:used_in mao:white_Crane_kungfu ;
+                 mao:used_in mao:White_Crane_Kungfu ;
                  :name_en "Turfing kick"@en ;
                  :name_romanCAN "Ceoi Goek"@en ;
                  :name_romanMAN "Qu Jiao"@en ;
@@ -5723,7 +5653,7 @@ mao:turning rdf:type owl:NamedIndividual ,
                        owl:someValuesFrom mao:body_movement
                      ] ;
             mao:used_in mao:Hung_Kuen ,
-                        mao:white_Crane_kungfu ;
+                        mao:White_Crane_Kungfu ;
             :name_en "Turning the body"@en ;
             :name_romanCAN "Zyun San"@en ;
             :name_romanMAN "Zhuan Shen"@en ;
@@ -5737,7 +5667,7 @@ mao:turning_palm rdf:type owl:NamedIndividual ,
                  mao:employs mao:crossing_bridge ,
                              mao:tiger_claw ;
                  mao:used_in mao:Hung_Kuen ,
-                             mao:white_Crane_kungfu ;
+                             mao:White_Crane_Kungfu ;
                  :name_en "Turning palm"@en ;
                  :name_romanCAN "Hyun Sau"@en ;
                  :name_romanMAN "Quan Shou"@en ;
@@ -5776,7 +5706,7 @@ mao:twisting_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
                     mao:used_in mao:Choy_Li_Fut ,
                                 mao:Hung_Kuen ,
-                                mao:white_Crane_kungfu ;
+                                mao:White_Crane_Kungfu ;
                     :name_en "Twisting stance"@en ;
                     :name_romanCAN "Nou Maa"@en ;
                     :name_romanMAN "Niu Ma"@en ;
@@ -5803,7 +5733,7 @@ mao:two_dragons_outof_sea rdf:type owl:NamedIndividual ,
 mao:two_finger_strike rdf:type owl:NamedIndividual ,
                                mao:class:handwork ;
                       mao:used_in mao:Hung_Kuen ,
-                                  mao:white_Crane_kungfu ;
+                                  mao:White_Crane_Kungfu ;
                       :name_en "Two finger strike"@en ;
                       :name_romanCAN "Ji Lung Coeng Zyu"@en ;
                       :name_romanMAN "Er Long Qiang Zhu"@en ;
@@ -5858,7 +5788,7 @@ mao:up_forcing_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/upper_swing_palm
 mao:upper_swing_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
-                     mao:used_in mao:white_Crane_kungfu ;
+                     mao:used_in mao:White_Crane_Kungfu ;
                      :name_en "Upper swinging palm"@en ;
                      :name_romanCAN "Soeng Jiu"@en ;
                      :name_romanMAN "Shang Yao"@en ;
@@ -5898,7 +5828,7 @@ mao:upright_buddha_palm rdf:type owl:NamedIndividual ,
 mao:upward_punches rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
                    mao:employs mao:bullhorn_fist ;
-                   mao:used_in mao:white_Crane_kungfu ;
+                   mao:used_in mao:White_Crane_Kungfu ;
                    :name_en "Twin straight punches with upper facing fists"@en ;
                    :name_romanCAN "Fu Zi Soeng Ceoi"@en ;
                    :name_romanMAN "Fu Zi Shuang Sui"@en ;
@@ -5950,21 +5880,6 @@ mao:whipping_punch rdf:type owl:NamedIndividual ,
                    rdfs:label "whipping_punch" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/white_Crane_kungfu
-mao:white_Crane_kungfu rdf:type owl:NamedIndividual ,
-                                mao:class:MA_system ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty mao:teaches ;
-                                  owl:someValuesFrom mao:class:breathing_method
-                                ] ;
-                       mao:belongs_to :Southern_Chinese_Martial_Arts ;
-                       mao:has_origin_place <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> ;
-                       mao:has_principle mao:Dan_Tien_focus ;
-                       mao:has_symbol mao:white_crane ;
-                       rdfs:label "Fujian_White_Crane"@en ;
-                       rdfs:wikiURL "https://en.wikipedia.org/wiki/Fujian_White_Crane" .
-
-
 ###  http://EncodingActs.github.io/annotated/MAon/white_crane
 mao:white_crane rdf:type owl:NamedIndividual ,
                          mao:class:symbolic_animal ;
@@ -5976,7 +5891,7 @@ mao:willow_leaf_palm rdf:type owl:NamedIndividual ,
                               mao:class:hand_shape ;
                      mao:used_in mao:Choy_Li_Fut ,
                                  mao:Hung_Kuen ,
-                                 mao:white_Crane_kungfu ;
+                                 mao:White_Crane_Kungfu ;
                      :name_en "Willow-leaf palm"@en ;
                      :name_romanCAN "Lau Jip Zoeng"@en ;
                      :name_romanMAN "Liu Ye Zhang"@en ;
@@ -5989,7 +5904,7 @@ mao:willow_leaf_palm rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/wiping_palm
 mao:wiping_palm rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
-                mao:used_in mao:white_Crane_kungfu ;
+                mao:used_in mao:White_Crane_Kungfu ;
                 :name_en "Wiping palm"@en ;
                 :name_romanCAN "Maat Sau"@en ;
                 :name_romanMAN "Ma Shou"@en ;
@@ -5999,33 +5914,33 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
 
 ###  http://EncodingActs.github.io/annotated/MAon/12_bridges
 <http://EncodingActs.github.io/annotated/MAon/12_bridges> rdf:type owl:NamedIndividual ,
-                                                                        mao:class:MA_principle ;
-                                                               mao:belongs_to mao:Hung_Kuen ;
-                                                               mao:contains mao:Uprightness ,
-                                                                            mao:hard_bridge ,
-                                                                            mao:inch_bridge ,
-                                                                            mao:lifting_bridge ,
-                                                                            mao:move_bridge ,
-                                                                            mao:pressure_bridge ,
-                                                                            mao:separating_bridge ,
-                                                                            mao:soft_bridge ,
-                                                                            mao:stay_bridge ,
-                                                                            mao:stable_bridge ,
-                                                                            mao:straight_bridge ,
-                                                                            mao:subdue_bridge ;
-                                                               :name_en "Twelve Bridges of Hung Gar"@en ;
-                                                               mao:ontoMA_name_zh "洪拳十二橋"@zh ;
-                                                               mao:ontoMA_otherName_en "Twelve Bridge Hands of Hung Gar"@en ;
-                                                               mao:ontoMA_otherName_zh "十二橋手"@zh ,
-                                                                                       "洪拳十二橋手"@zh ;
-                                                               rdfs:label "hg_12_bridges"@en .
+                                                                   mao:class:MA_principle ;
+                                                          mao:belongs_to mao:Hung_Kuen ;
+                                                          mao:contains mao:Uprightness ,
+                                                                       mao:hard_bridge ,
+                                                                       mao:inch_bridge ,
+                                                                       mao:lifting_bridge ,
+                                                                       mao:move_bridge ,
+                                                                       mao:pressure_bridge ,
+                                                                       mao:separating_bridge ,
+                                                                       mao:soft_bridge ,
+                                                                       mao:stay_bridge ,
+                                                                       mao:steady_bridge ,
+                                                                       mao:straight_bridge ,
+                                                                       mao:subdue_bridge ;
+                                                          :name_en "Twelve Bridges of Hung Gar"@en ;
+                                                          mao:ontoMA_name_zh "洪拳十二橋"@zh ;
+                                                          mao:ontoMA_otherName_en "Twelve Bridge Hands of Hung Gar"@en ;
+                                                          mao:ontoMA_otherName_zh "十二橋手"@zh ,
+                                                                                  "洪拳十二橋手"@zh ;
+                                                          rdfs:label "hg_12_bridges"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/YongChun(place)
 <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> rdf:type owl:NamedIndividual ,
-                                                                             mao:class:E53-place ;
-                                                                    :name_en "Yong Chun"@en ;
-                                                                    rdfs:label "YongChun_(place)" .
+                                                                        mao:class:E53-place ;
+                                                               :name_en "Yong Chun"@en ;
+                                                               rdfs:label "YongChun_(place)" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing
