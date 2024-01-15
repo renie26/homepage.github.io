@@ -243,12 +243,12 @@ mao:belongs_to rdf:type owl:ObjectProperty ;
                rdfs:label "belongs_to" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/has_component
-mao:has_component rdf:type owl:ObjectProperty ;
+###  http://EncodingActs.github.io/annotated/MAon/contains
+mao:contains rdf:type owl:ObjectProperty ;
              rdfs:domain mao:class:MA_form ,
                          mao:class:MA_syllabus ;
              rdfs:range mao:class:MA_technique ;
-             rdfs:label "has_component" .
+             rdfs:label "contains" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/creates
@@ -618,7 +618,7 @@ mao:Form_set rdf:type owl:Class ;
                                owl:someValuesFrom mao:class:MA_system
                              ] ,
                              [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:has_component ;
+                               owl:onProperty mao:contains ;
                                owl:someValuesFrom mao:class:MA_form
                              ] ,
                              [ rdf:type owl:Restriction ;
@@ -724,7 +724,7 @@ mao:class:MA_Master rdf:type owl:Class ;
                                       owl:someValuesFrom mao:class:training_method
                                     ] ,
                                     [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:has_component ;
+                                      owl:onProperty mao:contains ;
                                       owl:someValuesFrom mao:class:MA_technique
                                     ] ,
                                     [ rdf:type owl:Restriction ;
@@ -848,7 +848,7 @@ mao:class:MA_book rdf:type owl:Class ;
 mao:class:MA_form rdf:type owl:Class ;
                   rdfs:subClassOf mao:class:training_method ,
                                   [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:has_component ;
+                                    owl:onProperty mao:contains ;
                                     owl:someValuesFrom mao:class:MA_technique
                                   ] ,
                                   [ rdf:type owl:Restriction ;
@@ -4056,7 +4056,7 @@ mao:taming_tiger_1 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_10
 mao:taming_tiger_10 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:horse_stance ;
+                    mao:contains mao:horse_stance ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Posing a horse stance in four steps"@en ;
                     mao:ontoMA_name_zh "腳肘開發落四平"@zh ;
@@ -4067,7 +4067,7 @@ mao:taming_tiger_10 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_11
 mao:taming_tiger_11 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:db_blocking_palm ,
+                    mao:contains mao:db_blocking_palm ,
                                  mao:horse_stance ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4081,7 +4081,7 @@ mao:taming_tiger_11 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_12
 mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:facing_sun_palm ,
+                    mao:contains mao:facing_sun_palm ,
                                  mao:finger_hand ,
                                  mao:horse_stance ,
                                  mao:stabilizing_bridge ;
@@ -4096,7 +4096,7 @@ mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_13
 mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:finger_hand ,
+                    mao:contains mao:finger_hand ,
                                  mao:horse_stance ,
                                  mao:tiger_claw ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4111,7 +4111,7 @@ mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_14
 mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:grappling_claw ,
+                    mao:contains mao:grappling_claw ,
                                  mao:horse_stance ,
                                  mao:throwing_elbow ,
                                  mao:two_dragons_outof_sea ;
@@ -4128,7 +4128,7 @@ mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_15
 mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:dw_block_n_target_hand ,
+                    mao:contains mao:dw_block_n_target_hand ,
                                  mao:facing_sun_palm ,
                                  mao:horse_stance ,
                                  mao:stabilizing_bridge ;
@@ -4147,7 +4147,7 @@ mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_16
 mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:db_curving_palm ,
+                    mao:contains mao:db_curving_palm ,
                                  mao:db_splitting_palms ,
                                  mao:divide_punch ,
                                  mao:horse_stance ;
@@ -4166,7 +4166,7 @@ mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_17
 mao:taming_tiger_17 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:block_kick ,
+                    mao:contains mao:block_kick ,
                                  mao:cat_stance ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4180,7 +4180,7 @@ mao:taming_tiger_17 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_18
 mao:taming_tiger_18 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:block_n_front_kick ;
+                    mao:contains mao:block_n_front_kick ;
                     mao:has_intent mao:attack_while_defend ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -4195,7 +4195,7 @@ mao:taming_tiger_18 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_19
 mao:taming_tiger_19 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:blocking_palm ,
+                    mao:contains mao:blocking_palm ,
                                  mao:bow_stance ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4210,7 +4210,7 @@ mao:taming_tiger_19 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_2
 mao:taming_tiger_2 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:forefist ;
+                   mao:contains mao:forefist ;
                    mao:has_intent mao:breath_regulation ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Holding the fists by the waist"@en ;
@@ -4222,7 +4222,7 @@ mao:taming_tiger_2 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_20
 mao:taming_tiger_20 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:cat_stance ,
+                    mao:contains mao:cat_stance ,
                                  mao:qian_char_hand ,
                                  mao:splitting_palm ,
                                  mao:turning_stance ,
@@ -4242,7 +4242,7 @@ mao:taming_tiger_20 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_21
 mao:taming_tiger_21 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:curving_palm ,
                                  mao:splitting_palm ,
                                  mao:turning ,
@@ -4260,7 +4260,7 @@ mao:taming_tiger_21 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_22
 mao:taming_tiger_22 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:horizontal_palm_strike ,
+                    mao:contains mao:horizontal_palm_strike ,
                                  mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_int ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4275,7 +4275,7 @@ mao:taming_tiger_22 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_23
 mao:taming_tiger_23 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:horse_stance ,
+                    mao:contains mao:horse_stance ,
                                  mao:horse_to_bow_stance ,
                                  mao:side_elbow ,
                                  mao:target_hand ;
@@ -4294,7 +4294,7 @@ mao:taming_tiger_23 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_24
 mao:taming_tiger_24 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:curving_palm ,
+                    mao:contains mao:curving_palm ,
                                  mao:horse_stance ,
                                  mao:palm_strike ;
                     mao:has_intent mao:attack_while_defend ,
@@ -4311,7 +4311,7 @@ mao:taming_tiger_24 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_25
 mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:dividing_bridge ,
+                    mao:contains mao:dividing_bridge ,
                                  mao:horse_stance ,
                                  mao:side_punch ,
                                  mao:whipping_palm ;
@@ -4374,7 +4374,7 @@ mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_3
 mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:straight_cut_palm ;
+                   mao:contains mao:straight_cut_palm ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:straight_bridge ;
                    :name_en "Lifting the fists and pushing forward the palms from the side of chest"@en ;
@@ -4441,7 +4441,7 @@ mao:taming_tiger_34 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_35
 mao:taming_tiger_35 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:cat_stance ,
+                    mao:contains mao:cat_stance ,
                                  mao:up_forcing_palm ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4456,7 +4456,7 @@ mao:taming_tiger_35 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_36
 mao:taming_tiger_36 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:cat_stance ,
                                  mao:double_claws ,
                                  mao:mirror_palm ,
@@ -4477,7 +4477,7 @@ mao:taming_tiger_36 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_37
 mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:grappling_claw ,
                                  mao:lock_n_drag_hand ,
                                  mao:turning ;
@@ -4505,7 +4505,7 @@ mao:taming_tiger_38 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_39
 mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:grappling_claw ,
+                    mao:contains mao:grappling_claw ,
                                  mao:lock_n_drag_hand ,
                                  mao:lower_gravity_centere ,
                                  mao:twisting_stance ;
@@ -4522,7 +4522,7 @@ mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_4
 mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:forefist ;
+                   mao:contains mao:forefist ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Lifting the hammer fists toward the shoulders"@en ;
                    mao:ontoMA_name_zh "反手抽拳對膀肩"@zh ;
@@ -4533,7 +4533,7 @@ mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_40
 mao:taming_tiger_40 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ;
+                    mao:contains mao:bow_stance ;
                     mao:has_intent mao:closing_distance ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Advancing one step with the bow stance"@en ;
@@ -4545,7 +4545,7 @@ mao:taming_tiger_40 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_41
 mao:taming_tiger_41 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:db_blocking_palm ,
                                  mao:splitting_palm ;
                     mao:has_intent mao:defense_block ;
@@ -4562,7 +4562,7 @@ mao:taming_tiger_41 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_42
 mao:taming_tiger_42 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:cat_stance ,
                                  mao:cat_to_bow_stance ,
                                  mao:db_bow_palm ,
@@ -4582,7 +4582,7 @@ mao:taming_tiger_42 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_43
 mao:taming_tiger_43 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:db_hanging_hammer ,
                                  mao:db_thrust_palm ;
                     mao:has_intent mao:attack_subduing ,
@@ -4599,7 +4599,7 @@ mao:taming_tiger_43 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_44
 mao:taming_tiger_44 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ,
                                  mao:two_dragons_outof_sea ;
@@ -4616,7 +4616,7 @@ mao:taming_tiger_44 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_45
 mao:taming_tiger_45 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bullhorn_uppercut ,
+                    mao:contains mao:bullhorn_uppercut ,
                                  mao:cat_to_bow_stance ;
                     mao:has_intent mao:attack_subduing ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4632,7 +4632,7 @@ mao:taming_tiger_45 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_46
 mao:taming_tiger_46 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:grappling_claw ,
                                  mao:horse_to_bow_stance ,
                                  mao:throwing_elbow ;
@@ -4651,7 +4651,7 @@ mao:taming_tiger_46 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_47
 mao:taming_tiger_47 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:horse_stance ,
+                    mao:contains mao:horse_stance ,
                                  mao:turning ,
                                  mao:two_dragons_outof_sea ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4687,7 +4687,7 @@ mao:taming_tiger_49 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_5
 mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:dw_block_n_target_hand ,
+                   mao:contains mao:dw_block_n_target_hand ,
                                 mao:three_extending_hand ,
                                 mao:throwing_elbow ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -4725,7 +4725,7 @@ mao:taming_tiger_51 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_52
 mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:butterfly_palm ,
+                    mao:contains mao:butterfly_palm ,
                                  mao:cat_stance ,
                                  mao:cat_to_bow_stance ,
                                  mao:f_elbow_n_sna_hand ,
@@ -4760,7 +4760,7 @@ mao:taming_tiger_53 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_54
 mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:body_twisting ,
+                    mao:contains mao:body_twisting ,
                                  mao:crossing_bridge ,
                                  mao:hook_sweep ,
                                  mao:up_forcing_palm ;
@@ -4780,7 +4780,7 @@ mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_55
 mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:turning_steps ;
+                    mao:contains mao:turning_steps ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Retreating steps while turning the body"@en ;
                     mao:ontoMA_name_zh "斜風擺柳轉車身"@zh ;
@@ -4835,7 +4835,7 @@ mao:taming_tiger_59 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_6
 mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:descend_elbow ,
+                   mao:contains mao:descend_elbow ,
                                 mao:facing_sun_palm ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:hard_bridge ,
@@ -4860,7 +4860,7 @@ mao:taming_tiger_60 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_61
 mao:taming_tiger_61 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:crossing_bridge ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ,
@@ -4880,7 +4880,7 @@ mao:taming_tiger_61 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_62
 mao:taming_tiger_62 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ,
                                  mao:rolling_elbow ,
@@ -4899,7 +4899,7 @@ mao:taming_tiger_62 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_63
 mao:taming_tiger_63 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:butterfly_palm ,
                                  mao:cat_stance ,
                                  mao:cat_to_bow_stance ,
@@ -4922,7 +4922,7 @@ mao:taming_tiger_63 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_64
 mao:taming_tiger_64 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:blacktiger_punch ,
+                    mao:contains mao:blacktiger_punch ,
                                  mao:body_twisting ,
                                  mao:bow_stance ,
                                  mao:dbsquare_hammer ,
@@ -4942,7 +4942,7 @@ mao:taming_tiger_64 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_65
 mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:butterfly_palm ,
                                  mao:horse_to_bow_stance ,
                                  mao:unicorn_steps ;
@@ -4972,7 +4972,7 @@ mao:taming_tiger_66 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_67
 mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:clipping_fists ,
                                  mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_while_defend ;
@@ -5000,7 +5000,7 @@ mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_69
 mao:taming_tiger_69 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:backfist_n_punch_combo ,
+                    mao:contains mao:backfist_n_punch_combo ,
                                  mao:bow_stance ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ;
@@ -5014,7 +5014,7 @@ mao:taming_tiger_69 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_7
 mao:taming_tiger_7 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:forefist ,
+                   mao:contains mao:forefist ,
                                 mao:upright_buddha_palm ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Right hand holding the fist and the left holding the palm"@en ;
@@ -5048,7 +5048,7 @@ mao:taming_tiger_71 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_72
 mao:taming_tiger_72 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:horse_stance ,
+                    mao:contains mao:horse_stance ,
                                  mao:straight_cut_palm ,
                                  mao:turning ;
                     mao:has_intent mao:defense_block ;
@@ -5064,7 +5064,7 @@ mao:taming_tiger_72 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_73
 mao:taming_tiger_73 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ,
                                  mao:side_elbow ,
@@ -5087,7 +5087,7 @@ mao:taming_tiger_73 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_74
 mao:taming_tiger_74 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:elbow_slap_fist ,
+                    mao:contains mao:elbow_slap_fist ,
                                  mao:horse_stance ,
                                  mao:palm_strike ,
                                  mao:stepping ,
@@ -5110,7 +5110,7 @@ mao:taming_tiger_74 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_75
 mao:taming_tiger_75 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:grappling_claw ,
                                  mao:horse_to_bow_stance ,
                                  mao:palm_strike ,
@@ -5129,7 +5129,7 @@ mao:taming_tiger_75 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_76
 mao:taming_tiger_76 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:subduing_palm ,
                                  mao:twisting_stance ,
                                  mao:two_finger_strike ;
@@ -5149,7 +5149,7 @@ mao:taming_tiger_76 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_77
 mao:taming_tiger_77 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:fishing_hand ,
                                  mao:hanging_hammer ,
                                  mao:twisting_stance ;
@@ -5168,7 +5168,7 @@ mao:taming_tiger_77 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_78
 mao:taming_tiger_78 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:crest_throwing_hammers ,
                                  mao:horse_to_bow_stance ,
                                  mao:jumping ;
@@ -5186,7 +5186,7 @@ mao:taming_tiger_78 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_79
 mao:taming_tiger_79 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:horizontal_palm_strike ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ,
@@ -5206,7 +5206,7 @@ mao:taming_tiger_79 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_8
 mao:taming_tiger_8 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:cat_stance ,
+                   mao:contains mao:cat_stance ,
                                 mao:forefist ,
                                 mao:unicorn_steps ,
                                 mao:upright_buddha_palm ;
@@ -5232,7 +5232,7 @@ mao:taming_tiger_80 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_81
 mao:taming_tiger_81 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:front_block_hands ,
+                    mao:contains mao:front_block_hands ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ;
                     mao:has_intent mao:defense_block ;
@@ -5248,7 +5248,7 @@ mao:taming_tiger_81 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_82
 mao:taming_tiger_82 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:cat_stance ,
                                  mao:cat_to_bow_stance ,
                                  mao:dbsquare_hammer ,
@@ -5268,7 +5268,7 @@ mao:taming_tiger_82 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_83
 mao:taming_tiger_83 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:horse_to_bow_stance ,
                                  mao:jumping ,
                                  mao:rocket_hammer ;
@@ -5286,7 +5286,7 @@ mao:taming_tiger_83 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_84
 mao:taming_tiger_84 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:crossing_bridge ,
+                    mao:contains mao:crossing_bridge ,
                                  mao:double_claws ,
                                  mao:grappling_claw ,
                                  mao:hook_sweep ,
@@ -5308,7 +5308,7 @@ mao:taming_tiger_84 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_85
 mao:taming_tiger_85 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:black_tiger_claw ,
+                    mao:contains mao:black_tiger_claw ,
                                  mao:db_claw_bw ,
                                  mao:twisting_stance ;
                     mao:has_intent mao:attack_subduing ,
@@ -5325,7 +5325,7 @@ mao:taming_tiger_85 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_86
 mao:taming_tiger_86 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:crossing_bridge ,
                                  mao:horse_stance ,
                                  mao:horse_to_bow_stance ,
@@ -5346,7 +5346,7 @@ mao:taming_tiger_86 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_87
 mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:body_twisting ,
+                    mao:contains mao:body_twisting ,
                                  mao:bow_stance ,
                                  mao:cat_stance ,
                                  mao:horse_stance ,
@@ -5380,7 +5380,7 @@ mao:taming_tiger_88 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_89
 mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:butterfly_palm ,
                                  mao:cat_stance ,
                                  mao:cat_to_bow_stance ;
@@ -5398,7 +5398,7 @@ mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_9
 mao:taming_tiger_9 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
-                   mao:has_component mao:forefist ;
+                   mao:contains mao:forefist ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Pulling back the fists toward the side of the waist"@en ;
                    mao:ontoMA_name_zh "扭手收拳歸原位"@zh ;
@@ -5409,7 +5409,7 @@ mao:taming_tiger_9 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_90
 mao:taming_tiger_90 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:black_tiger_claw ,
+                    mao:contains mao:black_tiger_claw ,
                                  mao:bow_stance ,
                                  mao:cat_stance ,
                                  mao:cat_to_bow_stance ,
@@ -5431,7 +5431,7 @@ mao:taming_tiger_90 rdf:type owl:NamedIndividual ,
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_91
 mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
-                    mao:has_component mao:bow_stance ,
+                    mao:contains mao:bow_stance ,
                                  mao:crossing_bridge ,
                                  mao:horse_stance ,
                                  mao:straight_punch ,
@@ -5916,7 +5916,7 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
 <http://EncodingActs.github.io/annotated/MAon/12_bridges> rdf:type owl:NamedIndividual ,
                                                                    mao:class:MA_principle ;
                                                           mao:belongs_to mao:Hung_Kuen ;
-                                                          mao:has_component mao:Uprightness ,
+                                                          mao:contains mao:Uprightness ,
                                                                        mao:hard_bridge ,
                                                                        mao:inch_bridge ,
                                                                        mao:lifting_bridge ,
