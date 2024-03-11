@@ -29,37 +29,37 @@
 
 ###  http://EncodingActs.github.io/annotated/MAon#name_romanCAN
 :name_romanCAN rdf:type owl:AnnotationProperty ;
-               rdfs:label "romanCAN"@en .
+         rdfs:label "romanCAN"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon#name_romanMAN
 :name_romanMAN rdf:type owl:AnnotationProperty ;
-               rdfs:label "pinyin"@en .
+         rdfs:label "pinyin"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/ontoMA_name_zh
 mao:ontoMA_name_zh rdf:type owl:AnnotationProperty ;
-                   rdfs:label "name_zh"@zh .
+         rdfs:label "name_zh"@zh .
 
 ###  http://EncodingActs.github.io/annotated/MAon/ontoMA_otherName_en
 mao:ontoMA_otherName_en rdf:type owl:AnnotationProperty ;
-                        rdfs:label "otherName_en"@en .
+         rdfs:label "otherName_en"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/ontoMA_otherName_zh
 mao:ontoMA_otherName_zh rdf:type owl:AnnotationProperty ;
-                        rdfs:label "otherName_zh"@zh .
+         rdfs:label "otherName_zh"@zh .
 
 ###  http://www.w3.org/2000/01/rdf-schema#baiduURL
 rdfs:baiduURL rdf:type owl:AnnotationProperty .
 
 ###  http://www.w3.org/2000/01/rdf-schema#description
 rdfs:description rdf:type owl:AnnotationProperty ;
-                 rdfs:label "rdfs:description" .
+         rdfs:label "rdfs:description" .
 
 ###  http://www.w3.org/2000/01/rdf-schema#wikiURL
 rdfs:wikiURL rdf:type owl:AnnotationProperty .
 
 ###  http://www.w3.org/2002/07/owl#sameAs
 owl:sameAs rdf:type owl:AnnotationProperty ;
-           rdfs:label "owl:sameAs" .
+         rdfs:label "owl:sameAs" .
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
 <http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
@@ -72,107 +72,107 @@ owl:sameAs rdf:type owl:AnnotationProperty ;
 
 ###  http://EncodingActs.github.io/annotated/MAon/ArtName
 mao:ArtName rdf:type rdfs:Datatype ;
-            rdfs:label "ArtName" .
+         rdfs:label "ArtName" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/CN_S_Name
 mao:CN_S_Name rdf:type rdfs:Datatype ;
-              rdfs:label "CN_S_Name" .
+         rdfs:label "CN_S_Name" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/CN_T_name
 mao:CN_T_name rdf:type rdfs:Datatype ;
-              rdfs:label "CN_T_name" .
+         rdfs:label "CN_T_name" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/EN_Name
 mao:EN_Name rdf:type rdfs:Datatype ;
-            rdfs:label "EN_Name" .
+         rdfs:label "EN_Name" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/Image
 mao:Image rdf:type rdfs:Datatype ;
-          rdfs:label "Image" .
+         rdfs:label "Image" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/ManualBook
 mao:ManualBook rdf:type rdfs:Datatype ;
-               rdfs:label "ManualBook" .
+         rdfs:label "ManualBook" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/MoCap
 mao:MoCap rdf:type rdfs:Datatype ;
-          rdfs:label "MoCap" .
+         rdfs:label "MoCap" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/Texts
 mao:Texts rdf:type rdfs:Datatype ;
-          rdfs:label "Texts" .
+         rdfs:label "Texts" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/Video
 mao:Video rdf:type rdfs:Datatype ;
-          rdfs:label "Video" .
+         rdfs:label "Video" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/attack_control
 mao:attack_control rdf:type rdfs:Datatype .
 
 ###  http://EncodingActs.github.io/annotated/MAon/attack_n_defend
 mao:attack_n_defend rdf:type rdfs:Datatype ;
-                    rdfs:label "attack_n_defend" .
+         rdfs:label "attack_n_defend" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/bladed_weapon
 mao:bladed_weapon rdf:type rdfs:Datatype .
 
 ###  http://EncodingActs.github.io/annotated/MAon/body_manipulation
 mao:body_manipulation rdf:type rdfs:Datatype ;
-                      rdfs:label "body_manipulation" .
+         rdfs:label "body_manipulation" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/body_movement
 mao:body_movement rdf:type rdfs:Datatype ;
-                  rdfs:label "body_movement" .
+         rdfs:label "body_movement" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/body_positioning
 mao:body_positioning rdf:type rdfs:Datatype ;
-                     rdfs:label "body_positioning" .
+         rdfs:label "body_positioning" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/body_posture
 mao:body_posture rdf:type rdfs:Datatype ;
-                 rdfs:label "body_posture" .
+         rdfs:label "body_posture" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/distance_management
 mao:distance_management rdf:type rdfs:Datatype .
 
 ###  http://EncodingActs.github.io/annotated/MAon/distance_timing
 mao:distance_timing rdf:type rdfs:Datatype ;
-                    rdfs:label "distance_timing" .
+         rdfs:label "distance_timing" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/empty_hand_set
 mao:empty_hand_set rdf:type rdfs:Datatype ;
-                   rdfs:label "empty_hand_set" .
+         rdfs:label "empty_hand_set" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/grading_system
 mao:grading_system rdf:type rdfs:Datatype ;
-                   rdfs:label "grading_system" .
+         rdfs:label "grading_system" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/name_originalLang
 mao:name_originalLang rdf:type rdfs:Datatype ;
-                      rdfs:label "name_originalLang" .
+         rdfs:label "name_originalLang" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/positioning
 mao:positioning rdf:type rdfs:Datatype ;
-                rdfs:label "positioning" .
+         rdfs:label "positioning" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/ranking_system
 mao:ranking_system rdf:type rdfs:Datatype ;
-                   rdfs:label "ranking_system" .
+         rdfs:label "ranking_system" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/reputation
 mao:reputation rdf:type rdfs:Datatype ;
-               rdfs:label "reputation" .
+         rdfs:label "reputation" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/spaer_weapon
 mao:spaer_weapon rdf:type rdfs:Datatype ;
-                 rdfs:label "spaer_weapon" .
+         rdfs:label "spaer_weapon" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/sparring_set
 mao:sparring_set rdf:type rdfs:Datatype .
 
 ###  http://EncodingActs.github.io/annotated/MAon/staff_weapon
 mao:staff_weapon rdf:type rdfs:Datatype ;
-                 rdfs:label "staff_weapon" .
+         rdfs:label "staff_weapon" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/weapon_set
 mao:weapon_set rdf:type rdfs:Datatype .
@@ -185,113 +185,113 @@ mao:weapon_set rdf:type rdfs:Datatype .
 
 ###  http://EncodingActs.github.io/annotated/MAon/adapts
 mao:adapts rdf:type owl:ObjectProperty ;
-           rdfs:domain mao:class:MA_Master ;
-           rdfs:range mao:class:MA_style ,
-                      mao:class:MA_syllabus ,
-                      mao:class:armament ,
-                      mao:class:trainig_tool ,
-                      mao:class:training_method ;
-           rdfs:label "adapts" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_style ,
+         mao:class:MA_syllabus ,
+         mao:class:armament ,
+         mao:class:trainig_tool ,
+         mao:class:training_method ;
+         rdfs:label "adapts" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/adopts
 mao:adopts rdf:type owl:ObjectProperty ;
-           rdfs:domain mao:class:MA_institute ,
-                       mao:class:MA_style ,
-                       mao:class:MA_syllabus ,
-                       mao:class:MA_system ;
-           rdfs:range mao:class:training_method ;
-           rdfs:label "adopts" .
+         rdfs:domain mao:class:MA_institute ,
+         mao:class:MA_style ,
+         mao:class:MA_syllabus ,
+         mao:class:MA_system ;
+         rdfs:range mao:class:training_method ;
+         rdfs:label "adopts" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/belongs_to
 mao:belongs_to rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_style ,
-                           mao:class:MA_system ;
-               rdfs:range mao:class:MA_system ;
-               rdfs:label "belongs_to" .
+         rdfs:domain mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:range mao:class:MA_system ;
+         rdfs:label "belongs_to" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/has_component
 mao:has_component rdf:type owl:ObjectProperty ;
-             rdfs:domain mao:class:MA_form ,
-                         mao:class:MA_syllabus ;
-             rdfs:range mao:class:MA_technique ;
-             rdfs:label "has_component" .
+         rdfs:domain mao:class:MA_form ,
+         mao:class:MA_syllabus ;
+         rdfs:range mao:class:MA_technique ;
+         rdfs:label "has_component" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/creates
 mao:creates rdf:type owl:ObjectProperty ;
-            rdfs:domain mao:class:MA_Master ;
-            rdfs:range mao:class:MA_style ,
-                       mao:class:MA_syllabus ,
-                       mao:class:armament ,
-                       mao:class:trainig_tool ,
-                       mao:class:training_method ;
-            rdfs:label "creates" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_style ,
+         mao:class:MA_syllabus ,
+         mao:class:armament ,
+         mao:class:trainig_tool ,
+         mao:class:training_method ;
+         rdfs:label "creates" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/developed_from
 mao:developed_from rdf:type owl:ObjectProperty ;
-                   rdfs:domain mao:class:MA_style ;
-                   rdfs:range mao:class:MA_style ;
-                   rdfs:label "developed_from"@en .
+         rdfs:domain mao:class:MA_style ;
+         rdfs:range mao:class:MA_style ;
+         rdfs:label "developed_from"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/documents
 mao:documents rdf:type owl:ObjectProperty ;
-              rdfs:label "documents" .
+         rdfs:label "documents" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/employs
 mao:employs rdf:type owl:ObjectProperty ;
-            rdfs:domain mao:class:MA_technique ;
-            rdfs:range mao:class:MA_technique ;
-            rdfs:label "employs" .
+         rdfs:domain mao:class:MA_technique ;
+         rdfs:range mao:class:MA_technique ;
+         rdfs:label "employs" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/has
 mao:has rdf:type owl:ObjectProperty ;
         rdfs:domain mao:class:MA_style ,
-                    mao:class:MA_system ;
+         mao:class:MA_system ;
         rdfs:range mao:class:MA_style ,
-                   mao:class:MA_syllabus ;
+         mao:class:MA_syllabus ;
         rdfs:label "has" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/has_intent
 mao:has_intent rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_form ,
-                           mao:class:MA_technique ;
-               rdfs:range mao:class:MA_tactic ;
-               rdfs:label "has_intent" .
+         rdfs:domain mao:class:MA_form ,
+         mao:class:MA_technique ;
+         rdfs:range mao:class:MA_tactic ;
+         rdfs:label "has_intent" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/has_origin_place
 mao:has_origin_place rdf:type owl:ObjectProperty ;
-                     rdfs:domain mao:class:MA_style ,
-                                 mao:class:MA_system ;
-                     rdfs:range mao:class:E53-place ;
-                     rdfs:label "has_origin_place" .
+         rdfs:domain mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:range mao:class:E53-place ;
+         rdfs:label "has_origin_place" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/has_principle
 mao:has_principle rdf:type owl:ObjectProperty ;
-                  rdfs:domain mao:class:MA_style ,
-                              mao:class:MA_system ;
-                  rdfs:range mao:class:MA_principle ;
-                  rdfs:label "has_principle" .
+         rdfs:domain mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:range mao:class:MA_principle ;
+         rdfs:label "has_principle" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/has_symbol
 mao:has_symbol rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_style ,
-                           mao:class:MA_system ;
-               rdfs:range mao:class:symbolic_animal ;
-               rdfs:label "has_symbol" .
+         rdfs:domain mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:range mao:class:symbolic_animal ;
+         rdfs:label "has_symbol" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/identified_by
 mao:identified_by rdf:type owl:ObjectProperty ;
-                  rdfs:domain mao:class:E21-Person ;
-                  rdfs:range mao:class:E41-appellation ;
-                  rdfs:label "identified_by" .
+         rdfs:domain mao:class:E21-Person ;
+         rdfs:range mao:class:E41-appellation ;
+         rdfs:label "identified_by" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/influences
 mao:influences rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty ;
-               rdfs:domain mao:class:MA_style ,
-                           mao:class:MA_system ;
-               rdfs:range mao:class:MA_style ,
-                          mao:class:MA_system ;
-               rdfs:label "influences" .
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:range mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:label "influences" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/is
 mao:is rdf:type owl:ObjectProperty ;
@@ -299,154 +299,154 @@ mao:is rdf:type owl:ObjectProperty ;
 
 ###  http://EncodingActs.github.io/annotated/MAon/is_child_of
 mao:is_child_of rdf:type owl:ObjectProperty ;
-                rdfs:label "is_child_of" .
+         rdfs:label "is_child_of" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/is_clan_member_of
 mao:is_clan_member_of rdf:type owl:ObjectProperty ;
-                      rdfs:domain mao:class:MA_Master ;
-                      rdfs:range mao:class:MA_Master ;
-                      rdfs:label "is_clan_member_of" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_Master ;
+         rdfs:label "is_clan_member_of" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/is_form_in
 mao:is_form_in rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_form ;
-               rdfs:range mao:Form_set ;
-               rdfs:label "is_form_in" .
+         rdfs:domain mao:class:MA_form ;
+         rdfs:range mao:Form_set ;
+         rdfs:label "is_form_in" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/is_master_of
 mao:is_master_of rdf:type owl:ObjectProperty ;
-                 rdfs:domain mao:class:MA_Master ;
-                 rdfs:range mao:class:MA_Master ;
-                 rdfs:label "is_master_of" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_Master ;
+         rdfs:label "is_master_of" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/is_parent_of
 mao:is_parent_of rdf:type owl:ObjectProperty ;
-                 rdfs:domain mao:class:MA_Master ;
-                 rdfs:range mao:class:MA_Master ;
-                 rdfs:label "is_parent_of" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_Master ;
+         rdfs:label "is_parent_of" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/is_student_of
 mao:is_student_of rdf:type owl:ObjectProperty ;
-                  rdfs:domain mao:class:MA_Master ;
-                  rdfs:range mao:class:MA_Master ;
-                  rdfs:label "is_student_of" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_Master ;
+         rdfs:label "is_student_of" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/lives_in_ts
 mao:lives_in_ts rdf:type owl:ObjectProperty ;
-                rdfs:domain mao:class:MA_Master ;
-                rdfs:range mao:class:E52-timespan ;
-                rdfs:label "lives_in_ts" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:E52-timespan ;
+         rdfs:label "lives_in_ts" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/located_at
 mao:located_at rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_institute ;
-               rdfs:range mao:class:E53-place ;
-               rdfs:label "located_at"@en .
+         rdfs:domain mao:class:MA_institute ;
+         rdfs:range mao:class:E53-place ;
+         rdfs:label "located_at"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/practiced_in
 mao:practiced_in rdf:type owl:ObjectProperty ;
-                 rdfs:domain mao:Form_set ;
-                 rdfs:range mao:class:MA_style ;
-                 rdfs:label "practiced_in" .
+         rdfs:domain mao:Form_set ;
+         rdfs:range mao:class:MA_style ;
+         rdfs:label "practiced_in" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/practices
 mao:practices rdf:type owl:ObjectProperty ;
-              rdfs:domain mao:class:MA_Master ;
-              rdfs:range mao:class:MA_style ,
-                         mao:class:MA_system ;
-              rdfs:label "practices" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:label "practices" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/represents
 mao:represents rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_form ;
-               rdfs:range mao:class:MA_principle ;
-               rdfs:label "represents" .
+         rdfs:domain mao:class:MA_form ;
+         rdfs:range mao:class:MA_principle ;
+         rdfs:label "represents" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/resides_in
 mao:resides_in rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_Master ;
-               rdfs:range mao:class:E53-place ;
-               rdfs:label "resides_in" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:E53-place ;
+         rdfs:label "resides_in" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/similar_form_to
 mao:similar_form_to rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf mao:similar_to ;
-                    rdf:type owl:FunctionalProperty ,
-                             owl:SymmetricProperty ,
-                             owl:TransitiveProperty ;
-                    rdfs:domain mao:class:MA_form ;
-                    rdfs:range mao:class:MA_form ;
-                    rdfs:label "similar_form_to" .
+         rdfs:subPropertyOf mao:similar_to ;
+         rdf:type owl:FunctionalProperty ,
+         owl:SymmetricProperty ,
+         owl:TransitiveProperty ;
+         rdfs:domain mao:class:MA_form ;
+         rdfs:range mao:class:MA_form ;
+         rdfs:label "similar_form_to" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/similar_set_of
 mao:similar_set_of rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf mao:similar_to ;
-                   rdf:type owl:SymmetricProperty ,
-                            owl:TransitiveProperty ;
-                   rdfs:domain mao:Form_set ;
-                   rdfs:range mao:Form_set ;
-                   rdfs:label "similar_set_to"@en .
+         rdfs:subPropertyOf mao:similar_to ;
+         rdf:type owl:SymmetricProperty ,
+         owl:TransitiveProperty ;
+         rdfs:domain mao:Form_set ;
+         rdfs:range mao:Form_set ;
+         rdfs:label "similar_set_to"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/similar_to
 mao:similar_to rdf:type owl:ObjectProperty ,
-                        owl:SymmetricProperty ,
-                        owl:TransitiveProperty ;
-               rdfs:domain mao:class:MA_technique ;
-               rdfs:range mao:class:MA_technique ;
-               rdfs:label "similar_to" .
+         owl:SymmetricProperty ,
+         owl:TransitiveProperty ;
+         rdfs:domain mao:class:MA_technique ;
+         rdfs:range mao:class:MA_technique ;
+         rdfs:label "similar_to" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/imitates
 mao:imitates rdf:type owl:ObjectProperty ;
-              rdfs:domain mao:class:MA_Technique ;
-              rdfs:range mao:class:symbolic_animal ;
-              rdfs:label "imitates"@en .
+         rdfs:domain mao:class:MA_Technique ;
+         rdfs:range mao:class:symbolic_animal ;
+         rdfs:label "imitates"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/simulates
 mao:simulates rdf:type owl:ObjectProperty ;
-              rdfs:domain mao:class:trainig_tool ;
-              rdfs:range mao:class:armament ;
-              rdfs:label "simulates"@en .
+         rdfs:domain mao:class:trainig_tool ;
+         rdfs:range mao:class:armament ;
+         rdfs:label "simulates"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/taught_at
 mao:taught_at rdf:type owl:ObjectProperty ;
-              rdfs:domain mao:class:MA_style ,
-                          mao:class:MA_syllabus ,
-                          mao:class:MA_system ;
-              rdfs:range mao:class:MA_institute ;
-              rdfs:label "taught_at"@en .
+         rdfs:domain mao:class:MA_style ,
+         mao:class:MA_syllabus ,
+         mao:class:MA_system ;
+         rdfs:range mao:class:MA_institute ;
+         rdfs:label "taught_at"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/teaches
 mao:teaches rdf:type owl:ObjectProperty ;
-            rdfs:domain mao:class:MA_Master ;
-            rdfs:range mao:Form_set ,
-                       mao:class:MA_style ,
-                       mao:class:MA_system ;
-            rdfs:label "teaches" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:Form_set ,
+         mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:label "teaches" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/teaches_at
 mao:teaches_at rdf:type owl:ObjectProperty ;
-               rdfs:domain mao:class:MA_Master ;
-               rdfs:range mao:class:MA_institute ;
-               rdfs:label "teaches_at" .
+         rdfs:domain mao:class:MA_Master ;
+         rdfs:range mao:class:MA_institute ;
+         rdfs:label "teaches_at" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/trains
 mao:trains rdf:type owl:ObjectProperty ;
-           rdfs:domain mao:class:training_method ;
-           rdfs:range mao:class:MA_technique ;
-           rdfs:label "trains" .
+         rdfs:domain mao:class:training_method ;
+         rdfs:range mao:class:MA_technique ;
+         rdfs:label "trains" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/type_of
 mao:type_of rdf:type owl:ObjectProperty ;
-            rdfs:label "type_of" .
+         rdfs:label "type_of" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/used_in
 mao:used_in rdf:type owl:ObjectProperty ;
-            rdfs:domain mao:class:MA_technique ,
-                        mao:class:armament ,
-                        mao:class:trainig_tool ;
-            rdfs:range mao:class:MA_style ,
-                       mao:class:MA_system ;
-            rdfs:label "used_in" .
+         rdfs:domain mao:class:MA_technique ,
+         mao:class:armament ,
+         mao:class:trainig_tool ;
+         rdfs:range mao:class:MA_style ,
+         mao:class:MA_system ;
+         rdfs:label "used_in" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/uses
 mao:uses rdf:type owl:ObjectProperty ;
@@ -464,70 +464,70 @@ mao:with rdf:type owl:ObjectProperty ;
 
 ###  http://EncodingActs.github.io/annotated/MAon/appellation_type
 mao:appellation_type rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf mao:dataProperties ;
-                     rdfs:domain mao:class:E41-appellation ;
-                     rdfs:range mao:ArtName ,
-                                mao:EN_Name ,
-                                mao:name_originalLang ;
-                     rdfs:label "appellation_type" .
+         rdfs:subPropertyOf mao:dataProperties ;
+         rdfs:domain mao:class:E41-appellation ;
+         rdfs:range mao:ArtName ,
+         mao:EN_Name ,
+         mao:name_originalLang ;
+         rdfs:label "appellation_type" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/attack_defend_tactic
 mao:attack_defend_tactic rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf mao:dataProperties ;
-                         rdfs:domain mao:class:MA_tactic ;
-                         rdfs:range mao:attack_n_defend ,
-                                    mao:distance_management ;
-                         rdfs:label "tactic_type"@en .
+         rdfs:subPropertyOf mao:dataProperties ;
+         rdfs:domain mao:class:MA_tactic ;
+         rdfs:range mao:attack_n_defend ,
+         mao:distance_management ;
+         rdfs:label "tactic_type"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/bodywork_type
 mao:bodywork_type rdf:type owl:DatatypeProperty ;
-                  rdfs:subPropertyOf mao:dataProperties ;
-                  rdfs:domain mao:class:bodywork ;
-                  rdfs:range mao:body_manipulation ,
-                             mao:body_movement ,
-                             mao:body_positioning ,
-                             mao:body_posture ;
-                  rdfs:label "bodywork_type" .
+         rdfs:subPropertyOf mao:dataProperties ;
+         rdfs:domain mao:class:bodywork ;
+         rdfs:range mao:body_manipulation ,
+         mao:body_movement ,
+         mao:body_positioning ,
+         mao:body_posture ;
+         rdfs:label "bodywork_type" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/dataProperties
 mao:dataProperties rdf:type owl:DatatypeProperty .
 
 ###  http://EncodingActs.github.io/annotated/MAon/data_format
 mao:data_format rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf mao:dataProperties ;
-                rdf:type owl:FunctionalProperty ;
-                rdfs:domain mao:class:MA_book ;
-                rdfs:range mao:Image ,
-                           mao:ManualBook ,
-                           mao:MoCap ,
-                           mao:Texts ,
-                           mao:Video ;
-                rdfs:label "doc_format"@en .
+         rdfs:subPropertyOf mao:dataProperties ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain mao:class:MA_book ;
+         rdfs:range mao:Image ,
+         mao:ManualBook ,
+         mao:MoCap ,
+         mao:Texts ,
+         mao:Video ;
+         rdfs:label "doc_format"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/form_type
 mao:form_type rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf mao:dataProperties ;
-              rdfs:domain mao:Form_set ;
-              rdfs:range mao:empty_hand_set ,
-                         mao:sparring_set ,
-                         mao:weapon_set ;
-              rdfs:label "form_type" .
+         rdfs:subPropertyOf mao:dataProperties ;
+         rdfs:domain mao:Form_set ;
+         rdfs:range mao:empty_hand_set ,
+         mao:sparring_set ,
+         mao:weapon_set ;
+         rdfs:label "form_type" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/timespan
 mao:timespan rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf mao:dataProperties ;
-             rdfs:domain mao:class:E52-timespan ;
-             rdfs:label "timespan" .
+         rdfs:subPropertyOf mao:dataProperties ;
+         rdfs:domain mao:class:E52-timespan ;
+         rdfs:label "timespan" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/weapon_type
 mao:weapon_type rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf mao:dataProperties ;
-                rdfs:domain mao:class:armament ,
-                            mao:class:trainig_tool ;
-                rdfs:range mao:bladed_weapon ,
-                           mao:spaer_weapon ,
-                           mao:staff_weapon ;
-                rdfs:label "weapon_type" .
+         rdfs:subPropertyOf mao:dataProperties ;
+         rdfs:domain mao:class:armament ,
+         mao:class:trainig_tool ;
+         rdfs:range mao:bladed_weapon ,
+         mao:spaer_weapon ,
+         mao:staff_weapon ;
+         rdfs:label "weapon_type" .
 
 
 #################################################################
@@ -537,689 +537,745 @@ mao:weapon_type rdf:type owl:DatatypeProperty ;
 
 ###  http://EncodingActs.github.io/annotated/MAon/Form_set
 mao:Form_set rdf:type owl:Class ;
-             rdfs:subClassOf mao:class:training_method ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:belongs_to ;
-                               owl:someValuesFrom mao:class:MA_system
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:has_component ;
-                               owl:someValuesFrom mao:class:MA_form
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:practiced_in ;
-                               owl:someValuesFrom mao:class:MA_style
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:similar_set_of ;
-                               owl:someValuesFrom mao:Form_set
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty mao:type_of ;
-                               owl:someValuesFrom mao:class:training_method
-                             ] ;
-             :name_en "Form set"@en ;
-             mao:ontoMA_otherName_en "Kata"@ja ,
-                                     "Taolu"@en ;
-             rdfs:label "form_set"@en .
+         rdfs:subClassOf mao:class:training_method ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:belongs_to ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_component ;
+         owl:someValuesFrom mao:class:MA_form
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:practiced_in ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:similar_set_of ;
+         owl:someValuesFrom mao:Form_set
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:training_method
+         ] ;
+         :name_en "Form set"@en ;
+         mao:ontoMA_otherName_en "Kata"@ja ,
+         "Taolu"@en ;
+         mao:ontoMA_name_zh "套路"@zh ;
+         rdfs:label "form_set"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E21-Person
 mao:class:E21-Person rdf:type owl:Class ;
-                     rdfs:subClassOf owl:Thing ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:creates ;
-                                       owl:someValuesFrom mao:class:E22-man_made_obj
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:identified_by ;
-                                       owl:someValuesFrom mao:class:E41-appellation
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:lives_in_ts ;
-                                       owl:someValuesFrom mao:class:E52-timespan
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:resides_in ;
-                                       owl:someValuesFrom mao:class:E53-place
-                                     ] ;
-                     rdfs:label "E21.Person"@en ;
-                     rdfs:seeAlso <https://www.cidoc-crm.org/entity/e21-person/version-7.1> .
+         rdfs:subClassOf owl:Thing ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:creates ;
+         owl:someValuesFrom mao:class:E22-man_made_obj
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:identified_by ;
+         owl:someValuesFrom mao:class:E41-appellation
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:lives_in_ts ;
+         owl:someValuesFrom mao:class:E52-timespan
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:resides_in ;
+         owl:someValuesFrom mao:class:E53-place
+         ] ;
+         rdfs:label "E21.Person"@en ;
+         rdfs:seeAlso <https://www.cidoc-crm.org/entity/e21-person/version-7.1> .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E22-man_made_obj
 mao:class:E22-man_made_obj rdf:type owl:Class ;
-                           rdfs:label "E22.Man-made Object"@en ;
-                           rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e22-man-made-object/version-7.1> .
+         rdfs:label "E22.Man-made Object"@en ;
+         rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e22-man-made-object/version-7.1> .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E31-document
 mao:class:E31-document rdf:type owl:Class ;
-                       rdfs:subClassOf owl:Thing ;
-                       rdfs:label "E31.Document"@en ;
-                       rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e31-document/version-7.1> .
+         rdfs:subClassOf owl:Thing ;
+         rdfs:label "E31.Document"@en ;
+         rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e31-document/version-7.1> .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E41-appellation
 mao:class:E41-appellation rdf:type owl:Class ;
-                          rdfs:label "E41.Appellation"@en ;
-                          rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e41-appellation/version-7.1> .
+         rdfs:label "E41.Appellation"@en ;
+         rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e41-appellation/version-7.1> .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E52-timespan
 mao:class:E52-timespan rdf:type owl:Class ;
-                       rdfs:label "E52.Time-Span"@en ;
-                       rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e52-time-span/version-7.1> .
+         rdfs:label "E52.Time-Span"@en ;
+         rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e52-time-span/version-7.1> .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E53-place
 mao:class:E53-place rdf:type owl:Class ;
-                    rdfs:label "E53.Place"@en ;
-                    rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e53-place/version-7.1> .
+         rdfs:label "E53.Place"@en ;
+         rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e53-place/version-7.1> .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E77-persistent_item
 mao:class:E77-persistent_item rdf:type owl:Class ;
-                              rdfs:label "E77.Persistent Item"@en ;
-                              rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e77-persistent-item/version-7.1> .
+         rdfs:label "E77.Persistent Item"@en ;
+         rdfs:seeAlso <https://www.cidoc-crm.org/Entity/e77-persistent-item/version-7.1> .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_Master
 mao:class:MA_Master rdf:type owl:Class ;
-                    rdfs:subClassOf mao:class:E21-Person ,
-                                    owl:Thing ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:armament
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:trainig_tool
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adapts ;
-                                      owl:someValuesFrom mao:class:training_method
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adopts ;
-                                      owl:someValuesFrom mao:class:training_method
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:has_component ;
-                                      owl:someValuesFrom mao:class:MA_technique
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:MA_syllabus
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:armament
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:trainig_tool
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:creates ;
-                                      owl:someValuesFrom mao:class:training_method
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_child_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_clan_member_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_master_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_parent_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:is_student_of ;
-                                      owl:someValuesFrom mao:class:MA_Master
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:lives_in_ts ;
-                                      owl:someValuesFrom mao:class:E52-timespan
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:practices ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:practices ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:resides_in ;
-                                      owl:someValuesFrom mao:class:E53-place
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:taught_at ;
-                                      owl:someValuesFrom mao:class:MA_institute
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches ;
-                                      owl:someValuesFrom mao:Form_set
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:teaches_at ;
-                                      owl:someValuesFrom mao:class:MA_institute
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:type_of ;
-                                      owl:someValuesFrom mao:class:E21-Person
-                                    ] ;
-                    rdfs:label "MA_Master"@en .
+         rdfs:subClassOf mao:class:E21-Person ,
+         owl:Thing ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adapts ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adapts ;
+         owl:someValuesFrom mao:class:armament
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adapts ;
+         owl:someValuesFrom mao:class:trainig_tool
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adapts ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adopts ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_component ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:creates ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:creates ;
+         owl:someValuesFrom mao:class:MA_syllabus
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:creates ;
+         owl:someValuesFrom mao:class:armament
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:creates ;
+         owl:someValuesFrom mao:class:trainig_tool
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:creates ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:is_child_of ;
+         owl:someValuesFrom mao:class:MA_Master
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:is_clan_member_of ;
+         owl:someValuesFrom mao:class:MA_Master
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:is_master_of ;
+         owl:someValuesFrom mao:class:MA_Master
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:is_parent_of ;
+         owl:someValuesFrom mao:class:MA_Master
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:is_student_of ;
+         owl:someValuesFrom mao:class:MA_Master
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:lives_in_ts ;
+         owl:someValuesFrom mao:class:E52-timespan
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:practices ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:practices ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:resides_in ;
+         owl:someValuesFrom mao:class:E53-place
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:taught_at ;
+         owl:someValuesFrom mao:class:MA_institute
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:teaches ;
+         owl:someValuesFrom mao:Form_set
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:teaches ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:teaches ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:teaches_at ;
+         owl:someValuesFrom mao:class:MA_institute
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:E21-Person
+         ] ;
+         :name_en "Master"@en ;
+         mao:ontoMA_otherName_en "Sifu"@en ,
+         mao:ontoMA_name_zh "師傅"@zh ;
+         rdfs:label "MA_Master"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_book
 mao:class:MA_book rdf:type owl:Class ;
-                  rdfs:subClassOf mao:class:E31-document ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:documents ;
-                                    owl:someValuesFrom mao:class:E53-place
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:documents ;
-                                    owl:someValuesFrom mao:class:MA_Master
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:documents ;
-                                    owl:someValuesFrom mao:class:MA_institute
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:documents ;
-                                    owl:someValuesFrom mao:class:MA_style
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:documents ;
-                                    owl:someValuesFrom mao:class:MA_system
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:documents ;
-                                    owl:someValuesFrom mao:class:training_method
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:type_of ;
-                                    owl:someValuesFrom mao:class:MA_book
-                                  ] ;
-                  rdfs:label "MA_Document"@en .
+         rdfs:subClassOf mao:class:E31-document ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:documents ;
+         owl:someValuesFrom mao:class:E53-place
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:documents ;
+         owl:someValuesFrom mao:class:MA_Master
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:documents ;
+         owl:someValuesFrom mao:class:MA_institute
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:documents ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:documents ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:documents ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_book
+         ] ;
+         rdfs:label "MA_Document"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_form
 mao:class:MA_form rdf:type owl:Class ;
-                  rdfs:subClassOf mao:class:training_method ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:has_component ;
-                                    owl:someValuesFrom mao:class:MA_technique
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:has_intent ;
-                                    owl:someValuesFrom mao:class:MA_tactic
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:is_form_in ;
-                                    owl:someValuesFrom mao:Form_set
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:represents ;
-                                    owl:someValuesFrom mao:class:MA_principle
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:similar_form_to ;
-                                    owl:someValuesFrom mao:class:MA_form
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty mao:type_of ;
-                                    owl:someValuesFrom mao:class:training_method
-                                  ] ;
-                  rdfs:label "Form"@en .
+         rdfs:subClassOf mao:class:training_method ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_component ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_intent ;
+         owl:someValuesFrom mao:class:MA_tactic
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:is_form_in ;
+         owl:someValuesFrom mao:Form_set
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:represents ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:similar_form_to ;
+         owl:someValuesFrom mao:class:MA_form
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:training_method
+         ] ;
+         :name_en "Form"@en ;
+         mao:ontoMA_name_zh "招式"@zh ;
+         rdfs:label "Form"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_institute
 mao:class:MA_institute rdf:type owl:Class ;
-                       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:adopts ;
-                                         owl:someValuesFrom mao:class:MA_syllabus
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:adopts ;
-                                         owl:someValuesFrom mao:class:training_method
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:located_at ;
-                                         owl:someValuesFrom mao:class:E53-place
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:teaches ;
-                                         owl:someValuesFrom mao:class:MA_style
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:teaches ;
-                                         owl:someValuesFrom mao:class:MA_system
-                                       ] ;
-                       rdfs:label "MA_institute" .
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adopts ;
+         owl:someValuesFrom mao:class:MA_syllabus
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adopts ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:located_at ;
+         owl:someValuesFrom mao:class:E53-place
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:teaches ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:teaches ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ;
+         :name_en "Martial Institute"@en ;
+         mao:ontoMA_name_zh "武術機構"@zh ;
+         rdfs:label "MA_institute" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_principle
 mao:class:MA_principle rdf:type owl:Class ;
-                       rdfs:subClassOf owl:Thing ;
-                       rdfs:label "MA_principle" .
+         rdfs:subClassOf owl:Thing ;
+         :name_en "Principle"@en ;
+         mao:ontoMA_name_zh "原則"@zh ;
+         rdfs:label "MA_principle" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_style
 mao:class:MA_style rdf:type owl:Class ;
-                   rdfs:subClassOf owl:Thing ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:adopts ;
-                                     owl:someValuesFrom mao:class:training_method
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:belongs_to ;
-                                     owl:someValuesFrom mao:class:MA_system
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:developed_from ;
-                                     owl:someValuesFrom mao:class:MA_style
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has ;
-                                     owl:someValuesFrom mao:class:MA_syllabus
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_origin_place ;
-                                     owl:someValuesFrom mao:class:E53-place
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_principle ;
-                                     owl:someValuesFrom mao:class:MA_principle
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_symbol ;
-                                     owl:someValuesFrom mao:class:symbolic_animal
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:influences ;
-                                     owl:someValuesFrom mao:class:MA_style
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:taught_at ;
-                                     owl:someValuesFrom mao:class:MA_institute
-                                   ] ;
-                   rdfs:label "MA_Style"@en .
+         rdfs:subClassOf owl:Thing ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adopts ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:belongs_to ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:developed_from ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has ;
+         owl:someValuesFrom mao:class:MA_syllabus
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_origin_place ;
+         owl:someValuesFrom mao:class:E53-place
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_principle ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_symbol ;
+         owl:someValuesFrom mao:class:symbolic_animal
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:influences ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:taught_at ;
+         owl:someValuesFrom mao:class:MA_institute
+         ] ;
+         :name_en "Martial Arts Style"@en ;
+         mao:ontoMA_name_zh "武術流派"@zh ;
+         rdfs:label "MA_Style"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_syllabus
 mao:class:MA_syllabus rdf:type owl:Class ;
-                      rdfs:label "MA_syllabus" .
+         :name_en "Syllabus"@en ;
+         mao:ontoMA_name_zh "教學大綱"@zh ;
+         rdfs:label "MA_syllabus" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_system
 mao:class:MA_system rdf:type owl:Class ;
-                    rdfs:subClassOf owl:Thing ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:adopts ;
-                                      owl:someValuesFrom mao:class:training_method
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:belongs_to ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:has ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:has ;
-                                      owl:someValuesFrom mao:class:MA_syllabus
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:has_origin_place ;
-                                      owl:someValuesFrom mao:class:E53-place
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:has_principle ;
-                                      owl:someValuesFrom mao:class:MA_principle
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:has_symbol ;
-                                      owl:someValuesFrom mao:class:symbolic_animal
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:influences ;
-                                      owl:someValuesFrom mao:class:MA_style
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:influences ;
-                                      owl:someValuesFrom mao:class:MA_system
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:taught_at ;
-                                      owl:someValuesFrom mao:class:MA_institute
-                                    ] ;
-                    rdfs:label "MA_System" .
+         rdfs:subClassOf owl:Thing ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:adopts ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:belongs_to ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has ;
+         owl:someValuesFrom mao:class:MA_syllabus
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_origin_place ;
+         owl:someValuesFrom mao:class:E53-place
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_principle ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_symbol ;
+         owl:someValuesFrom mao:class:symbolic_animal
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:influences ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:influences ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:taught_at ;
+         owl:someValuesFrom mao:class:MA_institute
+         ] ;
+         :name_en "Martial Arts System"@en ;
+         mao:ontoMA_name_zh "武術系統"@zh ;
+         rdfs:label "MA_System" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_tactic
 mao:class:MA_tactic rdf:type owl:Class ;
-                    rdfs:label "MA_tactic" .
+         :name_en "Tactic"@en ;
+         mao:ontoMA_name_zh "策略"@zh ;
+         rdfs:label "MA_tactic" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_technique
 mao:class:MA_technique rdf:type owl:Class ;
-                       rdfs:subClassOf owl:Thing ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:employs ;
-                                         owl:someValuesFrom mao:class:body_bridge
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:employs ;
-                                         owl:someValuesFrom mao:class:bodywork
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:employs ;
-                                         owl:someValuesFrom mao:class:footwork
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:employs ;
-                                         owl:someValuesFrom mao:class:handwork
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:has_intent ;
-                                         owl:someValuesFrom mao:class:MA_tactic
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:practiced_in ;
-                                         owl:someValuesFrom mao:class:training_method
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:similar_to ;
-                                         owl:someValuesFrom mao:class:MA_technique
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:used_in ;
-                                         owl:someValuesFrom mao:class:MA_style
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:used_in ;
-                                         owl:someValuesFrom mao:class:MA_system
-                                       ] ;
-                       rdfs:label "MA_Technique" .
+         rdfs:subClassOf owl:Thing ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:body_bridge
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:bodywork
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:footwork
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:handwork
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:has_intent ;
+         owl:someValuesFrom mao:class:MA_tactic
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:practiced_in ;
+         owl:someValuesFrom mao:class:training_method
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:similar_to ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:used_in ;
+         owl:someValuesFrom mao:class:MA_style
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:used_in ;
+         owl:someValuesFrom mao:class:MA_system
+         ] ;
+         :name_en "Technique"@en ;
+         mao:ontoMA_name_zh "技術"@zh ;
+         rdfs:label "MA_Technique" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:armament
 mao:class:armament rdf:type owl:Class ;
-                   rdfs:subClassOf mao:class:E22-man_made_obj ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:type_of ;
-                                     owl:someValuesFrom mao:class:E22-man_made_obj
-                                   ] ;
-                   rdfs:label "Armament"@en .
+         rdfs:subClassOf mao:class:E22-man_made_obj ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:E22-man_made_obj
+         ] ;
+         :name_en "Armament"@en ;
+         mao:ontoMA_name_zh "武器"@zh ;
+         rdfs:label "Armament"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:body_bridge
 mao:class:body_bridge rdf:type owl:Class ;
-                      rdfs:subClassOf mao:class:MA_technique ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty mao:type_of ;
-                                        owl:someValuesFrom mao:class:MA_technique
-                                      ] ;
-                      rdfs:label "Bridge" .
+         rdfs:subClassOf mao:class:MA_technique ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ;
+         :name_en "Bridge"@en ;
+         mao:ontoMA_name_zh "橋"@zh ;
+         rdfs:label "Bridge" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:body_cntr_mnpl
 mao:class:body_cntr_mnpl rdf:type owl:Class ;
-                         rdfs:subClassOf mao:class:MA_principle ,
-                                         [ rdf:type owl:Restriction ;
-                                           owl:onProperty mao:type_of ;
-                                           owl:someValuesFrom mao:class:MA_principle
-                                         ] ;
-                         rdfs:label "Body_control"@en .
+         rdfs:subClassOf mao:class:MA_principle ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ;
+         :name_en "Body control"@en ;
+         mao:ontoMA_name_zh "身體控制"@zh ;
+         rdfs:label "Body_control"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:bodywork
 mao:class:bodywork rdf:type owl:Class ;
-                   rdfs:subClassOf mao:class:MA_technique ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:type_of ;
-                                     owl:someValuesFrom mao:class:MA_technique
-                                   ] ;
-                   rdfs:label "Bodywork" .
+         rdfs:subClassOf mao:class:MA_technique ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ;
+         :name_en "Bodywork"@en ;
+         mao:ontoMA_name_zh "身法"@zh ;
+         rdfs:label "Bodywork" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:breath_cntr_mnpl
 mao:class:breath_cntr_mnpl rdf:type owl:Class ;
-                           rdfs:subClassOf mao:class:MA_principle ,
-                                           [ rdf:type owl:Restriction ;
-                                             owl:onProperty mao:type_of ;
-                                             owl:someValuesFrom mao:class:MA_principle
-                                           ] ;
-                           rdfs:label "Breath_control"@en .
+         rdfs:subClassOf mao:class:MA_principle ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ;
+         :name_en "Breath control"@en ;
+         mao:ontoMA_name_zh "呼吸控制"@zh ;
+         rdfs:label "Breath_control"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:breathing_tech
 mao:class:breathing_tech rdf:type owl:Class ;
-                           rdfs:subClassOf mao:class:MA_technique ,
-                                           [ rdf:type owl:Restriction ;
-                                             owl:onProperty mao:type_of ;
-                                             owl:someValuesFrom mao:class:MA_technique
-                                           ] ;
-                           rdfs:label "breathing_tech" .
+         rdfs:subClassOf mao:class:MA_technique ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ;
+         :name_en "Breathing tech"@en ;
+         mao:ontoMA_name_zh "呼吸法"@zh ;
+         rdfs:label "breathing_tech" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:claw_tech
 mao:class:claw_tech rdf:type owl:Class ;
-                    rdfs:subClassOf mao:class:handwork ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:employs ;
-                                      owl:someValuesFrom mao:class:hand_shape
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:type_of ;
-                                      owl:someValuesFrom mao:class:handwork
-                                    ] ;
-                    rdfs:label "Claw_tech" .
+         rdfs:subClassOf mao:class:handwork ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:hand_shape
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:handwork
+         ] ;
+         :name_en "Claw tech"@en ;
+         mao:ontoMA_name_zh "爪法"@zh ;
+         rdfs:label "Claw_tech" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:combo_tech
 mao:class:combo_tech rdf:type owl:Class ;
-                     rdfs:subClassOf mao:class:MA_technique ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:employs ;
-                                       owl:someValuesFrom mao:class:MA_technique
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:type_of ;
-                                       owl:someValuesFrom mao:class:MA_technique
-                                     ] ;
-                     rdfs:label "Combo_tech" .
+         rdfs:subClassOf mao:class:MA_technique ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ;
+         :name_en "Combo tech"@en ;
+         mao:ontoMA_name_zh "技術組合"@zh ;
+         rdfs:label "Combo_tech" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:elbow_tech
 mao:class:elbow_tech rdf:type owl:Class ;
-                     rdfs:subClassOf mao:class:handwork ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:type_of ;
-                                       owl:someValuesFrom mao:class:handwork
-                                     ] ;
-                     :name_en "Elbow techniques"@en ;
-                     :name_romanCAN "Zaang Faat"@en ;
-                     :name_romanMAN "Zhou Fa"@en ;
-                     mao:ontoMA_name_zh "踭法"@en ;
-                     mao:ontoMA_otherName_zh "肘法"@en ;
-                     rdfs:label "Elbow_tech" .
+         rdfs:subClassOf mao:class:handwork ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:handwork
+         ] ;
+         :name_en "Elbow techniques"@en ;
+         :name_romanCAN "Zaang Faat"@en ;
+         :name_romanMAN "Zhou Fa"@en ;
+         mao:ontoMA_name_zh "踭法"@zh ;
+         mao:ontoMA_otherName_zh "肘法"@zh ;
+         rdfs:label "Elbow_tech" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:fighting_strategy
 mao:class:fighting_strategy rdf:type owl:Class ;
-                            rdfs:subClassOf mao:class:MA_principle ,
-                                            [ rdf:type owl:Restriction ;
-                                              owl:onProperty mao:type_of ;
-                                              owl:someValuesFrom mao:class:MA_principle
-                                            ] ;
-                            rdfs:label "Connection_bridges"@en .
+         rdfs:subClassOf mao:class:MA_principle ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ;
+         rdfs:label "Connection_bridges"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:fist_tech
 mao:class:fist_tech rdf:type owl:Class ;
-                    rdfs:subClassOf mao:class:handwork ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:employs ;
-                                      owl:someValuesFrom mao:class:hand_shape
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:type_of ;
-                                      owl:someValuesFrom mao:class:handwork
-                                    ] ;
-                    rdfs:label "Fist_tech"@en .
+         rdfs:subClassOf mao:class:handwork ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:hand_shape
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:handwork
+         ] ;
+         :name_en "Fist tech"@en ;
+         mao:ontoMA_name_zh "拳法"@zh ;
+         rdfs:label "Fist_tech"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:footwork
 mao:class:footwork rdf:type owl:Class ;
-                   rdfs:subClassOf mao:class:MA_technique ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:type_of ;
-                                     owl:someValuesFrom mao:class:MA_technique
-                                   ] ;
-                   rdfs:label "Footwork" .
+         rdfs:subClassOf mao:class:MA_technique ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ;
+         :name_en "Footwork"@en ;
+         mao:ontoMA_name_zh "脚法"@zh ;
+         rdfs:label "Footwork" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:hand_shape
 mao:class:hand_shape rdf:type owl:Class ;
-                     rdfs:subClassOf mao:class:handwork ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:type_of ;
-                                       owl:someValuesFrom mao:class:handwork
-                                     ] ;
-                     :name_en "Gesture"@en ;
-                     :name_romanCAN "Sau Jing"@en ;
-                     :name_romanMAN "Shou Xing"@en ;
-                     mao:ontoMA_name_zh "手形"@zh ;
-                     mao:ontoMA_otherName_en "Hand status"@en ;
-                     rdfs:label "Gesture"@en .
+         rdfs:subClassOf mao:class:handwork ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:handwork
+         ] ;
+         :name_en "Gesture"@en ;
+         :name_romanCAN "Sau Jing"@en ;
+         :name_romanMAN "Shou Xing"@en ;
+         mao:ontoMA_name_zh "手形"@zh ;
+         mao:ontoMA_otherName_en "Hand status"@en ;
+         rdfs:label "Gesture"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:handwork
 mao:class:handwork rdf:type owl:Class ;
-                   rdfs:subClassOf mao:class:MA_technique ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:type_of ;
-                                     owl:someValuesFrom mao:class:MA_technique
-                                   ] ;
-                   rdfs:label "Handwork" .
+         rdfs:subClassOf mao:class:MA_technique ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ;
+         :name_en "Handwork"@en ;
+         mao:ontoMA_name_zh "手法"@zh ;
+         rdfs:label "Handwork" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:honor_code
 mao:class:honor_code rdf:type owl:Class ;
-                     rdfs:subClassOf mao:class:MA_principle ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty mao:type_of ;
-                                       owl:someValuesFrom mao:class:MA_principle
-                                     ] ;
-                     rdfs:label "Honor_code"@en .
+         rdfs:subClassOf mao:class:MA_principle ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ;
+         rdfs:label "Honor_code"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:intent_clarity
 mao:class:intent_clarity rdf:type owl:Class ;
-                         rdfs:subClassOf mao:class:MA_principle ,
-                                         [ rdf:type owl:Restriction ;
-                                           owl:onProperty mao:type_of ;
-                                           owl:someValuesFrom mao:class:MA_principle
-                                         ] ;
-                         rdfs:label "Fighting_strategy"@en .
+         rdfs:subClassOf mao:class:MA_principle ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_principle
+         ] ;
+         rdfs:label "Fighting_strategy"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:leg_tech
 mao:class:leg_tech rdf:type owl:Class ;
-                   rdfs:subClassOf mao:class:footwork ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:type_of ;
-                                     owl:someValuesFrom mao:class:footwork
-                                   ] ;
-                   rdfs:label "Leg_tech"@en .
+         rdfs:subClassOf mao:class:footwork ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:footwork
+         ] ;
+         :name_en "Leg tech"@en ;
+         mao:ontoMA_name_zh "腿法"@zh ;
+         rdfs:label "Leg_tech"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:palm_tech
 mao:class:palm_tech rdf:type owl:Class ;
-                    rdfs:subClassOf mao:class:handwork ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:employs ;
-                                      owl:someValuesFrom mao:class:hand_shape
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty mao:type_of ;
-                                      owl:someValuesFrom mao:class:handwork
-                                    ] ;
-                    rdfs:label "Palm_tech" .
+         rdfs:subClassOf mao:class:handwork ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:employs ;
+         owl:someValuesFrom mao:class:hand_shape
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:handwork
+         ] ;
+         :name_en "Palm tech"@en ;
+         mao:ontoMA_name_zh "掌法"@zh ;
+         rdfs:label "Palm_tech" .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:physical_training
 mao:class:physical_training rdf:type owl:Class ;
-                            rdfs:subClassOf mao:class:training_method ,
-                                            [ rdf:type owl:Restriction ;
-                                              owl:onProperty mao:type_of ;
-                                              owl:someValuesFrom mao:class:training_method
-                                            ] ;
-                            rdfs:label "Physical_training"@en .
+         rdfs:subClassOf mao:class:training_method ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:training_method
+         ] ;
+         rdfs:label "Physical_training"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:spar_training
 mao:class:spar_training rdf:type owl:Class ;
-                        rdfs:subClassOf mao:class:training_method ,
-                                        [ rdf:type owl:Restriction ;
-                                          owl:onProperty mao:type_of ;
-                                          owl:someValuesFrom mao:class:training_method
-                                        ] ;
-                        rdfs:label "Sparring"@en .
+         rdfs:subClassOf mao:class:training_method ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:training_method
+         ] ;
+         :name_en "Sparring"@en ;
+         mao:ontoMA_name_zh "對練"@zh ;
+         rdfs:label "Sparring"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:stance
 mao:class:stance rdf:type owl:Class ;
-                 rdfs:subClassOf mao:class:footwork ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty mao:type_of ;
-                                   owl:someValuesFrom mao:class:footwork
-                                 ] ;
-                 :name_en "Stance"@en ;
-                 :name_romanCAN "Maa Bou"@en ;
-                 :name_romanMAN "Ma bu"@en ;
-                 mao:ontoMA_name_zh "馬步"@zh ;
-                 rdfs:description "In martial arts, stances are the distribution, foot orientation and body positions (particularly the legs and torso) adopted when attacking, defending, advancing, or retreating."@en ;
-                 rdfs:label "Stance"@en .
+         rdfs:subClassOf mao:class:footwork ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:footwork
+         ] ;
+         :name_en "Stance"@en ;
+         :name_romanCAN "Maa Bou"@en ;
+         :name_romanMAN "Ma bu"@en ;
+         mao:ontoMA_name_zh "馬步"@zh ;
+         rdfs:description "In martial arts, stances are the distribution, foot orientation and body positions (particularly the legs and torso) adopted when attacking, defending, advancing, or retreating."@en ;
+         rdfs:label "Stance"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:symbolic_animal
 mao:class:symbolic_animal rdf:type owl:Class ;
-                          rdfs:subClassOf mao:class:E77-persistent_item ,
-                                          [ rdf:type owl:Restriction ;
-                                            owl:onProperty mao:type_of ;
-                                            owl:someValuesFrom mao:class:E77-persistent_item
-                                          ] ;
-                          rdfs:label "Symbolic_animal"@en .
+         rdfs:subClassOf mao:class:E77-persistent_item ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:E77-persistent_item
+         ] ;
+         :name_romanMAN "Symbolic animal"@en ;
+         mao:ontoMA_name_zh "象徵動物"@zh ;
+         rdfs:label "Symbolic_animal"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:trainig_tool
 mao:class:trainig_tool rdf:type owl:Class ;
-                       rdfs:subClassOf mao:class:E22-man_made_obj ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:simulates ;
-                                         owl:someValuesFrom mao:class:armament
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty mao:type_of ;
-                                         owl:someValuesFrom mao:class:E22-man_made_obj
-                                       ] ;
-                       rdfs:label "Trainig_tool"@en .
+         rdfs:subClassOf mao:class:E22-man_made_obj ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:simulates ;
+         owl:someValuesFrom mao:class:armament
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:E22-man_made_obj
+         ] ;
+         :name_romanMAN "Trainig tool"@en ;
+         mao:ontoMA_name_zh "訓練工具"@zh ;
+         rdfs:label "Trainig_tool"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:training_method
 mao:class:training_method rdf:type owl:Class ;
-                          rdfs:subClassOf owl:Thing ,
-                                          [ rdf:type owl:Restriction ;
-                                            owl:onProperty mao:trains ;
-                                            owl:someValuesFrom mao:class:MA_technique
-                                          ] ,
-                                          [ rdf:type owl:Restriction ;
-                                            owl:onProperty mao:uses ;
-                                            owl:someValuesFrom mao:class:armament
-                                          ] ,
-                                          [ rdf:type owl:Restriction ;
-                                            owl:onProperty mao:uses ;
-                                            owl:someValuesFrom mao:class:trainig_tool
-                                          ] ;
-                          rdfs:label "Training_method"@en .
+         rdfs:subClassOf owl:Thing ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:trains ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:uses ;
+         owl:someValuesFrom mao:class:armament
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:uses ;
+         owl:someValuesFrom mao:class:trainig_tool
+         ] ;
+         :name_romanMAN "Trainig method"@en ;
+         mao:ontoMA_name_zh "訓練方法"@zh ;
+         rdfs:label "Training_method"@en .
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:weapon_tech
 mao:class:weapon_tech rdf:type owl:Class ;
-                      rdfs:subClassOf mao:class:MA_technique ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty mao:type_of ;
-                                        owl:someValuesFrom mao:class:MA_technique
-                                      ] ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty mao:uses ;
-                                        owl:someValuesFrom mao:class:armament
-                                      ] ;
-                      rdfs:label "Weapon_tech"@en .
+         rdfs:subClassOf mao:class:MA_technique ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:type_of ;
+         owl:someValuesFrom mao:class:MA_technique
+         ] ,
+         [ rdf:type owl:Restriction ;
+         owl:onProperty mao:uses ;
+         owl:someValuesFrom mao:class:armament
+         ] ;
+         :name_romanMAN "Weapon tech"@en ;
+         mao:ontoMA_name_zh "武器技術"@zh ;
+         rdfs:label "Weapon_tech"@en .
