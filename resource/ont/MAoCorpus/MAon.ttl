@@ -310,7 +310,7 @@ mao:has_intent rdf:type owl:ObjectProperty ;
                            mao:class:MA_technique ;
                rdfs:range mao:class:MA_tactic ;
                mao:ontoMA_name_zh "意圖是"@zh-hk ;
-               rdfs:comment "The class MA_Tactic addresses the former case, in combination with the property has intent to describe an instance of Form or Technique that embodies the intent to achieve specific tactics, such as attacking, defending, deflecting, controlling distance, or complex maneuvers."@en ;
+               rdfs:comment "The class MA_Tactic in combination with the property has_intent describes an instance of Form or Technique that embodies the intent to achieve specific tactics, such as attacking, defending, deflecting, controlling distance, or complex maneuvers."@en ;
                rdfs:label "has_intent" .
 
 
