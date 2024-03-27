@@ -3007,7 +3007,7 @@ mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_17 ;
+                    mao:similar_movement_to mao:taming_tiger_17 ;
                     :name_en "Transitioning via a cat stance to launch the right leg block"@en ;
                     mao:ontoMA_name_zh "出右吊左拉歸後"@zh ;
                     rdfs:description "收拳在腰，上右馬吊左脚，再拉左脚歸後，緊接提左脚至腰。"@zh ;
@@ -3018,7 +3018,7 @@ mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_18 ;
+                    mao:similar_movement_to mao:taming_tiger_18 ;
                     :name_en "Blocking with groin stop kick"@en ;
                     mao:ontoMA_name_zh "鏟腳四平馬八分"@zh ;
                     rdfs:description "左脚向前方彈踢，預想對手下陰位置。"@zh ;
@@ -3029,7 +3029,7 @@ mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_19 ;
+                    mao:similar_movement_to mao:taming_tiger_19 ;
                     :name_en "Lower forearm block with a bow stance"@en ;
                     mao:ontoMA_name_zh "子午一轉右膀手"@zh ;
                     rdfs:description "扭身左轉，左脚順勢落弓步，右手成掌，掌心向下按護右邊，左掌化爪從右肩前劃出。"@zh ;
@@ -3040,7 +3040,7 @@ mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_20 ;
+                    mao:similar_movement_to mao:taming_tiger_20 ;
                     :name_en "Splitting and turning followed by upper knife hand block and downward chop"@en ;
                     mao:ontoMA_name_zh "一挑擰馬右千字"@zh ;
                     rdfs:description "右挑手，左抓拳在腰，後四步轉馬，轉身吊右脚、舉右掌在前額前方位置當頭，掌心向外；接右手千字手撇落。"@zh ;
@@ -3063,7 +3063,7 @@ mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_21 ;
+                    mao:similar_movement_to mao:taming_tiger_21 ;
                     :name_en "Withdrawing the hand and turning with the curving palm"@en ;
                     mao:ontoMA_name_zh "抽手轉身割歸後"@zh ;
                     rdfs:description "落右子午馬挑左手對肩，左手抽拳在腰；后轉身扭馬，右脚偷馬爭取空間，右割手在腰。"@zh ;
@@ -3074,7 +3074,7 @@ mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_22 ;
+                    mao:similar_movement_to mao:taming_tiger_22 ;
                     :name_en "Advancing with the horizontal palm strike"@en ;
                     mao:ontoMA_name_zh "上馬連出一側掌"@zh ;
                     rdfs:description "開左馬，左脚前踏轉子午馬，同時右側掌從腰間打出。中攻手法，以轉馬帶動腰背勁力，貫于側掌擊出。"@zh ;
@@ -3085,7 +3085,7 @@ mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_23 ;
+                    mao:similar_movement_to mao:taming_tiger_23 ;
                     :name_en "Side elbow strike with a horse stance followed by the knifehand strike"@en ;
                     mao:ontoMA_name_zh "四平肘頂標串手"@zh ;
                     rdfs:description "右轉四平馬，同時右踭平肩頂出（四平踭），再轉左子午馬，接右手標出反擊其喉。"@zh ;
@@ -3096,7 +3096,7 @@ mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_24 ;
+                    mao:similar_movement_to mao:taming_tiger_24 ;
                     :name_en "Curving palm with a horse stance follow by the palm strike"@en ;
                     mao:ontoMA_name_zh "割手四平掌打正"@zh ;
                     rdfs:description "回四平馬，右掌向下割手至腰，接右撐掌打出，連消帶打。"@zh ;
@@ -3107,7 +3107,7 @@ mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_34 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_25 ;
+                    mao:similar_movement_to mao:taming_tiger_25 ;
                     :name_en "Pulling back the fist to launch a back fist punch"@en ;
                     mao:ontoMA_name_zh "一揸一抽轉一分"@zh ;
                     rdfs:description "抽右拳在胸，再向下一冚截在腰前方；接抽右拳在胸，後右分搥（邊搥）成對角綫向外打出。"@zh ;
@@ -3171,7 +3171,7 @@ mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_38 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_36 ;
+                    mao:similar_movement_to mao:taming_tiger_36 ;
                     :name_en "Striking with the double tiger claws three times again"@en ;
                     mao:ontoMA_name_zh "貓兒洗面又三勻"@zh ;
                     rdfs:description "吊左馬，左掌一劈護頭胸；后左脚踏前子午馬，雙收成虎爪，左為前爪，右後爪置左踭位置，連續向前抓三次；接左吊馬再接冚擸手，再轉左子午馬出雙爪手前抓。"@zh ;
@@ -3341,7 +3341,7 @@ mao:taming_tiger_47 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_11 ,
+                    mao:similar_movement_to mao:taming_tiger_11 ,
                                         mao:taming_tiger_12 ;
                     :name_en "Lifting and pushing forward the palms forward after the lower double forearm block"@en ;
                     mao:ontoMA_name_zh "雙膀切落合掌分"@zh ;
@@ -3353,7 +3353,7 @@ mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_49 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_13 ;
+                    mao:similar_movement_to mao:taming_tiger_13 ;
                     :name_en "Thrice forward extending hands"@en ;
                     mao:ontoMA_name_zh "一指撐天三株出"@zh ;
                     rdfs:description "雙指手抽回胸前平肩推出，連續三次。"@zh ;
@@ -3380,7 +3380,7 @@ mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_15 ;
+                    mao:similar_movement_to mao:taming_tiger_15 ;
                     :name_en "Forward target hands followed by the stabilizing bridge"@en ;
                     mao:ontoMA_name_zh "標串手法定金橋"@zh ;
                     rdfs:description "雙掌前上平出標手，後沉踭（沉橋）對膊，雙手變四指撐天。"@zh ;
@@ -3391,7 +3391,7 @@ mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_51 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_16 ;
+                    mao:similar_movement_to mao:taming_tiger_16 ;
                     :name_en "Double splitting and curving palms followed by the divide punch"@en ;
                     mao:ontoMA_name_zh "雙抽雙割一揸分"@zh ;
                     rdfs:description "雙掌胸前交叉挑手平肩，再各自向外下方割手至腰；後雙手抽拳抱胸前，接左右分金搥，雙拳拳背向外左右打出。"@zh ;
@@ -3426,7 +3426,7 @@ mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_53 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_52 ;
+                    mao:similar_movement_to mao:taming_tiger_52 ;
                     :name_en "Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent's body block"@en ;
                     mao:ontoMA_name_zh "再撤蝶掌迫分漏"@zh ;
                     rdfs:description "右轉吊右脚同時右邊擸掌成蝴蝶掌；進右子午馬左側推出蝴蝶掌，轉身回四平馬左擸手，緊接轉左子午馬右手逼踭；轉右子午馬右分漏手，右掌以踭勁帶動向右切出，左掌護右肩。"@zh ;
@@ -3468,7 +3468,7 @@ mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_41 ;
+                    mao:similar_movement_to mao:taming_tiger_41 ;
                     :name_en "Double lower forearm block followed by splitting hand and upper knife hand block"@en ;
                     mao:ontoMA_name_zh "雙膀切落起左右"@zh ;
                     rdfs:description "雙手冚下雙膀手，接右掌向上一撥挑手，掌心向内平肩，同時左掌微按于腰前；后換練左掌向上挑手，右掌微按腰前。"@zh ;
@@ -3479,7 +3479,7 @@ mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_42 ;
+                    mao:similar_movement_to mao:taming_tiger_42 ;
                     :name_en "Double reverse knife hand strike following the block"@en ;
                     mao:ontoMA_name_zh "一撇一劃千字手"@zh ;
                     rdfs:description "舉左掌至前額前方，掌心向外作擋頭；后一撤步扭身吊馬，左掌向左下劈落，同時右掌一兜。左脚疾上一步落左子午馬雙弓手，左掌心向上擋頭，右掌心向下，向前打出。"@zh ;
@@ -3490,7 +3490,7 @@ mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_43 ;
+                    mao:similar_movement_to mao:taming_tiger_43 ;
                     :name_en "Striking with the double hanging back fists and then knife hand thrust"@en ;
                     mao:ontoMA_name_zh "拉馬抽拳雙掛落"@zh ;
                     rdfs:description "接扭馬抽拳，吊左脚、拳對右膊；再疾上左子午馬，打出雙掛搥；再接扭馬割手至腰，疾上左子午馬雙掌向上插頸喉。"@zh ;
@@ -3501,7 +3501,7 @@ mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_59 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_44 ;
+                    mao:similar_movement_to mao:taming_tiger_44 ;
                     :name_en "Advancing with double palm/claw strike"@en ;
                     mao:ontoMA_name_zh "進馬兜肘雙虎爪"@zh ;
                     rdfs:description "右扭身落四平馬，接著兩踭向外一兜，雙手變虎爪；後上前落左子午馬，雙撐掌向前上方打出。"@zh ;
@@ -3526,7 +3526,7 @@ mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_60 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_45 ;
+                    mao:similar_movement_to mao:taming_tiger_45 ;
                     :name_en "Striking with a hook and uppercut"@en ;
                     mao:ontoMA_name_zh "牛角一槌轉通天"@zh ;
                     rdfs:description "左吊馬，右手拉拳橫向左肩，左爪收至左肩；上左子午馬，右橫邊搥拉至前額成牛角搥，左手握拳擺後；接左拳從後向前衝拳，同時牛角搥向下按至胸前，雙手成十字交叉。"@zh ;
@@ -3638,7 +3638,7 @@ mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_66 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_65 ;
+                    mao:similar_movement_to mao:taming_tiger_65 ;
                     :name_en "Butterfly palm strike toward another direction via unicorn steps"@en ;
                     mao:ontoMA_name_zh "連環蝶掌步麒麟"@zh ;
                     rdfs:description "再接對側練習：左側扭馬穿手，右側麒麟步擸掌，進左子午馬以左掌上、右掌下打出蝴蝶掌。"@zh ;
@@ -3666,7 +3666,7 @@ mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_67 ;
+                    mao:similar_movement_to mao:taming_tiger_67 ;
                     :name_en "Clipping hammer fists to the left"@en ;
                     mao:ontoMA_name_zh "左右連環一樣同"@zh ;
                     rdfs:description "左脚上馬同時向上90度抽左拳，右手平搥打出。"@zh ;
@@ -3703,7 +3703,7 @@ mao:taming_tiger_7 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_69 ;
+                    mao:similar_movement_to mao:taming_tiger_69 ;
                     :name_en "Turning with the backfist block followed by a straight punch to the left"@en ;
                     mao:ontoMA_name_zh "拉馬轉身掛打槌"@zh ;
                     rdfs:description "轉身落四平馬左分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。"@zh ;
@@ -3714,7 +3714,7 @@ mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_71 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_69 ;
+                    mao:similar_movement_to mao:taming_tiger_69 ;
                     :name_en "Turning with the backfist block followed by a straight punch to the front"@en ;
                     mao:ontoMA_name_zh "向前掛打連環落"@zh ;
                     rdfs:description "正面上四平馬右分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。"@zh ;
@@ -3898,7 +3898,7 @@ mao:taming_tiger_8 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_80 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_79 ;
+                    mao:similar_movement_to mao:taming_tiger_79 ;
                     :name_en "Upper forcing chop to the left followed by horizontal palm strike"@en ;
                     mao:ontoMA_name_zh "左馬攻迫側掌來"@zh ;
                     rdfs:description "上四平馬出左掌擋頭，右拳收腰，左手變掌運至腋下，接轉左子午馬同時撐出右側掌，以掌底擊打。"@zh ;
@@ -4046,7 +4046,7 @@ mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_88 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_87 ;
+                    mao:similar_movement_to mao:taming_tiger_87 ;
                     :name_en "Repeating the tangling palms and punch combination"@en ;
                     mao:ontoMA_name_zh "左右連環各一勻"@zh ;
                     rdfs:description "右拳收腰，吊左馬，左割手接左迫手，再以左纏枝手擸踭，接進左子午馬出右拳平搥。"@zh ;
@@ -4128,7 +4128,7 @@ mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
 mao:taming_tiger_92 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
-                    mao:similar_form_to mao:taming_tiger_8 ;
+                    mao:similar_movement_to mao:taming_tiger_8 ;
                     :name_en "Pulling back the fist and saluting with a cat stance"@en ;
                     mao:ontoMA_name_zh "收拳見禮須吊腳"@zh ;
                     rdfs:description "見禮：轉右子午馬，同時右拳拉向左肩歸右腰，左掌運至右胸前護胸；接以左脚踏前吊馬收胸，左掌擺回左方平肩，同時右拳平胸打出。"@zh ;
