@@ -17,10 +17,10 @@
 #     License type: MIT license
 #################################################################
 
+
 #################################################################
 #    Individuals
 #################################################################
-
 
 ###  http://EncodingActs.github.io/annotated/MAon#Southern_Chinese_Martial_Arts
 :Southern_Chinese_Martial_Arts rdf:type owl:NamedIndividual ,
@@ -32,6 +32,7 @@
                                rdfs:label "Southern_Chinese_Martial_Arts" ;
                                rdfs:wikiURL "https://en.wikipedia.org/wiki/Styles_of_Chinese_martial_arts" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/Choy_Li_Fut
 mao:Choy_Li_Fut rdf:type owl:NamedIndividual ,
                          mao:class:MA_system ;
@@ -40,6 +41,7 @@ mao:Choy_Li_Fut rdf:type owl:NamedIndividual ,
                 mao:ontoMA_name_zh "蔡李佛" ;
                 rdfs:label "Choy_Li_Fut" ;
                 rdfs:wikiURL "https://en.wikipedia.org/wiki/Choy_Li_Fut" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/Dan_Tien_focus
 mao:Dan_Tien_focus rdf:type owl:NamedIndividual ,
@@ -51,6 +53,7 @@ mao:Dan_Tien_focus rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "氣沉丹田"@zh ;
                    rdfs:label "Dan_Tien_focus" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/GungGee_video_OscarLam
 mao:GungGee_video_OscarLam rdf:type owl:NamedIndividual ,
                                     mao:class:MA_book ,
@@ -59,6 +62,7 @@ mao:GungGee_video_OscarLam rdf:type owl:NamedIndividual ,
                                       owl:someValuesFrom mao:Video
                                     ] ;
                            rdfs:label "GungGee_video_OscarLam" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen
 mao:Gung_Gee_Fook_Fu_Kuen rdf:type owl:NamedIndividual ,
@@ -69,6 +73,7 @@ mao:Gung_Gee_Fook_Fu_Kuen rdf:type owl:NamedIndividual ,
                           mao:ontoMA_name_zh "工字伏虎拳"@zh ;
                           mao:ontoMA_otherName_en "Taming the Tiger in I-Pattern"@en ;
                           rdfs:label "Gung_Gee_Fook_Fu_Kuen"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/Hung_Kuen
 mao:Hung_Kuen rdf:type owl:NamedIndividual ,
@@ -88,6 +93,7 @@ mao:Hung_Kuen rdf:type owl:NamedIndividual ,
               rdfs:label "Hung_Kuen" ;
               rdfs:wikiURL "https://de.wikipedia.org/wiki/Hung_Kuen" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/Lam_Family_Hung_Kuen
 mao:Lam_Family_Hung_Kuen rdf:type owl:NamedIndividual ,
                                   mao:class:MA_style ,
@@ -100,15 +106,18 @@ mao:Lam_Family_Hung_Kuen rdf:type owl:NamedIndividual ,
                          mao:ontoMA_name_zh "林家洪拳" ;
                          rdfs:label "Lam_Family_Hung_Kuen" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/Lam_Sai_Wing
 mao:Lam_Sai_Wing rdf:type owl:NamedIndividual ,
                           mao:class:MA_Master ;
                  rdfs:label "Lam_Sai_Wing" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/Snake
 mao:Snake rdf:type owl:NamedIndividual ,
                    mao:class:symbolic_animal ;
           rdfs:label "Snake" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/T_backfist_n_punch
 mao:T_backfist_n_punch rdf:type owl:NamedIndividual ,
@@ -123,6 +132,7 @@ mao:T_backfist_n_punch rdf:type owl:NamedIndividual ,
                        mao:ontoMA_name_zh "品字掛打"@zh ;
                        rdfs:label "T_backfist_n_punch" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/Uprightness
 mao:Uprightness rdf:type owl:NamedIndividual ,
                          mao:class:honor_code ;
@@ -131,6 +141,7 @@ mao:Uprightness rdf:type owl:NamedIndividual ,
                 mao:ontoMA_name_zh "頂天立地"@zh ;
                 mao:ontoMA_otherName_zh "定乾坤"@zh ;
                 rdfs:label "Uprightness"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/White_Crane_Kungfu
 mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
@@ -148,12 +159,14 @@ mao:White_Crane_Kungfu rdf:type owl:NamedIndividual ,
                        rdfs:label "White_Crane_Kungfu"@en ;
                        rdfs:wikiURL "https://en.wikipedia.org/wiki/Fujian_White_Crane" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/Yin_Yang
 mao:Yin_Yang rdf:type owl:NamedIndividual ,
                       mao:class:body_cntr_mnpl ;
              :name_en "Yin and Yang"@en ;
              mao:ontoMA_name_zh "陰陽"@zh ;
              rdfs:label "Yin_Yang" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/Yongchun_White_Crane
 mao:Yongchun_White_Crane rdf:type owl:NamedIndividual ,
@@ -164,6 +177,7 @@ mao:Yongchun_White_Crane rdf:type owl:NamedIndividual ,
                          mao:ontoMA_otherName_en "Fujian White Crane"@en ;
                          rdfs:label "Yongchun_White_Crane" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/arm_lock
 mao:arm_lock rdf:type owl:NamedIndividual ,
                       mao:class:handwork ;
@@ -171,6 +185,7 @@ mao:arm_lock rdf:type owl:NamedIndividual ,
              :name_en "Arm lock"@en ;
              mao:ontoMA_name_zh "鎖臂"@zh ;
              rdfs:label "arm_lock" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/arm_lock_sweep
 mao:arm_lock_sweep rdf:type owl:NamedIndividual ,
@@ -186,6 +201,7 @@ mao:arm_lock_sweep rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "撥手掃脚"@zh ;
                    rdfs:label "arm_lock_sweep" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/attack_control
 mao:attack_control rdf:type owl:NamedIndividual ,
                             mao:class:MA_tactic ,
@@ -193,6 +209,7 @@ mao:attack_control rdf:type owl:NamedIndividual ,
                               owl:onProperty mao:attack_defend_tactic ;
                               owl:someValuesFrom mao:attack_n_defend
                             ] .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/attack_int
 mao:attack_int rdf:type owl:NamedIndividual ,
@@ -205,6 +222,7 @@ mao:attack_int rdf:type owl:NamedIndividual ,
                mao:ontoMA_name_zh "攻擊"@zh ;
                rdfs:label "attack_int"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/attack_subduing
 mao:attack_subduing rdf:type owl:NamedIndividual ,
                              mao:class:MA_tactic ,
@@ -216,6 +234,7 @@ mao:attack_subduing rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "致命攻擊"@zh ;
                     rdfs:label "attack_subdue"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/attack_while_defend
 mao:attack_while_defend rdf:type owl:NamedIndividual ,
                                  mao:class:MA_tactic ,
@@ -226,6 +245,7 @@ mao:attack_while_defend rdf:type owl:NamedIndividual ,
                         :name_en "Attacking while blocking"@en ;
                         mao:ontoMA_name_zh "格打"@zh ;
                         rdfs:label "attack_while_block"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/back_thrust_punch
 mao:back_thrust_punch rdf:type owl:NamedIndividual ,
@@ -240,6 +260,7 @@ mao:back_thrust_punch rdf:type owl:NamedIndividual ,
                       mao:ontoMA_otherName_en "Thrust punch in the eye"@en ;
                       rdfs:label "spiral_thrust_punch"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/backfist
 mao:backfist rdf:type owl:NamedIndividual ,
                       mao:class:hand_shape ;
@@ -251,6 +272,7 @@ mao:backfist rdf:type owl:NamedIndividual ,
              :name_romanMAN "Bei Quan"@en ;
              mao:ontoMA_name_zh "背拳"@zh ;
              rdfs:label "backfist" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/backfist_n_punch_combo
 mao:backfist_n_punch_combo rdf:type owl:NamedIndividual ,
@@ -267,6 +289,7 @@ mao:backfist_n_punch_combo rdf:type owl:NamedIndividual ,
                            mao:ontoMA_name_zh "掛打"@zh ;
                            rdfs:label "backfist_n_punch_combo" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/black_tiger_claw
 mao:black_tiger_claw rdf:type owl:NamedIndividual ,
                               mao:class:claw_tech ;
@@ -277,6 +300,7 @@ mao:black_tiger_claw rdf:type owl:NamedIndividual ,
                      :name_romanMAN "Hei Hu Zhao"@en ;
                      mao:ontoMA_name_zh "黑虎爪"@zh ;
                      rdfs:label "black_tiger_claw" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/blacktiger_punch
 mao:blacktiger_punch rdf:type owl:NamedIndividual ,
@@ -290,6 +314,7 @@ mao:blacktiger_punch rdf:type owl:NamedIndividual ,
                      mao:ontoMA_otherName_en "Side and reverse vertical fist punch combination"@en ;
                      rdfs:label "blacktiger_punch" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/blade_palm
 mao:blade_palm rdf:type owl:NamedIndividual ,
                         mao:class:hand_shape ;
@@ -301,6 +326,7 @@ mao:blade_palm rdf:type owl:NamedIndividual ,
                mao:ontoMA_name_zh "標掌"@zh ;
                mao:ontoMA_otherName_en "Horizontal spearhand"@en ;
                rdfs:label "blade_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/block_kick
 mao:block_kick rdf:type owl:NamedIndividual ,
@@ -314,6 +340,7 @@ mao:block_kick rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_zh "吊脚馬"@zh ;
                rdfs:label "block_kick" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/block_n_front_kick
 mao:block_n_front_kick rdf:type owl:NamedIndividual ,
                                 mao:class:leg_tech ;
@@ -326,6 +353,7 @@ mao:block_n_front_kick rdf:type owl:NamedIndividual ,
                        mao:ontoMA_name_zh "消脚撩陰腿"@zh ;
                        rdfs:label "block_n_front_kick" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/blocking_palm
 mao:blocking_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
@@ -337,6 +365,7 @@ mao:blocking_palm rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "膀手"@zh ;
                   rdfs:label "blocking_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/blocking_palms
 mao:blocking_palms rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
@@ -347,6 +376,7 @@ mao:blocking_palms rdf:type owl:NamedIndividual ,
                    :name_romanMAN "Bao Pai"@en ;
                    mao:ontoMA_name_zh "抱牌"@zh ;
                    rdfs:label "cr_blocking_palms"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/body_twisting
 mao:body_twisting rdf:type owl:NamedIndividual ,
@@ -365,6 +395,7 @@ mao:body_twisting rdf:type owl:NamedIndividual ,
                   mao:ontoMA_otherName_en "Upper body twist"@en ;
                   rdfs:label "waist_twist"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/bouncing_kick
 mao:bouncing_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
@@ -374,6 +405,7 @@ mao:bouncing_kick rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Tiao Jiao"@en ;
                   mao:ontoMA_name_zh "跳脚"@zh ;
                   rdfs:label "bouncing_kick" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/bow_stance
 mao:bow_stance rdf:type owl:NamedIndividual ,
@@ -389,6 +421,7 @@ mao:bow_stance rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_zh "弓步"@zh ;
                rdfs:label "bow_stance" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/breath_regulation
 mao:breath_regulation rdf:type owl:NamedIndividual ,
                                mao:class:MA_tactic ,
@@ -400,6 +433,7 @@ mao:breath_regulation rdf:type owl:NamedIndividual ,
                       mao:ontoMA_name_zh "調整呼吸，存氣蓄力"@zh ;
                       rdfs:label "breath_control"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/breathing_in
 mao:breathing_in rdf:type owl:NamedIndividual ,
                           mao:class:breathing_tech ;
@@ -408,6 +442,7 @@ mao:breathing_in rdf:type owl:NamedIndividual ,
                  mao:ontoMA_otherName_zh "吸氣"@zh ;
                  rdfs:label "breathing_in" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/breathing_out
 mao:breathing_out rdf:type owl:NamedIndividual ,
                            mao:class:breathing_tech ;
@@ -415,6 +450,7 @@ mao:breathing_out rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "吐"@en ;
                   mao:ontoMA_otherName_zh "呼氣"@zh ;
                   rdfs:label "breathing_out" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/brushing_palm
 mao:brushing_palm rdf:type owl:NamedIndividual ,
@@ -425,6 +461,7 @@ mao:brushing_palm rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Shu Shou"@en ;
                   mao:ontoMA_name_zh "梳手"@zh ;
                   rdfs:label "brushing_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/bullhorn_fist
 mao:bullhorn_fist rdf:type owl:NamedIndividual ,
@@ -439,6 +476,7 @@ mao:bullhorn_fist rdf:type owl:NamedIndividual ,
                   mao:ontoMA_otherName_en "One knuckle fist"@en ;
                   rdfs:label "bull_horn_fist"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/bullhorn_punch
 mao:bullhorn_punch rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
@@ -452,6 +490,7 @@ mao:bullhorn_punch rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_zh "橫涮搥"@zh ,
                                            "金星挂角"@zh ;
                    rdfs:label "h_bullhorn_punch"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/hook_punch
 
@@ -468,6 +507,7 @@ mao:bullhorn_uppercut rdf:type owl:NamedIndividual ,
                       mao:ontoMA_otherName_en "Horizontal hook followed by uppercut"@en ;
                       rdfs:label "bullhorn_uppercut" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/bumping_kick
 mao:bumping_kick rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
@@ -477,6 +517,7 @@ mao:bumping_kick rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Dian Jiao"@en ;
                  mao:ontoMA_name_zh "顛脚"@zh ;
                  rdfs:label "bumping_kick" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/butterfly_palm
 mao:butterfly_palm rdf:type owl:NamedIndividual ,
@@ -492,6 +533,7 @@ mao:butterfly_palm rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "蝴蝶掌"@zh ;
                    rdfs:label "butterfly_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/bw_unicorn_stance
 mao:bw_unicorn_stance rdf:type owl:NamedIndividual ,
                                mao:class:stance ;
@@ -502,6 +544,7 @@ mao:bw_unicorn_stance rdf:type owl:NamedIndividual ,
                       :name_romanMAN "Tou Ma"@en ;
                       mao:ontoMA_name_zh "偷馬"@zh ;
                       rdfs:label "steal_step"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/cat_stance
 mao:cat_stance rdf:type owl:NamedIndividual ,
@@ -518,6 +561,7 @@ mao:cat_stance rdf:type owl:NamedIndividual ,
                                        "虛步"@zh ;
                rdfs:label "cat_stance" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance
 mao:cat_to_bow_stance rdf:type owl:NamedIndividual ,
                                mao:class:footwork ;
@@ -531,6 +575,7 @@ mao:cat_to_bow_stance rdf:type owl:NamedIndividual ,
                       mao:ontoMA_name_zh "吊馬進子午馬"@zh ;
                       rdfs:label "cat_to_bow_stance" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/catch_n_whip
 mao:catch_n_whip rdf:type owl:NamedIndividual ,
                           mao:class:combo_tech ;
@@ -542,6 +587,7 @@ mao:catch_n_whip rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Qin Bian"@en ;
                  mao:ontoMA_name_zh "擒鞭"@zh ;
                  rdfs:label "catch_n_whip" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/chlf_hook_punch
 mao:chlf_hook_punch rdf:type owl:NamedIndividual ,
@@ -556,6 +602,7 @@ mao:chlf_hook_punch rdf:type owl:NamedIndividual ,
                     mao:ontoMA_otherName_zh "扫搥"@zh ;
                     rdfs:label "chlf_hook_punch" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/choy_throwing_punch
 mao:choy_throwing_punch rdf:type owl:NamedIndividual ,
                                  mao:class:fist_tech ;
@@ -569,6 +616,7 @@ mao:choy_throwing_punch rdf:type owl:NamedIndividual ,
                         mao:ontoMA_name_zh "抛捶(蔡李佛)"@zh ;
                         rdfs:label "chlf_throwing_punch"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/cirling_palm
 mao:cirling_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
@@ -578,6 +626,7 @@ mao:cirling_palm rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Quan Shou"@en ;
                  mao:ontoMA_name_zh "磐手"@zh ;
                  rdfs:label "cirling_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/claw_palm
 mao:claw_palm rdf:type owl:NamedIndividual ,
@@ -590,6 +639,7 @@ mao:claw_palm rdf:type owl:NamedIndividual ,
               :name_romanMAN "Hu Zhao"@en ;
               mao:ontoMA_name_zh "虎爪"@zh ;
               rdfs:label "claw_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/clipping_fists
 mao:clipping_fists rdf:type owl:NamedIndividual ,
@@ -606,6 +656,7 @@ mao:clipping_fists rdf:type owl:NamedIndividual ,
                                            "連環扣打"@zh ;
                    rdfs:label "clipping_fists" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/closed_body
 mao:closed_body rdf:type owl:NamedIndividual ,
                          mao:class:bodywork ,
@@ -619,6 +670,7 @@ mao:closed_body rdf:type owl:NamedIndividual ,
                 mao:ontoMA_name_zh "合"@zh ;
                 rdfs:label "closed_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/closing_distance
 mao:closing_distance rdf:type owl:NamedIndividual ,
                               mao:class:MA_tactic ,
@@ -630,6 +682,7 @@ mao:closing_distance rdf:type owl:NamedIndividual ,
                      mao:ontoMA_name_zh "逼近"@zh ;
                      rdfs:label "distance_closing"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/covering_palm
 mao:covering_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
@@ -639,6 +692,7 @@ mao:covering_palm rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Zhao Shou"@en ;
                   mao:ontoMA_name_zh "罩手"@zh ;
                   rdfs:label "covering_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/cr_cutting_palm
 mao:cr_cutting_palm rdf:type owl:NamedIndividual ,
@@ -652,6 +706,7 @@ mao:cr_cutting_palm rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "割手"@zh ;
                     rdfs:label "cr_cutting_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/cr_whip_punch
 mao:cr_whip_punch rdf:type owl:NamedIndividual ,
                            mao:class:fist_tech ;
@@ -662,6 +717,7 @@ mao:cr_whip_punch rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Bian Chui"@en ;
                   mao:ontoMA_name_zh "鞭搥"@zh ;
                   rdfs:label "cr_whip_punch" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/crane_beak
 mao:crane_beak rdf:type owl:NamedIndividual ,
@@ -674,6 +730,7 @@ mao:crane_beak rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_en "Eagle beak"@en ;
                rdfs:label "crane_beak" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/crane_claw_palm
 mao:crane_claw_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
@@ -684,6 +741,7 @@ mao:crane_claw_palm rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "鶴爪掌"@zh ;
                     rdfs:label "crane_claw_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/crane_head_palm
 mao:crane_head_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
@@ -693,6 +751,7 @@ mao:crane_head_palm rdf:type owl:NamedIndividual ,
                     :name_romanMAN "He Tou Shou"@en ;
                     mao:ontoMA_name_zh "鶴頭掌"@zh ;
                     rdfs:label "crane_head_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/crane_kick
 mao:crane_kick rdf:type owl:NamedIndividual ,
@@ -705,6 +764,7 @@ mao:crane_kick rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_en "Front kick with ball of foot"@en ;
                rdfs:label "crane_kick" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/crane_wing_palm
 mao:crane_wing_palm rdf:type owl:NamedIndividual ,
                              mao:class:hand_shape ;
@@ -716,6 +776,7 @@ mao:crane_wing_palm rdf:type owl:NamedIndividual ,
                     mao:ontoMA_otherName_zh "鶴手"@zh ,
                                             "鶴翅手"@zh ;
                     rdfs:label "crane_wing_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/crest_throwing_hammers
 mao:crest_throwing_hammers rdf:type owl:NamedIndividual ,
@@ -731,6 +792,7 @@ mao:crest_throwing_hammers rdf:type owl:NamedIndividual ,
                            mao:ontoMA_otherName_zh "碌鼓搥"@zh ;
                            rdfs:label "crest_throwing_hammers" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/cross_punch
 mao:cross_punch rdf:type owl:NamedIndividual ,
                          mao:class:fist_tech ;
@@ -744,6 +806,7 @@ mao:cross_punch rdf:type owl:NamedIndividual ,
                 mao:ontoMA_name_zh "穿"@zh ;
                 mao:ontoMA_otherName_zh "穿捶"@zh ;
                 rdfs:label "cross_knife_strike"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/crossing_bridge
 mao:crossing_bridge rdf:type owl:NamedIndividual ,
@@ -759,6 +822,7 @@ mao:crossing_bridge rdf:type owl:NamedIndividual ,
                                             "穿橋手"@zh ;
                     rdfs:label "crossing_bridge" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/crossing_kick
 mao:crossing_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
@@ -769,6 +833,7 @@ mao:crossing_kick rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "穿脚"@zh ;
                   rdfs:label "crossing_leg"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/curving_leg
 mao:curving_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
@@ -778,6 +843,7 @@ mao:curving_leg rdf:type owl:NamedIndividual ,
                 :name_romanMAN "Ge Jiao"@en ;
                 mao:ontoMA_name_zh "割脚"@zh ;
                 rdfs:label "curving_leg" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/curving_palm
 mao:curving_palm rdf:type owl:NamedIndividual ,
@@ -790,6 +856,7 @@ mao:curving_palm rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Ge Shou"@en ;
                  mao:ontoMA_name_zh "割手"@zh ;
                  rdfs:label "curving_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/cut_n_block_palm
 mao:cut_n_block_palm rdf:type owl:NamedIndividual ,
@@ -804,6 +871,7 @@ mao:cut_n_block_palm rdf:type owl:NamedIndividual ,
                      mao:ontoMA_otherName_zh "外膀撥手"@zh ;
                      rdfs:label "cut_n_block_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/cutting_elbow
 mao:cutting_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
@@ -813,6 +881,7 @@ mao:cutting_elbow rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Yi Zhou"@en ;
                   mao:ontoMA_name_zh "刈肘"@zh ;
                   rdfs:label "cutting_elbow" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_blocking_palm
 mao:db_blocking_palm rdf:type owl:NamedIndividual ,
@@ -824,6 +893,7 @@ mao:db_blocking_palm rdf:type owl:NamedIndividual ,
                      :name_romanMAN "Shuang Bang Shou"@en ;
                      mao:ontoMA_name_zh "雙膀手"@zh ;
                      rdfs:label "db_blocking_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_bow_palm
 mao:db_bow_palm rdf:type owl:NamedIndividual ,
@@ -839,6 +909,7 @@ mao:db_bow_palm rdf:type owl:NamedIndividual ,
                 mao:ontoMA_otherName_zh "雙弓千字"@zh ;
                 rdfs:label "db_bow_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_claw_bw
 mao:db_claw_bw rdf:type owl:NamedIndividual ,
                         mao:class:combo_tech ;
@@ -853,6 +924,7 @@ mao:db_claw_bw rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_en "Double claw strike by a golden dragon"@en ;
                rdfs:label "db_claw_bw" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_cr_cutting_palm
 mao:db_cr_cutting_palm rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
@@ -863,6 +935,7 @@ mao:db_cr_cutting_palm rdf:type owl:NamedIndividual ,
                        :name_romanMAN "Shuang Ge"@en ;
                        mao:ontoMA_name_zh "雙割"@zh ;
                        rdfs:label "db_cr_cutting_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_curving_palm
 mao:db_curving_palm rdf:type owl:NamedIndividual ,
@@ -875,6 +948,7 @@ mao:db_curving_palm rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "雙割"@zh ;
                     rdfs:label "db_curving_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_hanging_hammer
 mao:db_hanging_hammer rdf:type owl:NamedIndividual ,
                                mao:class:fist_tech ;
@@ -884,6 +958,7 @@ mao:db_hanging_hammer rdf:type owl:NamedIndividual ,
                       mao:ontoMA_name_zh "雙掛搥"@zh ;
                       mao:ontoMA_otherName_zh "Double hanging back fist"@en ;
                       rdfs:label "db_hanging_hammer" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_inch_bridges
 mao:db_inch_bridges rdf:type owl:NamedIndividual ,
@@ -899,6 +974,7 @@ mao:db_inch_bridges rdf:type owl:NamedIndividual ,
                     mao:ontoMA_otherName_zh "雙標手"@zh ;
                     rdfs:label "db_inch_bridges" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_splitting_palms
 mao:db_splitting_palms rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
@@ -910,6 +986,7 @@ mao:db_splitting_palms rdf:type owl:NamedIndividual ,
                        :name_romanMAN "Shuang Tiao"@en ;
                        mao:ontoMA_name_zh "雙挑"@zh ;
                        rdfs:label "db_splitting_palms" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_spreading_wings
 mao:db_spreading_wings rdf:type owl:NamedIndividual ,
@@ -923,6 +1000,7 @@ mao:db_spreading_wings rdf:type owl:NamedIndividual ,
                        mao:ontoMA_name_zh "雙展翅"@zh ;
                        rdfs:label "db_spreading_wings" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_subduing_palms
 mao:db_subduing_palms rdf:type owl:NamedIndividual ,
                                mao:class:palm_tech ;
@@ -934,6 +1012,7 @@ mao:db_subduing_palms rdf:type owl:NamedIndividual ,
                       mao:ontoMA_name_zh "雙伏手"@zh ;
                       rdfs:label "db_subduing_palms" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_swing_palms
 mao:db_swing_palms rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
@@ -944,6 +1023,7 @@ mao:db_swing_palms rdf:type owl:NamedIndividual ,
                    :name_romanMAN "Shuang Yao"@en ;
                    mao:ontoMA_name_zh "雙搖"@zh ;
                    rdfs:label "db_swing_palms" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/db_thrust_palm
 mao:db_thrust_palm rdf:type owl:NamedIndividual ,
@@ -957,6 +1037,7 @@ mao:db_thrust_palm rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "雙插手"@zh ;
                    rdfs:label "db_thrust_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_uw_forcing_palms
 mao:db_uw_forcing_palms rdf:type owl:NamedIndividual ,
                                  mao:class:palm_tech ;
@@ -969,6 +1050,7 @@ mao:db_uw_forcing_palms rdf:type owl:NamedIndividual ,
                         mao:ontoMA_otherName_zh "秦瓊獻鐧"@zh ;
                         rdfs:label "db_uw_forcing_palms" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/db_vertical_thrust
 mao:db_vertical_thrust rdf:type owl:NamedIndividual ,
                                 mao:class:palm_tech ;
@@ -979,6 +1061,7 @@ mao:db_vertical_thrust rdf:type owl:NamedIndividual ,
                        :name_romanMAN "Shuang Cha"@en ;
                        mao:ontoMA_name_zh "雙插"@zh ;
                        rdfs:label "db_vertical_thrust" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/dbsquare_hammer
 mao:dbsquare_hammer rdf:type owl:NamedIndividual ,
@@ -992,6 +1075,7 @@ mao:dbsquare_hammer rdf:type owl:NamedIndividual ,
                     mao:ontoMA_otherName_en "Vertical fist punch"@en ;
                     rdfs:label "verticalfist_hammer"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/defense_block
 mao:defense_block rdf:type owl:NamedIndividual ,
                            mao:class:MA_tactic ,
@@ -1002,6 +1086,7 @@ mao:defense_block rdf:type owl:NamedIndividual ,
                   :name_en "Defense via blocking"@en ;
                   mao:ontoMA_name_zh "阻擋攻擊"@zh ;
                   rdfs:label "defend_block"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/defense_dodge
 mao:defense_dodge rdf:type owl:NamedIndividual ,
@@ -1014,6 +1099,7 @@ mao:defense_dodge rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "閃避"@zh ;
                   rdfs:label "defend_dodge"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/descend_elbow
 mao:descend_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
@@ -1024,6 +1110,7 @@ mao:descend_elbow rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "沉踭"@zh ;
                   rdfs:label "descend_elbow" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/distance_management
 mao:distance_management rdf:type owl:NamedIndividual ,
                                  mao:class:MA_tactic ,
@@ -1031,6 +1118,7 @@ mao:distance_management rdf:type owl:NamedIndividual ,
                                    owl:onProperty mao:attack_defend_tactic ;
                                    owl:someValuesFrom mao:distance_timing
                                  ] .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/divide_punch
 mao:divide_punch rdf:type owl:NamedIndividual ,
@@ -1046,6 +1134,7 @@ mao:divide_punch rdf:type owl:NamedIndividual ,
                                          "雙邊搥"@zh ;
                  rdfs:label "divide_punch" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/dividing_bridge
 mao:dividing_bridge rdf:type owl:NamedIndividual ,
                              mao:class:body_bridge ;
@@ -1056,6 +1145,7 @@ mao:dividing_bridge rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "分橋"@zh ;
                     mao:ontoMA_otherName_zh "分橋手"@zh ;
                     rdfs:label "dividing_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/dodging_body
 mao:dodging_body rdf:type owl:NamedIndividual ,
@@ -1071,6 +1161,7 @@ mao:dodging_body rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "消身"@zh ;
                  rdfs:label "dodging_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/double_claws
 mao:double_claws rdf:type owl:NamedIndividual ,
                           mao:class:claw_tech ;
@@ -1082,6 +1173,7 @@ mao:double_claws rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "雙爪手"@zh ;
                  rdfs:label "double_claws" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/dragging_palm
 mao:dragging_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
@@ -1092,10 +1184,12 @@ mao:dragging_palm rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "拖手"@zh ;
                   rdfs:label "dragging_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/dragon
 mao:dragon rdf:type owl:NamedIndividual ,
                     mao:class:symbolic_animal ;
            rdfs:label "Dragon" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/dragon_wagging
 mao:dragon_wagging rdf:type owl:NamedIndividual ,
@@ -1108,6 +1202,7 @@ mao:dragon_wagging rdf:type owl:NamedIndividual ,
                    :name_romanMAN "Wu Long Bai Wei"@en ;
                    mao:ontoMA_name_zh "烏龍擺尾"@zh ;
                    rdfs:label "dragon_wagging" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/dw_block_n_target_hand
 mao:dw_block_n_target_hand rdf:type owl:NamedIndividual ,
@@ -1123,6 +1218,7 @@ mao:dw_block_n_target_hand rdf:type owl:NamedIndividual ,
                            mao:ontoMA_name_zh "冚標手"@zh ;
                            rdfs:label "dw_block_n_target_hand" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/elbow_slap_fist
 mao:elbow_slap_fist rdf:type owl:NamedIndividual ,
                              mao:class:combo_tech ;
@@ -1136,6 +1232,7 @@ mao:elbow_slap_fist rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "踭爪掛"@zh ;
                     rdfs:label "elbow_slap_fist" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/extending_hand
 mao:extending_hand rdf:type owl:NamedIndividual ,
                             mao:class:body_bridge ;
@@ -1145,6 +1242,7 @@ mao:extending_hand rdf:type owl:NamedIndividual ,
                    :name_romanMAN "Zhan Shou"@en ;
                    mao:ontoMA_name_zh "展手"@zh ;
                    rdfs:label "extending_hand" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/f_elbow_n_sna_hand
 mao:f_elbow_n_sna_hand rdf:type owl:NamedIndividual ,
@@ -1157,6 +1255,7 @@ mao:f_elbow_n_sna_hand rdf:type owl:NamedIndividual ,
                        :name_romanMAN "Bi Zheng Fen Lou Shou"@en ;
                        mao:ontoMA_name_zh "逼踭分漏手"@zh ;
                        rdfs:label "f_elbow_n_sna_hand" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/facing_sun_palm
 mao:facing_sun_palm rdf:type owl:NamedIndividual ,
@@ -1173,6 +1272,7 @@ mao:facing_sun_palm rdf:type owl:NamedIndividual ,
                                             "龍形掌"@zh ;
                     rdfs:label "facing_sun_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/finger_hand
 mao:finger_hand rdf:type owl:NamedIndividual ,
                          mao:class:hand_shape ;
@@ -1184,6 +1284,7 @@ mao:finger_hand rdf:type owl:NamedIndividual ,
                 mao:ontoMA_otherName_zh "一指撐天"@zh ,
                                         "指定中原手"@zh ;
                 rdfs:label "finger_hand" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/fishing_hand
 mao:fishing_hand rdf:type owl:NamedIndividual ,
@@ -1198,6 +1299,7 @@ mao:fishing_hand rdf:type owl:NamedIndividual ,
                  mao:ontoMA_otherName_zh "勾手"@zh ;
                  rdfs:label "fishing_hand" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/flat_palm
 mao:flat_palm rdf:type owl:NamedIndividual ,
                        mao:class:hand_shape ;
@@ -1208,6 +1310,7 @@ mao:flat_palm rdf:type owl:NamedIndividual ,
               :name_romanMAN "Ping Zhang"@en ;
               mao:ontoMA_name_zh "平掌"@zh ;
               rdfs:label "palm"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/forcing_bridge
 mao:forcing_bridge rdf:type owl:NamedIndividual ,
@@ -1220,6 +1323,7 @@ mao:forcing_bridge rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_zh "逼橋"@zh ;
                    rdfs:label "forcing_bridge" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/forcing_elbow
 mao:forcing_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
@@ -1230,6 +1334,7 @@ mao:forcing_elbow rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "逼踭"@zh ;
                   mao:ontoMA_otherName_zh "迫踭"@zh ;
                   rdfs:label "forcing_elbow" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/fore_knuckle_fist
 mao:fore_knuckle_fist rdf:type owl:NamedIndividual ,
@@ -1245,6 +1350,7 @@ mao:fore_knuckle_fist rdf:type owl:NamedIndividual ,
                                               "排掌"@zh ;
                       rdfs:label "fore_knuckle_fist" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/forefist
 mao:forefist rdf:type owl:NamedIndividual ,
                       mao:class:hand_shape ;
@@ -1256,6 +1362,7 @@ mao:forefist rdf:type owl:NamedIndividual ,
              :name_romanMAN "Ping Quan"@en ;
              mao:ontoMA_name_zh "平拳"@zh ;
              rdfs:label "forefist"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/front_block_hands
 mao:front_block_hands rdf:type owl:NamedIndividual ,
@@ -1269,6 +1376,7 @@ mao:front_block_hands rdf:type owl:NamedIndividual ,
                       :name_romanMAN "Zi Wu Kan Bang Shou"@en ;
                       mao:ontoMA_name_zh "子午冚膀手"@zh ;
                       rdfs:label "front_block_hands" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/front_kick
 mao:front_kick rdf:type owl:NamedIndividual ,
@@ -1284,6 +1392,7 @@ mao:front_kick rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_zh "撩腳"@zh ,
                                        "撩陰腳"@zh ;
                rdfs:label "lifting_kick"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/fw_face_body
 mao:fw_face_body rdf:type owl:NamedIndividual ,
@@ -1301,6 +1410,7 @@ mao:fw_face_body rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "正身"@zh ;
                  rdfs:label "fw_face_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/grappling_claw
 mao:grappling_claw rdf:type owl:NamedIndividual ,
                             mao:class:palm_tech ;
@@ -1311,6 +1421,7 @@ mao:grappling_claw rdf:type owl:NamedIndividual ,
                    :name_romanMAN "La Shou"@en ;
                    mao:ontoMA_name_zh "擸手"@zh ;
                    rdfs:label "arm_drag_claw"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/grappling_palm
 mao:grappling_palm rdf:type owl:NamedIndividual ,
@@ -1324,6 +1435,7 @@ mao:grappling_palm rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "擸掌"@zh ;
                    rdfs:label "palm_pullback"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/gripping_leg
 mao:gripping_leg rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
@@ -1333,6 +1445,7 @@ mao:gripping_leg rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Xie Jiao"@en ;
                  mao:ontoMA_name_zh "蟹脚"@zh ;
                  rdfs:label "gripping_leg" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/hang_block_knuckle
 mao:hang_block_knuckle rdf:type owl:NamedIndividual ,
@@ -1347,6 +1460,7 @@ mao:hang_block_knuckle rdf:type owl:NamedIndividual ,
                        mao:ontoMA_name_zh "掛冚釘拳"@zh ;
                        rdfs:label "hang_block_knuckle" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/hanging_hammer
 mao:hanging_hammer rdf:type owl:NamedIndividual ,
                             mao:class:fist_tech ;
@@ -1360,6 +1474,7 @@ mao:hanging_hammer rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "掛搥"@zh ;
                    mao:ontoMA_otherName_en "Hanging back fist"@en ;
                    rdfs:label "hanging_hammer" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/hanging_n_chop
 mao:hanging_n_chop rdf:type owl:NamedIndividual ,
@@ -1376,12 +1491,14 @@ mao:hanging_n_chop rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_zh "掛搥千字"@zh ;
                    rdfs:label "hanging_n_chop" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/hard_bridge
 mao:hard_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Hardness"@en ;
                 mao:ontoMA_name_zh "剛"@zh ;
                 rdfs:label "hard_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/hold_stamp_palms
 mao:hold_stamp_palms rdf:type owl:NamedIndividual ,
@@ -1393,12 +1510,14 @@ mao:hold_stamp_palms rdf:type owl:NamedIndividual ,
                      mao:ontoMA_name_zh "抱印"@zh ;
                      rdfs:label "cr_holding_palms"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/holding_breath
 mao:holding_breath rdf:type owl:NamedIndividual ,
                             mao:class:breathing_tech ;
                    :name_en "Holding the breath"@en ;
                    mao:ontoMA_name_zh "屏氣"@zh ;
                    rdfs:label "holding_breath" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/holding_leg
 mao:holding_leg rdf:type owl:NamedIndividual ,
@@ -1409,6 +1528,7 @@ mao:holding_leg rdf:type owl:NamedIndividual ,
                 :name_romanMAN "Ji Jiao"@en ;
                 mao:ontoMA_name_zh "寄脚"@zh ;
                 rdfs:label "holding_leg" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/holding_palm
 mao:holding_palm rdf:type owl:NamedIndividual ,
@@ -1421,12 +1541,14 @@ mao:holding_palm rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "托手"@zh ;
                  rdfs:label "holding_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/honest_integrity
 mao:honest_integrity rdf:type owl:NamedIndividual ,
                               mao:class:honor_code ;
                      :name_en "Virtue"@en ;
                      mao:ontoMA_name_zh "品德高尚"@zh ;
                      rdfs:label "Virtue"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/hook_punch
 mao:hook_punch rdf:type owl:NamedIndividual ,
@@ -1441,6 +1563,7 @@ mao:hook_punch rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_zh "牛角搥"@zh ;
                rdfs:label "hook_punch" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/hook_sweep
 mao:hook_sweep rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
@@ -1452,6 +1575,7 @@ mao:hook_sweep rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_en "Ankle sweep"@en ;
                rdfs:label "hook_sweep" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/horizontal_buddha_palm
 mao:horizontal_buddha_palm rdf:type owl:NamedIndividual ,
                                     mao:class:hand_shape ;
@@ -1460,6 +1584,7 @@ mao:horizontal_buddha_palm rdf:type owl:NamedIndividual ,
                            :name_en "Horizontal Buddha palm"@en ;
                            mao:ontoMA_name_zh "横掌"@zh ;
                            rdfs:label "horizontal_buddha_palm"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/horizontal_palm_strike
 mao:horizontal_palm_strike rdf:type owl:NamedIndividual ,
@@ -1474,6 +1599,7 @@ mao:horizontal_palm_strike rdf:type owl:NamedIndividual ,
                            mao:ontoMA_otherName_zh "攻橋手"@zh ;
                            rdfs:label "horizontal_palm_strike" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/horse_stance
 mao:horse_stance rdf:type owl:NamedIndividual ,
                           mao:class:stance ;
@@ -1485,6 +1611,7 @@ mao:horse_stance rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "四平馬"@zh ;
                  mao:ontoMA_otherName_zh "四平大馬"@zh ;
                  rdfs:label "fw_horse_stance"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance
 mao:horse_to_bow_stance rdf:type owl:NamedIndividual ,
@@ -1498,6 +1625,7 @@ mao:horse_to_bow_stance rdf:type owl:NamedIndividual ,
                         :name_en "Turning from horse stance to bow stance"@en ;
                         mao:ontoMA_name_zh "四平馬轉子午馬"@zh ;
                         rdfs:label "horse_to_bow_stance" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/inch_body
 mao:inch_body rdf:type owl:NamedIndividual ,
@@ -1513,6 +1641,7 @@ mao:inch_body rdf:type owl:NamedIndividual ,
               mao:ontoMA_name_zh "俊身"@zh ;
               rdfs:label "inch_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/inch_bridge
 mao:inch_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
@@ -1521,10 +1650,12 @@ mao:inch_bridge rdf:type owl:NamedIndividual ,
                 mao:ontoMA_otherName_en "One-inch power"@en ;
                 rdfs:label "inch_bridge" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/intent_clarity
 mao:intent_clarity rdf:type owl:NamedIndividual ,
                             mao:class:intent_clarity ;
                    rdfs:label "intent_clarity" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/inward_sweep
 mao:inward_sweep rdf:type owl:NamedIndividual ,
@@ -1537,6 +1668,7 @@ mao:inward_sweep rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "内掃"@zh ;
                  rdfs:label "inward_sweep" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/joint_lock
 mao:joint_lock rdf:type owl:NamedIndividual ,
                         mao:class:handwork ;
@@ -1545,6 +1677,7 @@ mao:joint_lock rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_en "Qinna"@en ,
                                        "chin na"@en ;
                rdfs:label "joint_lock" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/jumping
 mao:jumping rdf:type owl:NamedIndividual ,
@@ -1562,6 +1695,7 @@ mao:jumping rdf:type owl:NamedIndividual ,
             mao:ontoMA_otherName_zh "跳馬"@zh ;
             rdfs:label "jumping" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/knocking_fist
 mao:knocking_fist rdf:type owl:NamedIndividual ,
                            mao:class:hand_shape ;
@@ -1576,6 +1710,7 @@ mao:knocking_fist rdf:type owl:NamedIndividual ,
                   mao:ontoMA_otherName_zh "尖拳"@zh ,
                                           "鳳眼拳"@zh ;
                   rdfs:label "nailing_fist"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/latch_fist
 mao:latch_fist rdf:type owl:NamedIndividual ,
@@ -1592,6 +1727,7 @@ mao:latch_fist rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_en "Double-fist block"@en ;
                rdfs:label "latch_fist"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/leaning_body
 mao:leaning_body rdf:type owl:NamedIndividual ,
                           mao:class:bodywork ,
@@ -1605,6 +1741,7 @@ mao:leaning_body rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Yi Shen"@en ;
                  mao:ontoMA_name_zh "欹身"@zh ;
                  rdfs:label "fw_leaning_body"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/leg_sweep
 mao:leg_sweep rdf:type owl:NamedIndividual ,
@@ -1620,10 +1757,12 @@ mao:leg_sweep rdf:type owl:NamedIndividual ,
               rdfs:label "leg_sweep" ;
               rdfs:seeAlso <https://en.wikipedia.org/wiki/Sweep_(martial_arts)> .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/leopard
 mao:leopard rdf:type owl:NamedIndividual ,
                      mao:class:symbolic_animal ;
             rdfs:label "Leopard" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/leopard_palm
 mao:leopard_palm rdf:type owl:NamedIndividual ,
@@ -1636,6 +1775,7 @@ mao:leopard_palm rdf:type owl:NamedIndividual ,
                  mao:ontoMA_otherName_en "Bear hand"@en ;
                  mao:ontoMA_otherName_zh "熊掌"@zh ;
                  rdfs:label "leopard_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/lifting_body
 mao:lifting_body rdf:type owl:NamedIndividual ,
@@ -1651,12 +1791,14 @@ mao:lifting_body rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "撩身"@zh ;
                  rdfs:label "lifting_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/lifting_bridge
 mao:lifting_bridge rdf:type owl:NamedIndividual ,
                             mao:class:fighting_strategy ;
                    :name_en "Lifting"@en ;
                    mao:ontoMA_name_zh "提"@zh ;
                    rdfs:label "lift_bridge"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/lifting_gravity_centere
 mao:lifting_gravity_centere rdf:type owl:NamedIndividual ,
@@ -1672,6 +1814,7 @@ mao:lifting_gravity_centere rdf:type owl:NamedIndividual ,
                             mao:ontoMA_otherName_zh "提升重心"@zh ;
                             rdfs:label "lifting_gravity_centre"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/lock_n_drag_hand
 mao:lock_n_drag_hand rdf:type owl:NamedIndividual ,
                               mao:class:combo_tech ;
@@ -1686,6 +1829,7 @@ mao:lock_n_drag_hand rdf:type owl:NamedIndividual ,
                      mao:ontoMA_otherName_zh "帶馬歸槽"@zh ;
                      rdfs:label "lock_n_drag_hand" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/loose_to_stiff
 mao:loose_to_stiff rdf:type owl:NamedIndividual ,
                             mao:class:bodywork ,
@@ -1696,6 +1840,7 @@ mao:loose_to_stiff rdf:type owl:NamedIndividual ,
                    :name_en "Switching from looseness to stiffness"@en ;
                    mao:ontoMA_name_zh "由鬆轉緊"@zh ;
                    rdfs:label "loose_to_stiff" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/looseness
 mao:looseness rdf:type owl:NamedIndividual ,
@@ -1709,6 +1854,7 @@ mao:looseness rdf:type owl:NamedIndividual ,
               :name_romanMAN "Song"@en ;
               mao:ontoMA_name_zh "鬆"@zh ;
               rdfs:label "looseness" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/lower_gravity_centere
 mao:lower_gravity_centere rdf:type owl:NamedIndividual ,
@@ -1724,6 +1870,7 @@ mao:lower_gravity_centere rdf:type owl:NamedIndividual ,
                           mao:ontoMA_otherName_zh "降低中心"@zh ;
                           rdfs:label "lower_gravity_centre"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/lower_swing_palm
 mao:lower_swing_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
@@ -1733,6 +1880,7 @@ mao:lower_swing_palm rdf:type owl:NamedIndividual ,
                      :name_romanMAN "Xia Yao"@en ;
                      mao:ontoMA_name_zh "下搖"@zh ;
                      rdfs:label "lower_swing_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/mantis_flick
 mao:mantis_flick rdf:type owl:NamedIndividual ,
@@ -1745,6 +1893,7 @@ mao:mantis_flick rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "蝦蛄彈"@zh ;
                  mao:ontoMA_otherName_en "Horizontal knife hand chopping forward"@en ;
                  rdfs:label "mantis_flick" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/mirror_palm
 mao:mirror_palm rdf:type owl:NamedIndividual ,
@@ -1760,6 +1909,7 @@ mao:mirror_palm rdf:type owl:NamedIndividual ,
                 mao:ontoMA_otherName_en "Horizontal knife hand block"@en ;
                 rdfs:label "mirror_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/move_bridge
 mao:move_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
@@ -1767,6 +1917,7 @@ mao:move_bridge rdf:type owl:NamedIndividual ,
                 mao:ontoMA_name_zh "運"@zh ;
                 mao:ontoMA_otherName_en "Redirecting"@en ;
                 rdfs:label "move_bridge"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/nailing_hammer
 mao:nailing_hammer rdf:type owl:NamedIndividual ,
@@ -1781,6 +1932,7 @@ mao:nailing_hammer rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "釘搥"@zh ;
                    rdfs:label "nailing_hammer" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/nr_horse_stance
 mao:nr_horse_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
@@ -1791,6 +1943,7 @@ mao:nr_horse_stance rdf:type owl:NamedIndividual ,
                     :name_romanMAN "Xiao Si Ping Ma"@en ;
                     mao:ontoMA_name_zh "小四平馬"@zh ;
                     rdfs:label "nr_horse_stance" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/open_body
 mao:open_body rdf:type owl:NamedIndividual ,
@@ -1805,6 +1958,7 @@ mao:open_body rdf:type owl:NamedIndividual ,
               mao:ontoMA_name_zh "開"@zh ;
               rdfs:label "open_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/out_horse_stance
 mao:out_horse_stance rdf:type owl:NamedIndividual ,
                               mao:class:stance ;
@@ -1817,6 +1971,7 @@ mao:out_horse_stance rdf:type owl:NamedIndividual ,
                      mao:ontoMA_otherName_zh "外八字馬"@zh ;
                      rdfs:label "out_horse_stance" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/outward_sweep
 mao:outward_sweep rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
@@ -1827,6 +1982,7 @@ mao:outward_sweep rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Wai Sao"@en ;
                   mao:ontoMA_name_zh "外掃"@zh ;
                   rdfs:label "outward_sweep" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/palm_strike
 mao:palm_strike rdf:type owl:NamedIndividual ,
@@ -1843,6 +1999,7 @@ mao:palm_strike rdf:type owl:NamedIndividual ,
                                         "Upright palm strike"@en ;
                 rdfs:label "palm_strike" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/pecking_palm
 mao:pecking_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
@@ -1855,10 +2012,12 @@ mao:pecking_palm rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "啄手"@zh ;
                  rdfs:label "pecking_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/power_generation
 mao:power_generation rdf:type owl:NamedIndividual ,
                               mao:class:MA_tactic ;
                      rdfs:label "power_generation" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/pressure_bridge
 mao:pressure_bridge rdf:type owl:NamedIndividual ,
@@ -1869,6 +2028,7 @@ mao:pressure_bridge rdf:type owl:NamedIndividual ,
                     mao:ontoMA_otherName_zh "迫"@zh ;
                     rdfs:label "pressure_bridge"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/probing_elbow
 mao:probing_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
@@ -1878,6 +2038,7 @@ mao:probing_elbow rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Kan Zhou"@en ;
                   mao:ontoMA_name_zh "勘肘"@zh ;
                   rdfs:label "probing_elbow" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/probing_palm
 mao:probing_palm rdf:type owl:NamedIndividual ,
@@ -1890,6 +2051,7 @@ mao:probing_palm rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "勘手"@zh ;
                  rdfs:label "probing_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/pushing_leg
 mao:pushing_leg rdf:type owl:NamedIndividual ,
                          mao:class:leg_tech ;
@@ -1899,6 +2061,7 @@ mao:pushing_leg rdf:type owl:NamedIndividual ,
                 :name_romanMAN "Gan Jiao"@en ;
                 mao:ontoMA_name_zh "趕脚"@zh ;
                 rdfs:label "pushing_leg" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/qian_char_hand
 mao:qian_char_hand rdf:type owl:NamedIndividual ,
@@ -1915,6 +2078,7 @@ mao:qian_char_hand rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_zh "劈掌"@zh ;
                    rdfs:label "qian_char_hand" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/reconciliation_block
 mao:reconciliation_block rdf:type owl:NamedIndividual ,
                                   mao:class:MA_tactic ,
@@ -1925,6 +2089,7 @@ mao:reconciliation_block rdf:type owl:NamedIndividual ,
                          :name_en "Defense via attacking"@en ;
                          mao:ontoMA_name_zh "連消帶打"@zh ;
                          rdfs:label "defend_by_attack"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection
 mao:reconciliation_redirection rdf:type owl:NamedIndividual ,
@@ -1937,6 +2102,7 @@ mao:reconciliation_redirection rdf:type owl:NamedIndividual ,
                                mao:ontoMA_name_zh "化解，改變攻擊方向"@zh ;
                                rdfs:label "defend_deflect"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/respect
 mao:respect rdf:type owl:NamedIndividual ,
                      mao:class:honor_code ;
@@ -1944,6 +2110,7 @@ mao:respect rdf:type owl:NamedIndividual ,
             :name_en "Respect" ;
             mao:ontoMA_name_zh "尊敬"@zh ;
             rdfs:label "Respect" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/reverse_hanging_fist
 mao:reverse_hanging_fist rdf:type owl:NamedIndividual ,
@@ -1958,6 +2125,7 @@ mao:reverse_hanging_fist rdf:type owl:NamedIndividual ,
                          mao:ontoMA_name_zh "反身掛搥"@zh ;
                          rdfs:label "reverse_hanging_fist" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/reverse_palm
 mao:reverse_palm rdf:type owl:NamedIndividual ,
                           mao:class:hand_shape ;
@@ -1967,6 +2135,7 @@ mao:reverse_palm rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "反掌"@zh ;
                  mao:ontoMA_otherName_en "Lower palm"@en ;
                  rdfs:label "reverse_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/rocket_hammer
 mao:rocket_hammer rdf:type owl:NamedIndividual ,
@@ -1981,6 +2150,7 @@ mao:rocket_hammer rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "火箭搥"@zh ;
                   rdfs:label "rocket_hammer" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/rolling_elbow
 mao:rolling_elbow rdf:type owl:NamedIndividual ,
                            mao:class:elbow_tech ;
@@ -1990,6 +2160,7 @@ mao:rolling_elbow rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Lu Zhou"@en ;
                   mao:ontoMA_name_zh "碌踭"@zh ;
                   rdfs:label "rolling_elbow" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/rubbing_hand
 mao:rubbing_hand rdf:type owl:NamedIndividual ,
@@ -2005,6 +2176,7 @@ mao:rubbing_hand rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "搓手"@zh ;
                  rdfs:label "rubbing_hand" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/san_chin_stance
 mao:san_chin_stance rdf:type owl:NamedIndividual ,
                              mao:class:stance ;
@@ -2019,10 +2191,12 @@ mao:san_chin_stance rdf:type owl:NamedIndividual ,
                                             "小子午馬"@zh ;
                     rdfs:label "san_chin_stance" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/san_zhan
 mao:san_zhan rdf:type owl:NamedIndividual ,
                       mao:Form_set ;
              rdfs:label "san_zhan" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/seizing_palm
 mao:seizing_palm rdf:type owl:NamedIndividual ,
@@ -2035,12 +2209,14 @@ mao:seizing_palm rdf:type owl:NamedIndividual ,
                  mao:ontoMA_otherName_en "Chin-Na palm"@en ;
                  rdfs:label "seizing_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/separating_bridge
 mao:separating_bridge rdf:type owl:NamedIndividual ,
                                mao:class:fighting_strategy ;
                       :name_en "Separating"@en ;
                       mao:ontoMA_name_zh "分"@zh ;
                       rdfs:label "separate_bridge"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/serial_upper_claws
 mao:serial_upper_claws rdf:type owl:NamedIndividual ,
@@ -2058,6 +2234,7 @@ mao:serial_upper_claws rdf:type owl:NamedIndividual ,
                                                "連環三爪手"@zh ;
                        rdfs:label "serial_upper_claws" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/side_block_hands
 mao:side_block_hands rdf:type owl:NamedIndividual ,
                               mao:class:combo_tech ;
@@ -2071,6 +2248,7 @@ mao:side_block_hands rdf:type owl:NamedIndividual ,
                      mao:ontoMA_name_zh "外膀手二"@zh ;
                      rdfs:label "side_block_hands" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/side_elbow
 mao:side_elbow rdf:type owl:NamedIndividual ,
                         mao:class:elbow_tech ;
@@ -2082,6 +2260,7 @@ mao:side_elbow rdf:type owl:NamedIndividual ,
                mao:ontoMA_name_zh "頂踭"@zh ;
                mao:ontoMA_otherName_en "橫踭"@zh ;
                rdfs:label "side_elbow" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/side_hanging_fist
 mao:side_hanging_fist rdf:type owl:NamedIndividual ,
@@ -2095,6 +2274,7 @@ mao:side_hanging_fist rdf:type owl:NamedIndividual ,
                       :name_romanMAN "Pian Shen Gua Chui"@en ;
                       mao:ontoMA_name_zh "偏身掛捶"@zh ;
                       rdfs:label "side_hanging_fist" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/side_leaning_body
 mao:side_leaning_body rdf:type owl:NamedIndividual ,
@@ -2111,6 +2291,7 @@ mao:side_leaning_body rdf:type owl:NamedIndividual ,
                       mao:ontoMA_name_zh "斜身"@zh ;
                       rdfs:label "side_leaning_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/side_punch
 mao:side_punch rdf:type owl:NamedIndividual ,
                         mao:class:fist_tech ;
@@ -2125,6 +2306,7 @@ mao:side_punch rdf:type owl:NamedIndividual ,
                mao:ontoMA_otherName_zh "分搥"@zh ;
                rdfs:label "side_hammer_fist"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/sidestep_n_whip_fist
 mao:sidestep_n_whip_fist rdf:type owl:NamedIndividual ,
                                   mao:class:combo_tech ;
@@ -2137,6 +2319,7 @@ mao:sidestep_n_whip_fist rdf:type owl:NamedIndividual ,
                          :name_romanMAN "Zou Ma Shao Chui"@en ;
                          mao:ontoMA_name_zh "走马捎捶"@zh ;
                          rdfs:label "sidestep_n_whip_fist" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/sideways_body
 mao:sideways_body rdf:type owl:NamedIndividual ,
@@ -2152,6 +2335,7 @@ mao:sideways_body rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Pian Shen"@en ;
                   mao:ontoMA_name_zh "偏身"@zh ;
                   rdfs:label "sideways_body" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/sky_hammer
 mao:sky_hammer rdf:type owl:NamedIndividual ,
@@ -2169,6 +2353,7 @@ mao:sky_hammer rdf:type owl:NamedIndividual ,
                                        "(上)沖搥"@zh ;
                rdfs:label "sky_hammer" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/slap_n_cross_punch
 mao:slap_n_cross_punch rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ;
@@ -2182,6 +2367,7 @@ mao:slap_n_cross_punch rdf:type owl:NamedIndividual ,
                        mao:ontoMA_name_zh "拍开穿攔"@zh ;
                        rdfs:label "slap_n_cross_strike"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/slap_n_throw_punch
 mao:slap_n_throw_punch rdf:type owl:NamedIndividual ,
                                 mao:class:combo_tech ;
@@ -2193,6 +2379,7 @@ mao:slap_n_throw_punch rdf:type owl:NamedIndividual ,
                        :name_romanMAN "Pai Kai Pao Chui"@en ;
                        mao:ontoMA_name_zh "拍开抛捶"@zh ;
                        rdfs:label "slap_n_throw_punch" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/slap_n_whip_fist
 mao:slap_n_whip_fist rdf:type owl:NamedIndividual ,
@@ -2206,12 +2393,14 @@ mao:slap_n_whip_fist rdf:type owl:NamedIndividual ,
                      mao:ontoMA_name_zh "拍开捎捶"@zh ;
                      rdfs:label "slap_n_whip_fist" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/soft_bridge
 mao:soft_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Softness"@en ;
                 mao:ontoMA_name_zh "柔"@zh ;
                 rdfs:label "soft_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/spiral_arm
 mao:spiral_arm rdf:type owl:NamedIndividual ,
@@ -2229,6 +2418,7 @@ mao:spiral_arm rdf:type owl:NamedIndividual ,
                mao:ontoMA_name_zh "旋轉臂"@zh ;
                rdfs:label "spiral_arm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/split_n_attack_hand
 mao:split_n_attack_hand rdf:type owl:NamedIndividual ,
                                  mao:class:combo_tech ;
@@ -2241,6 +2431,7 @@ mao:split_n_attack_hand rdf:type owl:NamedIndividual ,
                         mao:ontoMA_name_zh "分漏手"@zh ;
                         mao:ontoMA_otherName_zh "偷漏手"@zh ;
                         rdfs:label "split_n_attack_hand" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/splitting_palm
 mao:splitting_palm rdf:type owl:NamedIndividual ,
@@ -2255,6 +2446,7 @@ mao:splitting_palm rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_en "Reverse knife hand block"@en ;
                    rdfs:label "splitting_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/stabilizing_bridge
 mao:stabilizing_bridge rdf:type owl:NamedIndividual ,
                                 mao:class:body_bridge ;
@@ -2265,6 +2457,7 @@ mao:stabilizing_bridge rdf:type owl:NamedIndividual ,
                        mao:ontoMA_name_zh "定金橋"@zh ;
                        mao:ontoMA_otherName_zh "定橋"@zh ;
                        rdfs:label "stabilizing_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/stamp_palm_strike
 mao:stamp_palm_strike rdf:type owl:NamedIndividual ,
@@ -2277,6 +2470,7 @@ mao:stamp_palm_strike rdf:type owl:NamedIndividual ,
                       :name_romanMAN "Yin Zhang"@en ;
                       mao:ontoMA_name_zh "印掌"@zh ;
                       rdfs:label "stamp_palm_strike" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/stance_turning
 mao:stance_turning rdf:type owl:NamedIndividual ,
@@ -2295,12 +2489,14 @@ mao:stance_turning rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "轉馬"@zh ;
                    rdfs:label "stance_turning" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/stay_bridge
 mao:stay_bridge rdf:type owl:NamedIndividual ,
                          mao:class:fighting_strategy ;
                 :name_en "Staying"@en ;
                 mao:ontoMA_name_zh "留"@zh ;
                 rdfs:label "stay_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/steady_bridge
 mao:steady_bridge rdf:type owl:NamedIndividual ,
@@ -2309,6 +2505,7 @@ mao:steady_bridge rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "定"@zh ;
                   mao:ontoMA_otherName_en "Still"@en ;
                   rdfs:label "steady_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/stepping
 mao:stepping rdf:type owl:NamedIndividual ,
@@ -2322,6 +2519,7 @@ mao:stepping rdf:type owl:NamedIndividual ,
              mao:ontoMA_name_zh "走馬"@zh ;
              rdfs:label "stepping" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/sticky_leg
 mao:sticky_leg rdf:type owl:NamedIndividual ,
                         mao:class:leg_tech ;
@@ -2331,6 +2529,7 @@ mao:sticky_leg rdf:type owl:NamedIndividual ,
                :name_romanMAN "Zhan Jiao"@en ;
                mao:ontoMA_name_zh "粘脚"@zh ;
                rdfs:label "sticky_leg" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/sticky_palm
 mao:sticky_palm rdf:type owl:NamedIndividual ,
@@ -2342,6 +2541,7 @@ mao:sticky_palm rdf:type owl:NamedIndividual ,
                 mao:ontoMA_name_zh "帶手"@zh ;
                 rdfs:label "sticky_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/stiff_elbow
 mao:stiff_elbow rdf:type owl:NamedIndividual ,
                          mao:class:elbow_tech ;
@@ -2350,6 +2550,7 @@ mao:stiff_elbow rdf:type owl:NamedIndividual ,
                 :name_romanMAN "Jian Zhou"@en ;
                 mao:ontoMA_name_zh "堅肘"@zh ;
                 rdfs:label "stiff_elbow" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/stiff_palm
 mao:stiff_palm rdf:type owl:NamedIndividual ,
@@ -2360,6 +2561,7 @@ mao:stiff_palm rdf:type owl:NamedIndividual ,
                :name_romanMAN "Jian Shou"@en ;
                mao:ontoMA_name_zh "堅手"@zh ;
                rdfs:label "stiff_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/stiffness
 mao:stiffness rdf:type owl:NamedIndividual ,
@@ -2374,12 +2576,14 @@ mao:stiffness rdf:type owl:NamedIndividual ,
               mao:ontoMA_name_zh "緊"@zh ;
               rdfs:label "stiffness" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/straight_bridge
 mao:straight_bridge rdf:type owl:NamedIndividual ,
                              mao:class:fighting_strategy ;
                     :name_en "Straightness"@en ;
                     mao:ontoMA_name_zh "直"@zh ;
                     rdfs:label "straight_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/straight_cut_palm
 mao:straight_cut_palm rdf:type owl:NamedIndividual ,
@@ -2395,6 +2599,7 @@ mao:straight_cut_palm rdf:type owl:NamedIndividual ,
                       mao:ontoMA_otherName_en "Vertical knife hand strike"@en ;
                       rdfs:label "straight_cut_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/straight_kick
 mao:straight_kick rdf:type owl:NamedIndividual ,
                            mao:class:leg_tech ;
@@ -2404,6 +2609,7 @@ mao:straight_kick rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Zhi Jiao"@en ;
                   mao:ontoMA_name_zh "直脚"@zh ;
                   rdfs:label "straight_kick" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/straight_punch
 mao:straight_punch rdf:type owl:NamedIndividual ,
@@ -2420,12 +2626,14 @@ mao:straight_punch rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_zh "直拳"@zh ;
                    rdfs:label "straight_punch" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/subdue_bridge
 mao:subdue_bridge rdf:type owl:NamedIndividual ,
                            mao:class:fighting_strategy ;
                   :name_en "Subduing"@en ;
                   mao:ontoMA_name_zh "制"@zh ;
                   rdfs:label "subdue_bridge" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/subduing_palm
 mao:subduing_palm rdf:type owl:NamedIndividual ,
@@ -2439,6 +2647,7 @@ mao:subduing_palm rdf:type owl:NamedIndividual ,
                   mao:ontoMA_otherName_zh "伏手"@zh ;
                   rdfs:label "subduing_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/sun_palm_strike
 mao:sun_palm_strike rdf:type owl:NamedIndividual ,
                              mao:class:palm_tech ;
@@ -2449,6 +2658,7 @@ mao:sun_palm_strike rdf:type owl:NamedIndividual ,
                     :name_romanMAN "Dan Zhao Yang"@en ;
                     mao:ontoMA_name_zh "單昭陽"@zh ;
                     rdfs:label "sun_palm_strike" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/sweep_stance
 mao:sweep_stance rdf:type owl:NamedIndividual ,
@@ -2461,6 +2671,7 @@ mao:sweep_stance rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "掃馬"@zh ;
                  mao:ontoMA_otherName_zh "僕步"@zh ;
                  rdfs:label "sweep_stance" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/swing_body
 mao:swing_body rdf:type owl:NamedIndividual ,
@@ -2476,6 +2687,7 @@ mao:swing_body rdf:type owl:NamedIndividual ,
                mao:ontoMA_name_zh "搖身"@zh ;
                rdfs:label "swing_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/swing_palm
 mao:swing_palm rdf:type owl:NamedIndividual ,
                         mao:class:palm_tech ;
@@ -2485,6 +2697,7 @@ mao:swing_palm rdf:type owl:NamedIndividual ,
                :name_romanMAN "Yao Shou"@en ;
                mao:ontoMA_name_zh "搖手"@zh ;
                rdfs:label "swing_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/switch-hitting
 mao:switch-hitting rdf:type owl:NamedIndividual ,
@@ -2504,6 +2717,7 @@ mao:switch-hitting rdf:type owl:NamedIndividual ,
                                            "變相"@zh ;
                    rdfs:label "switch_hitting"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_1
 mao:taming_tiger_1 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
@@ -2513,6 +2727,7 @@ mao:taming_tiger_1 rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "合脚離開一寸闊"@zh ;
                    rdfs:description "預備式，身體立正，雙手自然貼身下垂，雙脚平開一寸，頸正頭平，氣沉丹田。"@zh ;
                    rdfs:label "taming_tiger_1" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_10
 mao:taming_tiger_10 rdf:type owl:NamedIndividual ,
@@ -2524,11 +2739,12 @@ mao:taming_tiger_10 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙拳在腰，四步開馬至雙脚距月三個腳掌的長度，落身坐四平大馬，脚尖平行向前，大腿與地面平行，膝蓋不超過腳尖。"@zh ;
                     rdfs:label "taming_tiger_10" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_11
 mao:taming_tiger_11 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:db_blocking_palm ,
-                                 mao:horse_stance ;
+                                      mao:horse_stance ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ;
@@ -2537,13 +2753,14 @@ mao:taming_tiger_11 rdf:type owl:NamedIndividual ,
                     rdfs:description "提雙拳至胸前，雙拳化掌，掌心朝下，雙膀手切落至腰。守中掌法，截打中路來拳。"@zh ;
                     rdfs:label "taming_tiger_11" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_12
 mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:facing_sun_palm ,
-                                 mao:finger_hand ,
-                                 mao:horse_stance ,
-                                 mao:stabilizing_bridge ;
+                                      mao:finger_hand ,
+                                      mao:horse_stance ,
+                                      mao:stabilizing_bridge ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:steady_bridge ;
                     :name_en "Palms up facing each other followed by the stabilizing bridge"@en ;
@@ -2551,12 +2768,13 @@ mao:taming_tiger_12 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙手由中綫穿上（亦說挑上），合掌護胸，後分開成雙指手平肩，再成四指撐天掌，沉踭逼力于掌、橋、指。"@zh ;
                     rdfs:label "taming_tiger_12" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_13
 mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:finger_hand ,
-                                 mao:horse_stance ,
-                                 mao:tiger_claw ;
+                                      mao:horse_stance ,
+                                      mao:tiger_claw ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
                                    mao:steady_bridge ;
@@ -2565,13 +2783,14 @@ mao:taming_tiger_13 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙指手（亦說左手虎爪，右手指手）抽回胸前平肩推出，連續三次，練橋架之勁。"@zh ;
                     rdfs:label "taming_tiger_13" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_14
 mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:grappling_claw ,
-                                 mao:horse_stance ,
-                                 mao:throwing_elbow ,
-                                 mao:two_dragons_outof_sea ;
+                                      mao:horse_stance ,
+                                      mao:throwing_elbow ,
+                                      mao:two_dragons_outof_sea ;
                     mao:has_intent mao:attack_control ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:lifting_bridge ,
@@ -2581,13 +2800,14 @@ mao:taming_tiger_14 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "連拋三次有三勻"@zh ;
                     rdfs:label "taming_tiger_14" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_15
 mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:dw_block_n_target_hand ,
-                                 mao:facing_sun_palm ,
-                                 mao:horse_stance ,
-                                 mao:stabilizing_bridge ;
+                                      mao:facing_sun_palm ,
+                                      mao:horse_stance ,
+                                      mao:stabilizing_bridge ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2599,13 +2819,14 @@ mao:taming_tiger_15 rdf:type owl:NamedIndividual ,
                     rdfs:description "第四次抛踭後，雙掌手腕按至腰下，順勢前上平出標手，後沉橋對膊，雙手變四指撐天。攻胸手法，若敵出拳打我中部，可以標掌直出迎擊，連消帶打。"@zh ;
                     rdfs:label "taming_tiger_15" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_16
 mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:db_curving_palm ,
-                                 mao:db_splitting_palms ,
-                                 mao:divide_punch ,
-                                 mao:horse_stance ;
+                                      mao:db_splitting_palms ,
+                                      mao:divide_punch ,
+                                      mao:horse_stance ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2617,11 +2838,12 @@ mao:taming_tiger_16 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙掌胸前交叉挑手平肩，再各自向外下方割手至腰；後雙手抽拳抱胸前，接左右分金搥，雙拳拳背向外左右打出，實戰中可變化為邊搥。"@zh ;
                     rdfs:label "taming_tiger_16" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_17
 mao:taming_tiger_17 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:block_kick ,
-                                 mao:cat_stance ;
+                                      mao:cat_stance ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:stay_bridge ;
@@ -2629,6 +2851,7 @@ mao:taming_tiger_17 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "出左吊右拉歸後"@zh ;
                     rdfs:description "收拳在腰，上左馬吊右脚，再拉右脚歸後，緊接提右脚至腰，提脚待旋。"@zh ;
                     rdfs:label "taming_tiger_17" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_18
 mao:taming_tiger_18 rdf:type owl:NamedIndividual ,
@@ -2644,11 +2867,12 @@ mao:taming_tiger_18 rdf:type owl:NamedIndividual ,
                     rdfs:description "右脚消脚后接著向前方彈踢反擊，預想對手下陰位置。"@zh ;
                     rdfs:label "taming_tiger_18" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_19
 mao:taming_tiger_19 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:blocking_palm ,
-                                 mao:bow_stance ;
+                                      mao:bow_stance ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -2657,6 +2881,7 @@ mao:taming_tiger_19 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "子午連轉單膀手"@zh ;
                     rdfs:description "扭身右轉，右脚順勢落弓步，左手成掌，掌心向下按護左邊，右掌化爪從左肩前劃出。"@zh ;
                     rdfs:label "taming_tiger_19" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_2
 mao:taming_tiger_2 rdf:type owl:NamedIndividual ,
@@ -2669,14 +2894,15 @@ mao:taming_tiger_2 rdf:type owl:NamedIndividual ,
                    rdfs:description "雙掌握拳，吸氣抽拳提至腰間盆骨，再吸氣抽拳至胸。防備手法，力蓄拳臂，以靜待動。"@zh ;
                    rdfs:label "taming_tiger_2" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_20
 mao:taming_tiger_20 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:cat_stance ,
-                                 mao:qian_char_hand ,
-                                 mao:splitting_palm ,
-                                 mao:turning_stance ,
-                                 mao:up_forcing_palm ;
+                                      mao:qian_char_hand ,
+                                      mao:splitting_palm ,
+                                      mao:turning_stance ,
+                                      mao:up_forcing_palm ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2688,14 +2914,15 @@ mao:taming_tiger_20 rdf:type owl:NamedIndividual ,
                     rdfs:description "左挑手，右抓拳在腰，後四步轉馬，轉身吊左脚、舉左掌在前額前方位置當頭，掌心向外；接左手千字手撇落。"@zh ;
                     rdfs:label "taming_tiger_20" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_21
 mao:taming_tiger_21 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:curving_palm ,
-                                 mao:splitting_palm ,
-                                 mao:turning ,
-                                 mao:twisting_stance ;
+                                      mao:curving_palm ,
+                                      mao:splitting_palm ,
+                                      mao:turning ,
+                                      mao:twisting_stance ;
                     mao:has_intent mao:defense_dodge ,
                                    mao:distance_management ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2705,11 +2932,12 @@ mao:taming_tiger_21 rdf:type owl:NamedIndividual ,
                     rdfs:description "落左子午馬挑左手對肩，右手抽拳在腰；后轉身扭馬，左脚偷馬爭取空間，左割手在腰。"@zh ;
                     rdfs:label "taming_tiger_21" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_22
 mao:taming_tiger_22 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:horizontal_palm_strike ,
-                                 mao:horse_to_bow_stance ;
+                                      mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_int ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -2719,13 +2947,14 @@ mao:taming_tiger_22 rdf:type owl:NamedIndividual ,
                     rdfs:description "開右馬，右脚前踏轉子午馬，同時左側掌從腰間打出。中攻手法，以轉馬帶動腰背勁力，貫于側掌擊出。"@zh ;
                     rdfs:label "taming_tiger_22" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_23
 mao:taming_tiger_23 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:side_elbow ,
-                                 mao:target_hand ;
+                                      mao:horse_to_bow_stance ,
+                                      mao:side_elbow ,
+                                      mao:target_hand ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2737,12 +2966,13 @@ mao:taming_tiger_23 rdf:type owl:NamedIndividual ,
                     rdfs:description "左轉四平馬，同時左踭平肩頂出以踭制踭，再轉右子午馬，再接左標手反擊其喉。"@zh ;
                     rdfs:label "taming_tiger_23" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_24
 mao:taming_tiger_24 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:curving_palm ,
-                                 mao:horse_stance ,
-                                 mao:palm_strike ;
+                                      mao:horse_stance ,
+                                      mao:palm_strike ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2753,13 +2983,14 @@ mao:taming_tiger_24 rdf:type owl:NamedIndividual ,
                     rdfs:description "回四平馬，左掌向下割手至腰，接左撐掌打出，連消帶打。"@zh ;
                     rdfs:label "taming_tiger_24" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_25
 mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:dividing_bridge ,
-                                 mao:horse_stance ,
-                                 mao:side_punch ,
-                                 mao:whipping_palm ;
+                                      mao:horse_stance ,
+                                      mao:side_punch ,
+                                      mao:whipping_palm ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2771,6 +3002,7 @@ mao:taming_tiger_25 rdf:type owl:NamedIndividual ,
                     rdfs:description "抽左拳在胸，再向下一冚截在腰前方；接抽左拳在胸，後左分搥（邊搥）成對角綫向外打出，截擋格打。"@zh ;
                     rdfs:label "taming_tiger_25" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_26
 mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -2780,6 +3012,7 @@ mao:taming_tiger_26 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "出右吊左拉歸後"@zh ;
                     rdfs:description "收拳在腰，上右馬吊左脚，再拉左脚歸後，緊接提左脚至腰。"@zh ;
                     rdfs:label "taming_tiger_26" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_27
 mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
@@ -2791,6 +3024,7 @@ mao:taming_tiger_27 rdf:type owl:NamedIndividual ,
                     rdfs:description "左脚向前方彈踢，預想對手下陰位置。"@zh ;
                     rdfs:label "taming_tiger_27" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_28
 mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -2801,6 +3035,7 @@ mao:taming_tiger_28 rdf:type owl:NamedIndividual ,
                     rdfs:description "扭身左轉，左脚順勢落弓步，右手成掌，掌心向下按護右邊，左掌化爪從右肩前劃出。"@zh ;
                     rdfs:label "taming_tiger_28" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_29
 mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -2810,6 +3045,7 @@ mao:taming_tiger_29 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "一挑擰馬右千字"@zh ;
                     rdfs:description "右挑手，左抓拳在腰，後四步轉馬，轉身吊右脚、舉右掌在前額前方位置當頭，掌心向外；接右手千字手撇落。"@zh ;
                     rdfs:label "taming_tiger_29" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_3
 mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
@@ -2822,6 +3058,7 @@ mao:taming_tiger_3 rdf:type owl:NamedIndividual ,
                    rdfs:description "呼氣雙拳化掌，雙橋半身切出，氣貫掌底，掌邊向前。"@zh ;
                    rdfs:label "taming_tiger_3" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_30
 mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -2831,6 +3068,7 @@ mao:taming_tiger_30 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "抽手轉身割歸後"@zh ;
                     rdfs:description "落右子午馬挑左手對肩，左手抽拳在腰；后轉身扭馬，右脚偷馬爭取空間，右割手在腰。"@zh ;
                     rdfs:label "taming_tiger_30" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_31
 mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
@@ -2842,6 +3080,7 @@ mao:taming_tiger_31 rdf:type owl:NamedIndividual ,
                     rdfs:description "開左馬，左脚前踏轉子午馬，同時右側掌從腰間打出。中攻手法，以轉馬帶動腰背勁力，貫于側掌擊出。"@zh ;
                     rdfs:label "taming_tiger_31" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_32
 mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -2851,6 +3090,7 @@ mao:taming_tiger_32 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "四平肘頂標串手"@zh ;
                     rdfs:description "右轉四平馬，同時右踭平肩頂出（四平踭），再轉左子午馬，接右手標出反擊其喉。"@zh ;
                     rdfs:label "taming_tiger_32" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_33
 mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
@@ -2862,6 +3102,7 @@ mao:taming_tiger_33 rdf:type owl:NamedIndividual ,
                     rdfs:description "回四平馬，右掌向下割手至腰，接右撐掌打出，連消帶打。"@zh ;
                     rdfs:label "taming_tiger_33" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_34
 mao:taming_tiger_34 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -2872,11 +3113,12 @@ mao:taming_tiger_34 rdf:type owl:NamedIndividual ,
                     rdfs:description "抽右拳在胸，再向下一冚截在腰前方；接抽右拳在胸，後右分搥（邊搥）成對角綫向外打出。"@zh ;
                     rdfs:label "taming_tiger_34" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_35
 mao:taming_tiger_35 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:cat_stance ,
-                                 mao:up_forcing_palm ;
+                                      mao:up_forcing_palm ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:lifting_bridge ,
@@ -2886,15 +3128,16 @@ mao:taming_tiger_35 rdf:type owl:NamedIndividual ,
                     rdfs:description "左手踏前一步，吊右脚，同時右掌一劈護頭，左拳收腰。"@zh ;
                     rdfs:label "taming_tiger_35" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_36
 mao:taming_tiger_36 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:cat_stance ,
-                                 mao:double_claws ,
-                                 mao:mirror_palm ,
-                                 mao:serial_upper_claws ,
-                                 mao:whipping_palm ;
+                                      mao:cat_stance ,
+                                      mao:double_claws ,
+                                      mao:mirror_palm ,
+                                      mao:serial_upper_claws ,
+                                      mao:whipping_palm ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -2906,13 +3149,14 @@ mao:taming_tiger_36 rdf:type owl:NamedIndividual ,
                     rdfs:description "掌心向内成“美人照鏡”，接右脚踏前子午馬，雙手成虎爪，右為前爪，左後爪置右踭位置，連續向前劃抓三次。接右脚吊馬冚擸手，再轉右子午馬向前出雙爪手。"@zh ;
                     rdfs:label "taming_tiger_36" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_37
 mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:grappling_claw ,
-                                 mao:lock_n_drag_hand ,
-                                 mao:turning ;
+                                      mao:grappling_claw ,
+                                      mao:lock_n_drag_hand ,
+                                      mao:turning ;
                     mao:has_intent mao:attack_control ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:move_bridge ,
@@ -2921,6 +3165,7 @@ mao:taming_tiger_37 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "帶馬歸槽拉轉後"@zh ;
                     rdfs:description "左轉身拉左子午馬，同時雙手以擒拖手擸拽對手，手踭外頂，抽手要猛。"@zh ;
                     rdfs:label "taming_tiger_37" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_38
 mao:taming_tiger_38 rdf:type owl:NamedIndividual ,
@@ -2932,13 +3177,14 @@ mao:taming_tiger_38 rdf:type owl:NamedIndividual ,
                     rdfs:description "吊左馬，左掌一劈護頭胸；后左脚踏前子午馬，雙收成虎爪，左為前爪，右後爪置左踭位置，連續向前抓三次；接左吊馬再接冚擸手，再轉左子午馬出雙爪手前抓。"@zh ;
                     rdfs:label "taming_tiger_38" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_39
 mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:grappling_claw ,
-                                 mao:lock_n_drag_hand ,
-                                 mao:lower_gravity_centere ,
-                                 mao:twisting_stance ;
+                                      mao:lock_n_drag_hand ,
+                                      mao:lower_gravity_centere ,
+                                      mao:twisting_stance ;
                     mao:has_intent mao:attack_control ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:move_bridge ,
@@ -2947,6 +3193,7 @@ mao:taming_tiger_39 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "帶馬扭身再拉後"@zh ;
                     rdfs:description "兩手往後一拖，扭身沉墜，后脚往後一踏成麒麟步；扭右馬右擸手，扭左馬左擸手。"@zh ;
                     rdfs:label "taming_tiger_39" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_4
 mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
@@ -2957,6 +3204,7 @@ mao:taming_tiger_4 rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "反手抽拳對膀肩"@zh ;
                    rdfs:description "雙手外翻握拳，拳心向上，用力朝上抽起，至雙拳與肩膊對平，拳心向身。"@zh ;
                    rdfs:label "taming_tiger_4" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_40
 mao:taming_tiger_40 rdf:type owl:NamedIndividual ,
@@ -2969,12 +3217,13 @@ mao:taming_tiger_40 rdf:type owl:NamedIndividual ,
                     rdfs:description "向前落右子午馬。"@zh ;
                     rdfs:label "taming_tiger_40" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_41
 mao:taming_tiger_41 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:db_blocking_palm ,
-                                 mao:splitting_palm ;
+                                      mao:db_blocking_palm ,
+                                      mao:splitting_palm ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -2985,15 +3234,16 @@ mao:taming_tiger_41 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙膀手切落至腰，掌心向下；接左掌向上一撥挑手，掌心向内平肩，同時右掌微按于腰前；后換練右掌向上挑手，左掌微按腰前。"@zh ;
                     rdfs:label "taming_tiger_41" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_42
 mao:taming_tiger_42 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:cat_stance ,
-                                 mao:cat_to_bow_stance ,
-                                 mao:db_bow_palm ,
-                                 mao:qian_char_hand ,
-                                 mao:up_forcing_palm ;
+                                      mao:cat_stance ,
+                                      mao:cat_to_bow_stance ,
+                                      mao:db_bow_palm ,
+                                      mao:qian_char_hand ,
+                                      mao:up_forcing_palm ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3004,12 +3254,13 @@ mao:taming_tiger_42 rdf:type owl:NamedIndividual ,
                     rdfs:description "舉右掌至前額前方，掌心向外作擋頭；后一撤步扭身吊馬，右掌向左下劈落，同時左掌一兜；接著右脚疾上一步，落右子午馬出雙弓手,右掌心向上擋頭，左掌心向下向前打出。"@zh ;
                     rdfs:label "taming_tiger_42" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_43
 mao:taming_tiger_43 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:db_hanging_hammer ,
-                                 mao:db_thrust_palm ;
+                                      mao:db_hanging_hammer ,
+                                      mao:db_thrust_palm ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:attack_while_defend ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3020,13 +3271,14 @@ mao:taming_tiger_43 rdf:type owl:NamedIndividual ,
                     rdfs:description "接扭馬抽拳，吊右脚、拳對左膊；再疾上右子午馬，打出雙掛搥；再接扭馬割手至腰，疾上右子午馬雙掌向上插頸喉。"@zh ;
                     rdfs:label "taming_tiger_43" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_44
 mao:taming_tiger_44 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:two_dragons_outof_sea ;
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:two_dragons_outof_sea ;
                     mao:has_intent mao:attack_subduing ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
@@ -3036,11 +3288,12 @@ mao:taming_tiger_44 rdf:type owl:NamedIndividual ,
                     rdfs:description "左扭身落四平馬，接著兩踭向外一兜，雙手變虎爪；後上前落右子午馬，雙撐掌向前上方打出。"@zh ;
                     rdfs:label "taming_tiger_44" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_45
 mao:taming_tiger_45 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bullhorn_uppercut ,
-                                 mao:cat_to_bow_stance ;
+                                      mao:cat_to_bow_stance ;
                     mao:has_intent mao:attack_subduing ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -3051,13 +3304,14 @@ mao:taming_tiger_45 rdf:type owl:NamedIndividual ,
                     rdfs:description "右吊馬，左手拉拳橫向左肩，右爪收至左肩；上右子午馬，左橫邊搥拉至前額成牛角搥，右手握拳擺後；接右拳從後向前衝拳，同時牛角搥向下按至胸前，雙手成十字交叉。"@zh ;
                     rdfs:label "taming_tiger_45" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_46
 mao:taming_tiger_46 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:grappling_claw ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:throwing_elbow ;
+                                      mao:grappling_claw ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:throwing_elbow ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_subduing ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3069,17 +3323,19 @@ mao:taming_tiger_46 rdf:type owl:NamedIndividual ,
                     rdfs:description "右脚上四平馬右虎爪擸手，接左子午馬左手抛踭；後左脚轉四平馬左虎爪擸手，接右子午馬右手抛踭；連抛四下。"@zh ;
                     rdfs:label "taming_tiger_46" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_47
 mao:taming_tiger_47 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:horse_stance ,
-                                 mao:turning ,
-                                 mao:two_dragons_outof_sea ;
+                                      mao:turning ,
+                                      mao:two_dragons_outof_sea ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Turning around to a horse stance with the double palm strike"@en ;
                     mao:ontoMA_name_zh "轉身向後四平馬"@zh ;
                     rdfs:description "右脚向後一劃，轉身落四平馬，雙撐掌向前打出，雙手抓拳藏腰。"@zh ;
                     rdfs:label "taming_tiger_47" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_48
 mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
@@ -3092,6 +3348,7 @@ mao:taming_tiger_48 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙拳抽上胸閒再化掌切落，接雙膀手合掌一分，轉四指撐天。"@zh ;
                     rdfs:label "taming_tiger_48" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_49
 mao:taming_tiger_49 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3102,12 +3359,13 @@ mao:taming_tiger_49 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙指手抽回胸前平肩推出，連續三次。"@zh ;
                     rdfs:label "taming_tiger_49" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_5
 mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:has_component mao:dw_block_n_target_hand ,
-                                mao:three_extending_hand ,
-                                mao:throwing_elbow ;
+                                     mao:three_extending_hand ,
+                                     mao:throwing_elbow ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:hard_bridge ,
                                   mao:inch_bridge ,
@@ -3116,6 +3374,7 @@ mao:taming_tiger_5 rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "橫迫三株標串掌"@zh ;
                    rdfs:description "雙手轉為指手，收至平肩，將力橫逼于掌、橋（臂）、指中，橫向橫向外連環推出三次。之後左右抛踭至膊頭高度，雙手向下冚落至腰側，手心向前。後拳化掌，向两侧橫向标直。"@zh ;
                    rdfs:label "taming_tiger_5" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_50
 mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
@@ -3127,6 +3386,7 @@ mao:taming_tiger_50 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙掌前上平出標手，後沉踭（沉橋）對膊，雙手變四指撐天。"@zh ;
                     rdfs:label "taming_tiger_50" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_51
 mao:taming_tiger_51 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3137,15 +3397,16 @@ mao:taming_tiger_51 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙掌胸前交叉挑手平肩，再各自向外下方割手至腰；後雙手抽拳抱胸前，接左右分金搥，雙拳拳背向外左右打出。"@zh ;
                     rdfs:label "taming_tiger_51" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_52
 mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:butterfly_palm ,
-                                 mao:cat_stance ,
-                                 mao:cat_to_bow_stance ,
-                                 mao:f_elbow_n_sna_hand ,
-                                 mao:grappling_claw ,
-                                 mao:horse_to_bow_stance ;
+                                      mao:cat_stance ,
+                                      mao:cat_to_bow_stance ,
+                                      mao:f_elbow_n_sna_hand ,
+                                      mao:grappling_claw ,
+                                      mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_control ,
                                    mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
@@ -3160,6 +3421,7 @@ mao:taming_tiger_52 rdf:type owl:NamedIndividual ,
                     rdfs:description "左轉吊左脚同時左邊擸掌成蝴蝶掌；進左子午馬左側推出蝴蝶掌，轉身回四平馬右擸手，緊接轉右子午馬左手逼踭；轉左子午馬左分漏手，左掌以踭勁帶動向左切出，右掌護左肩。"@zh ;
                     rdfs:label "taming_tiger_52" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_53
 mao:taming_tiger_53 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3170,13 +3432,14 @@ mao:taming_tiger_53 rdf:type owl:NamedIndividual ,
                     rdfs:description "右轉吊右脚同時右邊擸掌成蝴蝶掌；進右子午馬左側推出蝴蝶掌，轉身回四平馬左擸手，緊接轉左子午馬右手逼踭；轉右子午馬右分漏手，右掌以踭勁帶動向右切出，左掌護右肩。"@zh ;
                     rdfs:label "taming_tiger_53" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_54
 mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:body_twisting ,
-                                 mao:crossing_bridge ,
-                                 mao:hook_sweep ,
-                                 mao:up_forcing_palm ;
+                                      mao:crossing_bridge ,
+                                      mao:hook_sweep ,
+                                      mao:up_forcing_palm ;
                     mao:has_intent mao:attack_control ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3189,6 +3452,7 @@ mao:taming_tiger_54 rdf:type owl:NamedIndividual ,
                     rdfs:description "分,提,留,制   上左馬右穿橋手，再上右馬，擧右手擋頭，左手掌心向上托敵手踭；后將敵右手扭轉壓下，左手撥頭同時左脚從後向前掃彈出。"@zh ;
                     rdfs:label "taming_tiger_54" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_55
 mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3198,6 +3462,7 @@ mao:taming_tiger_55 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "斜風擺柳轉車身"@zh ;
                     rdfs:description "兩個麒麟步轉馬，后落左子午馬"@zh ;
                     rdfs:label "taming_tiger_55" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_56
 mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
@@ -3209,6 +3474,7 @@ mao:taming_tiger_56 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙手冚下雙膀手，接右掌向上一撥挑手，掌心向内平肩，同時左掌微按于腰前；后換練左掌向上挑手，右掌微按腰前。"@zh ;
                     rdfs:label "taming_tiger_56" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_57
 mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3218,6 +3484,7 @@ mao:taming_tiger_57 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "一撇一劃千字手"@zh ;
                     rdfs:description "舉左掌至前額前方，掌心向外作擋頭；后一撤步扭身吊馬，左掌向左下劈落，同時右掌一兜。左脚疾上一步落左子午馬雙弓手，左掌心向上擋頭，右掌心向下，向前打出。"@zh ;
                     rdfs:label "taming_tiger_57" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_58
 mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
@@ -3229,6 +3496,7 @@ mao:taming_tiger_58 rdf:type owl:NamedIndividual ,
                     rdfs:description "接扭馬抽拳，吊左脚、拳對右膊；再疾上左子午馬，打出雙掛搥；再接扭馬割手至腰，疾上左子午馬雙掌向上插頸喉。"@zh ;
                     rdfs:label "taming_tiger_58" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_59
 mao:taming_tiger_59 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3239,11 +3507,12 @@ mao:taming_tiger_59 rdf:type owl:NamedIndividual ,
                     rdfs:description "右扭身落四平馬，接著兩踭向外一兜，雙手變虎爪；後上前落左子午馬，雙撐掌向前上方打出。"@zh ;
                     rdfs:label "taming_tiger_59" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_6
 mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:has_component mao:descend_elbow ,
-                                mao:facing_sun_palm ;
+                                     mao:facing_sun_palm ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:hard_bridge ,
                                   mao:steady_bridge ;
@@ -3251,6 +3520,7 @@ mao:taming_tiger_6 rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "沉踭一定指撐天"@zh ;
                    rdfs:description "沉踭對膊一定，雙掌四指撐天，沉橋灌力與掌指，直至指端。架攔手法，用橋臂之力硬架敵手拳臂。"@zh ;
                    rdfs:label "taming_tiger_6" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_60
 mao:taming_tiger_60 rdf:type owl:NamedIndividual ,
@@ -3262,14 +3532,15 @@ mao:taming_tiger_60 rdf:type owl:NamedIndividual ,
                     rdfs:description "左吊馬，右手拉拳橫向左肩，左爪收至左肩；上左子午馬，右橫邊搥拉至前額成牛角搥，左手握拳擺後；接左拳從後向前衝拳，同時牛角搥向下按至胸前，雙手成十字交叉。"@zh ;
                     rdfs:label "taming_tiger_60" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_61
 mao:taming_tiger_61 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:crossing_bridge ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:straight_punch ;
+                                      mao:crossing_bridge ,
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:straight_punch ;
                     mao:has_intent mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3281,15 +3552,16 @@ mao:taming_tiger_61 rdf:type owl:NamedIndividual ,
                     rdfs:description "轉身落四平馬，左手穿橋，接左進子午馬打出右平搥，同時左拳抽拳在腰。"@zh ;
                     rdfs:label "taming_tiger_61" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_62
 mao:taming_tiger_62 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:rolling_elbow ,
-                                 mao:side_elbow ,
-                                 mao:turning ;
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:rolling_elbow ,
+                                      mao:side_elbow ,
+                                      mao:turning ;
                     mao:has_intent mao:attack_int ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3299,17 +3571,18 @@ mao:taming_tiger_62 rdf:type owl:NamedIndividual ,
                     rdfs:description "轉身向後拉馬落右子午馬，同時右踭頂踭攻背後之敵，若頂踭被逼踭消解，隨即以左碌踭再擊。"@zh ;
                     rdfs:label "taming_tiger_62" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_63
 mao:taming_tiger_63 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:butterfly_palm ,
-                                 mao:cat_stance ,
-                                 mao:cat_to_bow_stance ,
-                                 mao:hanging_n_chop ,
-                                 mao:horse_stance ,
-                                 mao:jumping ,
-                                 mao:turning ;
+                                      mao:butterfly_palm ,
+                                      mao:cat_stance ,
+                                      mao:cat_to_bow_stance ,
+                                      mao:hanging_n_chop ,
+                                      mao:horse_stance ,
+                                      mao:jumping ,
+                                      mao:turning ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3321,15 +3594,16 @@ mao:taming_tiger_63 rdf:type owl:NamedIndividual ,
                     rdfs:description "轉身吊左馬，回頭落四平馬出左掛搥；接上馬千字，右掌向左下劈落；后右吊脚擸掌，左掌上、右掌下，進右子午馬同時向前打出蝴蝶掌。"@zh ;
                     rdfs:label "taming_tiger_63" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_64
 mao:taming_tiger_64 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:blacktiger_punch ,
-                                 mao:body_twisting ,
-                                 mao:bow_stance ,
-                                 mao:dbsquare_hammer ,
-                                 mao:horse_stance ,
-                                 mao:stepping ;
+                                      mao:body_twisting ,
+                                      mao:bow_stance ,
+                                      mao:dbsquare_hammer ,
+                                      mao:horse_stance ,
+                                      mao:stepping ;
                     mao:has_intent mao:attack_int ,
                                    mao:attack_while_defend ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3340,13 +3614,14 @@ mao:taming_tiger_64 rdf:type owl:NamedIndividual ,
                     rdfs:description "轉後落四平馬，右拳曡在左拳上，左拳平肩向左打出日子搥；接進左子午馬打右拳短日子搥，收左拳在腰。"@zh ;
                     rdfs:label "taming_tiger_64" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_65
 mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:butterfly_palm ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:unicorn_steps ;
+                                      mao:butterfly_palm ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:unicorn_steps ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3358,6 +3633,7 @@ mao:taming_tiger_65 rdf:type owl:NamedIndividual ,
                     rdfs:description "扭右馬，雙手往下一撇穿手右邊；接右脚往左前踏上成麒麟步，同時雙手蝶掌擸向身左邊；右脚踏前轉右子午馬打出蝴蝶掌，右掌在上、左掌在下。"@zh ;
                     rdfs:label "taming_tiger_65" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_66
 mao:taming_tiger_66 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3368,12 +3644,13 @@ mao:taming_tiger_66 rdf:type owl:NamedIndividual ,
                     rdfs:description "再接對側練習：左側扭馬穿手，右側麒麟步擸掌，進左子午馬以左掌上、右掌下打出蝴蝶掌。"@zh ;
                     rdfs:label "taming_tiger_66" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_67
 mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:clipping_fists ,
-                                 mao:horse_to_bow_stance ;
+                                      mao:clipping_fists ,
+                                      mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_while_defend ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -3383,6 +3660,7 @@ mao:taming_tiger_67 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "右抽一拳連打出"@zh ;
                     rdfs:description "右脚上右子午馬，左右拳一抽一搥：抽右拳向上90度，同時左搥平直打出。"@zh ;
                     rdfs:label "taming_tiger_67" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_68
 mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
@@ -3394,29 +3672,32 @@ mao:taming_tiger_68 rdf:type owl:NamedIndividual ,
                     rdfs:description "左脚上馬同時向上90度抽左拳，右手平搥打出。"@zh ;
                     rdfs:label "taming_tiger_68" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_69
 mao:taming_tiger_69 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:backfist_n_punch_combo ,
-                                 mao:bow_stance ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ;
+                                      mao:bow_stance ,
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     :name_en "Turning with the backfist block followed by a straight punch to the right"@en ;
                     mao:ontoMA_name_zh "轉身單掛槌中出"@zh ;
                     rdfs:description "正面上四平馬右分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。"@zh ;
                     rdfs:label "taming_tiger_69" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_7
 mao:taming_tiger_7 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:has_component mao:forefist ,
-                                mao:upright_buddha_palm ;
+                                     mao:upright_buddha_palm ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    :name_en "Right hand holding the fist and the left holding the palm"@en ;
                    mao:ontoMA_name_zh "右手揸拳左用掌"@zh ;
                    rdfs:description "左手成虎爪擺至右胸前擋護，右手同時抽拳在腰。"@zh ;
                    rdfs:label "taming_tiger_7" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_70
 mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
@@ -3428,6 +3709,7 @@ mao:taming_tiger_70 rdf:type owl:NamedIndividual ,
                     rdfs:description "轉身落四平馬左分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。"@zh ;
                     rdfs:label "taming_tiger_70" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_71
 mao:taming_tiger_71 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3438,12 +3720,13 @@ mao:taming_tiger_71 rdf:type owl:NamedIndividual ,
                     rdfs:description "正面上四平馬右分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。"@zh ;
                     rdfs:label "taming_tiger_71" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_72
 mao:taming_tiger_72 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:horse_stance ,
-                                 mao:straight_cut_palm ,
-                                 mao:turning ;
+                                      mao:straight_cut_palm ,
+                                      mao:turning ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -3453,16 +3736,17 @@ mao:taming_tiger_72 rdf:type owl:NamedIndividual ,
                     rdfs:description "後脚拉四平馬轉身，隨即左掌以千字手劈下。"@zh ;
                     rdfs:label "taming_tiger_72" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_73
 mao:taming_tiger_73 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:side_elbow ,
-                                 mao:stepping ,
-                                 mao:straight_punch ,
-                                 mao:turning ;
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:side_elbow ,
+                                      mao:stepping ,
+                                      mao:straight_punch ,
+                                      mao:turning ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:closing_distance ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3475,15 +3759,16 @@ mao:taming_tiger_73 rdf:type owl:NamedIndividual ,
                     rdfs:description "進左子午馬，右拳猛力出平搥，左拳收腰。上右脚四平馬，左拳轉爪擸手，從右拳上面擸向右肩，隨即四平馬上前，右手抽后頂踭，"@zh ;
                     rdfs:label "taming_tiger_73" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_74
 mao:taming_tiger_74 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:elbow_slap_fist ,
-                                 mao:horse_stance ,
-                                 mao:palm_strike ,
-                                 mao:stepping ,
-                                 mao:tiger_claw ,
-                                 mao:turning ;
+                                      mao:horse_stance ,
+                                      mao:palm_strike ,
+                                      mao:stepping ,
+                                      mao:tiger_claw ,
+                                      mao:turning ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:defense_block ,
                                    mao:defense_dodge ;
@@ -3497,14 +3782,15 @@ mao:taming_tiger_74 rdf:type owl:NamedIndividual ,
                     rdfs:description "退右脚落四平馬，兩虎爪身前交叉，掌心向外自上劃下，再向兩側分掌撐開。"@zh ;
                     rdfs:label "taming_tiger_74" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_75
 mao:taming_tiger_75 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:grappling_claw ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:palm_strike ,
-                                 mao:tiger_tail_kick ;
+                                      mao:grappling_claw ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:palm_strike ,
+                                      mao:tiger_tail_kick ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_int ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3515,13 +3801,14 @@ mao:taming_tiger_75 rdf:type owl:NamedIndividual ,
                     rdfs:description "進左子午馬以右掌平出，左拳在腰；接向身左扭馬，同時右擸手抓踭；再出右脚虎尾脚攻敵腰腹。"@zh ;
                     rdfs:label "taming_tiger_75" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_76
 mao:taming_tiger_76 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:subduing_palm ,
-                                 mao:twisting_stance ,
-                                 mao:two_finger_strike ;
+                                      mao:subduing_palm ,
+                                      mao:twisting_stance ,
+                                      mao:two_finger_strike ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3534,13 +3821,14 @@ mao:taming_tiger_76 rdf:type owl:NamedIndividual ,
                     rdfs:description "左轉身成左弓右箭子午馬落地，左冚手平肩，手心向前，右拳在腰；接進左子午馬，右手伸出食、中二指插眼。"@zh ;
                     rdfs:label "taming_tiger_76" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_77
 mao:taming_tiger_77 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:fishing_hand ,
-                                 mao:hanging_hammer ,
-                                 mao:twisting_stance ;
+                                      mao:fishing_hand ,
+                                      mao:hanging_hammer ,
+                                      mao:twisting_stance ;
                     mao:has_intent mao:attack_while_defend ,
                                    mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3552,13 +3840,14 @@ mao:taming_tiger_77 rdf:type owl:NamedIndividual ,
                     rdfs:description "保持左馬，右手向後上抽手護頭，左手托右踭，接扭馬掛向後下劈脚。"@zh ;
                     rdfs:label "taming_tiger_77" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_78
 mao:taming_tiger_78 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:crest_throwing_hammers ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:jumping ;
+                                      mao:crest_throwing_hammers ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:jumping ;
                     mao:has_intent mao:attack_int ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3569,14 +3858,15 @@ mao:taming_tiger_78 rdf:type owl:NamedIndividual ,
                     rdfs:description "接轉身一跳，落四平馬出左掛搥；後進左子午馬接水浪抛搥，即左拳弧形向上打出，右拳從後抛上，以拳背向上擊打。"@zh ;
                     rdfs:label "taming_tiger_78" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_79
 mao:taming_tiger_79 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:horizontal_palm_strike ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:up_forcing_palm ;
+                                      mao:horizontal_palm_strike ,
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:up_forcing_palm ;
                     mao:has_intent mao:attack_int ,
                                    mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3588,19 +3878,21 @@ mao:taming_tiger_79 rdf:type owl:NamedIndividual ,
                     rdfs:description "上四平馬出右掌擋頭，左拳收腰，右手變掌運至腋下，接轉右子午馬同時撐出左側掌，以掌底擊打。"@zh ;
                     rdfs:label "taming_tiger_79" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_8
 mao:taming_tiger_8 rdf:type owl:NamedIndividual ,
                             mao:class:MA_form ;
                    mao:has_component mao:cat_stance ,
-                                mao:forefist ,
-                                mao:unicorn_steps ,
-                                mao:upright_buddha_palm ;
+                                     mao:forefist ,
+                                     mao:unicorn_steps ,
+                                     mao:upright_buddha_palm ;
                    mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                    mao:represents mao:respect ;
                    :name_en "Palm-and-fist saluting in a cat stance"@en ;
                    mao:ontoMA_name_zh "吊腳收胸見禮謙"@zh ;
                    rdfs:description "開馬見禮，右脚前踏麒麟步，接左脚上前吊馬；左爪擺回左方平肩，同時右拳平胸打出。"@zh ;
                    rdfs:label "taming_tiger_8" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_80
 mao:taming_tiger_80 rdf:type owl:NamedIndividual ,
@@ -3612,12 +3904,13 @@ mao:taming_tiger_80 rdf:type owl:NamedIndividual ,
                     rdfs:description "上四平馬出左掌擋頭，右拳收腰，左手變掌運至腋下，接轉左子午馬同時撐出右側掌，以掌底擊打。"@zh ;
                     rdfs:label "taming_tiger_80" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_81
 mao:taming_tiger_81 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:front_block_hands ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ;
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ;
                     mao:has_intent mao:defense_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -3627,15 +3920,16 @@ mao:taming_tiger_81 rdf:type owl:NamedIndividual ,
                     rdfs:description "上四平馬轉右子午馬，左掌冚手至右膝，右拳收腰；接回身落四平馬右膀手。手步連環，破脚手法。"@zh ;
                     rdfs:label "taming_tiger_81" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_82
 mao:taming_tiger_82 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:cat_stance ,
-                                 mao:cat_to_bow_stance ,
-                                 mao:dbsquare_hammer ,
-                                 mao:latch_fist ,
-                                 mao:lower_gravity_centere ;
+                                      mao:cat_stance ,
+                                      mao:cat_to_bow_stance ,
+                                      mao:dbsquare_hammer ,
+                                      mao:latch_fist ,
+                                      mao:lower_gravity_centere ;
                     mao:has_intent mao:defense_block ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3646,13 +3940,14 @@ mao:taming_tiger_82 rdf:type owl:NamedIndividual ,
                     rdfs:description "吊右脚身腰往下一沉，雙拳右前左後掛打，拳心向上墜壓敵脚；再落右子午馬，同時雙拳衝拳向前上打出，利用身體墜力增加拳勢壓制敵脚，再衝拳反擊。"@zh ;
                     rdfs:label "taming_tiger_82" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_83
 mao:taming_tiger_83 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:jumping ,
-                                 mao:rocket_hammer ;
+                                      mao:horse_to_bow_stance ,
+                                      mao:jumping ,
+                                      mao:rocket_hammer ;
                     mao:has_intent mao:defense_dodge ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3663,14 +3958,15 @@ mao:taming_tiger_83 rdf:type owl:NamedIndividual ,
                     rdfs:description "收拳在腰吊右脚，一跳落四平馬，隨即左拳平肩打出日子搥；再拉馬轉左子午馬，同時右拳平肩向前打出火箭搥。"@zh ;
                     rdfs:label "taming_tiger_83" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_84
 mao:taming_tiger_84 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:crossing_bridge ,
-                                 mao:double_claws ,
-                                 mao:grappling_claw ,
-                                 mao:hook_sweep ,
-                                 mao:joint_lock ;
+                                      mao:double_claws ,
+                                      mao:grappling_claw ,
+                                      mao:hook_sweep ,
+                                      mao:joint_lock ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_subduing ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3684,12 +3980,13 @@ mao:taming_tiger_84 rdf:type owl:NamedIndividual ,
                     rdfs:description "右手穿橋成雙爪手抓頸，以右脚先掃脚後彈脚攻擊下路，同時身前運爪，右爪下抓、左爪護胸；接以右擸手左逼踭，然後上正面出黑虎爪。"@zh ;
                     rdfs:label "taming_tiger_84" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_85
 mao:taming_tiger_85 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:black_tiger_claw ,
-                                 mao:db_claw_bw ,
-                                 mao:twisting_stance ;
+                                      mao:db_claw_bw ,
+                                      mao:twisting_stance ;
                     mao:has_intent mao:attack_subduing ,
                                    mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3700,14 +3997,15 @@ mao:taming_tiger_85 rdf:type owl:NamedIndividual ,
                     rdfs:description "右脚拉退一步扭馬轉身，雙虎爪歸右向後穿出，向後上抓，破敵后攻。"@zh ;
                     rdfs:label "taming_tiger_85" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_86
 mao:taming_tiger_86 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:crossing_bridge ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:straight_punch ;
+                                      mao:crossing_bridge ,
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:straight_punch ;
                     mao:has_intent mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3720,16 +4018,17 @@ mao:taming_tiger_86 rdf:type owl:NamedIndividual ,
                     rdfs:description "轉身落四平馬，左手身前穿橋，右爪化拳抽腰；隨即進左子午馬出右拳平搥，左爪抽拳在腰，攔截反擊。"@zh ;
                     rdfs:label "taming_tiger_86" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_87
 mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:body_twisting ,
-                                 mao:bow_stance ,
-                                 mao:cat_stance ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ,
-                                 mao:lower_gravity_centere ,
-                                 mao:tangling_palms ;
+                                      mao:bow_stance ,
+                                      mao:cat_stance ,
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ,
+                                      mao:lower_gravity_centere ,
+                                      mao:tangling_palms ;
                     mao:has_intent mao:attack_control ,
                                    mao:attack_subduing ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3742,6 +4041,7 @@ mao:taming_tiger_87 rdf:type owl:NamedIndividual ,
                     rdfs:description "左拳收腰，吊右馬，右割手接右迫手，再以右纏枝手擸踭，接進右子午馬出左拳平搥。"@zh ;
                     rdfs:label "taming_tiger_87" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_88
 mao:taming_tiger_88 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3752,13 +4052,14 @@ mao:taming_tiger_88 rdf:type owl:NamedIndividual ,
                     rdfs:description "右拳收腰，吊左馬，左割手接左迫手，再以左纏枝手擸踭，接進左子午馬出右拳平搥。"@zh ;
                     rdfs:label "taming_tiger_88" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_89
 mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:butterfly_palm ,
-                                 mao:cat_stance ,
-                                 mao:cat_to_bow_stance ;
+                                      mao:butterfly_palm ,
+                                      mao:cat_stance ,
+                                      mao:cat_to_bow_stance ;
                     mao:has_intent mao:reconciliation_block ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:hard_bridge ,
@@ -3768,6 +4069,7 @@ mao:taming_tiger_89 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "蝶掌一捋分左右"@zh ;
                     rdfs:description "移身轉馬吊右脚右擸掌，接進右子午馬以蝴蝶掌向右前打出；再轉左吊左脚左擸掌，接進左子午馬出蝴蝶掌。"@zh ;
                     rdfs:label "taming_tiger_89" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_9
 mao:taming_tiger_9 rdf:type owl:NamedIndividual ,
@@ -3779,17 +4081,18 @@ mao:taming_tiger_9 rdf:type owl:NamedIndividual ,
                    rdfs:description "向後收步立正，雙手扭拳至腰間盆骨，氣沉丹田。"@zh ;
                    rdfs:label "taming_tiger_9" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_90
 mao:taming_tiger_90 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:black_tiger_claw ,
-                                 mao:bow_stance ,
-                                 mao:cat_stance ,
-                                 mao:cat_to_bow_stance ,
-                                 mao:forcing_bridge ,
-                                 mao:hang_block_knuckle ,
-                                 mao:horse_stance ,
-                                 mao:horse_to_bow_stance ;
+                                      mao:bow_stance ,
+                                      mao:cat_stance ,
+                                      mao:cat_to_bow_stance ,
+                                      mao:forcing_bridge ,
+                                      mao:hang_block_knuckle ,
+                                      mao:horse_stance ,
+                                      mao:horse_to_bow_stance ;
                     mao:has_intent mao:attack_subduing ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
                     mao:represents mao:pressure_bridge ,
@@ -3800,14 +4103,15 @@ mao:taming_tiger_90 rdf:type owl:NamedIndividual ,
                     rdfs:description "雙掌變拳，上四平馬出右掛搥，再轉右子午馬出左冚搥，緊接右釘搥；轉馬雙手拉後，再轉進右子午馬，同時雙拳變爪向上正面出黑虎爪。"@zh ;
                     rdfs:label "taming_tiger_90" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_91
 mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
                     mao:has_component mao:bow_stance ,
-                                 mao:crossing_bridge ,
-                                 mao:horse_stance ,
-                                 mao:straight_punch ,
-                                 mao:turning ;
+                                      mao:crossing_bridge ,
+                                      mao:horse_stance ,
+                                      mao:straight_punch ,
+                                      mao:turning ;
                     mao:has_intent mao:reconciliation_block ,
                                    mao:reconciliation_redirection ;
                     mao:is_form_in mao:Gung_Gee_Fook_Fu_Kuen ;
@@ -3819,6 +4123,7 @@ mao:taming_tiger_91 rdf:type owl:NamedIndividual ,
                     rdfs:description "轉身落四平馬，左手身前穿橋成指定中原，右爪化拳抽腰；接進左子午馬出右拳平搥，左掌抽拳在腰。"@zh ;
                     rdfs:label "taming_tiger_91" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_92
 mao:taming_tiger_92 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3829,6 +4134,7 @@ mao:taming_tiger_92 rdf:type owl:NamedIndividual ,
                     rdfs:description "見禮：轉右子午馬，同時右拳拉向左肩歸右腰，左掌運至右胸前護胸；接以左脚踏前吊馬收胸，左掌擺回左方平肩，同時右拳平胸打出。"@zh ;
                     rdfs:label "taming_tiger_92" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/taming_tiger_93
 mao:taming_tiger_93 rdf:type owl:NamedIndividual ,
                              mao:class:MA_form ;
@@ -3837,6 +4143,7 @@ mao:taming_tiger_93 rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "扭手收拳一鞠躬"@zh ;
                     rdfs:description "收式：收步立正，同時雙拳收拳平肩，再扭拳收腰，后埀掌。"@zh ;
                     rdfs:label "taming_tiger_93" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/tangling_palms
 mao:tangling_palms rdf:type owl:NamedIndividual ,
@@ -3849,6 +4156,7 @@ mao:tangling_palms rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "纏枝手"@zh ;
                    mao:ontoMA_otherName_en "Circular forcing palm"@en ;
                    rdfs:label "tangling_palms" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/target_hand
 mao:target_hand rdf:type owl:NamedIndividual ,
@@ -3866,6 +4174,7 @@ mao:target_hand rdf:type owl:NamedIndividual ,
                 mao:ontoMA_otherName_zh "標指"@zh ;
                 rdfs:label "target_hand" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/three_extending_hand
 mao:three_extending_hand rdf:type owl:NamedIndividual ,
                                   mao:class:body_bridge ;
@@ -3879,6 +4188,7 @@ mao:three_extending_hand rdf:type owl:NamedIndividual ,
                                                  "連環三展"@zh ;
                          rdfs:label "three_extending_hand" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/throwing_elbow
 mao:throwing_elbow rdf:type owl:NamedIndividual ,
                             mao:class:elbow_tech ;
@@ -3889,6 +4199,7 @@ mao:throwing_elbow rdf:type owl:NamedIndividual ,
                    mao:ontoMA_name_zh "抛踭"@zh ;
                    mao:ontoMA_otherName_zh "直踭"@zh ;
                    rdfs:label "throwing_elbow" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/throwing_hammer
 mao:throwing_hammer rdf:type owl:NamedIndividual ,
@@ -3903,6 +4214,7 @@ mao:throwing_hammer rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "抛搥"@zh ;
                     rdfs:label "throwing_hammer" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/throwing_palm
 mao:throwing_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
@@ -3912,6 +4224,7 @@ mao:throwing_palm rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Shuai Shou"@en ;
                   mao:ontoMA_name_zh "摔手"@zh ;
                   rdfs:label "throwing_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/thrust_punch
 mao:thrust_punch rdf:type owl:NamedIndividual ,
@@ -3923,6 +4236,7 @@ mao:thrust_punch rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Cha Chui"@en ;
                  mao:ontoMA_name_zh "插捶"@zh ;
                  rdfs:label "thrust_punch" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/thrusting_palm
 mao:thrusting_palm rdf:type owl:NamedIndividual ,
@@ -3938,10 +4252,12 @@ mao:thrusting_palm rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_zh "扱手"@zh ;
                    rdfs:label "thrusting_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/tiger
 mao:tiger rdf:type owl:NamedIndividual ,
                    mao:class:symbolic_animal ;
           rdfs:label "Tiger" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/tiger_claw
 mao:tiger_claw rdf:type owl:NamedIndividual ,
@@ -3956,6 +4272,7 @@ mao:tiger_claw rdf:type owl:NamedIndividual ,
                mao:ontoMA_name_zh "虎爪"@zh ;
                rdfs:label "tiger_claw" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/tiger_tail_kick
 mao:tiger_tail_kick rdf:type owl:NamedIndividual ,
                              mao:class:leg_tech ;
@@ -3967,6 +4284,7 @@ mao:tiger_tail_kick rdf:type owl:NamedIndividual ,
                     mao:ontoMA_name_zh "虎尾脚"@zh ;
                     mao:ontoMA_otherName_en "Side thrust kick"@en ;
                     rdfs:label "tiger_tail_kick" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/torsion
 mao:torsion rdf:type owl:NamedIndividual ,
@@ -3980,6 +4298,7 @@ mao:torsion rdf:type owl:NamedIndividual ,
             mao:ontoMA_name_zh "扭轉發力"@zh ;
             rdfs:label "torsion" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/trample
 mao:trample rdf:type owl:NamedIndividual ,
                      mao:class:leg_tech ;
@@ -3990,6 +4309,7 @@ mao:trample rdf:type owl:NamedIndividual ,
             mao:ontoMA_name_zh "踩"@zh ;
             rdfs:label "trample_leg"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/turfing_kick
 mao:turfing_kick rdf:type owl:NamedIndividual ,
                           mao:class:leg_tech ;
@@ -3999,6 +4319,7 @@ mao:turfing_kick rdf:type owl:NamedIndividual ,
                  :name_romanMAN "Qu Jiao"@en ;
                  mao:ontoMA_name_zh "趨脚"@zh ;
                  rdfs:label "turfing_kick" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/turning
 mao:turning rdf:type owl:NamedIndividual ,
@@ -4015,6 +4336,7 @@ mao:turning rdf:type owl:NamedIndividual ,
             mao:ontoMA_name_zh "轉身"@zh ;
             rdfs:label "body_turning"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/turning_palm
 mao:turning_palm rdf:type owl:NamedIndividual ,
                           mao:class:palm_tech ;
@@ -4028,6 +4350,7 @@ mao:turning_palm rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "圈手"@zh ;
                  rdfs:label "turning_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/turning_stance
 mao:turning_stance rdf:type owl:NamedIndividual ,
                             mao:class:stance ;
@@ -4038,6 +4361,7 @@ mao:turning_stance rdf:type owl:NamedIndividual ,
                    :name_romanMAN "Guai Ma"@en ;
                    mao:ontoMA_name_zh "拐馬"@zh ;
                    rdfs:label "turning_stance" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/turning_steps
 mao:turning_steps rdf:type owl:NamedIndividual ,
@@ -4051,6 +4375,7 @@ mao:turning_steps rdf:type owl:NamedIndividual ,
                   :name_romanMAN "Xie Feng Bai Liu"@en ;
                   mao:ontoMA_name_zh "斜風擺柳"@zh ;
                   rdfs:label "turning_steps_back"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/twisting_stance
 mao:twisting_stance rdf:type owl:NamedIndividual ,
@@ -4066,6 +4391,7 @@ mao:twisting_stance rdf:type owl:NamedIndividual ,
                                             "纏絲馬"@zh ;
                     rdfs:label "twisting_stance" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/two_dragons_outof_sea
 mao:two_dragons_outof_sea rdf:type owl:NamedIndividual ,
                                    mao:class:palm_tech ;
@@ -4077,6 +4403,7 @@ mao:two_dragons_outof_sea rdf:type owl:NamedIndividual ,
                           mao:ontoMA_otherName_en "Double Buddha palm strike"@en ;
                           mao:ontoMA_otherName_zh "雙撐掌"@zh ;
                           rdfs:label "two_dragons_outof_sea" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/two_finger_strike
 mao:two_finger_strike rdf:type owl:NamedIndividual ,
@@ -4092,6 +4419,7 @@ mao:two_finger_strike rdf:type owl:NamedIndividual ,
                                               "還魂飽鶴"@zh ;
                       rdfs:label "two_finger_strike" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/unicorn_stance
 mao:unicorn_stance rdf:type owl:NamedIndividual ,
                             mao:class:stance ;
@@ -4104,6 +4432,7 @@ mao:unicorn_stance rdf:type owl:NamedIndividual ,
                                            "跪馬"@zh ;
                    rdfs:label "unicorn_stance" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/unicorn_steps
 mao:unicorn_steps rdf:type owl:NamedIndividual ,
                            mao:class:stance ;
@@ -4115,6 +4444,7 @@ mao:unicorn_steps rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "麒麟步"@zh ;
                   mao:ontoMA_otherName_zh "歇步"@zh ;
                   rdfs:label "unicorn_steps" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/up_forcing_palm
 mao:up_forcing_palm rdf:type owl:NamedIndividual ,
@@ -4130,6 +4460,7 @@ mao:up_forcing_palm rdf:type owl:NamedIndividual ,
                                             "擋頭"@zh ;
                     rdfs:label "up_forcing_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/upper_swing_palm
 mao:upper_swing_palm rdf:type owl:NamedIndividual ,
                               mao:class:palm_tech ;
@@ -4139,6 +4470,7 @@ mao:upper_swing_palm rdf:type owl:NamedIndividual ,
                      :name_romanMAN "Shang Yao"@en ;
                      mao:ontoMA_name_zh "上搖"@zh ;
                      rdfs:label "upper_swing_palm" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/upright_body
 mao:upright_body rdf:type owl:NamedIndividual ,
@@ -4156,6 +4488,7 @@ mao:upright_body rdf:type owl:NamedIndividual ,
                  mao:ontoMA_name_zh "直身"@zh ;
                  rdfs:label "upright_body" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/upright_buddha_palm
 mao:upright_buddha_palm rdf:type owl:NamedIndividual ,
                                  mao:class:hand_shape ;
@@ -4165,6 +4498,7 @@ mao:upright_buddha_palm rdf:type owl:NamedIndividual ,
                         mao:ontoMA_name_zh "立掌"@zh ;
                         mao:ontoMA_otherName_en "Upright palm"@en ;
                         rdfs:label "buddha_palm"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/upward_punches
 mao:upward_punches rdf:type owl:NamedIndividual ,
@@ -4176,6 +4510,7 @@ mao:upward_punches rdf:type owl:NamedIndividual ,
                    :name_romanMAN "Fu Zi Shuang Sui"@en ;
                    mao:ontoMA_name_zh "父子雙隨"@zh ;
                    rdfs:label "upward_punches" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/uw_forcing_palm
 mao:uw_forcing_palm rdf:type owl:NamedIndividual ,
@@ -4190,6 +4525,7 @@ mao:uw_forcing_palm rdf:type owl:NamedIndividual ,
                                             "逼橋"@zh ;
                     rdfs:label "uw_forcing_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/whipping_palm
 mao:whipping_palm rdf:type owl:NamedIndividual ,
                            mao:class:palm_tech ;
@@ -4202,6 +4538,7 @@ mao:whipping_palm rdf:type owl:NamedIndividual ,
                   mao:ontoMA_name_zh "冚手"@zh ;
                   mao:ontoMA_otherName_en "Downward palm block"@en ;
                   rdfs:label "dw_whipping_palm"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/whipping_punch
 mao:whipping_punch rdf:type owl:NamedIndividual ,
@@ -4218,10 +4555,12 @@ mao:whipping_punch rdf:type owl:NamedIndividual ,
                    mao:ontoMA_otherName_zh "鞭搥"@zh ;
                    rdfs:label "whipping_punch" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/white_crane
 mao:white_crane rdf:type owl:NamedIndividual ,
                          mao:class:symbolic_animal ;
                 rdfs:label "White_crane"@en .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/willow_leaf_palm
 mao:willow_leaf_palm rdf:type owl:NamedIndividual ,
@@ -4237,6 +4576,7 @@ mao:willow_leaf_palm rdf:type owl:NamedIndividual ,
                      mao:ontoMA_otherName_zh "铙钹手"@zh ;
                      rdfs:label "willow_leaf_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/wiping_palm
 mao:wiping_palm rdf:type owl:NamedIndividual ,
                          mao:class:palm_tech ;
@@ -4247,22 +4587,23 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
                 mao:ontoMA_name_zh "抹手"@zh ;
                 rdfs:label "wiping_palm" .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/12_bridges
 <http://EncodingActs.github.io/annotated/MAon/12_bridges> rdf:type owl:NamedIndividual ,
                                                                    mao:class:MA_principle ;
                                                           mao:belongs_to mao:Hung_Kuen ;
                                                           mao:has_component mao:Uprightness ,
-                                                                       mao:hard_bridge ,
-                                                                       mao:inch_bridge ,
-                                                                       mao:lifting_bridge ,
-                                                                       mao:move_bridge ,
-                                                                       mao:pressure_bridge ,
-                                                                       mao:separating_bridge ,
-                                                                       mao:soft_bridge ,
-                                                                       mao:stay_bridge ,
-                                                                       mao:steady_bridge ,
-                                                                       mao:straight_bridge ,
-                                                                       mao:subdue_bridge ;
+                                                                            mao:hard_bridge ,
+                                                                            mao:inch_bridge ,
+                                                                            mao:lifting_bridge ,
+                                                                            mao:move_bridge ,
+                                                                            mao:pressure_bridge ,
+                                                                            mao:separating_bridge ,
+                                                                            mao:soft_bridge ,
+                                                                            mao:stay_bridge ,
+                                                                            mao:steady_bridge ,
+                                                                            mao:straight_bridge ,
+                                                                            mao:subdue_bridge ;
                                                           :name_en "Twelve Bridges of Hung Gar"@en ;
                                                           mao:ontoMA_name_zh "洪拳十二橋"@zh ;
                                                           mao:ontoMA_otherName_en "Twelve Bridge Hands of Hung Gar"@en ;
@@ -4270,11 +4611,13 @@ mao:wiping_palm rdf:type owl:NamedIndividual ,
                                                                                   "洪拳十二橋手"@zh ;
                                                           rdfs:label "hg_12_bridges"@en .
 
+
 ###  http://EncodingActs.github.io/annotated/MAon/YongChun(place)
 <http://EncodingActs.github.io/annotated/MAon/YongChun(place)> rdf:type owl:NamedIndividual ,
                                                                         mao:class:E53-place ;
                                                                :name_en "Yong Chun"@en ;
                                                                rdfs:label "YongChun_(place)" .
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing
 mao:book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing rdf:type owl:NamedIndividual ,
@@ -4288,6 +4631,7 @@ mao:book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing rdf:type owl:NamedIndividual ,
                                                              mao:Lam_Sai_Wing ;
                                                rdfs:label "Book:Gung_Gee_Fook_Fu_Kuen_by_Lam_Sai_Wing" .
 
+
 #################################################################
 #    Annotations
 #################################################################
@@ -4296,8 +4640,9 @@ mao:attack_control :name_en "Controlling the opponent"@en ;
                    mao:ontoMA_name_zh "擒拿控制"@zh ;
                    rdfs:label "attack_control" .
 
+
 mao:distance_management :name_en "widening the distance"@en ;
                         mao:ontoMA_name_zh "拉遠距離"@zh ;
                         rdfs:label "distance_widening"@en .
 
-###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
+

@@ -16,6 +16,7 @@
 #     License type: MIT license
 #################################################################
 
+
 #################################################################
 #    Annotation properties
 #################################################################
@@ -51,6 +52,10 @@ mao:ontoMA_otherName_zh rdf:type owl:AnnotationProperty ;
 
 ###  http://www.w3.org/2000/01/rdf-schema#baiduURL
 rdfs:baiduURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#description
+rdfs:description rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#wikiURL
@@ -310,7 +315,7 @@ mao:has_intent rdf:type owl:ObjectProperty ;
                            mao:class:MA_technique ;
                rdfs:range mao:class:MA_tactic ;
                mao:ontoMA_name_zh "意圖是"@zh-hk ;
-               rdfs:comment "The class MA_Tactic in combination with the property has_intent describes an instance of Form or Technique that embodies the intent to achieve specific tactics, such as attacking, defending, deflecting, controlling distance, or complex maneuvers."@en ;
+               rdfs:comment "The class MA_Tactic addresses the former case, in combination with the property has intent to describe an instance of Form or Technique that embodies the intent to achieve specific tactics, such as attacking, defending, deflecting, controlling distance, or complex maneuvers."@en ;
                rdfs:label "has_intent" .
 
 
@@ -665,9 +670,10 @@ mao:Form_set rdf:type owl:Class ;
                              ] ;
              :name_en "Form set"@en ;
              mao:ontoMA_name_zh "套路"@zh-hk ;
-             mao:ontoMA_otherName_en "Taolu"@en ;
-             rdfs:comment "The class Form_set addresses the concept of form sets – the sequential arrangement of forms. Commonly known as the Chinese term taolu, an instance of Form_set features a set routine of multiple instances of Form in sequential order. While most form sets are designed for individual practice, some also serve as interactive sparring exercises, represented through the class Sparring_set."@en ;
-             rdfs:label "form_set"@en .
+             mao:ontoMA_otherName_en "Taolu"@en ,
+                                     "kata"@en ;
+             rdfs:comment "The class Form_set addresses the concept of form set (often referred to as form) – the sequential arrangement of form movements. Commonly known as the Chinese term taolu and its Japanese equivalent, kata. An instance of Form_set features a set routine of multiple instances of Form_movement in sequential order. While most form sets are designed for individual practice, some also serve as interactive sparring exercises, represented through the class Sparring_set."@en ;
+             rdfs:label "Form_set"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:E21-Person
@@ -911,12 +917,12 @@ mao:class:MA_form rdf:type owl:Class ;
                                     owl:onProperty mao:type_of ;
                                     owl:someValuesFrom mao:class:training_method
                                   ] ;
-                  :name_en "Form"@en ;
+                  :name_en "Form movement"@en ;
                   mao:ontoMA_name_zh "招式"@zh-hk ;
                   mao:ontoMA_otherName_en "kata"@en ,
                                           "zhaoshi"@en ;
-                  rdfs:comment "The class Form encapsulates the concept of individual training forms – a fundamental aspect of technical and stylistic training in traditional martial arts. Examples of this class include zhaoshi (or shi) in Chinese terminology and its Japanese equivalent, kata. A form, whether static or dynamic, is a choreographed pattern of movement comprising a unitary sequence of basic techniques. Hence, the conventional interpretation is that a form has several technical components while simultaneously serving as a training tool for those techniques and the qualities relevant to fulfilling them. The property has component is used; it is designed to inherit the CIDOC-CRM declaration of P148 has component and to indicate the relationship between a form and the technique(s) trained within."@en ;
-                  rdfs:label "Form"@en .
+                  rdfs:comment "The class Form_movement encapsulates the concept of individual units of movement within a training form – a fundamental aspect of technical and stylistic training in traditional martial arts. Examples of this class include zhaoshi (or shi) in Chinese terminology. An instance of form movement, whether static or dynamic, is a choreographed pattern of movement comprising a unitary sequence of basic techniques. It typically involves a movement that employs several techniques, simultaneously serving as a training tool for those techniques and the qualities relevant to fulfilling them. The property has component is used; it is designed to inherit the CIDOC-CRM declaration of P148 has component and to indicate the relationship between a form_movement and the technique(s) trained within."@en ;
+                  rdfs:label "Form_movement"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_institute
@@ -1120,12 +1126,12 @@ mao:class:armament rdf:type owl:Class ;
                                      owl:onProperty mao:type_of ;
                                      owl:someValuesFrom mao:class:E22-man_made_obj
                                    ] ;
-                   :name_en "Armament"@en ;
+                   :name_en "Weaponry"@en ;
                    mao:ontoMA_name_zh "武器"@zh-hk ;
-                   mao:ontoMA_otherName_en "weaponry"@en ;
+                   mao:ontoMA_otherName_en "Armament"@en ;
                    mao:ontoMA_otherName_zh "軍備"@zh-hk ;
-                   rdfs:comment "Armament is the umbrella term encompassing military weapons and equipment."@en ;
-                   rdfs:label "Armament"@en .
+                   rdfs:comment "Weaponry (or Armament) is the umbrella term encompassing military weapons and equipment."@en ;
+                   rdfs:label "Weaponry"@en .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/class:body_bridge
@@ -1468,5 +1474,3 @@ mao:class:weapon_tech rdf:type owl:Class ;
                       rdfs:comment "Weapon technique is the umbrella term that denotes the techniques that involve the use of a weapon -  an entity of armament, or a training tool."@en ;
                       rdfs:label "Weapon_tech"@en .
 
-
-###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
