@@ -554,12 +554,12 @@
     
 
 
-    <!-- http://EncodingActs.github.io/annotated/MAon/is_form_in -->
+    <!-- http://EncodingActs.github.io/annotated/MAon/in_form -->
 
-    <owl:ObjectProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/is_form_in">
+    <owl:ObjectProperty rdf:about="http://EncodingActs.github.io/annotated/MAon/in_form">
         <rdfs:domain rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <rdfs:range rdf:resource="http://EncodingActs.github.io/annotated/MAon/Form_set"/>
-        <rdfs:label>is_form_in</rdfs:label>
+        <rdfs:label>in_form</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1277,7 +1277,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/is_form_in"/>
+                <owl:onProperty rdf:resource="http://EncodingActs.github.io/annotated/MAon/in_form"/>
                 <owl:someValuesFrom rdf:resource="http://EncodingActs.github.io/annotated/MAon/Form_set"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5420,7 +5420,7 @@
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_1">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/breath_regulation"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Standing with the feet about one inch apart</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">合脚離開一寸闊</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">預備式，身體立正，雙手自然貼身下垂，雙脚平開一寸，頸正頭平，氣沉丹田。</rdfs:description>
@@ -5434,7 +5434,7 @@
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_10">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Posing a horse stance in four steps</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">腳肘開發落四平</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">雙拳在腰，四步開馬至雙脚距月三個腳掌的長度，落身坐四平大馬，脚尖平行向前，大腿與地面平行，膝蓋不超過腳尖。</rdfs:description>
@@ -5450,7 +5450,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/db_blocking_palm"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <name_en xml:lang="en">Pulling up fists to throw the lower double forearm block</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">抽拳在胸雙切膀</MAon:ontoMA_name_zh>
@@ -5468,7 +5468,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/finger_hand"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/stabilizing_bridge"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/steady_bridge"/>
         <name_en xml:lang="en">Palms up facing each other followed by the stabilizing bridge</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">合掌分開定金橋</MAon:ontoMA_name_zh>
@@ -5485,7 +5485,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/finger_hand"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/tiger_claw"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/steady_bridge"/>
         <name_en xml:lang="en">Thrice forward extending hands</name_en>
@@ -5505,7 +5505,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/throwing_elbow"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/two_dragons_outof_sea"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/steady_bridge"/>
@@ -5526,7 +5526,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/stabilizing_bridge"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/inch_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/steady_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
@@ -5548,7 +5548,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
@@ -5567,7 +5567,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/block_kick"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/cat_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Transitioning via a cat stance to launch the right leg block</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">出左吊右拉歸後</MAon:ontoMA_name_zh>
@@ -5583,7 +5583,7 @@
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/block_n_front_kick"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -5602,7 +5602,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/blocking_palm"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Lower forearm block with a bow stance</name_en>
@@ -5619,7 +5619,7 @@
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/forefist"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/breath_regulation"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Holding the fists by the waist</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">兩手揸拳藏在腰</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">雙掌握拳，吸氣抽拳提至腰間盆骨，再吸氣抽拳至胸。防備手法，力蓄拳臂，以靜待動。</rdfs:description>
@@ -5639,7 +5639,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/up_forcing_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
@@ -5662,7 +5662,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/twisting_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_dodge"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/distance_management"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
         <name_en xml:lang="en">Withdrawing the hand and turning with the curving palm</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">抽手轉身割歸後</MAon:ontoMA_name_zh>
@@ -5679,7 +5679,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horizontal_palm_strike"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_int"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <name_en xml:lang="en">Advancing with the horizontal palm strike</name_en>
@@ -5700,7 +5700,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/target_hand"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -5721,7 +5721,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/palm_strike"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <name_en xml:lang="en">Curving palm with a horse stance follow by the palm strike</name_en>
@@ -5742,7 +5742,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/whipping_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
@@ -5758,7 +5758,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_26">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_17"/>
         <name_en xml:lang="en">Transitioning via a cat stance to launch the right leg block</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">出右吊左拉歸後</MAon:ontoMA_name_zh>
@@ -5772,7 +5772,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_27">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_18"/>
         <name_en xml:lang="en">Blocking with groin stop kick</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">鏟腳四平馬八分</MAon:ontoMA_name_zh>
@@ -5786,7 +5786,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_28">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_19"/>
         <name_en xml:lang="en">Lower forearm block with a bow stance</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">子午一轉右膀手</MAon:ontoMA_name_zh>
@@ -5800,7 +5800,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_29">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_20"/>
         <name_en xml:lang="en">Splitting and turning followed by upper knife hand block and downward chop</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">一挑擰馬右千字</MAon:ontoMA_name_zh>
@@ -5815,7 +5815,7 @@
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_3">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_cut_palm"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
         <name_en xml:lang="en">Lifting the fists and pushing forward the palms from the side of chest</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">抽上胸中一切出</MAon:ontoMA_name_zh>
@@ -5829,7 +5829,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_30">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_21"/>
         <name_en xml:lang="en">Withdrawing the hand and turning with the curving palm</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">抽手轉身割歸後</MAon:ontoMA_name_zh>
@@ -5843,7 +5843,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_31">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_22"/>
         <name_en xml:lang="en">Advancing with the horizontal palm strike</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">上馬連出一側掌</MAon:ontoMA_name_zh>
@@ -5857,7 +5857,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_32">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_23"/>
         <name_en xml:lang="en">Side elbow strike with a horse stance followed by the knifehand strike</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">四平肘頂標串手</MAon:ontoMA_name_zh>
@@ -5871,7 +5871,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_33">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_24"/>
         <name_en xml:lang="en">Curving palm with a horse stance follow by the palm strike</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">割手四平掌打正</MAon:ontoMA_name_zh>
@@ -5885,7 +5885,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_34">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_25"/>
         <name_en xml:lang="en">Pulling back the fist to launch a back fist punch</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">一揸一抽轉一分</MAon:ontoMA_name_zh>
@@ -5902,7 +5902,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/cat_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/up_forcing_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Stepping with the left foot to defend with a cat stance</name_en>
@@ -5925,7 +5925,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/whipping_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -5946,7 +5946,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/lock_n_drag_hand"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Turning while dragging the horse back to the stable</name_en>
@@ -5961,7 +5961,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_38">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_36"/>
         <name_en xml:lang="en">Striking with the double tiger claws three times again</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">貓兒洗面又三勻</MAon:ontoMA_name_zh>
@@ -5980,7 +5980,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/lower_gravity_centere"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/twisting_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Turning while dragging the horse</name_en>
@@ -5996,7 +5996,7 @@
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_4">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/forefist"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Lifting the hammer fists toward the shoulders</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">反手抽拳對膀肩</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">雙手外翻握拳，拳心向上，用力朝上抽起，至雙拳與肩膊對平，拳心向身。</rdfs:description>
@@ -6011,7 +6011,7 @@
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/closing_distance"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Advancing one step with the bow stance</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">右腳一齣子午馬</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">向前落右子午馬。</rdfs:description>
@@ -6028,7 +6028,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/db_blocking_palm"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/splitting_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
@@ -6052,7 +6052,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/up_forcing_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <name_en xml:lang="en">Blocking with a knife hand chop quickly followed by the double reverse knife hand strike</name_en>
@@ -6072,7 +6072,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/db_thrust_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
         <name_en xml:lang="en">Pullback followed by striking with the double hanging back fists and then knife hand thrust</name_en>
@@ -6092,7 +6092,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/two_dragons_outof_sea"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
         <name_en xml:lang="en">Advancing with double palm/claw strike</name_en>
@@ -6110,7 +6110,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/bullhorn_uppercut"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -6132,7 +6132,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/throwing_elbow"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -6151,7 +6151,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/two_dragons_outof_sea"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Turning around to a horse stance with the double palm strike</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">轉身向後四平馬</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">右脚向後一劃，轉身落四平馬，雙撐掌向前打出，雙手抓拳藏腰。</rdfs:description>
@@ -6164,7 +6164,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_48">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_11"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_12"/>
         <name_en xml:lang="en">Lifting and pushing forward the palms forward after the lower double forearm block</name_en>
@@ -6179,7 +6179,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_49">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_13"/>
         <name_en xml:lang="en">Thrice forward extending hands</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">一指撐天三株出</MAon:ontoMA_name_zh>
@@ -6196,7 +6196,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/dw_block_n_target_hand"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/three_extending_hand"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/throwing_elbow"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/inch_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
@@ -6212,7 +6212,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_50">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_15"/>
         <name_en xml:lang="en">Forward target hands followed by the stabilizing bridge</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">標串手法定金橋</MAon:ontoMA_name_zh>
@@ -6226,7 +6226,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_51">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_16"/>
         <name_en xml:lang="en">Double splitting and curving palms followed by the divide punch</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">雙抽雙割一揸分</MAon:ontoMA_name_zh>
@@ -6249,7 +6249,7 @@
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
@@ -6267,7 +6267,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_53">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_52"/>
         <name_en xml:lang="en">Butterfly palm strike followed by the arm drag and forcing elbow strike combo to hit via splitting the opponent&apos;s body block</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">再撤蝶掌迫分漏</MAon:ontoMA_name_zh>
@@ -6287,7 +6287,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/up_forcing_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
@@ -6305,7 +6305,7 @@
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_55">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning_steps"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Retreating steps while turning the body</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">斜風擺柳轉車身</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">兩個麒麟步轉馬，后落左子午馬</rdfs:description>
@@ -6318,7 +6318,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_56">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_41"/>
         <name_en xml:lang="en">Double lower forearm block followed by splitting hand and upper knife hand block</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">雙膀切落起左右</MAon:ontoMA_name_zh>
@@ -6332,7 +6332,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_57">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_42"/>
         <name_en xml:lang="en">Double reverse knife hand strike following the block</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">一撇一劃千字手</MAon:ontoMA_name_zh>
@@ -6346,7 +6346,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_58">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_43"/>
         <name_en xml:lang="en">Striking with the double hanging back fists and then knife hand thrust</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">拉馬抽拳雙掛落</MAon:ontoMA_name_zh>
@@ -6360,7 +6360,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_59">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_44"/>
         <name_en xml:lang="en">Advancing with double palm/claw strike</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">進馬兜肘雙虎爪</MAon:ontoMA_name_zh>
@@ -6376,7 +6376,7 @@
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/descend_elbow"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/facing_sun_palm"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/steady_bridge"/>
         <name_en xml:lang="en">Descending the elbows with the palms facing the sun</name_en>
@@ -6391,7 +6391,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_60">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_45"/>
         <name_en xml:lang="en">Striking with a hook and uppercut</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">牛角一槌轉通天</MAon:ontoMA_name_zh>
@@ -6412,7 +6412,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_punch"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
@@ -6436,7 +6436,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_int"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <name_en xml:lang="en">Fighting backwards with the side elbow strike followed by the rolling elbow strike</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">拉馬一頂碌肘撇</MAon:ontoMA_name_zh>
@@ -6460,7 +6460,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -6484,7 +6484,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/stepping"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_int"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
         <name_en xml:lang="en">The black-tiger punch combination</name_en>
@@ -6505,7 +6505,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/unicorn_steps"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
@@ -6521,7 +6521,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_66">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_65"/>
         <name_en xml:lang="en">Butterfly palm strike toward another direction via unicorn steps</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">連環蝶掌步麒麟</MAon:ontoMA_name_zh>
@@ -6539,7 +6539,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/clipping_fists"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
@@ -6555,7 +6555,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_68">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_67"/>
         <name_en xml:lang="en">Clipping hammer fists to the left</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">左右連環一樣同</MAon:ontoMA_name_zh>
@@ -6573,7 +6573,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/bow_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Turning with the backfist block followed by a straight punch to the right</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">轉身單掛槌中出</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">正面上四平馬右分搥（邊搥），再進左子午馬，隨即右拳猛力出平搥，左拳收腰。</rdfs:description>
@@ -6588,7 +6588,7 @@
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/forefist"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/upright_buddha_palm"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Right hand holding the fist and the left holding the palm</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">右手揸拳左用掌</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">左手成虎爪擺至右胸前擋護，右手同時抽拳在腰。</rdfs:description>
@@ -6601,7 +6601,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_70">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_69"/>
         <name_en xml:lang="en">Turning with the backfist block followed by a straight punch to the left</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">拉馬轉身掛打槌</MAon:ontoMA_name_zh>
@@ -6615,7 +6615,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_71">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_69"/>
         <name_en xml:lang="en">Turning with the backfist block followed by a straight punch to the front</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">向前掛打連環落</MAon:ontoMA_name_zh>
@@ -6633,7 +6633,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_cut_palm"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Turning around to block with the knife hand chop</name_en>
@@ -6657,7 +6657,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/closing_distance"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
@@ -6683,7 +6683,7 @@
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_dodge"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
@@ -6707,7 +6707,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/tiger_tail_kick"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_int"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
         <name_en xml:lang="en">Bow stance palm strike followed by the tiger tail kick</name_en>
@@ -6728,7 +6728,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/two_finger_strike"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/inch_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -6751,7 +6751,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/twisting_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_while_defend"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/inch_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
@@ -6773,7 +6773,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/jumping"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_int"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <name_en xml:lang="en">Jump turn followed by the water crest throwing hammer fist</name_en>
@@ -6795,7 +6795,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/up_forcing_palm"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_int"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
@@ -6815,7 +6815,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/forefist"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/unicorn_steps"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/upright_buddha_palm"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/respect"/>
         <name_en xml:lang="en">Palm-and-fist saluting in a cat stance</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">吊腳收胸見禮謙</MAon:ontoMA_name_zh>
@@ -6829,7 +6829,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_80">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_79"/>
         <name_en xml:lang="en">Upper forcing chop to the left followed by horizontal palm strike</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">左馬攻迫側掌來</MAon:ontoMA_name_zh>
@@ -6847,7 +6847,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Switching to right bow stance with forearm block</name_en>
@@ -6870,7 +6870,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/lower_gravity_centere"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/stay_bridge"/>
         <name_en xml:lang="en">Lowering the body to block with the latching hammer fist</name_en>
@@ -6891,7 +6891,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/rocket_hammer"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/defense_dodge"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
         <name_en xml:lang="en">A quick jump followed by the rocket hammer fist</name_en>
@@ -6913,7 +6913,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/joint_lock"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/lifting_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
@@ -6936,7 +6936,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/twisting_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
         <name_en xml:lang="en">Stepping back and strike backwards with the dragon claws</name_en>
@@ -6958,7 +6958,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_punch"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
@@ -6984,7 +6984,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/tangling_palms"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_control"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
@@ -7001,7 +7001,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_88">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_87"/>
         <name_en xml:lang="en">Repeating the tangling palms and punch combination</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">左右連環各一勻</MAon:ontoMA_name_zh>
@@ -7020,7 +7020,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/cat_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/cat_to_bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/separating_bridge"/>
@@ -7037,7 +7037,7 @@
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_9">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/forefist"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Pulling back the fists toward the side of the waist</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">扭手收拳歸原位</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">向後收步立正，雙手扭拳至腰間盆骨，氣沉丹田。</rdfs:description>
@@ -7059,7 +7059,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_stance"/>
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/horse_to_bow_stance"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/attack_subduing"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/pressure_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/subdue_bridge"/>
@@ -7082,7 +7082,7 @@
         <MAon:has_component rdf:resource="http://EncodingActs.github.io/annotated/MAon/turning"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_block"/>
         <MAon:has_intent rdf:resource="http://EncodingActs.github.io/annotated/MAon/reconciliation_redirection"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/hard_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/move_bridge"/>
         <MAon:represents rdf:resource="http://EncodingActs.github.io/annotated/MAon/straight_bridge"/>
@@ -7098,7 +7098,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_92">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <MAon:similar_form_to rdf:resource="http://EncodingActs.github.io/annotated/MAon/taming_tiger_8"/>
         <name_en xml:lang="en">Pulling back the fist and saluting with a cat stance</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">收拳見禮須吊腳</MAon:ontoMA_name_zh>
@@ -7112,7 +7112,7 @@
 
     <owl:NamedIndividual rdf:about="http://EncodingActs.github.io/annotated/MAon/taming_tiger_93">
         <rdf:type rdf:resource="http://EncodingActs.github.io/annotated/MAon/class:MA_form"/>
-        <MAon:is_form_in rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
+        <MAon:in_form rdf:resource="http://EncodingActs.github.io/annotated/MAon/Gung_Gee_Fook_Fu_Kuen"/>
         <name_en xml:lang="en">Standing up and bowing</name_en>
         <MAon:ontoMA_name_zh xml:lang="zh">扭手收拳一鞠躬</MAon:ontoMA_name_zh>
         <rdfs:description xml:lang="zh">收式：收步立正，同時雙拳收拳平肩，再扭拳收腰，后埀掌。</rdfs:description>
