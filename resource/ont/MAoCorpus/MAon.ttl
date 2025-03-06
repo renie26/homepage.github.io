@@ -619,14 +619,6 @@ mao:weapon_type rdf:type owl:DatatypeProperty ;
                 mao:ontoMA_name_zh "武器類型"@zh .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/has_name
-mao:has_name rdf:type owl:DatatypeProperty ;
-             rdfs:domain mao:class:MA_Master ;
-             rdfs:range xsd:string ;
-             rdfs:label "has_name"@en ;
-             mao:ontoMA_name_zh "姓名"@zh-hk .
-
-
 ###  http://EncodingActs.github.io/annotated/MAon/has_courtesy_name
 mao:has_courtesy_name rdf:type owl:DatatypeProperty ;
                       rdfs:domain mao:class:MA_Master ;
@@ -688,11 +680,12 @@ mao:has_life_experience rdf:type owl:DatatypeProperty ;
                         rdfs:domain mao:class:MA_Master ;
                         rdfs:range xsd:string ;
                         rdfs:label "has_life_experience"@en ;
-                        mao:ontoMA_name_zh "生平经历"@zh-hk .
+                        mao:ontoMA_name_zh "生平"@zh-hk .
 
 #################################################################
 #    Classes
 #################################################################
+
 
 ###  http://EncodingActs.github.io/annotated/MAon/Form_set
 mao:Form_set rdf:type owl:Class ;
@@ -964,7 +957,7 @@ mao:class:MA_Master rdf:type owl:Class ;
                                    ### 影视作品
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:has_film_appearance ;
-                                     owl:someValuesFrom mao:FilmAppearance
+                                     owl:someValuesFrom mao:film
                                    ] ,
 
                                    ### 照片
