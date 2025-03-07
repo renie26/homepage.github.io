@@ -269,7 +269,7 @@ mao:developed_from rdf:type owl:ObjectProperty ;
 
 ###  http://EncodingActs.github.io/annotated/MAon/documents
 mao:documents rdf:type owl:ObjectProperty ;
-              rdfs:domain mao:class:MA_book ;
+              rdfs:domain mao:class:MA_Book ;
               rdfs:range mao:class:MA_Master ,
                          mao:class:MA_institute ,
                          mao:class:MA_style ,
@@ -313,7 +313,7 @@ mao:has_intent rdf:type owl:ObjectProperty ;
                rdfs:domain mao:class:MA_form ,
                            mao:class:MA_technique ;
                rdfs:range mao:class:MA_tactic ;
-               mao:ontoMA_name_zh "意圖是"@zh-hk ;
+               mao:ontoMA_name_zh "意圖"@zh-hk ;
                rdfs:comment "The class MA_Tactic addresses the former case, in combination with the property has intent to describe an instance of Form or Technique that embodies the intent to achieve specific tactics, such as attacking, defending, deflecting, controlling distance, or complex maneuvers."@en ;
                rdfs:label "has_intent" .
 
@@ -323,7 +323,7 @@ mao:has_work rdf:type owl:ObjectProperty ;
              rdfs:domain mao:class:MA_Master ;
              rdfs:range mao:class:MA_Book ;
              rdfs:label "has_work"@en ;
-             mao:ontoMA_name_zh "有著作"@zh-hk .
+             mao:ontoMA_name_zh "著作"@zh-hk .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/has_film_appearance
@@ -808,16 +808,20 @@ mao:class:MA_Clan rdf:type owl:Class ;
                        rdfs:label "MA_Clan"@en .
 
 
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_Organization
+mao:class:MA_Organization rdf:type owl:Class ;
+                       rdfs:subClassOf owl:Thing ;
+                       :name_en "Martial Arts Organization"@en ;
+                       mao:ontoMA_name_zh "武術組織"@zh-hk ;
+                       rdfs:label "MA_Organization"@en .
+
+
 ###  http://EncodingActs.github.io/annotated/MAon/class:MA_Master
 mao:class:MA_Master rdf:type owl:Class ;
                     rdfs:subClassOf mao:class:E21-Person ,
                                     owl:Thing ,
                                     ### Personal Information
-                                   ### 姓名、字、号
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_name ;
-                                     owl:someValuesFrom mao:Name
-                                   ] ,
+                                   ### 字、号
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:has_courtesy_name ;
                                      owl:someValuesFrom mao:Name
@@ -981,8 +985,8 @@ mao:class:MA_Master rdf:type owl:Class ;
                     rdfs:label "MA_Master"@en .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/class:MA_book
-mao:class:MA_book rdf:type owl:Class ;
+###  http://EncodingActs.github.io/annotated/MAon/class:MA_Book
+mao:class:MA_Book rdf:type owl:Class ;
                   rdfs:subClassOf mao:class:E31-document ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty mao:documents ;
@@ -1010,7 +1014,7 @@ mao:class:MA_book rdf:type owl:Class ;
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty mao:type_of ;
-                                    owl:someValuesFrom mao:class:MA_book
+                                    owl:someValuesFrom mao:class:MA_Book
                                   ] ;
                   :name_en "Martial Arts Document"@en ;
                   mao:ontoMA_name_zh "武術文檔"@zh-hk ;
