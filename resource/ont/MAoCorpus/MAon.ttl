@@ -401,11 +401,11 @@ mao:is_child_of rdf:type owl:ObjectProperty ;
                 rdfs:label "is_child_of" .
 
 
-###  http://EncodingActs.github.io/annotated/MAon/is_clan_member_of
-mao:is_clan_member_of rdf:type owl:ObjectProperty ;
+###  http://EncodingActs.github.io/annotated/MAon/is_member_of
+mao:is_member_of rdf:type owl:ObjectProperty ;
                       rdfs:domain mao:class:MA_Master ;
                       rdfs:range mao:class:MA_Clan ;
-                      rdfs:label "is_clan_member_of" .
+                      rdfs:label "is_member_of" .
 
 
 ###  http://EncodingActs.github.io/annotated/MAon/in_form
@@ -877,7 +877,7 @@ mao:class:MA_Master rdf:type owl:Class ;
                                       owl:someValuesFrom mao:class:MA_Clan
                                     ] ,
                                     [  rdf:type owl:Restriction ;
-                                       owl:onProperty mao:member_of ;
+                                       owl:onProperty mao:is_member_of ;
                                        owl:someValuesFrom mao:class:MA_Organization
                                     ] ,
                                     [ rdf:type owl:Restriction ;
