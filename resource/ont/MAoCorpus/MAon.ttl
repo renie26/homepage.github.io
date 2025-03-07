@@ -824,11 +824,11 @@ mao:class:MA_Master rdf:type owl:Class ;
                                    ### 字、号
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:has_courtesy_name ;
-                                     owl:someValuesFrom mao:Name
+                                     owl:someValuesFrom xsd:courtesy_name
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:has_pseudonym ;
-                                     owl:someValuesFrom mao:Name
+                                     owl:someValuesFrom xsd:pseudonym
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:has_birthplace ;
@@ -846,6 +846,7 @@ mao:class:MA_Master rdf:type owl:Class ;
                                    ### 性别
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:has_gender 
+                                     owl:someValuesFrom xsd:gender
                                    ] ,
 
                                    ### 生卒年
@@ -958,7 +959,8 @@ mao:class:MA_Master rdf:type owl:Class ;
 
                                     ### 生平经历
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_life_experience 
+                                     owl:onProperty mao:has_life_experience ;
+                                     owl:someValuesFrom xsd:life_experience
                                    ] ,
 
                                    ### 著作
