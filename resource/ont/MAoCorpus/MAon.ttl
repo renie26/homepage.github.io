@@ -845,8 +845,7 @@ mao:class:MA_Master rdf:type owl:Class ;
 
                                    ### 性别
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_gender ;
-                                     owl:someValuesFrom mao:Gender
+                                     owl:onProperty mao:has_gender 
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty mao:has_birth_year ;
@@ -891,7 +890,8 @@ mao:class:MA_Master rdf:type owl:Class ;
 
                                    ### 职业（多个）
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_occupation 
+                                     owl:onProperty mao:has_occupation ;
+                                     owl:someValuesFrom mao:Occupation
                                    ] ,
 
                                    ### 武艺特长
