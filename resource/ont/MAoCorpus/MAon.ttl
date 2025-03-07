@@ -891,8 +891,7 @@ mao:class:MA_Master rdf:type owl:Class ;
 
                                    ### 职业（多个）
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_occupation ;
-                                     owl:someValuesFrom mao:Occupation
+                                     owl:onProperty mao:has_occupation 
                                    ] ,
 
                                    ### 武艺特长
@@ -955,8 +954,7 @@ mao:class:MA_Master rdf:type owl:Class ;
 
                                     ### 生平经历
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty mao:has_life_experience ;
-                                     owl:someValuesFrom mao:LifeExperience
+                                     owl:onProperty mao:has_life_experience 
                                    ] ,
 
                                    ### 著作
